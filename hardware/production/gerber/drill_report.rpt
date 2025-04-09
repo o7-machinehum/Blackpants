@@ -1,0 +1,28 @@
+Drill report for P4_M.2_B+M-key.kicad_pcb
+Created on 2025-04-09T20:19:07+0200
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L1 :  B.Cu                      back
+    L1 :  In1.Cu                    in1
+    L1 :  In2.Cu                    in2
+
+
+Drill file 'P4_M.2_B+M-key-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.200mm  0.0079"  (29 holes)
+    T2  0.250mm  0.0098"  (224 holes)
+    T3  0.300mm  0.0118"  (2 holes)
+    T4  3.500mm  0.1378"  (1 hole)
+
+    Total plated holes count 256
+
+
+Drill file 'P4_M.2_B+M-key-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.650mm  0.0256"  (2 holes)
+
+    Total unplated holes count 2
