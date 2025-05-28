@@ -5219,16 +5219,6 @@
 		)
 		(uuid "018fd241-b1ee-4daa-9884-a504bd75fc9b")
 	)
-	(bus
-		(pts
-			(xy 210.82 29.21) (xy 210.82 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02f4945f-7a1a-4968-9f32-7bf8bf1b5d22")
-	)
 	(polyline
 		(pts
 			(xy 28.448 100.838) (xy 28.702 101.092)
@@ -5258,6 +5248,16 @@
 			(type default)
 		)
 		(uuid "06a3ab62-f1a7-4849-95d2-c9cc37a2087b")
+	)
+	(wire
+		(pts
+			(xy 185.42 41.91) (xy 189.23 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06d762c3-8156-4cb0-8b73-7a1ccdf8fa98")
 	)
 	(wire
 		(pts
@@ -5428,6 +5428,16 @@
 			(type default)
 		)
 		(uuid "0e3d3346-0ec6-4696-a7e6-bf45b78243b4")
+	)
+	(wire
+		(pts
+			(xy 198.12 41.91) (xy 194.31 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e609a49-5e3c-492e-b17b-e78284c2ba18")
 	)
 	(polyline
 		(pts
@@ -5738,16 +5748,6 @@
 			(type default)
 		)
 		(uuid "206d7f2d-cca1-4c13-9466-e308b7604b73")
-	)
-	(wire
-		(pts
-			(xy 95.25 63.5) (xy 105.41 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20b11bf7-339b-41ac-9d71-4a05ef39d544")
 	)
 	(bus
 		(pts
@@ -6451,6 +6451,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 33.02) (xy 105.41 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d65ddb7-5711-449c-8e5d-996578a1b385")
+	)
+	(wire
+		(pts
 			(xy 149.86 139.7) (xy 157.48 139.7)
 		)
 		(stroke
@@ -6701,6 +6711,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 63.5) (xy 97.79 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d041259-f790-4df5-b5c0-9ffb38f51f7d")
+	)
+	(wire
+		(pts
 			(xy 19.05 63.5) (xy 19.05 115.57)
 		)
 		(stroke
@@ -6788,16 +6808,6 @@
 			(type default)
 		)
 		(uuid "61e64a9e-a3b2-454b-bf2f-eae17dd2c1a1")
-	)
-	(wire
-		(pts
-			(xy 194.31 41.91) (xy 196.85 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62e8439c-20a8-4769-9c10-209606772aa8")
 	)
 	(wire
 		(pts
@@ -7321,7 +7331,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 110.49) (xy 133.35 110.49)
+			(xy 128.27 110.49) (xy 132.08 110.49)
 		)
 		(stroke
 			(width 0)
@@ -8051,7 +8061,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 33.02) (xy 97.79 48.26)
+			(xy 97.79 33.02) (xy 97.79 63.5)
 		)
 		(stroke
 			(width 0)
@@ -8901,26 +8911,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 33.02) (xy 105.41 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f877c75a-5f9b-44c8-ab8f-cb4c4cc55c65")
-	)
-	(wire
-		(pts
-			(xy 196.85 41.91) (xy 196.85 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8811d2d-0952-4693-958a-2dca94177b53")
-	)
-	(wire
-		(pts
 			(xy 80.01 110.49) (xy 102.87 110.49)
 		)
 		(stroke
@@ -9369,6 +9359,16 @@
 		)
 		(uuid "7c0952ec-0462-4b13-957a-ea23b1df583f")
 	)
+	(label "GPIO3"
+		(at 198.12 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c490ec3-4a7b-4484-8dc4-0b1d57ba0c2f")
+	)
 	(label "I2C2.SCL"
 		(at 132.08 140.97 0)
 		(effects
@@ -9568,6 +9568,16 @@
 			(justify left bottom)
 		)
 		(uuid "b6d579b0-aa8a-41e2-948f-b06e164f3796")
+	)
+	(label "GPIO3"
+		(at 132.08 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b947e6bc-d410-4b57-b287-b4ced0782c64")
 	)
 	(label "GPIO2"
 		(at 100.33 48.26 90)
@@ -9799,6 +9809,16 @@
 		)
 		(uuid "fbae0bf6-13cd-4663-a0e2-c978c08fb5fb")
 	)
+	(label "GPIO4"
+		(at 218.44 29.21 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fc1b5566-6878-4855-b47c-6951b7d26b3e")
+	)
 	(label "CSI{CSI_BUS}"
 		(at 63.5 83.82 0)
 		(effects
@@ -9808,94 +9828,6 @@
 			(justify left bottom)
 		)
 		(uuid "fcadbee0-dafc-44db-9a51-0dc90b0f4754")
-	)
-	(global_label "GPIO3"
-		(shape input)
-		(at 196.85 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "572794f7-65a0-4365-9734-bad8dcfeac59")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.52 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO3"
-		(shape input)
-		(at 133.35 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7c5bb0a9-14b0-4eb6-a39b-2bf53557c5d8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.02 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO4"
-		(shape input)
-		(at 218.44 29.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "91da6475-3855-49bb-8b45-1f1765e23744")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.11 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(hierarchical_label "I2C{SCL SDA}"
-		(shape input)
-		(at 210.82 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c1afaa45-12d2-4a51-aa12-4addc3969d28")
-	)
-	(hierarchical_label "VIB_PWM"
-		(shape input)
-		(at 194.31 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d77e5a86-54a0-44c8-9c28-8c7f75472cbb")
 	)
 	(hierarchical_label "I2C{SDA SCL}"
 		(shape bidirectional)
@@ -12157,6 +12089,107 @@
 			(project "badgeCarrierCard"
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 191.77 41.91 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "929804c0-749d-4f93-bc47-8f354b2bc821")
+		(property "Reference" "R49"
+			(at 191.77 36.83 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 191.77 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15402"
+			(at 183.642 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB_CORRECTION" ""
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b45a0fea-8a5f-4e31-85d3-4d659f384298")
+		)
+		(pin "1"
+			(uuid "38f42fb7-8916-4a25-b051-5337a2204fe8")
+		)
+		(instances
+			(project "badgeCarrierCard"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -14489,7 +14522,7 @@
 	)
 	(sheet
 		(at 165.1 36.83)
-		(size 29.21 10.16)
+		(size 20.32 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -14519,6 +14552,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "PWM_VIB" input
+			(at 185.42 41.91 0)
+			(uuid "04b487ec-9ea1-4815-8c5c-4b12a1b05837")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

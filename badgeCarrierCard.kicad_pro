@@ -656,18 +656,6 @@
       {
         "netclass": "Controlled (50 ohm)",
         "pattern": "*SD2*"
-      },
-      {
-        "netclass": "Controlled (50 ohm)",
-        "pattern": "/Vibrator/VIB_PWM"
-      },
-      {
-        "netclass": "Controlled (50 ohm)",
-        "pattern": "/GPIO3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": ""
       }
     ]
   },
@@ -1018,10 +1006,6 @@
     [
       "361d2122-c160-455f-a36f-9518f945f7e5",
       "Camera"
-    ],
-    [
-      "3da72601-8938-4d1d-b10f-037809af72fe",
-      "Vibrator"
     ]
   ],
   "text_variables": {}

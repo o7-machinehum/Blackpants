@@ -1369,27 +1369,16 @@
 		)
 		(uuid "fa7c87ac-bed5-4a25-b401-b8abde8864f0")
 	)
-	(global_label "GPIO3"
+	(hierarchical_label "PWM_VIB"
 		(shape input)
 		(at 67.31 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "2cc904e1-f307-4429-97b2-73068c214e65")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.64 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "5c7f12a6-67f9-48b3-9927-8b3658014b7e")
 	)
 	(symbol
 		(lib_id "Diode:1N4148WT")

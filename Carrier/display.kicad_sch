@@ -2898,9 +2898,9 @@
 		)
 		(uuid "2b48b511-a173-4992-a79b-0e0095794e7c")
 	)
-	(text "Keyboard backlight DC-DC"
+	(text "Display backlight DC-DC"
 		(exclude_from_sim no)
-		(at 93.091 60.833 0)
+		(at 92.202 60.706 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3687,6 +3687,16 @@
 		)
 		(uuid "6bb5cbf3-8c02-41b3-acc4-c913e3d5dc8c")
 	)
+	(bus
+		(pts
+			(xy 125.095 22.86) (xy 125.095 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e020ea4-b6e9-456c-8f0e-0ff5f72d6a65")
+	)
 	(wire
 		(pts
 			(xy 146.05 49.53) (xy 146.05 50.8)
@@ -4027,6 +4037,16 @@
 		)
 		(uuid "bd9d216e-eefe-4348-975d-f6acd4c863e7")
 	)
+	(bus
+		(pts
+			(xy 123.19 22.86) (xy 125.095 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb9670e-33fe-466a-a1ca-1b3c7a9b992c")
+	)
 	(wire
 		(pts
 			(xy 167.005 88.9) (xy 174.625 88.9)
@@ -4257,16 +4277,6 @@
 		)
 		(uuid "ef82f27a-d7cb-44e6-964d-82d7cbb35955")
 	)
-	(bus
-		(pts
-			(xy 125.095 26.67) (xy 125.095 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f091770d-d1a7-4b21-be4b-22ec38579f80")
-	)
 	(wire
 		(pts
 			(xy 88.265 40.005) (xy 92.075 40.005)
@@ -4430,12 +4440,12 @@
 	)
 	(hierarchical_label "DSI{DSI_BUS}"
 		(shape bidirectional)
-		(at 125.095 24.13 90)
+		(at 123.19 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "6cc93a24-b07f-4126-886a-3171e1ca526a")
 	)
