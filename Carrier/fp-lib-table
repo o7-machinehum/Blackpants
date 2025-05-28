@@ -18,4 +18,5 @@
   (lib (name "KeebDeck_Keyboard")(type "KiCad")(uri "${KIPRJMOD}/libs/keyboard_new/KeebDeck_Keyboard.pretty")(options "")(descr ""))
   (lib (name "Standoff")(type "KiCad")(uri "${KIPRJMOD}/Standoff.pretty")(options "")(descr ""))
   (lib (name "FPC")(type "KiCad")(uri "${KIPRJMOD}/FPC.pretty")(options "")(descr ""))
+  (lib (name "EL817")(type "KiCad")(uri "${KIPRJMOD}/libs/EL817.pretty")(options "")(descr ""))
 )
