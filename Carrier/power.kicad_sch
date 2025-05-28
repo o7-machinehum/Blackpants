@@ -7010,8 +7010,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a5574c4-4b40-43d1-965f-794b64853b09")
-		(property "Reference" "D7"
-			(at 234.315 137.4774 90)
+		(property "Reference" "D8"
+			(at 233.68 136.2074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7020,7 +7020,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 234.315 140.0174 90)
+			(at 233.68 138.7474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7065,11 +7065,12 @@
 			)
 		)
 		(property "LCSC" "C2286"
-			(at 230.505 137.16 0)
+			(at 233.68 141.2874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -7081,7 +7082,7 @@
 		(instances
 			(project "badgeCarrierCard"
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/05158df8-c1e6-40b8-af8c-4aba99cbc568"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -8003,7 +8004,7 @@
 		(fields_autoplaced yes)
 		(uuid "2da227ac-b262-4e34-840a-e78b9e996128")
 		(property "Reference" "D7"
-			(at 178.435 138.1124 90)
+			(at 177.8 136.8424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8012,7 +8013,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 178.435 140.6524 90)
+			(at 177.8 139.3824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8057,11 +8058,12 @@
 			)
 		)
 		(property "LCSC" "C2286"
-			(at 174.625 137.795 0)
+			(at 177.8 141.9224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -9114,7 +9116,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d54ed94-4931-41b9-857d-c641eeffe375")
-		(property "Reference" "R13"
+		(property "Reference" "R?"
 			(at 173.609 132.461 90)
 			(effects
 				(font
@@ -9207,7 +9209,7 @@
 		(instances
 			(project "badgeCarrierCard"
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/05158df8-c1e6-40b8-af8c-4aba99cbc568"
-					(reference "R13")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -10909,7 +10911,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "91e31ffc-0ac2-4222-b64a-299b1e80624a")
-		(property "Reference" "C24"
+		(property "Reference" "C?"
 			(at 143.51 64.77 0)
 			(effects
 				(font
@@ -10996,7 +10998,7 @@
 		(instances
 			(project "badgeCarrierCard"
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/05158df8-c1e6-40b8-af8c-4aba99cbc568"
-					(reference "C24")
+					(reference "C?")
 					(unit 1)
 				)
 			)
