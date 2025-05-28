@@ -9116,7 +9116,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d54ed94-4931-41b9-857d-c641eeffe375")
-		(property "Reference" "R?"
+		(property "Reference" "R50"
 			(at 173.609 132.461 90)
 			(effects
 				(font
@@ -9209,7 +9209,7 @@
 		(instances
 			(project "badgeCarrierCard"
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/05158df8-c1e6-40b8-af8c-4aba99cbc568"
-					(reference "R?")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -10911,7 +10911,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "91e31ffc-0ac2-4222-b64a-299b1e80624a")
-		(property "Reference" "C?"
+		(property "Reference" "C26"
 			(at 143.51 64.77 0)
 			(effects
 				(font
@@ -10998,7 +10998,7 @@
 		(instances
 			(project "badgeCarrierCard"
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/05158df8-c1e6-40b8-af8c-4aba99cbc568"
-					(reference "C?")
+					(reference "C26")
 					(unit 1)
 				)
 			)
