@@ -1,5 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "P4_M.2_B+M-key-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/P4_M.2_B+M-key-eagle-import.kicad_sym")(options "")(descr ""))
-  (lib (name "WHY")(type "KiCad")(uri "${KIPRJMOD}/WHY.kicad_sym")(options "")(descr ""))
-)
