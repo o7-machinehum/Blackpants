@@ -19,4 +19,5 @@
   (lib (name "Standoff")(type "KiCad")(uri "${KIPRJMOD}/Standoff.pretty")(options "")(descr ""))
   (lib (name "FPC")(type "KiCad")(uri "${KIPRJMOD}/FPC.pretty")(options "")(descr ""))
   (lib (name "EL817")(type "KiCad")(uri "${KIPRJMOD}/libs/EL817.pretty")(options "")(descr ""))
+  (lib (name "WHY2025_silk")(type "KiCad")(uri "${KIPRJMOD}/libs/WHYLOGO_SILK.pretty/WHY2025_silk.pretty")(options "")(descr ""))
 )
