@@ -2902,7 +2902,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "33R"
 			(at 136.144 57.404 90)
 			(effects
 				(font
@@ -3881,7 +3881,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "33R"
 			(at 140.081 62.484 90)
 			(effects
 				(font
@@ -4762,7 +4762,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "33R"
 			(at 136.144 54.864 90)
 			(effects
 				(font
