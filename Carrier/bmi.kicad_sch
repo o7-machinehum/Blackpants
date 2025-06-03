@@ -1338,6 +1338,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 143.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40771d54-5282-44d2-8867-194613c3b883")
 		)
@@ -1565,6 +1574,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 102.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "8"
@@ -1844,6 +1862,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 132.08 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

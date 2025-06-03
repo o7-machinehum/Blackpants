@@ -6985,6 +6985,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 58.42 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6a74a7bb-0fe4-4bef-b027-ed6224cc9954")
 		)
@@ -7071,6 +7080,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 230.505 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7184,6 +7202,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 117.475 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4f1fa2e5-6e72-4bd6-9b8b-fdb220621f82")
 		)
@@ -7295,6 +7322,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 53.975 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7afe692d-7e5f-404b-9f42-3e62ef1aa13d")
 		)
@@ -7366,6 +7402,15 @@
 			)
 		)
 		(property "LCSC" "C2912100"
+			(at 245.745 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 245.745 137.795 0)
 			(effects
 				(font
@@ -7487,6 +7532,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 119.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7655,6 +7709,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 34.925 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B9"
 			(uuid "de0232d6-4572-4b0d-9a59-de6de809dd8f")
 		)
@@ -7799,6 +7862,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 113.03 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7978,6 +8050,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 67.31 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b2679be8-a964-46f2-9617-711fcc6ee85c")
 		)
@@ -8064,6 +8145,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 174.625 137.795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8166,6 +8256,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 218.44 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6960f26c-09ba-4e56-80f2-4ee1d3052191")
 		)
@@ -8265,6 +8364,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 128.27 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8438,6 +8546,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 260.35 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6cffd3fc-0b9b-4f47-b726-13b2d01a3b9e")
 		)
@@ -8539,6 +8656,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 82.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8666,6 +8792,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 74.295 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "5"
@@ -8909,6 +9044,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 123.825 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d476affd-a98b-415e-b320-b63b4e706be7")
 		)
@@ -9092,6 +9236,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 254 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "efbec1e0-9885-4d77-97af-377c2e51086c")
 		)
@@ -9198,6 +9351,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 174.625 128.905 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9369,6 +9531,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 262.89 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7028b58d-ac43-428e-93be-7c1962b7c04f")
 		)
@@ -9480,6 +9651,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 95.885 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "209174b6-0b57-489c-aca0-a4f5a7e63717")
 		)
@@ -9585,6 +9765,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 207.01 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2a1c5ae1-dca7-4761-a5b5-4fda45e23506")
 		)
@@ -9687,6 +9876,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9798,6 +9996,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 62.865 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9977,6 +10184,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 43.18 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "49ca4c73-be29-4b33-a442-8683b000fe14")
 		)
@@ -10088,6 +10304,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 77.47 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9aa9c003-ce32-491d-ae27-9e85d9b0920a")
 		)
@@ -10188,6 +10413,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 20.955 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10293,6 +10527,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 209.55 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bb92fd92-a4c3-43f9-b519-a0da43b1fb18")
 		)
@@ -10392,6 +10635,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 99.695 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10496,6 +10748,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 26.67 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "954926be-1d71-4e83-afa2-1967a1fedd20")
 		)
@@ -10595,6 +10856,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 138.43 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10718,6 +10988,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 209.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10887,6 +11166,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 133.35 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab4946ec-12ec-49ac-8b65-caaa73fc9dea")
 		)
@@ -10987,6 +11275,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 143.51 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11100,6 +11397,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 52.07 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8605b94b-a226-47fa-ad48-54d1c28a9f0b")
 		)
@@ -11200,6 +11506,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 32.385 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11311,6 +11626,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 106.68 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11479,6 +11803,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 105.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11653,6 +11986,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 230.505 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11888,6 +12230,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 56.515 139.065 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ad40074f-65a6-4a9f-958e-da0574275080")
 		)
@@ -11994,6 +12345,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 236.855 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12164,6 +12524,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 20.955 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2855c62a-5376-4c2c-a71c-8e52d2058562")
 		)
@@ -12273,6 +12642,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 88.265 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12464,6 +12842,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 262.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a699d98b-17a3-4f71-b771-0d80fa41c977")
 		)
@@ -12638,6 +13025,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 198.12 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0bac07c7-911e-4546-bf15-1007a5dbba30")
 		)
@@ -12709,6 +13105,15 @@
 			)
 		)
 		(property "LCSC" "C2912100"
+			(at 189.865 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 189.865 139.065 0)
 			(effects
 				(font
@@ -12831,6 +13236,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 109.855 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74893927-6172-490e-b860-75a2b7374be6")
 		)
@@ -12939,6 +13353,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 180.975 128.905 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dbdb5222-2fc0-4284-9bb8-1515c3308ef5")
 		)
@@ -13041,6 +13464,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 148.59 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f48b6347-b45c-4149-9c85-4e5326152220")
 		)
@@ -13141,6 +13573,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 153.67 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

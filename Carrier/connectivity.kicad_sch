@@ -2581,6 +2581,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 172.72 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "09ad5327-5796-4251-895e-20baa28aece9")
 		)
@@ -2758,6 +2767,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 177.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eba9cb02-0ee0-45ec-a212-cbf53b822ca7")
 		)
@@ -2869,6 +2887,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 175.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51d40ea2-9989-4f1b-9957-a860a5a63df8")
 		)
@@ -2910,7 +2937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 139.7 58.42 0)
 			(effects
 				(font
@@ -2945,7 +2972,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17168"
+		(property "LCSC" "C25105"
 			(at 139.7 58.42 0)
 			(effects
 				(font
@@ -2976,6 +3003,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 139.7 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3087,6 +3123,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 182.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3266,6 +3311,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 132.08 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e4ec078f-30b0-4f1d-ae44-740d0e2f13e2")
 		)
@@ -3377,6 +3431,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 15.875 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "949852f1-5891-41ce-b776-a144a1317c92")
 		)
@@ -3478,6 +3541,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 100.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "29"
@@ -3672,6 +3744,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 24.765 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a77e1ac-8d29-4734-b108-c0eab6b75b7c")
 		)
@@ -3849,6 +3930,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 53.34 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "af1130eb-0532-4efa-aff3-b8693eb0b956")
 		)
@@ -3889,7 +3979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 136.525 63.5 0)
 			(effects
 				(font
@@ -3924,7 +4014,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15402"
+		(property "LCSC" "C25105"
 			(at 136.525 63.5 0)
 			(effects
 				(font
@@ -3955,6 +4045,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 136.525 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4134,6 +4233,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 144.78 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa4e8531-c6d4-4e24-b42e-70406364a5b6")
 		)
@@ -4243,6 +4351,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 170.18 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4618,6 +4735,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 138.43 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2acbe335-5fb8-483a-9fe1-0f9f59049558")
 		)
@@ -4729,6 +4855,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b4443622-3cd1-429b-ab8a-510523dc64d9")
 		)
@@ -4805,7 +4940,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17168"
+		(property "LCSC" "C25105"
 			(at 139.7 55.88 0)
 			(effects
 				(font
@@ -4836,6 +4971,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 139.7 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4947,6 +5091,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 43.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5124,6 +5277,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 15.875 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"

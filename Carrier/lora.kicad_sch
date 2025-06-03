@@ -1642,7 +1642,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "50b1109a-9776-4fe6-917e-bbb1c7c91f32")
 		(property "Reference" "J5"
 			(at 140.081 52.07 0)
@@ -1808,6 +1808,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 139.7 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "439e64e4-a33b-4ada-bfce-2a3edc5d9bb2")
 		)
@@ -1926,6 +1935,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 120.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2104,6 +2122,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 97.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "0922f2e9-7225-4f86-91c0-4b08a5c50085")
 		)
@@ -2255,6 +2282,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 130.81 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"

@@ -9927,6 +9927,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 50.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "badgeCarrierCard"
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591"
@@ -10098,6 +10107,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 55.88 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "21f87764-454b-4cf4-b315-b301f4084d28")
 		)
@@ -10267,6 +10285,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 115.57 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bda767ad-d2f6-4b86-b62d-baeaf58cbb27")
 		)
@@ -10372,6 +10399,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 165.1 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10484,6 +10520,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 157.48 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d5f864a1-5516-42c7-95b3-243d614aa868")
 		)
@@ -10583,6 +10628,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 54.61 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10748,6 +10802,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 128.27 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "8"
@@ -11019,6 +11082,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 241.3 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "bec681ca-1097-4588-9146-f105a2b2e3e1")
 		)
@@ -11153,6 +11225,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 161.29 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "45aa98a9-50f6-4ede-8a05-dff1a8b8164b")
 		)
@@ -11173,7 +11254,7 @@
 		(at 203.2 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5d9b5d0b-22d6-46e0-b376-5eda34c00325")
@@ -11215,6 +11296,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 203.2 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 203.2 24.13 0)
 			(effects
 				(font
@@ -11306,7 +11396,7 @@
 		(at 198.12 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5f622a1f-f46a-4f47-a52d-50fb7173b711")
@@ -11348,6 +11438,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 198.12 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 198.12 24.13 0)
 			(effects
 				(font
@@ -11525,6 +11624,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 19.05 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11770,6 +11878,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 81.915 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9387431b-df60-45b1-82f9-73d0d00b442b")
 		)
@@ -11880,6 +11997,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 271.78 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "51fcd47d-0144-419b-9c52-cc77ce398371")
 		)
@@ -11966,7 +12092,7 @@
 		(at 208.28 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8c410266-3a6a-4155-aa55-70d9cf131701")
@@ -12008,6 +12134,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 208.28 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 208.28 24.13 0)
 			(effects
 				(font
@@ -12147,7 +12282,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15402"
+		(property "LCSC" "C17168"
 			(at 183.642 48.006 0)
 			(effects
 				(font
@@ -12178,6 +12313,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 191.77 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12279,6 +12423,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 97.79 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -12397,6 +12550,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 33.02 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "A6"
@@ -12554,6 +12716,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 153.67 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a09f0dce-b5a1-4e8a-aa43-af42ef238367")
 		)
@@ -12661,6 +12832,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 271.78 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12772,6 +12952,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 71.12 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13008,6 +13197,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "badgeCarrierCard"
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591"
@@ -13100,6 +13298,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 92.71 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13204,6 +13411,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591"
@@ -13218,7 +13434,7 @@
 		(at 218.44 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d960b1dc-a2c5-4fee-9af1-2b4421c870ce")
@@ -13259,6 +13475,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 218.44 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 218.44 24.13 0)
 			(effects
 				(font
@@ -13364,6 +13589,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 33.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -13603,6 +13837,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 52.07 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9c6ccafb-f114-4f44-a6b2-085e4658e832")
 		)
@@ -13823,6 +14066,15 @@
 				)
 			)
 		)
+		(property "Purchase-URL" ""
+			(at 115.57 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "73"
 			(uuid "a4109d43-59cf-412e-b1e0-46fbe4920635")
 		)
@@ -14038,7 +14290,7 @@
 		(at 213.36 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f059b01b-68ce-4546-822c-bf8b09f7e61e")
@@ -14080,6 +14332,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 213.36 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 213.36 24.13 0)
 			(effects
 				(font
