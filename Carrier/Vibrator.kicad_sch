@@ -1226,10 +1226,6 @@
 		(color 0 0 0 0)
 		(uuid "f46af28c-a6fb-45ad-a569-0e3086523903")
 	)
-	(no_connect
-		(at 172.72 88.9)
-		(uuid "4269b72d-5f18-4921-a8a4-833dd0807059")
-	)
 	(wire
 		(pts
 			(xy 139.7 91.44) (xy 139.7 93.98)
@@ -1239,6 +1235,16 @@
 			(type default)
 		)
 		(uuid "1304f00a-95c3-406d-8961-b7294775fdcb")
+	)
+	(wire
+		(pts
+			(xy 172.72 88.9) (xy 175.26 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "233a28ab-0641-46a4-8030-07b4116fe7bd")
 	)
 	(wire
 		(pts
@@ -1379,6 +1385,16 @@
 			(type default)
 		)
 		(uuid "fa7c87ac-bed5-4a25-b401-b8abde8864f0")
+	)
+	(label "MOUNTING_PAD"
+		(at 175.26 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4350cbc4-6adc-4e40-b4b4-0268f0e421e5")
 	)
 	(hierarchical_label "PWM_VIB"
 		(shape input)

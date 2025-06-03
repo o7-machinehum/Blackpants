@@ -16,4 +16,5 @@
   (lib (name "badge_why2025")(type "KiCad")(uri "${KIPRJMOD}/libs/badge_why2025.kicad_sym")(options "")(descr ""))
   (lib (name "KeebDeck_Keyboard")(type "KiCad")(uri "${KIPRJMOD}/libs/keyboard_new/KeebDeck_Keyboard.kicad_sym")(options "")(descr ""))
   (lib (name "IP5306")(type "KiCad")(uri "${KIPRJMOD}/libs/IP5306.kicad_sym")(options "")(descr ""))
+  (lib (name "SMA-J-P-X-RA-TH1")(type "KiCad")(uri "${KIPRJMOD}/libs/SMA-J-P-X-RA-TH1/SMA-J-P-X-RA-TH1.kicad_sym")(options "")(descr ""))
 )
