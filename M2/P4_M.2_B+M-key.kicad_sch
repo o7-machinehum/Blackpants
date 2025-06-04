@@ -9864,10 +9864,6 @@
 		(uuid "3d1273a3-7430-4151-901f-e4934920a7aa")
 	)
 	(no_connect
-		(at 132.08 149.86)
-		(uuid "4c4e774c-9127-4ebb-a59c-9f3401b8e72b")
-	)
-	(no_connect
 		(at 259.08 270.51)
 		(uuid "4fba72a8-7fc4-4872-b956-e69eb0a30301")
 	)
@@ -9890,10 +9886,6 @@
 	(no_connect
 		(at 132.08 142.24)
 		(uuid "a7f0ef87-c323-41b5-ab5e-b8d4831cc7bb")
-	)
-	(no_connect
-		(at 86.36 149.86)
-		(uuid "dcb781fe-14be-4de4-ba8d-cb5e4a980063")
 	)
 	(no_connect
 		(at 132.08 109.22)
@@ -10816,6 +10808,16 @@
 			(type solid)
 		)
 		(uuid "2e94dc63-fddf-4d65-bc5d-40fdf179961f")
+	)
+	(wire
+		(pts
+			(xy 132.08 149.86) (xy 134.62 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8a1610-9f91-402a-a5bb-9c22c5b36447")
 	)
 	(wire
 		(pts
@@ -14729,6 +14731,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 149.86) (xy 86.36 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8c4942-5dab-414f-83fd-f05c28860b6f")
+	)
+	(wire
+		(pts
 			(xy 152.4 248.285) (xy 152.4 250.19)
 		)
 		(stroke
@@ -14936,6 +14948,16 @@
 			(justify left bottom)
 		)
 		(uuid "12326386-578d-4a45-be8d-0b00d9423149")
+	)
+	(label "RTS"
+		(at 134.62 149.86 0)
+		(effects
+			(font
+				(size 0.7112 0.7112)
+			)
+			(justify left bottom)
+		)
+		(uuid "18d0e28b-9baf-4649-9293-db9ce0ddb163")
 	)
 	(label "3.3V"
 		(at 269.24 137.16 0)
@@ -15236,6 +15258,16 @@
 			(justify left bottom)
 		)
 		(uuid "3943e9a5-978d-4667-aa1a-6b803e8c8a03")
+	)
+	(label "DTR"
+		(at 83.82 149.86 180)
+		(effects
+			(font
+				(size 0.7112 0.7112)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d5d4ed0-06b0-49b8-b5fb-40a8a738e8b1")
 	)
 	(label "USB5V"
 		(at 251.46 139.7 180)
