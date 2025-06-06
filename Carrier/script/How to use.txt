@@ -1,0 +1,7 @@
+Stiching vias EM
+CMD:
+
+import os
+os.chdir(r"C:\Users\Invoer\Downloads")
+with open("stitch_gnd_inward.py") as f:
+    exec(f.read())

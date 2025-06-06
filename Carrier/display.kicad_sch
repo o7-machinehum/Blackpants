@@ -1845,131 +1845,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Linear:AMS1117-1.8"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3052,12 +2927,6 @@
 		(uuid "a74bb35f-211e-4c11-9233-706977acea03")
 	)
 	(junction
-		(at 59.69 80.645)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2fcd8aa-16d6-4b41-bf93-f008966a534c")
-	)
-	(junction
 		(at 174.625 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3236,16 +3105,6 @@
 			(type default)
 		)
 		(uuid "101df8dc-0d46-49dd-8d0e-9f732e218ac7")
-	)
-	(wire
-		(pts
-			(xy 49.53 80.645) (xy 59.69 80.645)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1abcd491-77ce-428b-81bf-5b7f8123fa12")
 	)
 	(wire
 		(pts
@@ -3429,16 +3288,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 77.47) (xy 59.69 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "393e4b8a-d8e7-4304-a1fb-798084ab1ca5")
-	)
-	(wire
-		(pts
 			(xy 174.625 81.28) (xy 174.625 83.82)
 		)
 		(stroke
@@ -3609,6 +3458,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 80.01) (xy 59.69 80.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "604f243a-1cb7-46a8-a531-64c8c099e06a")
+	)
+	(wire
+		(pts
 			(xy 174.625 73.66) (xy 177.165 73.66)
 		)
 		(stroke
@@ -3749,6 +3608,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 80.01) (xy 59.69 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73ca4bde-d91b-4dcb-b912-5a86c436b220")
+	)
+	(wire
+		(pts
 			(xy 111.125 49.53) (xy 111.125 50.8)
 		)
 		(stroke
@@ -3869,16 +3738,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 77.47) (xy 52.07 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dd5d2ec-f668-4a9a-8922-edbc4c9a3a3d")
-	)
-	(wire
-		(pts
 			(xy 99.695 70.485) (xy 102.235 70.485)
 		)
 		(stroke
@@ -3986,16 +3845,6 @@
 			(type default)
 		)
 		(uuid "b6c93ba2-5bbf-4f25-a37a-3f58476945ee")
-	)
-	(wire
-		(pts
-			(xy 59.69 77.47) (xy 59.69 80.645)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7225fde-840e-4781-a71b-4f53f0a49e7d")
 	)
 	(wire
 		(pts
@@ -4427,17 +4276,6 @@
 		)
 		(uuid "f2c7f8b5-f6ee-414b-b0b1-3f8922d3860c")
 	)
-	(hierarchical_label "ADJ_BL_KEYBOARD_DISPLAY"
-		(shape bidirectional)
-		(at 49.53 80.645 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "040654a1-3731-4fed-9831-3f20367e9de1")
-	)
 	(hierarchical_label "DSI{DSI_BUS}"
 		(shape bidirectional)
 		(at 123.19 22.86 180)
@@ -4460,9 +4298,9 @@
 		)
 		(uuid "732b6571-04e3-406e-b467-ce4b78a9d7f1")
 	)
-	(hierarchical_label "ADJ_BL"
-		(shape bidirectional)
-		(at 49.53 77.47 180)
+	(hierarchical_label "BL_PWM"
+		(shape input)
+		(at 49.53 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5534,123 +5372,6 @@
 			(project "badgeCarrierCard"
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bde3e5bf-8f05-407f-8448-d7dad1501e9c"
 					(reference "U16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 54.61 77.47 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d692e0a-7c48-4d99-bf41-5d6a81709d1d")
-		(property "Reference" "R45"
-			(at 58.166 78.486 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 51.054 78.486 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 54.61 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 54.61 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 54.61 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C15402"
-			(at 54.61 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 54.61 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 54.61 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB_CORRECTION" ""
-			(at 54.61 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 54.61 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d0eec69-ca78-4c59-be10-e29d04a596ac")
-		)
-		(pin "2"
-			(uuid "371f5801-db5a-40fa-8715-da6b93236833")
-		)
-		(instances
-			(project "badgeCarrierCard"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bde3e5bf-8f05-407f-8448-d7dad1501e9c"
-					(reference "R45")
 					(unit 1)
 				)
 			)

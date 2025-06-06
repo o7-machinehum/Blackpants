@@ -4819,6 +4819,12 @@
 		(uuid "0bc11841-5773-4c58-9ca6-48d8fab7e38c")
 	)
 	(junction
+		(at 19.05 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12275bc5-a8f7-4761-98fe-9f26fb6816b0")
+	)
+	(junction
 		(at 255.27 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6046,16 +6052,6 @@
 		)
 		(uuid "1cc8782b-cc4a-4156-88ec-78bf2b024644")
 	)
-	(wire
-		(pts
-			(xy 24.13 118.11) (xy 19.05 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d24e33c-230a-4680-9845-be10d38bd2ad")
-	)
 	(polyline
 		(pts
 			(xy 181.61 80.01) (xy 181.61 82.55)
@@ -6708,6 +6704,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 119.38) (xy 19.05 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "420aa32f-b377-4f83-8b4d-87e2e96ea5b1")
+	)
+	(wire
+		(pts
 			(xy 128.27 148.59) (xy 132.08 148.59)
 		)
 		(stroke
@@ -6825,6 +6831,16 @@
 			(type default)
 		)
 		(uuid "49b6b4f6-5ba2-4722-8c5f-7a713934bd65")
+	)
+	(wire
+		(pts
+			(xy 19.05 124.46) (xy 19.05 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b33a418-433d-4851-adb3-b73df0751c53")
 	)
 	(wire
 		(pts
@@ -8816,16 +8832,6 @@
 		)
 		(uuid "c3e935a9-19d9-4d3c-956a-6139b9bb9cad")
 	)
-	(wire
-		(pts
-			(xy 19.05 118.11) (xy 19.05 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4284cfb-314c-4624-99df-d5a30c95a6a4")
-	)
 	(polyline
 		(pts
 			(xy 34.036 133.096) (xy 35.052 133.096)
@@ -9636,16 +9642,6 @@
 		)
 		(uuid "fbff8521-cad7-440e-a86e-68bc8f6e5937")
 	)
-	(wire
-		(pts
-			(xy 19.05 127) (xy 19.05 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe8e17f9-8bf7-4fc0-a36b-189cf541e05f")
-	)
 	(bus
 		(pts
 			(xy 148.59 134.62) (xy 165.1 134.62)
@@ -9996,16 +9992,6 @@
 		)
 		(uuid "6cfdecab-6641-4702-bc57-dc04037240d2")
 	)
-	(label "KEYBOARD_BL"
-		(at 19.05 130.81 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6e07838a-e867-44e7-bdd1-a87d2db7bb68")
-	)
 	(label "SD2.DATA2"
 		(at 132.08 92.71 0)
 		(effects
@@ -10335,6 +10321,16 @@
 			(justify left bottom)
 		)
 		(uuid "c660e496-f05c-4cf5-b5d4-ceb893c4197b")
+	)
+	(label "KEYBOARD_BL"
+		(at 19.05 128.27 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9da08f0-c67a-4fe2-b631-67b3bdb73a14")
 	)
 	(label "USB_HS{D+ D-}"
 		(at 71.12 72.39 180)
@@ -11344,7 +11340,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "313f96bd-35ca-4008-a067-2dd02930afb9")
 		(property "Reference" "R51"
 			(at 78.74 43.18 90)
@@ -12511,123 +12507,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 19.05 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6173b2df-248c-47bf-a53b-310fdb4de8c5")
-		(property "Reference" "R44"
-			(at 18.034 128.016 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 18.034 120.904 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 19.05 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 19.05 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 19.05 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 19.05 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C15402"
-			(at 19.05 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 19.05 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 19.05 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB_CORRECTION" ""
-			(at 19.05 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 19.05 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b3d352b2-e30b-44f3-84c5-2f5b0e0835d2")
-		)
-		(pin "2"
-			(uuid "e5834480-2726-463f-a5e3-4dd51992aeb3")
-		)
-		(instances
-			(project "badgeCarrierCard"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591"
-					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 93.98 33.02 0)
 		(unit 1)
@@ -13214,7 +13093,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "929804c0-749d-4f93-bc47-8f354b2bc821")
 		(property "Reference" "R49"
 			(at 191.77 36.83 90)
@@ -14425,7 +14304,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bfc7ca7a-b61f-442d-beaa-f36547eda190")
 		(property "Reference" "R16"
 			(at 96.52 60.96 90)
@@ -15190,6 +15069,116 @@
 			(project ""
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 19.05 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "e1674e63-077e-4518-ad68-e3679d39db04")
+		(property "Reference" "R44"
+			(at 13.97 121.92 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 16.51 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 19.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 19.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15402"
+			(at 19.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 19.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 19.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB_CORRECTION" ""
+			(at 19.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 19.05 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e362668-4949-4d97-8ba8-eac5e6cd2b0c")
+		)
+		(pin "1"
+			(uuid "3ad5e9d2-fe3d-4c34-9316-894e04a1cea0")
+		)
+		(instances
+			(project "badgeCarrierCard"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591"
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -16585,26 +16574,6 @@
 				)
 			)
 		)
-		(pin "ADJ_BL" bidirectional
-			(at 24.13 115.57 180)
-			(uuid "44b1d899-05ee-47da-91fa-ef611e9e9e7f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ADJ_BL_KEYBOARD_DISPLAY" bidirectional
-			(at 24.13 118.11 180)
-			(uuid "bea9286f-47cb-4bd2-9b96-e37a5eb66e83")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "DSI{DSI_BUS}" bidirectional
 			(at 54.61 132.08 0)
 			(uuid "60901d65-a936-483c-b2a8-caf70aacdbcf")
@@ -16613,6 +16582,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "BL_PWM" input
+			(at 24.13 115.57 180)
+			(uuid "6dfd1676-23c5-454c-95b4-cf7caa533d69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
