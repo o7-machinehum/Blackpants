@@ -9864,8 +9864,16 @@
 		(uuid "3d1273a3-7430-4151-901f-e4934920a7aa")
 	)
 	(no_connect
+		(at 134.62 149.86)
+		(uuid "4159d933-574d-42dc-bd4a-1939ff9129e8")
+	)
+	(no_connect
 		(at 259.08 270.51)
 		(uuid "4fba72a8-7fc4-4872-b956-e69eb0a30301")
+	)
+	(no_connect
+		(at 83.82 149.86)
+		(uuid "6fcda5cd-1ac3-474d-a8f0-c14f2a9cf5b0")
 	)
 	(no_connect
 		(at 132.08 160.02)
@@ -14949,16 +14957,6 @@
 		)
 		(uuid "12326386-578d-4a45-be8d-0b00d9423149")
 	)
-	(label "RTS"
-		(at 134.62 149.86 0)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify left bottom)
-		)
-		(uuid "18d0e28b-9baf-4649-9293-db9ce0ddb163")
-	)
 	(label "3.3V"
 		(at 269.24 137.16 0)
 		(effects
@@ -15258,16 +15256,6 @@
 			(justify left bottom)
 		)
 		(uuid "3943e9a5-978d-4667-aa1a-6b803e8c8a03")
-	)
-	(label "DTR"
-		(at 83.82 149.86 180)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify right bottom)
-		)
-		(uuid "3d5d4ed0-06b0-49b8-b5fb-40a8a738e8b1")
 	)
 	(label "USB5V"
 		(at 251.46 139.7 180)
