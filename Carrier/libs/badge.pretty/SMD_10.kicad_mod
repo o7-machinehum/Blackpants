@@ -155,11 +155,11 @@
 		(uuid "006cd762-78d4-4870-8d24-635efd89123d")
 	)
 	(fp_line
-		(start -10 -12.25)
-		(end 10 -12.25)
+		(start -10 -10.75)
+		(end 10 -10.75)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "User.1")
 		(uuid "25fafe50-50d9-4bbb-8183-2048f4c136f6")
@@ -177,7 +177,7 @@
 		)
 	)
 	(fp_text user "PCB_EDGE"
-		(at -3.5 -10.75 0)
+		(at -3.5 -9.271 0)
 		(unlocked yes)
 		(layer "User.1")
 		(uuid "b4d7cfdc-4e80-4bc7-a4f0-023a95a7007f")
