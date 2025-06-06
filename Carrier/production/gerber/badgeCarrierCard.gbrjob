@@ -5,21 +5,21 @@
       "Application": "Pcbnew",
       "Version": "9.0.2"
     },
-    "CreationDate": "2025-06-03T18:15:43+02:00"
+    "CreationDate": "2025-06-06T15:45:15+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "badgeCarrierCard",
       "GUID": "62616467-6543-4617-9272-696572436172",
-      "Revision": "rev?"
+      "Revision": "V2.5"
     },
     "Size": {
       "X": 90.05,
-      "Y": 145.05
+      "Y": 148.05
     },
     "LayerNumber": 4,
     "BoardThickness": 1.5842,
-    "Finish": "None",
+    "Finish": "HAL lead-free",
     "ImpedanceControlled": true
   },
   "DesignRules": [
@@ -116,7 +116,7 @@
     },
     {
       "Type": "SolderMask",
-      "Color": "Green",
+      "Color": "Black",
       "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
@@ -172,7 +172,7 @@
     },
     {
       "Type": "SolderMask",
-      "Color": "Green",
+      "Color": "Black",
       "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
