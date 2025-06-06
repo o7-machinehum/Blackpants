@@ -4789,8 +4789,16 @@
 		(uuid "fa674369-004b-4727-a87a-03a0bf0db18c")
 	)
 	(no_connect
+		(at 50.165 167.005)
+		(uuid "4e804180-151d-4da8-bc7d-6a310304b251")
+	)
+	(no_connect
 		(at 135.255 110.49)
 		(uuid "57b8e65e-5d1d-407b-a6a0-70177b3f97d6")
+	)
+	(no_connect
+		(at 50.165 169.545)
+		(uuid "ac5f8e82-43f4-4b67-9e65-bd9dd4a3ef4b")
 	)
 	(bus_entry
 		(at 100.965 139.065)

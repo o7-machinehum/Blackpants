@@ -2993,15 +2993,6 @@
 		(uuid "279b61e7-64f2-401a-8115-d619b5baaddb")
 	)
 	(bus_entry
-		(at 127.635 31.75)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "369fbaad-88f6-42e9-8c5f-80bfaeaa3426")
-	)
-	(bus_entry
 		(at 133.985 58.42)
 		(size 2.54 2.54)
 		(stroke
@@ -3029,6 +3020,15 @@
 		(uuid "86c2a5bc-fde7-49ec-aba7-d81bd5ae37de")
 	)
 	(bus_entry
+		(at 133.985 41.91)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b33780f4-829f-4843-b118-2c29037a6911")
+	)
+	(bus_entry
 		(at 133.985 60.96)
 		(size 2.54 2.54)
 		(stroke
@@ -3036,15 +3036,6 @@
 			(type default)
 		)
 		(uuid "b9555f89-a0fe-4ca6-846e-b31c0ed3f763")
-	)
-	(bus_entry
-		(at 127.635 29.21)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e444d54f-0044-4a06-8f4e-331e2964d8d7")
 	)
 	(wire
 		(pts
@@ -3498,16 +3489,6 @@
 	)
 	(wire
 		(pts
-			(xy 127.635 29.21) (xy 137.795 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6549b172-9743-4681-94b1-1bd3fa459a06")
-	)
-	(wire
-		(pts
 			(xy 174.625 78.74) (xy 177.165 78.74)
 		)
 		(stroke
@@ -3545,16 +3526,6 @@
 			(type default)
 		)
 		(uuid "6bb5cbf3-8c02-41b3-acc4-c913e3d5dc8c")
-	)
-	(bus
-		(pts
-			(xy 125.095 22.86) (xy 125.095 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e020ea4-b6e9-456c-8f0e-0ff5f72d6a65")
 	)
 	(wire
 		(pts
@@ -3648,13 +3619,23 @@
 	)
 	(bus
 		(pts
-			(xy 133.985 39.37) (xy 133.985 50.8)
+			(xy 133.985 39.37) (xy 133.985 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7d46fdfc-40d1-49a4-ab8b-d46a6a0bae7a")
+	)
+	(bus
+		(pts
+			(xy 133.985 41.91) (xy 133.985 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8107e50b-c566-4717-96a7-c7acf3ff3dce")
 	)
 	(wire
 		(pts
@@ -3758,16 +3739,6 @@
 	)
 	(wire
 		(pts
-			(xy 127.635 31.75) (xy 138.43 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4a6ca76-3b15-4feb-b20a-e4de84a911ce")
-	)
-	(wire
-		(pts
 			(xy 74.295 70.485) (xy 86.995 70.485)
 		)
 		(stroke
@@ -3828,16 +3799,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 31.75) (xy 138.43 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b64ef0d4-b7ca-4aac-82b3-3f3d2ed4265a")
-	)
-	(wire
-		(pts
 			(xy 177.165 22.86) (xy 174.625 22.86)
 		)
 		(stroke
@@ -3886,16 +3847,6 @@
 		)
 		(uuid "bd9d216e-eefe-4348-975d-f6acd4c863e7")
 	)
-	(bus
-		(pts
-			(xy 123.19 22.86) (xy 125.095 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdb9670e-33fe-466a-a1ca-1b3c7a9b992c")
-	)
 	(wire
 		(pts
 			(xy 167.005 88.9) (xy 174.625 88.9)
@@ -3905,16 +3856,6 @@
 			(type default)
 		)
 		(uuid "c23e1204-8fd7-421a-b0d1-3342643418b2")
-	)
-	(bus
-		(pts
-			(xy 125.095 29.21) (xy 125.095 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2b87963-afd3-4f88-931f-83c1c5463167")
 	)
 	(wire
 		(pts
@@ -3955,6 +3896,16 @@
 			(type default)
 		)
 		(uuid "cda41671-438c-479a-96c6-5c9e08b14521")
+	)
+	(wire
+		(pts
+			(xy 136.525 44.45) (xy 138.43 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdca5cbf-17fd-4507-b870-14402fcdb9ac")
 	)
 	(bus
 		(pts
@@ -4206,15 +4157,15 @@
 		)
 		(uuid "2c3ee97b-ebec-47ce-ad65-fceef7f3451c")
 	)
-	(label "DSI.VSYNC"
-		(at 137.795 29.21 180)
+	(label "DSI.RESET"
+		(at 138.43 44.45 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "3835c255-a979-4aa7-a5f7-23171ed1ce4d")
+		(uuid "569e4446-2dbb-4a91-9d86-ef85baaa08a3")
 	)
 	(label "DSI.DATA0+"
 		(at 138.43 55.88 0)
@@ -4246,16 +4197,6 @@
 		)
 		(uuid "946ecbb7-db0d-43a7-b6ef-7b55e42bb1f1")
 	)
-	(label "DSI.RESET"
-		(at 137.795 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d3389c37-d0bc-4a31-9662-e984fbc39aa9")
-	)
 	(label "DSI.DATA0-"
 		(at 138.43 53.34 0)
 		(effects
@@ -4275,17 +4216,6 @@
 			(justify left bottom)
 		)
 		(uuid "f2c7f8b5-f6ee-414b-b0b1-3f8922d3860c")
-	)
-	(hierarchical_label "DSI{DSI_BUS}"
-		(shape bidirectional)
-		(at 123.19 22.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6cc93a24-b07f-4126-886a-3171e1ca526a")
 	)
 	(hierarchical_label "DSI{DSI_BUS}"
 		(shape bidirectional)

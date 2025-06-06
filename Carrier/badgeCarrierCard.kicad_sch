@@ -5071,12 +5071,6 @@
 		(uuid "f1047fde-1056-4ba6-a6e1-445cd999952e")
 	)
 	(junction
-		(at 102.87 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8fbd0c7-7833-40c7-b1cb-a8ab054e34ef")
-	)
-	(junction
 		(at 45.72 16.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5095,6 +5089,10 @@
 	(no_connect
 		(at 76.2 27.94)
 		(uuid "1d5052c8-2316-4c37-a9bc-085068e31ea6")
+	)
+	(no_connect
+		(at 132.08 130.81)
+		(uuid "7224c4b3-1066-43bc-9354-0702da03abdf")
 	)
 	(no_connect
 		(at 99.06 146.05)
@@ -5369,15 +5367,6 @@
 		(uuid "9f36e21f-65b6-4d64-9f91-d9c63a9c8ab9")
 	)
 	(bus_entry
-		(at 148.59 133.35)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0162052-dd12-43db-aeff-70b9adbcc2dc")
-	)
-	(bus_entry
 		(at 77.47 85.09)
 		(size 2.54 2.54)
 		(stroke
@@ -5642,16 +5631,6 @@
 		)
 		(uuid "0949e078-7b0e-4a30-8ed4-2d713d9808cc")
 	)
-	(wire
-		(pts
-			(xy 104.14 133.35) (xy 102.87 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09519dc3-6f76-43e2-9625-37d6866bfca6")
-	)
 	(bus
 		(pts
 			(xy 171.45 144.78) (xy 171.45 147.32)
@@ -5661,16 +5640,6 @@
 			(type default)
 		)
 		(uuid "09547b92-ce6b-4c82-a163-911639c133be")
-	)
-	(bus
-		(pts
-			(xy 148.59 133.35) (xy 148.59 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09ab59ec-ddfd-4bb1-860a-986468b82d46")
 	)
 	(polyline
 		(pts
@@ -6674,16 +6643,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 76.2) (xy 219.71 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41268373-6cd7-473c-8df1-0aa1fc2eee10")
-	)
-	(wire
-		(pts
 			(xy 95.25 130.81) (xy 102.87 130.81)
 		)
 		(stroke
@@ -7161,6 +7120,16 @@
 			(type default)
 		)
 		(uuid "5b830d74-edcc-4b92-a1e3-e670e79cd562")
+	)
+	(wire
+		(pts
+			(xy 128.27 130.81) (xy 132.08 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c1fa81c-0e17-43b5-a8ac-bf17c75c3615")
 	)
 	(wire
 		(pts
@@ -7851,16 +7820,6 @@
 			(type default)
 		)
 		(uuid "84c88fb6-fe9d-4d47-90b1-f0c1cd47d4a6")
-	)
-	(wire
-		(pts
-			(xy 128.27 130.81) (xy 146.05 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "851d564c-0812-4a11-ab48-3e15050d2bd9")
 	)
 	(polyline
 		(pts
@@ -9414,7 +9373,7 @@
 	)
 	(bus
 		(pts
-			(xy 148.59 130.81) (xy 148.59 133.35)
+			(xy 148.59 130.81) (xy 148.59 134.62)
 		)
 		(stroke
 			(width 0)
@@ -9711,16 +9670,6 @@
 			(justify left bottom)
 		)
 		(uuid "061715e3-58dc-4e22-96f8-7a9174542e5b")
-	)
-	(label "INT_STATS"
-		(at 213.36 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "068804f5-c261-46a1-a4b0-1e07beb46d0e")
 	)
 	(label "I2C.SCL"
 		(at 208.28 29.21 90)
@@ -10181,16 +10130,6 @@
 			(justify left bottom)
 		)
 		(uuid "98c23e70-8787-4733-b28a-8e316496d03c")
-	)
-	(label "DSI.VSYNC"
-		(at 132.08 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9967b66d-e66a-4a25-84f7-c3f079ebec7b")
 	)
 	(label "KEYBOARD_BL"
 		(at 168.91 128.27 180)
@@ -11554,7 +11493,7 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_Hot_Small")
-		(at 226.06 87.63 0)
+		(at 240.03 87.63 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -11563,7 +11502,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c08cf45-9b14-4556-b936-b755152dd1f2")
 		(property "Reference" "#SYM1"
-			(at 226.06 84.074 0)
+			(at 240.03 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11572,7 +11511,7 @@
 			)
 		)
 		(property "Value" "SYM_Hot_Small"
-			(at 226.06 90.805 0)
+			(at 240.03 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11581,7 +11520,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 92.075 0)
+			(at 240.03 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11590,7 +11529,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.822 92.71 0)
+			(at 240.792 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11599,7 +11538,7 @@
 			)
 		)
 		(property "Description" "Hot surface warning symbol, small"
-			(at 226.06 87.63 0)
+			(at 240.03 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15937,8 +15876,8 @@
 		)
 	)
 	(sheet
-		(at 219.71 69.85)
-		(size 43.18 22.86)
+		(at 234.95 81.28)
+		(size 27.94 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15953,7 +15892,7 @@
 		)
 		(uuid "05158df8-c1e6-40b8-af8c-4aba99cbc568")
 		(property "Sheetname" "Power & USB"
-			(at 219.71 69.1384 0)
+			(at 234.95 80.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15962,22 +15901,12 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 219.71 93.2946 0)
+			(at 234.95 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "INT_STATS" input
-			(at 219.71 76.2 180)
-			(uuid "925d8bc1-cde2-4e95-b029-9bf1d48ca3fc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "USB{D+ D-}" bidirectional
