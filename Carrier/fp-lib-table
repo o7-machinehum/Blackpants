@@ -19,4 +19,5 @@
   (lib (name "W395HDC001-A")(type "KiCad")(uri "${KIPRJMOD}/libs/W395HDC001-A.pretty")(options "")(descr ""))
   (lib (name "SMA-J-P-X-RA-TH1")(type "KiCad")(uri "${KIPRJMOD}/libs/SMA-J-P-X-RA-TH1")(options "")(descr ""))
   (lib (name "Z30C1T8460001")(type "KiCad")(uri "${KIPRJMOD}/libs/Z30C1T8460001")(options "")(descr ""))
+  (lib (name "Z3OC1T8219731")(type "KiCad")(uri "C:/Users/Invoer/Downloads/Z3OC1T8219731.pretty")(options "")(descr ""))
 )
