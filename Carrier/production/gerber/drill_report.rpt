@@ -1,5 +1,5 @@
 Drill report for badgeCarrierCard.kicad_pcb
-Created on 2025-06-06T17:44:21+0200
+Created on 2025-06-08T18:04:14+0200
 
 Copper Layer Stackup:
     =============================================================
@@ -12,15 +12,15 @@ Copper Layer Stackup:
 Drill file 'badgeCarrierCard-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.200mm  0.0079"  (251 holes)
+    T1  0.200mm  0.0079"  (244 holes)
     T2  0.200mm  0.0079"  (6 holes)
-    T3  0.300mm  0.0118"  (388 holes)
-    T4  0.500mm  0.0197"  (2 holes)  (with 2 slots)
-    T5  0.600mm  0.0236"  (79 holes)  (with 8 slots)
+    T3  0.300mm  0.0118"  (385 holes)
+    T4  0.600mm  0.0236"  (79 holes)  (with 8 slots)
+    T5  1.000mm  0.0394"  (6 holes)
     T6  1.600mm  0.0630"  (5 holes)
     T7  3.750mm  0.1476"  (1 hole)
 
-    Total plated holes count 732
+    Total plated holes count 726
 
 
 Drill file 'badgeCarrierCard-NPTH.drl' contains
