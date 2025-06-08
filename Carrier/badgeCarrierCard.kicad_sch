@@ -9281,6 +9281,16 @@
 		)
 		(uuid "e3611684-328f-4e5a-8da4-b2311919b6dc")
 	)
+	(wire
+		(pts
+			(xy 193.04 24.13) (xy 193.04 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e46c45e6-a30b-4571-a2ea-270d7c129796")
+	)
 	(polyline
 		(pts
 			(xy 31.242 98.806) (xy 32.766 98.806)
@@ -11422,6 +11432,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 193.04 26.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35809c1a-870f-4b6a-92d7-8c367a71028e")
+		(property "Reference" "#PWR068"
+			(at 193.04 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 193.04 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45453cdf-f344-4206-98fe-b5dcd8c3e10d")
+		)
+		(instances
+			(project "badgeCarrierCard"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:FerriteBead_Small")
 		(at 54.61 151.13 90)
 		(unit 1)
@@ -12320,7 +12396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d9b5d0b-22d6-46e0-b376-5eda34c00325")
-		(property "Reference" "TP2"
+		(property "Reference" "TP3"
 			(at 201.422 19.05 0)
 			(effects
 				(font
@@ -12381,7 +12457,7 @@
 		(instances
 			(project "badgeCarrierCard"
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591"
-					(reference "TP2")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -12462,7 +12538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f622a1f-f46a-4f47-a52d-50fb7173b711")
-		(property "Reference" "TP1"
+		(property "Reference" "TP2"
 			(at 196.596 19.05 0)
 			(effects
 				(font
@@ -12523,7 +12599,7 @@
 		(instances
 			(project "badgeCarrierCard"
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591"
-					(reference "TP1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -13151,7 +13227,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c410266-3a6a-4155-aa55-70d9cf131701")
-		(property "Reference" "TP3"
+		(property "Reference" "TP4"
 			(at 206.756 19.05 0)
 			(effects
 				(font
@@ -13212,7 +13288,7 @@
 		(instances
 			(project "badgeCarrierCard"
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591"
-					(reference "TP3")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -13667,6 +13743,82 @@
 			(project "badgeCarrierCard"
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591"
 					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 193.04 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ce4bd1c-5d7c-444a-8b66-c19b1b39a732")
+		(property "Reference" "TP1"
+			(at 191.516 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 195.58 22.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 198.12 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 193.04 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 193.04 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4e01cfa-24d3-4c79-855a-33ba248ca181")
+		)
+		(instances
+			(project "badgeCarrierCard"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -14970,7 +15122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d960b1dc-a2c5-4fee-9af1-2b4421c870ce")
-		(property "Reference" "TP5"
+		(property "Reference" "TP6"
 			(at 216.916 19.05 0)
 			(effects
 				(font
@@ -15030,7 +15182,7 @@
 		(instances
 			(project ""
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591"
-					(reference "TP5")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -15936,7 +16088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f059b01b-68ce-4546-822c-bf8b09f7e61e")
-		(property "Reference" "TP4"
+		(property "Reference" "TP5"
 			(at 211.836 19.05 0)
 			(effects
 				(font
@@ -15997,7 +16149,7 @@
 		(instances
 			(project "badgeCarrierCard"
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591"
-					(reference "TP4")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
