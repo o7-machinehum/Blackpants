@@ -22258,6 +22258,7 @@
 		(property "Reference" "J2"
 			(at 0 5.645 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "55addde3-cbe6-4bb7-835d-3fcd622fbca2")
 			(effects
 				(font
@@ -22691,7 +22692,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "JL"
+	(gr_text "JDJ"
 		(at 146.6 100.6 0)
 		(layer "F.Cu")
 		(uuid "722ca913-57aa-4990-ab8d-eb227c507015")
@@ -22701,6 +22702,32 @@
 				(thickness 0.2)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "NOT A STANDARD M.2 CARD!"
+		(at 149.25 91 90)
+		(layer "B.SilkS")
+		(uuid "132379bc-08c5-4ea7-8afc-47a035159bc5")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.24)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "DESIGN BY: JDJ, JW."
+		(at 158.75 85.25 0)
+		(layer "B.SilkS")
+		(uuid "40c8127b-41ec-44be-a1e3-74ee87f90ca1")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.08)
+				(bold yes)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(segment
