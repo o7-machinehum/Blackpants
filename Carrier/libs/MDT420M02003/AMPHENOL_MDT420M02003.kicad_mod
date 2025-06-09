@@ -91,6 +91,66 @@
 		(uuid "4a27a584-8d4a-4fa5-89d5-52149524ed44")
 	)
 	(fp_line
+		(start -7.46 21.75)
+		(end -0.54 17.75)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a72dedb5-134d-46ea-9678-8eb332a6b1e8")
+	)
+	(fp_line
+		(start -7.04 21.9)
+		(end -7.04 21.59)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "86d6d523-68b2-41a6-affa-5b6d8b46a7b0")
+	)
+	(fp_line
+		(start -0.56 18.24)
+		(end -0.969264 17.973678)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a67436d6-154c-4d66-b47c-cc92d2f2e458")
+	)
+	(fp_line
+		(start -0.56 25.26)
+		(end -0.969264 25.526322)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a0b7d7b5-f82e-4ab5-8a48-2e254a3f10e4")
+	)
+	(fp_line
+		(start -0.54 17.75)
+		(end -0.54 25.75)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3aa52cbd-7e93-47b2-a7b9-c237dfee1c11")
+	)
+	(fp_line
+		(start -0.54 25.75)
+		(end -7.46 21.75)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2068ddf-9d78-482d-848d-1258a5179435")
+	)
+	(fp_line
 		(start 5.2135 -4.95)
 		(end 6.7765 -4.95)
 		(stroke
@@ -182,6 +242,51 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "3a29c3df-f621-4121-aac3-755671512bee")
+	)
+	(fp_circle
+		(center -5.5 21.75)
+		(end -5.5 21.3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "8988475a-e5de-4479-85be-9ff1295310f0")
+	)
+	(fp_circle
+		(center -2.5 21.75)
+		(end -2.5 21.5)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "dc7f7884-3d03-4c31-9b09-0468a38d8957")
+	)
+	(fp_circle
+		(center -1.5 21.75)
+		(end -1.5 21.35)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3d81f3d6-f665-4b02-9846-0fcf5af0126d")
+	)
+	(fp_poly
+		(pts
+			(xy -2.5 22) (xy -2.5 21.5) (xy -5.5 21.3) (xy -5.5 22.2)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e7661bae-4431-44d3-90cd-7da535fc3837")
 	)
 	(fp_line
 		(start -10.45 2.25)
@@ -524,14 +629,15 @@
 		(uuid "583fe303-46b0-412b-815e-9ffb53928985")
 	)
 	(fp_text user "NOT A STANDARD M.2 SLOT!"
-		(at -10.5 8.975 0)
+		(at 3 34 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "1ce9a2de-7752-440d-adf8-fe42fdd5234f")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 1 1.2)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -1032,6 +1138,15 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "c883694a-f1df-43f7-9cbb-a4b1385827bc")
+	)
+	(group ""
+		(uuid "d3ab54c1-f5ac-4217-ac15-89fe19097ae9")
+		(members "3aa52cbd-7e93-47b2-a7b9-c237dfee1c11" "3d81f3d6-f665-4b02-9846-0fcf5af0126d"
+			"86d6d523-68b2-41a6-affa-5b6d8b46a7b0" "8988475a-e5de-4479-85be-9ff1295310f0"
+			"a0b7d7b5-f82e-4ab5-8a48-2e254a3f10e4" "a67436d6-154c-4d66-b47c-cc92d2f2e458"
+			"a72dedb5-134d-46ea-9678-8eb332a6b1e8" "b2068ddf-9d78-482d-848d-1258a5179435"
+			"dc7f7884-3d03-4c31-9b09-0468a38d8957" "e7661bae-4431-44d3-90cd-7da535fc3837"
+		)
 	)
 	(embedded_fonts no)
 )
