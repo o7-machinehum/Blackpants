@@ -663,7 +663,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Speaker"
+		(symbol "badge_why2025:Speaker"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -780,6 +780,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1545,7 +1563,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Speaker")
+		(lib_id "badge_why2025:Speaker")
 		(at 137.16 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1572,7 +1590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "badge:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 137.16 66.04 0)
 			(effects
 				(font
@@ -1654,6 +1672,9 @@
 		)
 		(pin "1"
 			(uuid "e53bd4e1-e569-4f90-aae2-28f67131c349")
+		)
+		(pin "3"
+			(uuid "431594fe-2ad0-4c55-9d9e-fc4e1f7c60f1")
 		)
 		(instances
 			(project "badgeCarrierCard"
