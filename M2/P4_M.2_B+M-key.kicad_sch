@@ -9440,12 +9440,6 @@
 		(uuid "47372080-c361-4d6b-8eeb-9702ade6f6f8")
 	)
 	(junction
-		(at 200.66 398.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48a7c356-9d23-4d32-a2db-8fcf3f999e99")
-	)
-	(junction
 		(at 119.38 365.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9650,6 +9644,12 @@
 		(uuid "971323f4-32f7-4a7f-83b3-9a5c0155e61c")
 	)
 	(junction
+		(at 200.66 398.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c65f318-8380-4879-8543-2e4a762af7ce")
+	)
+	(junction
 		(at 163.83 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9716,6 +9716,12 @@
 		(uuid "ae7dfa20-017e-44c4-b6d5-b62a5a07b9fb")
 	)
 	(junction
+		(at 198.755 406.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1eff06a-8070-4f41-ba9a-8e01db4df958")
+	)
+	(junction
 		(at 67.31 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9756,6 +9762,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd9f2b9e-8ec4-4093-b7cc-9e4031acbc7c")
+	)
+	(junction
+		(at 213.995 398.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bde45270-4af9-4e56-9cbd-add65744ddb0")
 	)
 	(junction
 		(at 190.5 401.32)
@@ -9949,6 +9961,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.755 406.4) (xy 200.66 406.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "031f7e98-d105-4ba4-a47f-a2e37d9a4d18")
+	)
+	(wire
+		(pts
 			(xy 266.7 88.9) (xy 269.24 88.9)
 		)
 		(stroke
@@ -9986,6 +10008,16 @@
 			(type solid)
 		)
 		(uuid "03d18be3-f53c-429d-a8cf-443b5438c9f1")
+	)
+	(wire
+		(pts
+			(xy 100.33 263.525) (xy 100.33 260.985)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "03f3226f-87ef-4cff-9c28-10ea94761da4")
 	)
 	(wire
 		(pts
@@ -10129,16 +10161,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 401.32) (xy 200.66 398.78)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0af044bb-b36b-4476-883c-51979c6b4818")
-	)
-	(wire
-		(pts
 			(xy 266.7 109.22) (xy 269.24 109.22)
 		)
 		(stroke
@@ -10189,7 +10211,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 406.4) (xy 200.66 406.4)
+			(xy 195.58 406.4) (xy 198.755 406.4)
 		)
 		(stroke
 			(width 0.1524)
@@ -10576,6 +10598,16 @@
 			(type solid)
 		)
 		(uuid "23274a4b-9b1c-470e-9277-a17d57589904")
+	)
+	(wire
+		(pts
+			(xy 198.755 411.48) (xy 198.755 406.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23412631-2f28-4114-864f-7e21accccd5e")
 	)
 	(wire
 		(pts
@@ -11086,6 +11118,16 @@
 			(type solid)
 		)
 		(uuid "3f77f4ee-2d60-40fa-b4bb-fd99fbc32229")
+	)
+	(wire
+		(pts
+			(xy 200.66 398.78) (xy 200.66 401.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3f8b8307-fd11-487c-be3b-67f4bbb549ee")
 	)
 	(wire
 		(pts
@@ -11656,6 +11698,16 @@
 			(type solid)
 		)
 		(uuid "5f11f372-fe8d-462d-a37c-bf6637315bb8")
+	)
+	(wire
+		(pts
+			(xy 213.995 411.48) (xy 211.455 411.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5f42b0ed-447e-4adb-b7dd-3b97df7a1a24")
 	)
 	(wire
 		(pts
@@ -12529,13 +12581,23 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 274.955) (xy 90.17 274.955)
+			(xy 87.63 274.955) (xy 100.33 274.955)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "9026cb0b-fa93-42a1-a472-3b8919311482")
+	)
+	(wire
+		(pts
+			(xy 213.995 398.78) (xy 213.995 411.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9033bc48-79db-4d6a-954c-75060959a480")
 	)
 	(wire
 		(pts
@@ -12929,7 +12991,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 398.78) (xy 203.2 398.78)
+			(xy 200.66 398.78) (xy 213.995 398.78)
 		)
 		(stroke
 			(width 0.1524)
@@ -13606,6 +13668,16 @@
 			(type solid)
 		)
 		(uuid "c5d32022-4a1d-4f17-969c-5719bd53a894")
+	)
+	(wire
+		(pts
+			(xy 100.33 274.955) (xy 100.33 273.685)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c5efff12-63be-4104-b435-1c50c4c62d9d")
 	)
 	(wire
 		(pts
@@ -14399,6 +14471,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.295 411.48) (xy 198.755 411.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb4b39c2-88d0-4163-b15c-961900941ade")
+	)
+	(wire
+		(pts
 			(xy 175.26 262.89) (xy 175.26 260.35)
 		)
 		(stroke
@@ -14826,6 +14908,16 @@
 			(type default)
 		)
 		(uuid "fe69123c-3f1a-44be-88b8-5c224291b832")
+	)
+	(wire
+		(pts
+			(xy 213.995 398.78) (xy 216.535 398.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "feb2a4dd-6c83-472d-b71b-2af18c86995d")
 	)
 	(wire
 		(pts
@@ -15778,7 +15870,7 @@
 		(uuid "81e0a9a9-3389-4427-99f7-fc2c7e654515")
 	)
 	(label "3.3V"
-		(at 203.2 398.78 0)
+		(at 216.535 398.78 0)
 		(effects
 			(font
 				(size 0.7112 0.7112)
@@ -16626,6 +16718,16 @@
 			(justify left bottom)
 		)
 		(uuid "f7b79c9a-e69c-42bb-bf8b-ee208a811f3b")
+	)
+	(label "3.3V"
+		(at 100.33 260.985 90)
+		(effects
+			(font
+				(size 0.7112 0.7112)
+			)
+			(justify left bottom)
+		)
+		(uuid "f83a9347-5ed3-4614-accb-c76f67141902")
 	)
 	(label "3.3V"
 		(at 175.26 260.35 90)
@@ -19317,6 +19419,92 @@
 			(project ""
 				(path "/4838a46c-b272-42ad-9e26-aa09bb1e63fb"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "P4_M.2_B+M-key-eagle-import:RESISTOR-0201-1/4W-1%")
+		(at 206.375 411.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c79a7c9-16c2-4e0e-9285-adccef4acac8")
+		(property "Reference" "R16"
+			(at 206.375 409.956 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "0"
+			(at 206.375 413.004 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 206.375 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 206.375 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "https://pricing.snapeda.com/parts/ERJ-U01F3301C/Panasonic/view-part?ref=eda Check availability"
+			(at 206.375 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C106228"
+			(at 206.375 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remarks" ""
+			(at 206.375 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9235055d-852b-4993-acda-9c5c74bd62de")
+		)
+		(pin "2"
+			(uuid "066731ff-f4af-4e05-81d7-419083a0829f")
+		)
+		(instances
+			(project "P4_M.2_B+M-key"
+				(path "/4838a46c-b272-42ad-9e26-aa09bb1e63fb"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -22578,6 +22766,92 @@
 			(project ""
 				(path "/4838a46c-b272-42ad-9e26-aa09bb1e63fb"
 					(reference "#PWR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "P4_M.2_B+M-key-eagle-import:RESISTOR-0201-1/4W-1%")
+		(at 100.33 268.605 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95dfcea1-ea36-4afb-a00b-77d06415a6b5")
+		(property "Reference" "R15"
+			(at 101.854 268.605 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "1k"
+			(at 98.806 268.605 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 100.33 268.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 268.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "https://pricing.snapeda.com/parts/ERJ-U01F3301C/Panasonic/view-part?ref=eda Check availability"
+			(at 100.33 268.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C270365"
+			(at 100.33 268.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remarks" ""
+			(at 100.33 268.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25c31774-37bd-44ad-9054-191944e64293")
+		)
+		(pin "2"
+			(uuid "68b0c5d1-011f-4e6a-a6f6-70c7454db919")
+		)
+		(instances
+			(project "P4_M.2_B+M-key"
+				(path "/4838a46c-b272-42ad-9e26-aa09bb1e63fb"
+					(reference "R15")
 					(unit 1)
 				)
 			)
