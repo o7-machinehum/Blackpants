@@ -1,0 +1,5 @@
+# Dev environment
+.venv/
+.gitlab-ci-local/
+.vscode/
+.idea/
