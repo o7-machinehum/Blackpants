@@ -16,9 +16,11 @@ clean:
 
 # Carrier board
 drc_carrier:
-	$(VENV_ACTIVATE) && kikit drc run ./Carrier/badgeCarrierCard.kicad_pcb
+	[ -d ".venv" ] && $(VENV_ACTIVATE); \
+	kikit drc run ./Carrier/badgeCarrierCard.kicad_pcb
 gerbers_carrier:
-	$(VENV_ACTIVATE) && kikit fab jlcpcb --assembly --schematic Carrier/badgeCarrierCard.kicad_sch Carrier/badgeCarrierCard.kicad_pcb Carrier/production
+	[ -d ".venv" ] && $(VENV_ACTIVATE); \
+	kikit fab jlcpcb --assembly --schematic Carrier/badgeCarrierCard.kicad_sch Carrier/badgeCarrierCard.kicad_pcb Carrier/production
 schematic_carrier:
 	kicad-cli sch export pdf --output Carrier/pdfs/schematic.pdf Carrier/badgeCarrierCard.kicad_sch
 pdfs_carrier:
@@ -26,9 +28,11 @@ pdfs_carrier:
 
 # M2 board
 drc_m2:
-	$(VENV_ACTIVATE) && kikit drc run ./M2/P4_M.2_B+M-key.kicad_pcb
+	[ -d ".venv" ] && $(VENV_ACTIVATE); \
+	kikit drc run ./M2/P4_M.2_B+M-key.kicad_pcb
 gerbers_m2:
-	$(VENV_ACTIVATE) && kikit fab jlcpcb --assembly --schematic M2/P4_M.2_B+M-key.kicad_sch M2/P4_M.2_B+M-key.kicad_pcb M2/production
+	[ -d ".venv" ] && $(VENV_ACTIVATE); \
+	kikit fab jlcpcb --assembly --schematic M2/P4_M.2_B+M-key.kicad_sch M2/P4_M.2_B+M-key.kicad_pcb M2/production
 schematic_m2:
 	kicad-cli sch export pdf --output M2/pdfs/schematic.pdf M2/P4_M.2_B+M-key.kicad_sch
 pdfs_m2:
