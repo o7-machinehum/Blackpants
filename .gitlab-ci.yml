@@ -31,11 +31,10 @@ drc_m2:
 gerbers_carrier:
   stage: production
   <<: *env_template
-  needs:
-    - drc_carrier
+  needs: ["drc_carrier"]
   rules:
     - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "main"'
-      when: always
+      when: on_success
     - when: never
   script:
     - make gerbers_carrier
@@ -49,11 +48,10 @@ gerbers_carrier:
 gerbers_m2:
   stage: production
   <<: *env_template
-  needs:
-    - drc_m2
+  needs: ["drc_m2"]
   rules:
     - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "main"'
-      when: always
+      when: on_success
     - when: never
   script:
     - make gerbers_m2
@@ -68,11 +66,10 @@ gerbers_m2:
 schematic_carrier:
   stage: schematic
   <<: *env_template
-  needs:
-    - gerbers_carrier
+  needs: ["gerbers_carrier"]
   rules:
     - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "main"'
-      when: always
+      when: on_success
     - when: never
   script:
     - make schematic_carrier
@@ -84,11 +81,10 @@ schematic_carrier:
 schematic_m2:
   stage: schematic
   <<: *env_template
-  needs:
-    - gerbers_m2
+  needs: ["gerbers_m2"]
   rules:
     - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "main"'
-      when: always
+      when: on_success
     - when: never
   script:
     - make schematic_m2
