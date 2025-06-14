@@ -101,7 +101,7 @@ schematic_m2:
 package:
   stage: package
   image: curlimages/curl:latest
-  dependencies:
+  needs:
     - production_carrier
     - production_m2
     - schematic_carrier
@@ -115,12 +115,12 @@ package:
       tar -czf m2_production.tar.gz M2/production M2/pdfs
       curl --header "JOB-TOKEN: $CI_JOB_TOKEN" \
            --upload-file m2_production.tar.gz \
-           "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/m2_production/${CI_COMMIT_TAG}/m2_production.tar.gz"
+           "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/export/${CI_COMMIT_TAG}/m2_production.tar.gz"
     - |
       tar -czf carrier_production.tar.gz Carrier/production Carrier/pdfs
       curl --header "JOB-TOKEN: $CI_JOB_TOKEN" \
            --upload-file carrier_production.tar.gz \
-           "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/carrier_production/${CI_COMMIT_TAG}/carrier_production.tar.gz"
+           "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/export/${CI_COMMIT_TAG}/carrier_production.tar.gz"
 
 # Release job
 release:
@@ -139,14 +139,14 @@ release:
     assets:
       links:
         - name: 'Carrier Production Files'
-          url: '${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/carrier_production/$CI_COMMIT_TAG/carrier_production.tar.gz'
+          url: '${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/export/$CI_COMMIT_TAG/carrier_production.tar.gz'
           link_type: 'package'
         - name: 'M2 Production Files'
-          url: '${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/m2_production/$CI_COMMIT_TAG/m2_production.tar.gz'
+          url: '${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/export/$CI_COMMIT_TAG/m2_production.tar.gz'
           link_type: 'package'
         - name: 'Carrier Schematic PDF'
-          url: '${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/schematic/$CI_COMMIT_TAG/carrier_schematic.pdf'
+          url: '${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/export/$CI_COMMIT_TAG/carrier_schematic.pdf'
           link_type: 'package'
         - name: 'M2 Schematic PDF'
-          url: '${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/schematic/$CI_COMMIT_TAG/m2_schematic.pdf'
+          url: '${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/export/$CI_COMMIT_TAG/m2_schematic.pdf'
           link_type: 'package'
