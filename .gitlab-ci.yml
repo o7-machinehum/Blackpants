@@ -39,6 +39,7 @@ production_carrier:
     - drc_carrier
   rules:
     - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "main"'
+    - if: '$CI_PIPELINE_SOURCE == "tag"'
   script:
     - make gerbers_carrier
     - make pdfs_carrier
@@ -55,6 +56,7 @@ production_m2:
     - drc_m2
   rules:
     - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "main"'
+    - if: '$CI_PIPELINE_SOURCE == "tag"'
   script:
     - make gerbers_m2
     - make pdfs_m2
@@ -72,6 +74,7 @@ schematic_carrier:
     - production_carrier
   rules:
     - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "main"'
+    - if: '$CI_PIPELINE_SOURCE == "tag"'
   script:
     - make schematic_carrier
   artifacts:
@@ -86,6 +89,7 @@ schematic_m2:
     - production_m2
   rules:
     - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "main"'
+    - if: '$CI_PIPELINE_SOURCE == "tag"'
   script:
     - make schematic_m2
   artifacts:
