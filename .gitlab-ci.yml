@@ -4,12 +4,16 @@ workflow:
       when: always
     - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "main"'
       when: always
+    - if: '$CI_PIPELINE_SOURCE == "tag"'
+      when: always
     - when: never
 
 stages:
   - drc
   - production
   - schematic
+  - package
+  - release
 
 .env_template: &env_template
   image: registry.gitlab.com/why2025/team-badge/hardware:latest
@@ -28,14 +32,13 @@ drc_m2:
     - make drc_m2
 
 # Gerber jobs
-gerbers_carrier:
+production_carrier:
   stage: production
   <<: *env_template
-  needs: ["drc_carrier"]
+  needs:
+    - drc_carrier
   rules:
     - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "main"'
-      when: on_success
-    - when: never
   script:
     - make gerbers_carrier
     - make pdfs_carrier
@@ -45,14 +48,13 @@ gerbers_carrier:
       - ./Carrier/pdfs/
     expire_in: 1 month
 
-gerbers_m2:
+production_m2:
   stage: production
   <<: *env_template
-  needs: ["drc_m2"]
+  needs:
+    - drc_m2
   rules:
     - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "main"'
-      when: on_success
-    - when: never
   script:
     - make gerbers_m2
     - make pdfs_m2
@@ -66,11 +68,10 @@ gerbers_m2:
 schematic_carrier:
   stage: schematic
   <<: *env_template
-  needs: ["gerbers_carrier"]
+  needs:
+    - production_carrier
   rules:
     - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "main"'
-      when: on_success
-    - when: never
   script:
     - make schematic_carrier
   artifacts:
@@ -81,14 +82,67 @@ schematic_carrier:
 schematic_m2:
   stage: schematic
   <<: *env_template
-  needs: ["gerbers_m2"]
+  needs:
+    - production_m2
   rules:
     - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "main"'
-      when: on_success
-    - when: never
   script:
     - make schematic_m2
   artifacts:
     paths:
       - ./M2/pdfs/schematic.pdf
     expire_in: 1 month
+
+# Package job
+package:
+  stage: package
+  image: curlimages/curl:latest
+  dependencies:
+    - production_carrier
+    - production_m2
+    - schematic_carrier
+    - schematic_m2
+  rules:
+    - if: $CI_COMMIT_TAG
+  script:
+    - 'curl --header "JOB-TOKEN: $CI_JOB_TOKEN" --upload-file M2/pdfs/schematic.pdf "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/export/$CI_COMMIT_TAG/m2_schematic.pdf"'
+    - 'curl --header "JOB-TOKEN: $CI_JOB_TOKEN" --upload-file Carrier/pdfs/schematic.pdf "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/export/$CI_COMMIT_TAG/carrier_schematic.pdf"'
+    - |
+      tar -czf m2_production.tar.gz M2/production M2/pdfs
+      curl --header "JOB-TOKEN: $CI_JOB_TOKEN" \
+           --upload-file m2_production.tar.gz \
+           "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/m2_production/${CI_COMMIT_TAG}/m2_production.tar.gz"
+    - |
+      tar -czf carrier_production.tar.gz Carrier/production Carrier/pdfs
+      curl --header "JOB-TOKEN: $CI_JOB_TOKEN" \
+           --upload-file carrier_production.tar.gz \
+           "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/carrier_production/${CI_COMMIT_TAG}/carrier_production.tar.gz"
+
+# Release job
+release:
+  stage: release
+  image: registry.gitlab.com/gitlab-org/release-cli:latest
+  needs:
+    - package
+  rules:
+    - if: $CI_COMMIT_TAG
+  script:
+    - echo "Running release job for $CI_COMMIT_TAG"
+  release:
+    tag_name: '$CI_COMMIT_TAG'
+    name: '$CI_COMMIT_TAG'
+    description: 'Export for tag: $CI_COMMIT_TAG - $CI_COMMIT_TAG_MESSAGE'
+    assets:
+      links:
+        - name: 'Carrier Production Files'
+          url: '${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/carrier_production/$CI_COMMIT_TAG/carrier_production.tar.gz'
+          link_type: 'package'
+        - name: 'M2 Production Files'
+          url: '${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/m2_production/$CI_COMMIT_TAG/m2_production.tar.gz'
+          link_type: 'package'
+        - name: 'Carrier Schematic PDF'
+          url: '${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/schematic/$CI_COMMIT_TAG/carrier_schematic.pdf'
+          link_type: 'package'
+        - name: 'M2 Schematic PDF'
+          url: '${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/schematic/$CI_COMMIT_TAG/m2_schematic.pdf'
+          link_type: 'package'
