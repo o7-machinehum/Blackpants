@@ -1,4 +1,3 @@
-SHELL := /bin/bash
 VENV?=.venv
 VENV_ACTIVATE=. $(VENV)/bin/activate
 PIP=$(VENV)/bin/pip
@@ -6,7 +5,7 @@ PIP=$(VENV)/bin/pip
 .ONESHELL:
 
 prepare:
-	python3 -m venv --system-site-packages .venv
+	python -m venv --system-site-packages .venv
 	$(VENV_ACTIVATE)
 	$(PIP) install --quiet kikit
 remove_env:

@@ -11,22 +11,8 @@ stages:
   - production
   - schematic
 
-# Cache configuration
-.cache_template: &cache_template
-  cache:
-    key: pycache
-    paths:
-      - .venv
-    policy: pull-push
-
-
 .env_template: &env_template
-  image: kicad/kicad:9.0
-  <<: *cache_template
-  before_script:
-    - apt-get -qq update -o APT::Get::List-Cleanup="0"
-    - apt-get -qq install -y python3-venv python3-pip make &> /dev/null
-    - make prepare
+  image: registry.gitlab.com/why2025/team-badge/hardware:latest
 
 # DRC jobs
 drc_carrier:
