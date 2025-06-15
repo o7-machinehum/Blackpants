@@ -28,11 +28,11 @@ pdfs_carrier:
 # M2 board
 drc_m2:
 	[ -d ".venv" ] && $(VENV_ACTIVATE); \
-	kikit drc run ./M2/P4_M.2_B+M-key.kicad_pcb
+	kikit drc run ./M2/badgeM2Card.kicad_pcb
 gerbers_m2:
 	[ -d ".venv" ] && $(VENV_ACTIVATE); \
-	kikit fab jlcpcb --assembly --schematic M2/P4_M.2_B+M-key.kicad_sch M2/P4_M.2_B+M-key.kicad_pcb M2/production
+	kikit fab jlcpcb --assembly --schematic M2/badgeM2Card.kicad_sch M2/badgeM2Card.kicad_pcb M2/production
 schematic_m2:
-	kicad-cli sch export pdf --output M2/pdfs/schematic.pdf M2/P4_M.2_B+M-key.kicad_sch
+	kicad-cli sch export pdf --output M2/pdfs/schematic.pdf M2/badgeM2Card.kicad_sch
 pdfs_m2:
-	kicad-cli pcb export pdf --mode-separate --output M2/pdfs M2/P4_M.2_B+M-key.kicad_pcb -l "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,Edge.Cuts,F.Fab,B.Fab"
+	kicad-cli pcb export pdf --mode-separate --output M2/pdfs M2/badgeM2Card.kicad_pcb -l "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,Edge.Cuts,F.Fab,B.Fab"

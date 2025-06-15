@@ -2,9 +2,9 @@
 # Format documentation: https://kicad.org/help/file-formats/
 
 # Temporary files
-*.000
-*.bak
-*.bck
+**/*.000
+**/*.bak
+**/*.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
 *-backups
