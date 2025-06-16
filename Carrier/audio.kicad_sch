@@ -1590,7 +1590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "badge:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 137.16 66.04 0)
 			(effects
 				(font
@@ -1625,7 +1625,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C160402"
+		(property "LCSC" "C295747"
 			(at 137.16 60.96 0)
 			(effects
 				(font
