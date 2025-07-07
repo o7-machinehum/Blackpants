@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "frontpanel")(type "KiCad")(uri "${KIPRJMOD}/frontpanel.kicad_sym")(options "")(descr ""))
+)
