@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "PCA9698DGG"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-02-05-10:25:37)
+    (mountForm default
+        (footprintRef "SOP50P810X120-56N")
+        (spec "System")
+    )
+)

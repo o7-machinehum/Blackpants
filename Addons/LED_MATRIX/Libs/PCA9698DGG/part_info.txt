@@ -1,0 +1,9 @@
+Manufacturer=NXP
+PartNumber=PCA9698DGG
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=56
+Version=1.1
+Released=2025-02-05 10:25:37
+Downloaded=2025-07-16 14:07:42
+3D=Y

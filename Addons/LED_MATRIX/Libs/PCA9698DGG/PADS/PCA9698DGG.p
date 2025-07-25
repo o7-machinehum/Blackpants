@@ -1,0 +1,75 @@
+*PADS-LIBRARY-PART-TYPES-V9*
+
+PCA9698DGG SOP50P810X120-56N I ANA 9 1 0 0 0
+TIMESTAMP 2025.07.16.14.07.42
+"Manufacturer_Name" NXP
+"Manufacturer_Part_Number" PCA9698DGG
+"Mouser Part Number" 771-PCA9698DGG
+"Mouser Price/Stock" https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PCA9698DGG?qs=KBAwV6Cvgt2rmRSY%2F7ErlQ%3D%3D
+"Arrow Part Number" 
+"Arrow Price/Stock" 
+"Description" Dispositifs d'extension E/S 40 I2C 1 MHz 56-TSSOP, I2C, 2,3V ~ 5,5V, -40C ~ 85C
+"Datasheet Link" https://www.nxp.com/docs/en/data-sheet/PCA9698.pdf
+"Geometry.Height" 1.2mm
+GATE 1 56 0
+PCA9698DGG
+1 0 U SDA
+2 0 U SCL
+3 0 U IO0_0
+4 0 U IO0_1
+5 0 U IO0_2
+6 0 U VSS_1
+7 0 U IO0_3
+8 0 U IO0_4
+9 0 U IO0_5
+10 0 U IO0_6
+11 0 U VSS_2
+12 0 U IO0_7
+13 0 U IO1_0
+14 0 U IO1_1
+15 0 U IO1_2
+16 0 U IO1_3
+17 0 U IO1_4
+18 0 U VDD_1
+19 0 U IO1_5
+20 0 U IO1_6
+21 0 U IO1_7
+22 0 U IO2_0
+23 0 U VSS_3
+24 0 U IO2_1
+25 0 U IO2_2
+26 0 U IO2_3
+27 0 U AD0
+28 0 U AD1
+56 0 U \RESET
+55 0 U \INT\/\SMBALERT
+54 0 U IO4_7
+53 0 U IO4_6
+52 0 U IO4_5
+51 0 U VSS_6
+50 0 U IO4_4
+49 0 U IO4_3
+48 0 U IO4_2
+47 0 U IO4_1
+46 0 U VDD_2
+45 0 U IO4_0
+44 0 U IO3_7
+43 0 U IO3_6
+42 0 U IO3_5
+41 0 U IO3_4
+40 0 U IO3_3
+39 0 U VSS_5
+38 0 U IO3_2
+37 0 U IO3_1
+36 0 U IO3_0
+35 0 U IO2_7
+34 0 U VSS_4
+33 0 U IO2_6
+32 0 U IO2_5
+31 0 U IO2_4
+30 0 U \OE
+29 0 U AD2
+
+*END*
+*REMARK* SamacSys ECAD Model
+12028214/92569/2.50/56/3/Integrated Circuit

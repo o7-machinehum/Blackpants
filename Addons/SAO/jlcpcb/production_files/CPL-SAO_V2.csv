@@ -1,0 +1,12 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100nF,C_0805_2012Metric,48.32,-152.88,0.0,top
+C2,100nF,C_0805_2012Metric,121.73,-152.88,0.0,top
+D1,WS2812,LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm,48.27,-141.74,0.0,top
+D2,WS2812,LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm,48.27,-148.36,0.0,top
+D3,WS2812,LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm,121.73,-141.76,0.0,top
+D4,WS2812,LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm,121.73,-148.38,0.0,top
+J1,Conn_02x03,PinHeader_2x03_P2.54mm_Vertical,64.11,-143.185,90.0,top
+J2,Conn_02x03,PinHeader_2x03_P2.54mm_Vertical,84.98,-143.185,90.0,top
+J3,Conn_02x03,PinHeader_2x03_P2.54mm_Vertical,105.85,-143.185,90.0,top
+J5,Conn_01x10_Pin,PinHeader_1x10_P2.54mm_Horizontal,98.9,-151.0,-90.0,top
+J6,Conn_01x08_Pin,PinHeader_1x08_P2.54mm_Horizontal,68.42,-151.0,-90.0,top
