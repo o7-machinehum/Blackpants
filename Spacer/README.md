@@ -4,9 +4,10 @@ In this folder you can find the files for the spacer production of the WHY2025 b
 
 ## 3D Printing
 
-The STL file can be 3D-printed. For best fit, set the layer height to **0.1 mm**.
+The STL files can be 3D-printed. 
+For best fit, set the layer height to **0.1 mm**.
 
-There is also a two part design. This version has one part (top) that is 3mm thick and part two (bottom) which is 2.5mm for better keyboard key protrusion. 
+There is also a two part design. This design has two parts. Part p1 (bottom) is 2.5mm thick for better keyboard key protrusion. Part p2 (top) is 3mm for display clearance. 
 
 ## Laser Cutting
 
