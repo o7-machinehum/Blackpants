@@ -43295,7 +43295,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c46ee67c-1aef-434b-a173-60552ea98635")
 		(property "Reference" "#PWR033"
 			(at 54.61 76.2 0)
@@ -43306,12 +43305,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VFALSH"
-			(at 54.61 67.31 0)
+		(property "Value" "VFLASH"
+			(at 51.562 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

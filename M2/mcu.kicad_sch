@@ -59382,7 +59382,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "36581419-472f-454a-9c0c-4c13c42bc7c2")
 		(property "Reference" "#PWR039"
 			(at 237.49 109.22 0)
@@ -59393,12 +59392,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VFALSH"
-			(at 237.49 100.33 0)
+		(property "Value" "VFLASH"
+			(at 233.68 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -60633,7 +60633,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9a948509-3bcd-4283-a8ff-b4593698f192")
 		(property "Reference" "#PWR036"
 			(at 220.98 76.2 0)
@@ -60644,12 +60643,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VFALSH"
-			(at 220.98 67.31 0)
+		(property "Value" "VFLASH"
+			(at 217.678 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
