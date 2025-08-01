@@ -31,6 +31,10 @@ Open Hardware: All schematics are available under the MIT license.
 We’ll be posting more updates soon as we get closer to **WHY2025**. For now,
 keep an eye on our channels and follow the progress as we bring this badge to life and into your hands.
 
+Join our Hub:
+https://discord.gg/B6tAFkMD
+t.me/TeamBadgeWHY2025
+
 With hacker spirit and warm regards,
 
 Team:Badge
