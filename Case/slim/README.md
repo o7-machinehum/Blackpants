@@ -16,3 +16,12 @@ The case is designed to be printed upright with a 0.4mm nozzle on an FDM printer
 The case uses M2 mounting hardware. 4x M2 brass heat set inserts and optionally 2 more for the 2 piece version to connect the two pieces together. The badge mounts to the case with 4x M2x12mm screws and optionally 2x M2x8 for connecting the two parts.
 
 The wall thickness is pretty thin, so be careful when inserting the heat set inserts and don't use too much heat, as that will make it difficult to keep them aligned correctly.
+
+## Files
+
+Single piece:
+- case-slim-full.stl
+
+Two piece:
+- case-slim-top.stl
+- case-slim-bottom.stl
