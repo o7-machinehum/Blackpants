@@ -662,7 +662,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "badgeCarrierCard.step",
       "svg": "",
       "vrml": ""
     },
@@ -1017,36 +1017,8 @@
       "Keyboard"
     ],
     [
-      "93143b63-e823-4472-a775-46eedf4a359b",
-      "Connectivity (C6 + LoRa)"
-    ],
-    [
-      "0ca331ed-f277-4563-842c-bfb5db5dc3de",
-      "LoRa"
-    ],
-    [
-      "1f1b73cc-ee3c-4efe-b2e7-f9ba085b98af",
-      "Audio"
-    ],
-    [
       "bde3e5bf-8f05-407f-8448-d7dad1501e9c",
       "Display"
-    ],
-    [
-      "aa00100b-901b-48d3-a681-a2e81101d23a",
-      "BME690"
-    ],
-    [
-      "093ba6d9-47f5-4b77-bc0b-828e29f6c921",
-      "BMI270"
-    ],
-    [
-      "361d2122-c160-455f-a36f-9518f945f7e5",
-      "Camera"
-    ],
-    [
-      "3da72601-8938-4d1d-b10f-037809af72fe",
-      "Vibrator"
     ]
   ],
   "text_variables": {}
