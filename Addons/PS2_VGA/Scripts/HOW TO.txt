@@ -1,9 +1,0 @@
-import os
-
-# Optioneel: verander folder
-os.chdir(r"C:\Users\Invoer\Downloads")
-
-# Open, compile en exec in één statement
-with open("stitch_gnd_inward.py") as f:
-    code = compile(f.read(), "stitch_gnd_inward.py", "exec")
-    exec(code)

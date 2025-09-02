@@ -1,6 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "M.2-EDGE-CONN")(type "KiCad")(uri "${KIPRJMOD}/libs/M.2-EDGE-CONN/M.2-EDGE-CONN.kicad_sym")(options "")(descr "Custom symbol library for WHY2025 Badge M.2 module edge connector"))
-  (lib (name "ESP32-P4NRW16")(type "KiCad")(uri "${KIPRJMOD}/libs/ESP32-P4NRW16/ESP32-P4NRW16.kicad_sym")(options "")(descr "Custom symbol library for WHY2025 Badge MCU"))
-  (lib (name "custom_symbols")(type "KiCad")(uri "${KIPRJMOD}/libs/custom_symbols.kicad_sym")(options "")(descr "All other custom symbols"))
-)

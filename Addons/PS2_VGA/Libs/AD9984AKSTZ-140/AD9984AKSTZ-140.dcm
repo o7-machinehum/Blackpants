@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP AD9984AKSTZ-140
-D Analog Devices AD9984AKSTZ-140, Triple 10 bit Video ADC 140Msps Serial 1.8 V, 80-Pin LQFP
-K
-F https://www.analog.com/media/en/technical-documentation/data-sheets/AD9984A.pdf
-$ENDCMP
-#
-#End Doc Library
