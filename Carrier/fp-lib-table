@@ -20,4 +20,5 @@
   (lib (name "SMA-J-P-X-RA-TH1")(type "KiCad")(uri "${KIPRJMOD}/libs/SMA-J-P-X-RA-TH1")(options "")(descr ""))
   (lib (name "Z3OC1T8219731")(type "KiCad")(uri "${KIPRJMOD}/libs/Z3OC1T8219731")(options "")(descr ""))
   (lib (name "libs")(type "KiCad")(uri "${KIPRJMOD}/libs")(options "")(descr ""))
+  (lib (name "blackpants")(type "KiCad")(uri "${KIPRJMOD}/blackpants.pretty")(options "")(descr ""))
 )
