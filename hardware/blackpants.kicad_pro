@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.125,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,40 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|112769578|50410422|e4f6ba86-15e2-4b8a-b052-a0a653ffd53c|eaebf4ac-a335-401e-839d-c7b58095dc09",
+          ""
+        ],
+        [
+          "clearance|112890000|49010000|34bceb21-d5f7-4f7b-82fa-dd013afb75df|e069983a-273b-4808-8e12-e3c365fa9ed7",
+          ""
+        ],
+        [
+          "clearance|112890000|49010000|6907782c-558f-49dc-8eec-0bc34f5326f9|e069983a-273b-4808-8e12-e3c365fa9ed7",
+          ""
+        ],
+        [
+          "clearance|112910000|50510000|1f224702-ba9e-4077-987d-8aa47095e438|e4f6ba86-15e2-4b8a-b052-a0a653ffd53c",
+          ""
+        ],
+        [
+          "clearance|112910000|50510000|79afd24d-3547-4956-a869-c4ca0dde3065|e4f6ba86-15e2-4b8a-b052-a0a653ffd53c",
+          ""
+        ],
+        [
+          "clearance|113105000|49755000|e069983a-273b-4808-8e12-e3c365fa9ed7|e4f6ba86-15e2-4b8a-b052-a0a653ffd53c",
+          ""
+        ],
+        [
+          "clearance|113105000|50390000|62e5378d-971e-4493-8098-bde2d104b2ea|e4f6ba86-15e2-4b8a-b052-a0a653ffd53c",
+          ""
+        ],
+        [
+          "courtyards_overlap|105165000|62755000|0aabcf94-0b1b-493b-b629-3b7396b45a67|3f0fc0dc-c391-47e9-ac4c-bc0809c56733",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -488,7 +521,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "badgeCarrierCard.kicad_pro",
+    "filename": "blackpants.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -513,18 +546,26 @@
       },
       {
         "clearance": 0.15,
-        "diff_pair_gap": 0.1,
-        "diff_pair_width": 0.23,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.175,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "90Ω",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(255, 168, 41)",
         "track_width": 0.14,
         "via_diameter": 0.5,
         "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.25
       }
     ],
     "meta": {
@@ -548,6 +589,30 @@
       {
         "netclass": "90Ω",
         "pattern": "*USBUP*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+BATT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "*DSI*"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "*USBSTM*"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "*USB.*"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/Power & USB/D*"
       }
     ]
   },
@@ -851,6 +916,18 @@
           "label": "Arrow Price/Stock",
           "name": "Arrow Price/Stock",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -915,7 +992,7 @@
     ],
     [
       "d2fe0700-5ac0-49f8-be88-fb2ff272cc57",
-      "DSI Bridge"
+      "DSI Bridge and Backlight"
     ],
     [
       "773f8af3-a641-4fcc-9414-9cf290a67b77",

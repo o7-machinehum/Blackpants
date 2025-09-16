@@ -5342,17 +5342,6 @@
 		(uuid "d45dba3e-f21f-4745-ae3a-9e7ee733a2e2")
 	)
 	(fp_circle
-		(center 41.875 24.65)
-		(end 42.525 24.65)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "c45d55c9-4bca-4069-bcd5-da809eb3dc4f")
-	)
-	(fp_circle
 		(center 0 0)
 		(end 1 0)
 		(stroke
