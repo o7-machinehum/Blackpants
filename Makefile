@@ -1,38 +1,37 @@
-VENV?=.venv
-VENV_ACTIVATE=. $(VENV)/bin/activate
-PIP=$(VENV)/bin/pip
-.PHONY: clean prepare drc_carrier gerbers_carrier schematic_carrier drc_m2 gerbers_m2 schematic_m2
+.PHONY: clean prepare drc gerbers schematic pdfs drc_carrier gerbers_carrier schematic_carrier pdfs_carrier drc_m2 gerbers_m2 schematic_m2 pdfs_m2
 .ONESHELL:
 
+# Install dependencies (for local development)
 prepare:
-	python -m venv --system-site-packages .venv
-	$(VENV_ACTIVATE)
-	$(PIP) install --quiet kikit
-remove_env:
-	rm -rf $(VENV)
+	pip3 install --quiet --break-system-packages kikit
+
+# Clean all generated files
 clean:
-	rm -rf Carrier/production M2/production Carrier/pdfs M2/pdfs
+	rm -rf hardware/production hardware/pdfs
 
-# Carrier board
-drc_carrier:
-	[ -d ".venv" ] && $(VENV_ACTIVATE); \
-	kikit drc run ./Carrier/badgeCarrierCard.kicad_pcb
-gerbers_carrier:
-	[ -d ".venv" ] && $(VENV_ACTIVATE); \
-	kikit fab jlcpcb --assembly --schematic Carrier/badgeCarrierCard.kicad_sch Carrier/badgeCarrierCard.kicad_pcb Carrier/production
-schematic_carrier:
-	kicad-cli sch export pdf --output Carrier/pdfs/schematic.pdf Carrier/badgeCarrierCard.kicad_sch
-pdfs_carrier:
-	kicad-cli pcb export pdf --mode-separate --output Carrier/pdfs Carrier/badgeCarrierCard.kicad_pcb -l "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,Edge.Cuts,F.Fab,B.Fab"
+# Blackpants board targets
+drc:
+	mkdir -p hardware/production
+	kikit drc run ./hardware/blackpants.kicad_pcb
 
-# M2 board
-drc_m2:
-	[ -d ".venv" ] && $(VENV_ACTIVATE); \
-	kikit drc run ./M2/badgeM2Card.kicad_pcb
-gerbers_m2:
-	[ -d ".venv" ] && $(VENV_ACTIVATE); \
-	kikit fab jlcpcb --assembly --schematic M2/badgeM2Card.kicad_sch M2/badgeM2Card.kicad_pcb M2/production
-schematic_m2:
-	kicad-cli sch export pdf --output M2/pdfs/schematic.pdf M2/badgeM2Card.kicad_sch
-pdfs_m2:
-	kicad-cli pcb export pdf --mode-separate --output M2/pdfs M2/badgeM2Card.kicad_pcb -l "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,Edge.Cuts,F.Fab,B.Fab"
+gerbers:
+	mkdir -p hardware/production
+	kikit fab jlcpcb --assembly --schematic hardware/blackpants.kicad_sch hardware/blackpants.kicad_pcb hardware/production
+
+schematic:
+	mkdir -p hardware/pdfs
+	kicad-cli sch export pdf --output hardware/pdfs/schematic.pdf hardware/blackpants.kicad_sch
+
+pdfs:
+	mkdir -p hardware/pdfs
+	kicad-cli pcb export pdf --mode-separate --output hardware/pdfs hardware/blackpants.kicad_pcb -l "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,Edge.Cuts,F.Fab,B.Fab"
+
+# Backward compatibility aliases for old target names
+drc_carrier: drc
+gerbers_carrier: gerbers
+schematic_carrier: schematic
+pdfs_carrier: pdfs
+drc_m2: drc
+gerbers_m2: gerbers
+schematic_m2: schematic
+pdfs_m2: pdfs
