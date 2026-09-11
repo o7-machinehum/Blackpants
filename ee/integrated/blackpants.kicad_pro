@@ -1133,7 +1133,40 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "DSI": [
+        "D0P",
+        "D0N",
+        "D1P",
+        "D1N",
+        "CKP",
+        "CKN"
+      ],
+      "I2C": [
+        "SDA",
+        "SCL"
+      ],
+      "SD": [
+        "D0",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "CLK",
+        "CMD",
+        "DET"
+      ],
+      "UART": [
+        "TX",
+        "RX",
+        "~{CTS}",
+        "~{RTS}"
+      ],
+      "USB": [
+        "DP",
+        "DM"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -1207,48 +1240,40 @@
       "Keyboard Backlight"
     ],
     [
-      "d6eb6394-a74a-4677-9332-342ecaceb986",
-      "AXP717C + AXP323"
+      "9fc6e993-a93f-4a27-ab4c-82c8373bc14c",
+      "A523 Analog straps"
     ],
     [
-      "e223640c-1a02-512a-ae27-53dfaf7b0164",
-      "Main buck rails"
+      "ca7f1ede-bfe3-4320-ac3b-158143318265",
+      "AXP 323 CPU big"
     ],
     [
-      "e5a5f6ff-b60a-5376-83a3-cf65ce830173",
-      "CPU big / DNR"
+      "74aefb6b-22f7-464a-acfc-0eeb94202d4d",
+      "AXP717 Charger"
     ],
     [
-      "91029f4c-c0a7-545d-ad9a-65671338935b",
-      "Charger / control"
+      "4d0d9165-2825-4821-9c47-f59b63b9c59d",
+      "AXP717 LDO rails"
     ],
     [
-      "433b05de-45b7-57c5-a0a6-1700ed104d6a",
-      "LDO rails"
+      "bc563ee5-697f-4e97-a452-cd81f10dfc62",
+      "AXP717 Main buck rails"
     ],
     [
-      "b111457e-4551-4228-b804-a08d655d19fb",
-      "SoC support"
+      "32b25898-cfbe-413e-8f74-3cd6f4573351",
+      "A523 CPU bypass"
     ],
     [
-      "0a7049aa-bc2e-5abb-b62f-c8336a43fa06",
-      "Analog / straps"
-    ],
-    [
-      "9354ebe4-6df9-58d3-99f0-bbda43ee6fab",
-      "CPU bypass"
-    ],
-    [
-      "22c7f406-d0ec-5ca5-8355-9e6bc8145037",
-      "Core supplies"
-    ],
-    [
-      "ad8fb905-cd17-5aea-abbf-45325397e121",
+      "8b260498-25cc-4393-afd4-89d717b6a915",
       "Clocks / reset / boot"
     ],
     [
-      "0c696df4-4a7a-5912-b05b-3e5bcaf8e5df",
-      "Ground balls"
+      "9e62f75d-1ef9-410d-8905-239e1ec52210",
+      "A523 Core supplies"
+    ],
+    [
+      "2386ae3b-a384-4130-94d2-6887edb229e3",
+      "A523 Ground balls"
     ],
     [
       "988d3614-be63-4fa1-a3b5-9d1c0e9caf0a",
@@ -1268,7 +1293,7 @@
     ],
     [
       "9a57dc4c-c52c-4694-b419-f0eeecdbb748",
-      "Display DSI"
+      "A523 Display DSI"
     ],
     [
       "a7b22cbc-e70a-423a-bb17-e71e818a4631",
@@ -1284,7 +1309,7 @@
     ],
     [
       "7b29c749-8ab5-43b5-aee9-52b112811e58",
-      "Wi-Fi / Bluetooth1"
+      "A523 Wifi and BT"
     ],
     [
       "0134fef5-63c6-4538-976a-0ec6010a805b",
@@ -1304,7 +1329,7 @@
     ],
     [
       "782932e8-afcb-4ff4-98ef-9137d0d08286",
-      "Wi-Fi / Bluetooth"
+      "RTL8723DS"
     ],
     [
       "1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d",

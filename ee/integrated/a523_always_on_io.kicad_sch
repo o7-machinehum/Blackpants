@@ -11259,6 +11259,42 @@
 		(at 114.3 88.9)
 		(uuid "f7ca7544-364e-5e32-8f3b-c93e3dfd07df")
 	)
+	(bus_entry
+		(at 132.08 38.1)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59636731-c4b8-42d2-9bec-67e9f3304488")
+	)
+	(bus_entry
+		(at 132.08 35.56)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6830fc9d-ab22-4bdc-842e-539729160912")
+	)
+	(bus_entry
+		(at 132.08 35.56)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc8c9eac-4753-4b74-b7fd-3bfae5493e0a")
+	)
+	(bus_entry
+		(at 132.08 38.1)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c878240a-4805-43d7-bbbb-56c9678fc01b")
+	)
 	(wire
 		(pts
 			(xy 177.8 53.34) (xy 177.8 54.61)
@@ -11301,7 +11337,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 40.64) (xy 119.38 40.64)
+			(xy 114.3 40.64) (xy 129.54 40.64)
 		)
 		(stroke
 			(width 0)
@@ -11349,6 +11385,16 @@
 		)
 		(uuid "78e16264-d78d-5e70-aa0d-19e9b7235983")
 	)
+	(bus
+		(pts
+			(xy 132.08 38.1) (xy 132.08 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d730241-6e6f-4a6b-aa15-7556e5849936")
+	)
 	(wire
 		(pts
 			(xy 228.6 53.34) (xy 228.6 54.61)
@@ -11361,7 +11407,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 38.1) (xy 119.38 38.1)
+			(xy 114.3 38.1) (xy 129.54 38.1)
 		)
 		(stroke
 			(width 0)
@@ -11409,27 +11455,46 @@
 		)
 		(uuid "ed12d03d-af85-5235-b601-8f0e3d81cf2a")
 	)
-	(hierarchical_label "PMU_SCL"
-		(shape bidirectional)
+	(bus
+		(pts
+			(xy 132.08 33.02) (xy 134.62 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f618811f-f525-486e-a36b-0aaad4b16a82")
+	)
+	(label "PMU.SCL"
 		(at 119.38 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "74baf541-8b68-5afe-af7b-053eec9f4f9e")
+		(uuid "5f1a3287-f75e-4940-95b6-b07b0da65218")
 	)
-	(hierarchical_label "PMU_SDA"
-		(shape bidirectional)
+	(label "PMU.SDA"
 		(at 119.38 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b64245e8-90f7-4283-8565-43f7bd2d537a")
+	)
+	(hierarchical_label "PMU{I2C}"
+		(shape bidirectional)
+		(at 134.62 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "f0e6257b-cad4-59a5-83bb-505ce5e45568")
+		(uuid "01f2575d-65cd-4c46-9043-4ba7c4258ad2")
 	)
 	(symbol
 		(lib_id "A523Power:VCC_PL")

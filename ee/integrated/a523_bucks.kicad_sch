@@ -2180,6 +2180,18 @@
 		(uuid "e1106921-76b3-5854-a4ef-a7f12ffb3468")
 	)
 	(junction
+		(at 139.7 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f474b12-1b34-4934-a3a3-1a3a972d6326")
+	)
+	(junction
+		(at 139.7 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16601587-1a87-4321-8ae7-e99e3eb7c184")
+	)
+	(junction
 		(at 154.94 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2202,6 +2214,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94893c97-bf34-5ac1-91dc-74e232750a37")
+	)
+	(junction
+		(at 139.7 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d9b8729-9be9-4f5d-bc29-a0c0c17d2b64")
 	)
 	(junction
 		(at 40.64 30.48)
@@ -2229,7 +2247,27 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 35.56) (xy 30.48 36.83)
+			(xy 30.48 60.96) (xy 30.48 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0330a866-ff65-46e0-a200-be71d081c91c")
+	)
+	(wire
+		(pts
+			(xy 154.94 33.02) (xy 154.94 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b6dc6d-ea4a-4b38-8294-e12ac03e8920")
+	)
+	(wire
+		(pts
+			(xy 30.48 36.83) (xy 30.48 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2246,6 +2284,36 @@
 			(type default)
 		)
 		(uuid "31257edc-8c2a-5da3-9826-8ac63e630e25")
+	)
+	(wire
+		(pts
+			(xy 175.26 63.5) (xy 175.26 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d3252c-886c-4b5d-8ae9-d9fe771faaa3")
+	)
+	(wire
+		(pts
+			(xy 154.94 91.44) (xy 139.7 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3652cea1-c110-44ee-8d1b-904ee12139eb")
+	)
+	(wire
+		(pts
+			(xy 154.94 93.98) (xy 154.94 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "394907a4-9f34-4483-9620-acb4e67b1cf0")
 	)
 	(wire
 		(pts
@@ -2269,17 +2337,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 30.48) (xy 154.94 30.48)
+			(xy 30.48 30.48) (xy 30.48 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47735219-ad56-5cc8-827b-adc7c9eb82cc")
+		(uuid "48329a95-6d46-4e89-a081-c7027ac14958")
 	)
 	(wire
 		(pts
-			(xy 30.48 66.04) (xy 30.48 67.31)
+			(xy 30.48 67.31) (xy 30.48 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2329,13 +2397,23 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 96.52) (xy 154.94 97.79)
+			(xy 154.94 99.06) (xy 154.94 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5a5630fd-7e83-5641-bf12-f30884cd87c8")
+	)
+	(wire
+		(pts
+			(xy 139.7 30.48) (xy 154.94 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7e45a8-0720-44ad-b3fc-7e15768bbdde")
 	)
 	(wire
 		(pts
@@ -2359,16 +2437,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 60.96) (xy 175.26 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c01ae0e-65e0-584f-8b8f-0191b0c2e63e")
-	)
-	(wire
-		(pts
 			(xy 40.64 60.96) (xy 40.64 55.88)
 		)
 		(stroke
@@ -2376,6 +2444,36 @@
 			(type default)
 		)
 		(uuid "82b817d2-d278-536c-98e9-5b2f1758279e")
+	)
+	(wire
+		(pts
+			(xy 139.7 58.42) (xy 139.7 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b0b05f-0808-4c66-9196-b521b4f8c889")
+	)
+	(wire
+		(pts
+			(xy 139.7 27.94) (xy 139.7 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d7092e9-c9db-4e62-936a-ae3a3791fd7b")
+	)
+	(wire
+		(pts
+			(xy 154.94 63.5) (xy 154.94 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91673e7a-9ddc-4caa-9154-00be84c108d5")
 	)
 	(wire
 		(pts
@@ -2389,13 +2487,23 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 35.56) (xy 154.94 36.83)
+			(xy 154.94 38.1) (xy 154.94 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a0041306-0096-5135-865c-658ce214c241")
+	)
+	(wire
+		(pts
+			(xy 139.7 60.96) (xy 154.94 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d4f400-940d-4dd6-a871-c73b5e3e8eec")
 	)
 	(wire
 		(pts
@@ -2409,7 +2517,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 66.04) (xy 154.94 67.31)
+			(xy 154.94 68.58) (xy 154.94 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2429,6 +2537,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 91.44) (xy 30.48 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b58897c0-40b6-4908-992e-e57cb6f53c23")
+	)
+	(wire
+		(pts
 			(xy 40.64 91.44) (xy 40.64 86.36)
 		)
 		(stroke
@@ -2439,7 +2557,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 96.52) (xy 30.48 97.79)
+			(xy 30.48 97.79) (xy 30.48 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2479,23 +2597,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 91.44) (xy 154.94 91.44)
+			(xy 139.7 88.9) (xy 139.7 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "debc6249-34af-5132-95e5-1b86060f63a9")
-	)
-	(wire
-		(pts
-			(xy 139.7 60.96) (xy 154.94 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df77d6f1-ee26-5e98-bf23-d253dd501b5c")
+		(uuid "dc9aecfe-5bbe-4455-8026-5e8ac17f1e5b")
 	)
 	(wire
 		(pts
@@ -2509,7 +2617,17 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 66.04) (xy 175.26 67.31)
+			(xy 175.26 60.96) (xy 154.94 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4bd53f8-c4ad-4983-b1ed-ce98785c6c5c")
+	)
+	(wire
+		(pts
+			(xy 175.26 68.58) (xy 175.26 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2552,7 +2670,7 @@
 	)
 	(symbol
 		(lib_id "A523Power:VDD_CPUL")
-		(at 139.7 30.48 0)
+		(at 139.7 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2562,7 +2680,7 @@
 		(dnp no)
 		(uuid "008a8d2a-7511-5e7e-8895-fb523f714215")
 		(property "Reference" "#PWR0890959381"
-			(at 139.7 30.48 0)
+			(at 139.7 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2573,7 +2691,7 @@
 			)
 		)
 		(property "Value" "VDD_CPUL"
-			(at 139.7 26.67 0)
+			(at 139.7 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2583,7 +2701,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 30.48 0)
+			(at 139.7 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2593,7 +2711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 30.48 0)
+			(at 139.7 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2603,7 +2721,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 30.48 0)
+			(at 139.7 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2613,11 +2731,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "95a78395-435e-45a4-a8d4-268984d13d15")
+			(uuid "aef1e959-4a07-403e-9e32-db66012ef28b")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "#PWR0890959381")
 					(unit 1)
 				)
@@ -2626,7 +2744,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 175.26 63.5 0)
+		(at 175.26 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2636,7 +2754,7 @@
 		(dnp no)
 		(uuid "07039b9a-c37f-5ca5-bd23-d29c0d12e344")
 		(property "Reference" "C517"
-			(at 179.07 62.23 0)
+			(at 179.07 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2647,7 +2765,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 179.07 64.77 0)
+			(at 179.07 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2658,7 +2776,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 179.07 64.77 0)
+			(at 179.07 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2670,7 +2788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 64.77 0)
+			(at 179.07 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2682,7 +2800,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 179.07 64.77 0)
+			(at 179.07 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2694,7 +2812,7 @@
 			)
 		)
 		(property "ki_keywords" "capacitor cap"
-			(at 179.07 64.77 0)
+			(at 179.07 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2706,7 +2824,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 179.07 64.77 0)
+			(at 179.07 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2718,7 +2836,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 179.07 64.77 0)
+			(at 179.07 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2730,7 +2848,7 @@
 			)
 		)
 		(property "Dielectric" "X5R/X7R"
-			(at 179.07 64.77 0)
+			(at 179.07 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2742,14 +2860,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "8fc509b1-b191-4b51-bd3c-f5e0255933a7")
+			(uuid "d91b12ae-bb00-415e-bc90-a1b17128933d")
 		)
 		(pin "2"
-			(uuid "f474dcd4-1f39-45d2-8644-302da8af2202")
+			(uuid "8a287d0f-cb4a-4d60-8cfc-3f260894ed69")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "C517")
 					(unit 1)
 				)
@@ -2758,7 +2876,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 36.83 0)
+		(at 154.94 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2768,7 +2886,7 @@
 		(dnp no)
 		(uuid "0a24643d-80db-5f35-b57f-0653a3083d14")
 		(property "Reference" "#PWR093593876"
-			(at 154.94 36.83 0)
+			(at 154.94 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2779,7 +2897,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 40.64 0)
+			(at 154.94 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2790,7 +2908,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 36.83 0)
+			(at 154.94 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2800,7 +2918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 36.83 0)
+			(at 154.94 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2810,7 +2928,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 36.83 0)
+			(at 154.94 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2820,11 +2938,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "378bbc4b-4d4f-40d8-99ea-127b7a158e3f")
+			(uuid "448a90f8-c188-482f-9c9b-361614c956d9")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "#PWR093593876")
 					(unit 1)
 				)
@@ -2909,11 +3027,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "a4438d7f-f478-411f-ac01-c3adfeb3fda0")
+			(uuid "77aacdd5-f34d-46ff-8925-1974e79f3129")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "#FLG0503")
 					(unit 1)
 				)
@@ -2922,7 +3040,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 67.31 0)
+		(at 30.48 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2932,7 +3050,7 @@
 		(dnp no)
 		(uuid "21140f54-7c26-5055-82ec-e85c4cee4d8e")
 		(property "Reference" "#PWR0297227662"
-			(at 30.48 67.31 0)
+			(at 30.48 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2943,7 +3061,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 71.12 0)
+			(at 30.48 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2954,7 +3072,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 67.31 0)
+			(at 30.48 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2964,7 +3082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 67.31 0)
+			(at 30.48 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2974,7 +3092,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 67.31 0)
+			(at 30.48 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2984,11 +3102,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "a03643e8-9531-4af7-a653-00238fc831ac")
+			(uuid "db52c651-079d-4100-859f-0841717367bf")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "#PWR0297227662")
 					(unit 1)
 				)
@@ -2997,7 +3115,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 154.94 33.02 0)
+		(at 154.94 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3007,7 +3125,7 @@
 		(dnp no)
 		(uuid "21b4c943-16b4-541a-a49e-3e62ca4b15e1")
 		(property "Reference" "C514"
-			(at 158.75 31.75 0)
+			(at 158.75 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3018,7 +3136,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 158.75 34.29 0)
+			(at 158.75 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3029,7 +3147,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 158.75 34.29 0)
+			(at 158.75 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3041,7 +3159,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 34.29 0)
+			(at 158.75 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3053,7 +3171,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 158.75 34.29 0)
+			(at 158.75 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3065,7 +3183,7 @@
 			)
 		)
 		(property "ki_keywords" "capacitor cap"
-			(at 158.75 34.29 0)
+			(at 158.75 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3077,7 +3195,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 158.75 34.29 0)
+			(at 158.75 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3089,7 +3207,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 158.75 34.29 0)
+			(at 158.75 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3101,7 +3219,7 @@
 			)
 		)
 		(property "Dielectric" "X5R/X7R"
-			(at 158.75 34.29 0)
+			(at 158.75 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3113,14 +3231,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a820b25-db07-4bf8-a8be-771a125e3290")
+			(uuid "d4245ebc-e2a0-402b-8df8-75f689f60e48")
 		)
 		(pin "2"
-			(uuid "fb838b9a-da9e-4649-89d3-f9602686c0b3")
+			(uuid "6b8842ff-b4dc-4a85-a8f8-bfd5545b25f2")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "C514")
 					(unit 1)
 				)
@@ -3129,7 +3247,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 30.48 63.5 0)
+		(at 30.48 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3139,7 +3257,7 @@
 		(dnp no)
 		(uuid "22444c87-1730-51da-9bbc-2b8d33c388bc")
 		(property "Reference" "C512"
-			(at 34.29 62.23 0)
+			(at 34.29 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3150,7 +3268,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 34.29 64.77 0)
+			(at 34.29 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3161,7 +3279,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 34.29 64.77 0)
+			(at 34.29 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3173,7 +3291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 64.77 0)
+			(at 34.29 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3185,7 +3303,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 34.29 64.77 0)
+			(at 34.29 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3197,7 +3315,7 @@
 			)
 		)
 		(property "ki_keywords" "capacitor cap"
-			(at 34.29 64.77 0)
+			(at 34.29 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3209,7 +3327,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 34.29 64.77 0)
+			(at 34.29 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3221,7 +3339,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 34.29 64.77 0)
+			(at 34.29 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3233,7 +3351,7 @@
 			)
 		)
 		(property "Dielectric" "X5R/X7R"
-			(at 34.29 64.77 0)
+			(at 34.29 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3245,14 +3363,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c270dea-f39e-4dd1-8bde-7c55b9151d9b")
+			(uuid "2ceb1f3d-d922-4cb4-a856-94d3bebac97e")
 		)
 		(pin "2"
-			(uuid "513058df-fcba-4e92-bf60-dbc57e6f0de8")
+			(uuid "5329c9b6-1e1f-40f0-b6de-3b7fce15efd8")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "C512")
 					(unit 1)
 				)
@@ -3261,7 +3379,7 @@
 	)
 	(symbol
 		(lib_id "A523Power:VCC_DRAM")
-		(at 139.7 91.44 0)
+		(at 139.7 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3271,7 +3389,7 @@
 		(dnp no)
 		(uuid "464fdb6a-1646-5c2b-bfcb-4554959254b8")
 		(property "Reference" "#PWR0473339576"
-			(at 139.7 91.44 0)
+			(at 139.7 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3282,7 +3400,7 @@
 			)
 		)
 		(property "Value" "VCC_DRAM"
-			(at 139.7 87.63 0)
+			(at 139.7 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3292,7 +3410,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 91.44 0)
+			(at 139.7 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3302,7 +3420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 91.44 0)
+			(at 139.7 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3312,7 +3430,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 91.44 0)
+			(at 139.7 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3322,11 +3440,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "27e0d424-b148-4b68-b1c3-a47c1c693a3f")
+			(uuid "f3d287e8-5d58-4f10-b0c4-6f0c7ebd3972")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "#PWR0473339576")
 					(unit 1)
 				)
@@ -3335,7 +3453,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 67.31 0)
+		(at 154.94 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3345,7 +3463,7 @@
 		(dnp no)
 		(uuid "54ca6895-ceee-53d1-9ef6-334183740529")
 		(property "Reference" "#PWR0702486313"
-			(at 154.94 67.31 0)
+			(at 154.94 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3356,7 +3474,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 71.12 0)
+			(at 154.94 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3367,7 +3485,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 67.31 0)
+			(at 154.94 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3377,7 +3495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 67.31 0)
+			(at 154.94 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3387,7 +3505,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 67.31 0)
+			(at 154.94 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3397,11 +3515,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "c9dc0be6-5f24-42d6-826a-226918428f7d")
+			(uuid "0a2e99a8-e1bd-4794-94ef-ec4bf5ced808")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "#PWR0702486313")
 					(unit 1)
 				)
@@ -3410,7 +3528,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 97.79 0)
+		(at 30.48 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3420,7 +3538,7 @@
 		(dnp no)
 		(uuid "577f85dd-bd22-5386-b83e-f32baca6a345")
 		(property "Reference" "#PWR0831823685"
-			(at 30.48 97.79 0)
+			(at 30.48 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3431,7 +3549,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 101.6 0)
+			(at 30.48 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3442,7 +3560,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 97.79 0)
+			(at 30.48 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3452,7 +3570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 97.79 0)
+			(at 30.48 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3462,7 +3580,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 97.79 0)
+			(at 30.48 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3472,11 +3590,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "9577a56f-7537-43fb-a313-95d6e5d730a9")
+			(uuid "4da6030e-1cc4-4a60-b101-3a954e15e1f3")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "#PWR0831823685")
 					(unit 1)
 				)
@@ -3548,34 +3666,34 @@
 			)
 		)
 		(pin "9"
-			(uuid "c754e53d-954b-4c1b-b379-fd335c424cab")
+			(uuid "b1dd2fab-8b2c-45b3-b14a-a93b2fe8f1c1")
 		)
 		(pin "32"
-			(uuid "e30fb05e-90d2-467c-9478-534ea2bb0853")
+			(uuid "c27783a1-3ff1-409d-b1af-438555f7c5e7")
 		)
 		(pin "31"
-			(uuid "28d02b8c-9673-4881-8724-b61a3f846816")
+			(uuid "e2c2ac47-befa-48e5-928a-d35728094b8c")
 		)
 		(pin "10"
-			(uuid "fbaac53a-ca0b-46d0-83d6-5ed2e0373304")
+			(uuid "4a3dbaa6-bb7c-4f1a-bf21-ea017e87b46f")
 		)
 		(pin "11"
-			(uuid "3f65d78f-b742-47aa-9a94-1fcd989a5107")
+			(uuid "41d7e39f-8bca-4063-84b9-4c86cc7e5ee1")
 		)
 		(pin "12"
-			(uuid "ab9db087-9c76-4bdc-a223-fbe588de43e3")
+			(uuid "28e39602-7f78-4804-91b2-6a75676351e3")
 		)
 		(pin "33"
-			(uuid "b41b5c38-a16b-4896-9f1b-e54302ea602d")
+			(uuid "f05165fd-85f2-455c-b1e5-57f04bc92e6c")
 		)
 		(pin "34"
-			(uuid "40f5ac18-8484-41ec-88fa-40debd1d8576")
+			(uuid "60a4d50f-b457-4174-9baa-fd254ad2041d")
 		)
 		(pin "30"
-			(uuid "5747aa4c-9a82-4baa-96b1-d6e412b23c57")
+			(uuid "8acd3c3a-d0bd-4cad-9bb5-b25a66b5edca")
 		)
 		(pin "29"
-			(uuid "6194df52-3ecc-4d27-8aa9-5f4e8fd7fa09")
+			(uuid "510facb0-9b7e-48b3-b4a1-df0831cbfa39")
 		)
 		(pin "16"
 			(uuid "3fdb31d2-4db6-4b5c-a873-73a33f5667f7")
@@ -3708,7 +3826,7 @@
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "U501")
 					(unit 2)
 				)
@@ -3727,7 +3845,7 @@
 		(dnp no)
 		(uuid "69fd7a70-8f26-5c1e-9a8b-7a61706ee8e6")
 		(property "Reference" "L501"
-			(at 121.92 26.67 90)
+			(at 121.92 28.194 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3737,7 +3855,7 @@
 			)
 		)
 		(property "Value" "1uH"
-			(at 121.92 34.29 90)
+			(at 121.92 32.258 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3824,14 +3942,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "08ac60e0-0767-4baf-8f46-8dfbf4b5d2c5")
+			(uuid "1a9ded92-243d-48f8-a298-5c7ec2e74789")
 		)
 		(pin "2"
-			(uuid "aa167a41-a9d5-453d-8430-7e36b1982daa")
+			(uuid "d2508d3b-e8f3-4093-801b-ff750b7dbeb2")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "L501")
 					(unit 1)
 				)
@@ -3840,7 +3958,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 97.79 0)
+		(at 154.94 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3850,7 +3968,7 @@
 		(dnp no)
 		(uuid "6ab4a620-454a-5f95-8c09-08b6626b5cca")
 		(property "Reference" "#PWR0581253834"
-			(at 154.94 97.79 0)
+			(at 154.94 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3861,7 +3979,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 101.6 0)
+			(at 154.94 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3872,7 +3990,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 97.79 0)
+			(at 154.94 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3882,7 +4000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 97.79 0)
+			(at 154.94 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3892,7 +4010,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 97.79 0)
+			(at 154.94 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3902,11 +4020,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ccbc038-4417-4050-9b19-0daeec2494c4")
+			(uuid "d40fc4cd-d6b4-4836-b2be-3b3b84730dfd")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "#PWR0581253834")
 					(unit 1)
 				)
@@ -3915,7 +4033,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 67.31 0)
+		(at 175.26 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3925,7 +4043,7 @@
 		(dnp no)
 		(uuid "90e6b007-26de-53b1-b04c-a7c5ede7f38f")
 		(property "Reference" "#PWR041180047"
-			(at 175.26 67.31 0)
+			(at 175.26 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3936,7 +4054,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 71.12 0)
+			(at 175.26 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3947,7 +4065,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 67.31 0)
+			(at 175.26 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3957,7 +4075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 67.31 0)
+			(at 175.26 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3967,7 +4085,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 67.31 0)
+			(at 175.26 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3977,11 +4095,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "fc8465fb-f4a5-4521-a2e5-d31872d1cefe")
+			(uuid "73f655bb-c49c-4dc5-90e3-200304177092")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "#PWR041180047")
 					(unit 1)
 				)
@@ -3990,7 +4108,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 30.48 93.98 0)
+		(at 30.48 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4000,7 +4118,7 @@
 		(dnp no)
 		(uuid "9a53ee92-035b-52d6-be42-1b193064118c")
 		(property "Reference" "C513"
-			(at 34.29 92.71 0)
+			(at 34.29 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4011,7 +4129,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 34.29 95.25 0)
+			(at 34.29 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4022,7 +4140,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 34.29 95.25 0)
+			(at 34.29 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4034,7 +4152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 95.25 0)
+			(at 34.29 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4046,7 +4164,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 34.29 95.25 0)
+			(at 34.29 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4058,7 +4176,7 @@
 			)
 		)
 		(property "ki_keywords" "capacitor cap"
-			(at 34.29 95.25 0)
+			(at 34.29 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4070,7 +4188,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 34.29 95.25 0)
+			(at 34.29 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4082,7 +4200,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 34.29 95.25 0)
+			(at 34.29 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4094,7 +4212,7 @@
 			)
 		)
 		(property "Dielectric" "X5R/X7R"
-			(at 34.29 95.25 0)
+			(at 34.29 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4106,14 +4224,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "c56b30c6-ffc8-4f8f-97f1-479557dc8293")
+			(uuid "e123995e-48cd-48a1-8558-f1c6996050c5")
 		)
 		(pin "2"
-			(uuid "602aa63b-4e94-465d-8a2b-e1d9ae4928ac")
+			(uuid "1135b110-9b5c-4388-bbb3-4a72888f9bcb")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "C513")
 					(unit 1)
 				)
@@ -4183,11 +4301,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "0db03b8d-16ad-4f42-9b9d-7ca71cac5d89")
+			(uuid "42fcb700-0b66-439d-9e53-0851226930a4")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "#PWR0104462234")
 					(unit 1)
 				)
@@ -4272,11 +4390,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "0d4430be-8e50-4d66-af73-cc90c8fedd8d")
+			(uuid "a4fc363d-20b1-4b8e-9cb3-34f710e0f3c0")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "#FLG0502")
 					(unit 1)
 				)
@@ -4285,7 +4403,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 154.94 93.98 0)
+		(at 154.94 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4295,7 +4413,7 @@
 		(dnp no)
 		(uuid "ae487204-21c5-5e10-8761-5cbbbe79ab70")
 		(property "Reference" "C516"
-			(at 158.75 92.71 0)
+			(at 158.75 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4306,7 +4424,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 158.75 95.25 0)
+			(at 158.75 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4317,7 +4435,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 158.75 95.25 0)
+			(at 158.75 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4329,7 +4447,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 95.25 0)
+			(at 158.75 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4341,7 +4459,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 158.75 95.25 0)
+			(at 158.75 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4353,7 +4471,7 @@
 			)
 		)
 		(property "ki_keywords" "capacitor cap"
-			(at 158.75 95.25 0)
+			(at 158.75 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4365,7 +4483,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 158.75 95.25 0)
+			(at 158.75 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4377,7 +4495,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 158.75 95.25 0)
+			(at 158.75 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4389,7 +4507,7 @@
 			)
 		)
 		(property "Dielectric" "X5R/X7R"
-			(at 158.75 95.25 0)
+			(at 158.75 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4401,14 +4519,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "7f64327c-334c-4eb2-acfc-51749338eec6")
+			(uuid "b6f1e790-9ab4-4568-9c54-7dfe05df6255")
 		)
 		(pin "2"
-			(uuid "575035a7-6a04-4171-b808-e6c4414f6836")
+			(uuid "8a8b91f8-f5ff-4321-bf1a-e96ab082035a")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "C516")
 					(unit 1)
 				)
@@ -4478,11 +4596,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "62e80ef5-674a-41cd-ab1c-2d3f6464b324")
+			(uuid "76d490bf-749a-4dd1-991b-db8d8a1be8d8")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "#PWR021405580")
 					(unit 1)
 				)
@@ -4501,7 +4619,7 @@
 		(dnp no)
 		(uuid "b7427f56-4085-5646-9e60-afc5459f0f39")
 		(property "Reference" "L502"
-			(at 121.92 57.15 90)
+			(at 121.92 58.928 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4511,7 +4629,7 @@
 			)
 		)
 		(property "Value" "1uH"
-			(at 121.92 64.77 90)
+			(at 121.92 62.484 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4598,14 +4716,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "233dce19-a3a4-41b4-9af4-45aff4e2e90f")
+			(uuid "98226bae-2cd4-457c-953b-d6eff92be7aa")
 		)
 		(pin "2"
-			(uuid "4b24507e-fcf9-4a05-af37-084256ee0ebe")
+			(uuid "0f8bac03-113b-46a7-a9a7-c5297c55228c")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "L502")
 					(unit 1)
 				)
@@ -4675,11 +4793,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ba1a889-5fbd-401c-a8a6-bb794224a016")
+			(uuid "663dd5e2-9a43-4d2d-a5c4-28e3a78e4cbf")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "#PWR080576561")
 					(unit 1)
 				)
@@ -4698,7 +4816,7 @@
 		(dnp no)
 		(uuid "ca886a58-8051-54ba-8c26-28cb435b951d")
 		(property "Reference" "L503"
-			(at 121.92 87.63 90)
+			(at 121.92 89.408 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4708,7 +4826,7 @@
 			)
 		)
 		(property "Value" "1uH"
-			(at 121.92 95.25 90)
+			(at 121.92 92.964 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4795,14 +4913,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "87bcccae-2c95-41db-919c-d63bfef8941c")
+			(uuid "085b0333-1429-4efe-a6fa-11319be0ada7")
 		)
 		(pin "2"
-			(uuid "bd51fc16-ffe7-4430-93a8-a8e564d8c985")
+			(uuid "284a936b-90d0-48c5-a3bb-b6156abd2768")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "L503")
 					(unit 1)
 				)
@@ -4811,7 +4929,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 154.94 63.5 0)
+		(at 154.94 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4821,7 +4939,7 @@
 		(dnp no)
 		(uuid "d6350eb9-604d-5ca7-8688-318e6f2cfd4c")
 		(property "Reference" "C515"
-			(at 158.75 62.23 0)
+			(at 158.75 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4832,7 +4950,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 158.75 64.77 0)
+			(at 158.75 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4843,7 +4961,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 158.75 64.77 0)
+			(at 158.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4855,7 +4973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 64.77 0)
+			(at 158.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4867,7 +4985,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 158.75 64.77 0)
+			(at 158.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4879,7 +4997,7 @@
 			)
 		)
 		(property "ki_keywords" "capacitor cap"
-			(at 158.75 64.77 0)
+			(at 158.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4891,7 +5009,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 158.75 64.77 0)
+			(at 158.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4903,7 +5021,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 158.75 64.77 0)
+			(at 158.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4915,7 +5033,7 @@
 			)
 		)
 		(property "Dielectric" "X5R/X7R"
-			(at 158.75 64.77 0)
+			(at 158.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4927,14 +5045,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "61a9f90e-74d1-492a-bdeb-98e5bf265289")
+			(uuid "bc49e66f-2d4f-4cbc-9c83-282bce003d96")
 		)
 		(pin "2"
-			(uuid "6df51c5d-0211-400c-8be0-7bd9a43f3e3e")
+			(uuid "bc8ec220-e35c-4a09-8432-eaa75055c76e")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "C515")
 					(unit 1)
 				)
@@ -5019,11 +5137,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "2f345d72-053e-4be8-9306-bcf40a2e0611")
+			(uuid "54ddd8b1-efda-4f23-ba76-aae354e8ef92")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "#FLG0501")
 					(unit 1)
 				)
@@ -5032,7 +5150,7 @@
 	)
 	(symbol
 		(lib_id "A523Power:VDD_SYS")
-		(at 139.7 60.96 0)
+		(at 139.7 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5042,7 +5160,7 @@
 		(dnp no)
 		(uuid "e55ca1a9-3a86-58cf-a984-59e8fb31aecd")
 		(property "Reference" "#PWR0492980429"
-			(at 139.7 60.96 0)
+			(at 139.7 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5053,7 +5171,7 @@
 			)
 		)
 		(property "Value" "VDD_SYS"
-			(at 139.7 57.15 0)
+			(at 139.7 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5063,7 +5181,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 60.96 0)
+			(at 139.7 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5073,7 +5191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 60.96 0)
+			(at 139.7 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5083,7 +5201,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 60.96 0)
+			(at 139.7 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5093,11 +5211,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "6566dc1b-553c-4d32-bbd1-bcde1b26c95a")
+			(uuid "a384402d-f89b-4c68-bd8b-f673fccf9fa2")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "#PWR0492980429")
 					(unit 1)
 				)
@@ -5106,7 +5224,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 36.83 0)
+		(at 30.48 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5116,7 +5234,7 @@
 		(dnp no)
 		(uuid "f3c6acc0-c14d-586b-97da-079f6151531e")
 		(property "Reference" "#PWR0768873246"
-			(at 30.48 36.83 0)
+			(at 30.48 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5127,7 +5245,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 40.64 0)
+			(at 30.48 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5138,7 +5256,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 36.83 0)
+			(at 30.48 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5148,7 +5266,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 36.83 0)
+			(at 30.48 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5158,7 +5276,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 36.83 0)
+			(at 30.48 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5168,11 +5286,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "def99dc7-e8f5-45f5-a18e-77c2f305f086")
+			(uuid "ab11833f-4cf2-49a4-961c-5880e344b7b7")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "#PWR0768873246")
 					(unit 1)
 				)
@@ -5181,7 +5299,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 30.48 33.02 0)
+		(at 30.48 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5191,7 +5309,7 @@
 		(dnp no)
 		(uuid "facaf18b-a218-5eec-8cce-b00665c8f24c")
 		(property "Reference" "C511"
-			(at 34.29 31.75 0)
+			(at 34.29 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5202,7 +5320,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 34.29 34.29 0)
+			(at 34.29 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5213,7 +5331,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 34.29 34.29 0)
+			(at 34.29 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5225,7 +5343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 34.29 0)
+			(at 34.29 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5237,7 +5355,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 34.29 34.29 0)
+			(at 34.29 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5249,7 +5367,7 @@
 			)
 		)
 		(property "ki_keywords" "capacitor cap"
-			(at 34.29 34.29 0)
+			(at 34.29 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5261,7 +5379,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 34.29 34.29 0)
+			(at 34.29 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5273,7 +5391,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 34.29 34.29 0)
+			(at 34.29 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5285,7 +5403,7 @@
 			)
 		)
 		(property "Dielectric" "X5R/X7R"
-			(at 34.29 34.29 0)
+			(at 34.29 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5297,14 +5415,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b9b5fc07-66b4-4d1f-8710-b9114ae42712")
+			(uuid "3d0b88cb-5dac-4d94-afab-6c5b261c0049")
 		)
 		(pin "2"
-			(uuid "2af364e6-677b-447c-9fcb-26650f537d49")
+			(uuid "0c502832-9a72-4f07-a1bc-b06382e568c8")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d6eb6394-a74a-4677-9332-342ecaceb986/e223640c-1a02-512a-ae27-53dfaf7b0164"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/bc563ee5-697f-4e97-a452-cd81f10dfc62"
 					(reference "C511")
 					(unit 1)
 				)
