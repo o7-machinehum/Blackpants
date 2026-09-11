@@ -1,0 +1,725 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "85ae5deb-122b-5aff-b376-e9f9e847e1fb")
+	(paper "A4")
+	(title_block
+		(title "A523 - SoC support")
+		(rev "A523 capture")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 55.88 27.94) (xy 48.26 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "169acf9d-14ce-5a01-96e5-5b974c48914c")
+	)
+	(wire
+		(pts
+			(xy 187.96 30.48) (xy 180.34 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26111a46-1342-5506-9023-37cf9410d4b1")
+	)
+	(wire
+		(pts
+			(xy 187.96 33.02) (xy 180.34 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28d4627e-61ef-5803-a462-afb153ed299a")
+	)
+	(wire
+		(pts
+			(xy 40.64 157.48) (xy 50.8 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28daf406-1d91-5486-9f75-841900f8e5a6")
+	)
+	(wire
+		(pts
+			(xy 40.64 152.4) (xy 50.8 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "303666c1-a73a-56a8-91aa-63cc9676fb03")
+	)
+	(wire
+		(pts
+			(xy 40.64 167.64) (xy 50.8 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5de38d83-31da-5f10-a4f2-f33108e5d387")
+	)
+	(wire
+		(pts
+			(xy 116.84 162.56) (xy 127 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60651c01-9c2a-5ab3-80a5-e844485d47bc")
+	)
+	(wire
+		(pts
+			(xy 55.88 30.48) (xy 48.26 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "702362d1-ac67-50d1-bf39-f3c788d4b1f7")
+	)
+	(wire
+		(pts
+			(xy 55.88 35.56) (xy 48.26 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c755781-27bc-567b-aa95-f11ded1c2f67")
+	)
+	(wire
+		(pts
+			(xy 55.88 33.02) (xy 48.26 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a11c692-3519-537a-af11-dbe8946d2642")
+	)
+	(wire
+		(pts
+			(xy 187.96 27.94) (xy 180.34 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6234289-7ed6-58b3-8e45-fdf689afc2a2")
+	)
+	(wire
+		(pts
+			(xy 116.84 157.48) (xy 127 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f91f3d-7a9c-5713-9ca1-87f2548bbbe2")
+	)
+	(wire
+		(pts
+			(xy 40.64 162.56) (xy 50.8 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba43ab0c-ca36-5c0a-b512-a963068effa9")
+	)
+	(wire
+		(pts
+			(xy 116.84 167.64) (xy 127 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baad644a-3290-51a7-8d29-1187d4275109")
+	)
+	(wire
+		(pts
+			(xy 116.84 152.4) (xy 127 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e7f3d9-b86b-5f9d-a78a-63ad58a4439b")
+	)
+	(wire
+		(pts
+			(xy 187.96 35.56) (xy 180.34 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fabcbab0-daae-5ee0-9be4-3ef37a202e9a")
+	)
+	(label "AP_NMI"
+		(at 50.8 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11cc05f4-e3cf-5cbd-b80d-610a8f0224fe")
+	)
+	(label "FEL_N"
+		(at 180.34 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12a8075d-c27f-5e8b-8d7d-f10b8c4de1e2")
+	)
+	(label "FEL_N"
+		(at 127 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21c4816d-190e-57f9-ab12-31384e646307")
+	)
+	(label "AP_NMI"
+		(at 180.34 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f547a1a-b35e-5e87-bf50-4badc5ca9487")
+	)
+	(label "VDD_CPUB_FB"
+		(at 50.8 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "485b3b15-c3be-5992-b9fc-bf2e25fd5684")
+	)
+	(label "CLK32K"
+		(at 180.34 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57a5bf08-dd59-5632-a7ee-ecdef44b280f")
+	)
+	(label "VDD_DNR_FB"
+		(at 50.8 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78a6ca2f-8791-5434-b74f-18c7bf5c4f16")
+	)
+	(label "VDD_CPUB_FB"
+		(at 48.26 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8966ca8e-2afa-5fe3-9426-638b45ed4c5c")
+	)
+	(label "VDD_CPUL_FB"
+		(at 127 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9cb5554e-2838-5d73-8fc6-b3571b82acd9")
+	)
+	(label "AP_RESET_N"
+		(at 127 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a77a1001-02ac-5e62-84aa-b8fcdd97f05a")
+	)
+	(label "AP_RESET_N"
+		(at 180.34 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "adec780e-919a-515f-abb7-1fa36f555e69")
+	)
+	(label "VDD_SYS_FB"
+		(at 127 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc07dcb0-6e63-5b57-a6bc-64ba3f9cfa7d")
+	)
+	(label "VDD_DNR_FB"
+		(at 48.26 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c194afc9-3e9d-50f9-b0ab-4df3dc7da2a0")
+	)
+	(label "CLK32K"
+		(at 50.8 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c396d88e-cfd7-5aff-afe0-e8397ce2a94f")
+	)
+	(label "VDD_SYS_FB"
+		(at 48.26 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6bdde28-ba5c-5f78-b0bf-850568aaab26")
+	)
+	(label "VDD_CPUL_FB"
+		(at 48.26 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4e4d35f-e84b-5c02-bda0-7663fbfefc57")
+	)
+	(hierarchical_label "CLK32K"
+		(shape bidirectional)
+		(at 40.64 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d8513cc-7e26-5402-974f-e1734e335351")
+	)
+	(hierarchical_label "VDD_CPUB_FB"
+		(shape bidirectional)
+		(at 40.64 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "16d02212-616e-5f19-b2b5-601c306fb671")
+	)
+	(hierarchical_label "AP_NMI"
+		(shape bidirectional)
+		(at 40.64 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e826afe-cc91-5691-8ab9-285935391af2")
+	)
+	(hierarchical_label "VDD_DNR_FB"
+		(shape bidirectional)
+		(at 40.64 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c69f7b2-0dce-52c1-959e-5193e4d5a4d5")
+	)
+	(hierarchical_label "AP_RESET_N"
+		(shape bidirectional)
+		(at 116.84 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4197101a-3cd0-5e3d-a383-ea0dc02ee8aa")
+	)
+	(hierarchical_label "VDD_CPUL_FB"
+		(shape bidirectional)
+		(at 116.84 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50a3800d-a315-5d6e-bef8-68b0c5cec1ff")
+	)
+	(hierarchical_label "FEL_N"
+		(shape bidirectional)
+		(at 116.84 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bbd3893a-ad6c-5917-92a2-83ab3a58bd0a")
+	)
+	(hierarchical_label "VDD_SYS_FB"
+		(shape bidirectional)
+		(at 116.84 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c842b68c-376c-58ca-b06b-e62ef8e8dd7a")
+	)
+	(sheet
+		(at 55.88 114.3)
+		(size 71.12 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0a7049aa-bc2e-5abb-b62f-c8336a43fa06")
+		(property "Sheetname" "Analog / straps"
+			(at 55.88 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "a523_analog.kicad_sch"
+			(at 55.88 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "blackpants"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/b111457e-4551-4228-b804-a08d655d19fb"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 76.2)
+		(size 71.12 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0c696df4-4a7a-5912-b05b-3e5bcaf8e5df")
+		(property "Sheetname" "Ground balls"
+			(at 187.96 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "a523_ground.kicad_sch"
+			(at 187.96 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "blackpants"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/b111457e-4551-4228-b804-a08d655d19fb"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 25.4)
+		(size 71.12 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "22c7f406-d0ec-5ca5-8355-9e6bc8145037")
+		(property "Sheetname" "Core supplies"
+			(at 55.88 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "a523_core.kicad_sch"
+			(at 55.88 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VDD_CPUB_FB" bidirectional
+			(at 55.88 27.94 180)
+			(uuid "5346bc4f-587a-4fe3-95eb-9341d31d05e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_CPUL_FB" bidirectional
+			(at 55.88 30.48 180)
+			(uuid "a40ee257-b075-4251-a4a4-22b9c690c789")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_SYS_FB" bidirectional
+			(at 55.88 33.02 180)
+			(uuid "840aef0c-688b-42fa-a95d-5bdeadf93ea4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_DNR_FB" bidirectional
+			(at 55.88 35.56 180)
+			(uuid "85ebae9a-a804-4f21-abe2-34721b0430d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "blackpants"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/b111457e-4551-4228-b804-a08d655d19fb"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 76.2)
+		(size 71.12 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9354ebe4-6df9-58d3-99f0-bbda43ee6fab")
+		(property "Sheetname" "CPU bypass"
+			(at 55.88 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "a523_cpu_bypass.kicad_sch"
+			(at 55.88 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "blackpants"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/b111457e-4551-4228-b804-a08d655d19fb"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 25.4)
+		(size 71.12 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ad8fb905-cd17-5aea-abbf-45325397e121")
+		(property "Sheetname" "Clocks / reset / boot"
+			(at 187.96 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "a523_system.kicad_sch"
+			(at 187.96 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FEL_N" bidirectional
+			(at 187.96 27.94 180)
+			(uuid "91c2a324-9484-4564-afcb-455c55505a4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AP_NMI" bidirectional
+			(at 187.96 30.48 180)
+			(uuid "4a53409a-8a73-4c19-8f18-5afdf70d18ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AP_RESET_N" bidirectional
+			(at 187.96 33.02 180)
+			(uuid "23ad08be-8756-453c-89e1-f6d846997fad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK32K" bidirectional
+			(at 187.96 35.56 180)
+			(uuid "301f9acd-b743-4260-9be8-7fab0e482746")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "blackpants"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/b111457e-4551-4228-b804-a08d655d19fb"
+					(page "15")
+				)
+			)
+		)
+	)
+)

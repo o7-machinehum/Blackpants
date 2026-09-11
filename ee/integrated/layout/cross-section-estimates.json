@@ -1,0 +1,145 @@
+{
+  "method": "2D finite-volume electrostatic C and C_vacuum; ideal infinite copper conductivity; conformal mask approximation; no neighboring pads, traces, vias or glass weave",
+  "signoff": false,
+  "results": [
+    {
+      "width_mm": 0.0762,
+      "gap_mm": null,
+      "mesh_step_mm": 0.002,
+      "substrate_er": 4.0,
+      "mask_er": 3.6,
+      "Z0_ohm": 58.845416693596285,
+      "Zdiff_ohm": null,
+      "delay_ps_per_mm": 5.752742948419893,
+      "nodes": 49290
+    },
+    {
+      "width_mm": 0.1143,
+      "gap_mm": null,
+      "mesh_step_mm": 0.002,
+      "substrate_er": 4.0,
+      "mask_er": 3.6,
+      "Z0_ohm": 49.71625145633089,
+      "Zdiff_ohm": null,
+      "delay_ps_per_mm": 5.827574586019081,
+      "nodes": 49290
+    },
+    {
+      "width_mm": 0.11,
+      "gap_mm": null,
+      "mesh_step_mm": 0.002,
+      "substrate_er": 4.0,
+      "mask_er": 3.6,
+      "Z0_ohm": 50.58334600914994,
+      "Zdiff_ohm": null,
+      "delay_ps_per_mm": 5.82083567695413,
+      "nodes": 49290
+    },
+    {
+      "width_mm": 0.127,
+      "gap_mm": 0.127,
+      "mesh_step_mm": 0.002,
+      "substrate_er": 4.0,
+      "mask_er": 3.6,
+      "Z0_ohm": 41.03591663545972,
+      "Zdiff_ohm": 82.07183327091944,
+      "delay_ps_per_mm": 5.590230544575405,
+      "nodes": 49502
+    },
+    {
+      "width_mm": 0.12,
+      "gap_mm": 0.15,
+      "mesh_step_mm": 0.002,
+      "substrate_er": 4.0,
+      "mask_er": 3.6,
+      "Z0_ohm": 43.318954243637364,
+      "Zdiff_ohm": 86.63790848727473,
+      "delay_ps_per_mm": 5.601460737157072,
+      "nodes": 49502
+    },
+    {
+      "width_mm": 0.1,
+      "gap_mm": 0.2,
+      "mesh_step_mm": 0.002,
+      "substrate_er": 4.0,
+      "mask_er": 3.6,
+      "Z0_ohm": 48.782647947479724,
+      "Zdiff_ohm": 97.56529589495945,
+      "delay_ps_per_mm": 5.611746049591151,
+      "nodes": 49078
+    }
+  ],
+  "mesh_refinement": [
+    {
+      "width_mm": 0.0762,
+      "gap_mm": null,
+      "mesh_step_mm": 0.001,
+      "substrate_er": 4.0,
+      "mask_er": 3.6,
+      "Z0_ohm": 58.89663713067981,
+      "Zdiff_ohm": null,
+      "delay_ps_per_mm": 5.752988886780588,
+      "nodes": 178425
+    },
+    {
+      "width_mm": 0.1143,
+      "gap_mm": null,
+      "mesh_step_mm": 0.001,
+      "substrate_er": 4.0,
+      "mask_er": 3.6,
+      "Z0_ohm": 49.76531602600962,
+      "Zdiff_ohm": null,
+      "delay_ps_per_mm": 5.825172876734011,
+      "nodes": 178425
+    },
+    {
+      "width_mm": 0.11,
+      "gap_mm": 0.15,
+      "mesh_step_mm": 0.001,
+      "substrate_er": 4.0,
+      "mask_er": 3.6,
+      "Z0_ohm": 45.03940711417767,
+      "Zdiff_ohm": 90.07881422835534,
+      "delay_ps_per_mm": 5.581231107623383,
+      "nodes": 178035
+    },
+    {
+      "width_mm": 0.125,
+      "gap_mm": 0.125,
+      "mesh_step_mm": 0.001,
+      "substrate_er": 4.0,
+      "mask_er": 3.6,
+      "Z0_ohm": 41.30153014652968,
+      "Zdiff_ohm": 82.60306029305936,
+      "delay_ps_per_mm": 5.57625444053753,
+      "nodes": 178815
+    },
+    {
+      "width_mm": 0.1,
+      "gap_mm": 0.2,
+      "mesh_step_mm": 0.001,
+      "substrate_er": 4.0,
+      "mask_er": 3.6,
+      "Z0_ohm": 48.82243515368082,
+      "Zdiff_ohm": 97.64487030736164,
+      "delay_ps_per_mm": 5.612234187370294,
+      "nodes": 178035
+    },
+    {
+      "width_mm": 0.1143,
+      "gap_mm": null,
+      "mesh_step_mm": 0.002,
+      "substrate_er": 4.0,
+      "mask_er": 1.0,
+      "Z0_ohm": 52.41457052873805,
+      "Zdiff_ohm": null,
+      "delay_ps_per_mm": 5.527569158278164,
+      "nodes": 49290
+    }
+  ],
+  "stack_assumptions_mm": {
+    "outer_copper": 0.04064,
+    "outer_prepreg": 0.07366,
+    "solder_mask": 0.0127
+  }
+}

@@ -1427,6 +1427,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "40mA @ 13v"
 		(exclude_from_sim no)
@@ -2018,14 +2133,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "41c42e52-2d6f-41e3-b460-512759c19e5a")
+			(uuid "a2e1fe08-b92c-41e7-8568-47369384a56e")
 		)
 		(pin "1"
-			(uuid "7dcbc77e-398f-4874-870d-3292e2f54dca")
+			(uuid "ac9b4a5a-f319-440d-ad74-63f9c759d596")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
 					(reference "D21")
 					(unit 1)
 				)
@@ -2098,11 +2213,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "50f1a6e5-3989-4572-bad9-42d902716fb5")
+			(uuid "5ff4223d-a90b-4945-becb-2d8160ad6145")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
 					(reference "#PWR072")
 					(unit 1)
 				)
@@ -2175,11 +2290,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "832b4f18-873e-4a7b-9a69-536c4e78da2f")
+			(uuid "118972be-170c-4887-91a7-d8256fbe2fce")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
 					(reference "#PWR070")
 					(unit 1)
 				)
@@ -2273,26 +2388,26 @@
 			)
 		)
 		(pin "2"
-			(uuid "dc062252-43f0-49db-bf65-c97e15c96108")
+			(uuid "d8e48133-1b7d-440b-ba1b-bfd0c5abe7aa")
 		)
 		(pin "6"
-			(uuid "f78cf579-dea4-4db4-b057-fe866a19eddc")
+			(uuid "582db356-cd5c-400a-be74-c1a9e0bebb1a")
 		)
 		(pin "1"
-			(uuid "6442eb6e-058d-45a3-890d-048a169d5835")
+			(uuid "218e918d-41ba-4b61-98a2-7c8d64231f6b")
 		)
 		(pin "3"
-			(uuid "3ed659f2-2412-4c6b-ab46-fefe3cd641b7")
+			(uuid "d5c2eabc-dbf5-4b21-a8d3-ec56d9a2ee7f")
 		)
 		(pin "4"
-			(uuid "56408e03-c294-4542-9d7f-4e8f1a78d411")
+			(uuid "163c3066-eba9-4101-9db9-9d4e11dc62d8")
 		)
 		(pin "5"
-			(uuid "ad4506d1-76e7-46e5-b5d5-e1e2ba754414")
+			(uuid "2ccd2a16-152a-4140-bd72-50a47c5ada98")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
 					(reference "U15")
 					(unit 1)
 				)
@@ -2365,11 +2480,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "1bae3c69-3d30-4d30-8602-875b9ecb1bf6")
+			(uuid "1c934d0e-6259-4eef-8972-a53c6c0d7e21")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
 					(reference "#PWR074")
 					(unit 1)
 				)
@@ -2464,14 +2579,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "a755488f-3bd6-44e2-a6a6-b6ca511e69ff")
+			(uuid "5460321c-b5ed-4ca2-9148-9cab5cecb56c")
 		)
 		(pin "2"
-			(uuid "326892e8-ee7c-44f1-899f-bde02b8f3ab0")
+			(uuid "37afec2a-772b-4739-b340-5f4c832a7d36")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
 					(reference "L3")
 					(unit 1)
 				)
@@ -2565,14 +2680,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "ec57e464-7638-40fc-b8a8-9001bfb2697b")
+			(uuid "1a9888f8-5a83-45fe-bd18-936bfd9e4b5f")
 		)
 		(pin "1"
-			(uuid "ff4e2dac-2f27-48c7-81cd-aa9c7190fc0e")
+			(uuid "f8712e29-ae57-4af6-abe6-d0ffb71a4634")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
 					(reference "D17")
 					(unit 1)
 				)
@@ -2666,14 +2781,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "f34f7a82-249d-4551-b4da-9e6c37c4abff")
+			(uuid "e9e2e360-28d8-4550-94c8-8187bf78d9a9")
 		)
 		(pin "1"
-			(uuid "b0144945-d636-4ef7-84e4-4be93e10c59c")
+			(uuid "14c99167-48c5-4f45-ad62-900cb4a5e7dd")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
 					(reference "D16")
 					(unit 1)
 				)
@@ -2767,14 +2882,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "0a826091-491b-430d-83cd-f23dacd643e8")
+			(uuid "8928c7f4-bcfe-402c-b3fa-30c5fc8acbf1")
 		)
 		(pin "1"
-			(uuid "e7663e66-9e1e-4116-b5df-f2792d9326c8")
+			(uuid "bfb67357-1ed8-42d5-95ae-628a1adcf5ff")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
 					(reference "D15")
 					(unit 1)
 				)
@@ -2870,14 +2985,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "e7a15fe9-ba8a-4c82-96eb-bb2d3ef4f89a")
+			(uuid "02543d86-e0db-4d83-aac8-1dd0421d9ab7")
 		)
 		(pin "1"
-			(uuid "f9666e4d-27b4-406f-aaf9-3a0b4a052576")
+			(uuid "0e56c0ff-298f-4bdb-a1c5-811ca7f79a99")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
 					(reference "C32")
 					(unit 1)
 				)
@@ -2973,14 +3088,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "82bb38ee-a96f-4acf-bbd6-ef7d5947a8a9")
+			(uuid "6bc848cd-d3e6-40a5-a96c-87de41387acc")
 		)
 		(pin "1"
-			(uuid "e8aad96e-4d83-411e-b79d-938670cade9c")
+			(uuid "a0a98f1e-1764-40e0-9e3d-8b56b017d2a9")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
 					(reference "R22")
 					(unit 1)
 				)
@@ -3053,11 +3168,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "887812ca-77bb-418d-9835-ab92f245f78c")
+			(uuid "7425d8f9-aa34-44a6-8cb9-9e1b365c979c")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
 					(reference "#PWR071")
 					(unit 1)
 				)
@@ -3130,11 +3245,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "dff12a8a-5015-4937-a39f-9d4e0c723095")
+			(uuid "ac12c478-ddfe-4701-8a4a-693b63519711")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
 					(reference "#PWR0101")
 					(unit 1)
 				)
@@ -3228,14 +3343,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "9f9e5edb-058b-4ce6-9f34-af93b4a7e58a")
+			(uuid "b9a2b5b9-da3c-415f-bde0-f9139abb3c79")
 		)
 		(pin "1"
-			(uuid "8c5214bc-b639-4224-b8e3-327ffb34efde")
+			(uuid "a8762f9d-c922-4013-a733-5f76554b385a")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
 					(reference "D18")
 					(unit 1)
 				)
@@ -3331,14 +3446,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "2985c4ac-22ca-4e33-82c5-e57d9db690bb")
+			(uuid "2d694fd4-065d-4e12-a85b-b147b4919125")
 		)
 		(pin "1"
-			(uuid "b4651528-32c3-4a06-8089-ac03a56bfdd5")
+			(uuid "bb366925-1c4d-4595-8dfb-07d7b1aaa8dd")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
 					(reference "C44")
 					(unit 1)
 				)
@@ -3433,14 +3548,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "2bc283ab-925f-4ce9-8918-478266c893a0")
+			(uuid "03b16233-cae1-4eba-831f-eb4c2c7177f6")
 		)
 		(pin "2"
-			(uuid "71bf6290-e93e-4e1d-b9ff-edb8b1d80e98")
+			(uuid "b58d2f99-4cc4-4038-a1f0-ff388ff4eb87")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
 					(reference "D13")
 					(unit 1)
 				)
@@ -3537,14 +3652,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe80b02c-e40e-41cd-94a5-895c06e98f6a")
+			(uuid "1863fa18-9da9-40b1-a011-ea0b567f93f7")
 		)
 		(pin "2"
-			(uuid "c911d5d2-8a32-4801-95fd-163d963e1f72")
+			(uuid "fc84e374-5ee4-4fab-9047-b5138202f65d")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
 					(reference "R23")
 					(unit 1)
 				)
@@ -3638,14 +3753,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "e80131ce-414b-4701-bbaa-3eea7d3def5f")
+			(uuid "4aafba84-ec57-4fb3-bfe8-a490f023432d")
 		)
 		(pin "1"
-			(uuid "0d0536d2-e22f-47be-9dcf-898491630e23")
+			(uuid "d216a151-297a-455d-ae88-7f9dc5055014")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
 					(reference "D20")
 					(unit 1)
 				)
@@ -3719,11 +3834,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "3a432018-7de1-4430-bfd7-33a23c506573")
+			(uuid "ff1bbff2-947b-4f85-b36e-3c68edc90662")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
 					(reference "#PWR068")
 					(unit 1)
 				)
@@ -3817,14 +3932,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "772870f7-c443-4b25-abc3-f22379cf715f")
+			(uuid "bc80ddda-cafe-44e7-9139-078380bae117")
 		)
 		(pin "1"
-			(uuid "e576fe0e-0666-4cf0-9ee4-ed644a0e11bc")
+			(uuid "435eff91-f5ff-4238-a624-af5eff55c3f8")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
 					(reference "D19")
 					(unit 1)
 				)
@@ -3897,11 +4012,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "46a93e5d-03c3-4c5e-9dd2-aa50545fb11b")
+			(uuid "8aae7eda-c044-40f6-b950-9a7f3af83673")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
 					(reference "#PWR073")
 					(unit 1)
 				)
@@ -3974,11 +4089,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "1bf6c996-7cb5-46e8-b0ac-da4129e53105")
+			(uuid "5d50d658-77f7-47eb-b8a1-20e81ed230fb")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
 					(reference "#PWR069")
 					(unit 1)
 				)
@@ -4072,15 +4187,104 @@
 			)
 		)
 		(pin "2"
-			(uuid "2fdf44c8-383a-45a0-bb10-7878910767d3")
+			(uuid "269df28b-fcc5-45a8-9cb9-0322d55467eb")
 		)
 		(pin "1"
-			(uuid "187f1702-c7b6-41d7-8999-fc96d38585db")
+			(uuid "690669b8-8e59-404e-a232-ad6d6d39dcf8")
 		)
 		(instances
 			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
 					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 81.28 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f7934aa5-3fb4-5c7c-8119-b09a82221023")
+		(property "Reference" "#FLG0906"
+			(at 81.28 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 81.28 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 81.28 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "ki_keywords" "flag power"
+			(at 81.28 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed5340a7-234c-46ff-9cf3-83b4bd3a5ef1")
+		)
+		(instances
+			(project "blackpants"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d/b9f74bdf-a26f-4f02-bb38-0b2e443d38e4"
+					(reference "#FLG0906")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,124 @@
+{
+  "status": "Applied to active PCB; physical DRC passes",
+  "scope": "Thermal through vias in U501 pad 53 and U502 pad 21 only",
+  "vias": [
+    {
+      "reference": "U501",
+      "position_mm": [
+        100,
+        62
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "reference": "U501",
+      "position_mm": [
+        100,
+        63
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "reference": "U501",
+      "position_mm": [
+        100,
+        64
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "reference": "U501",
+      "position_mm": [
+        101,
+        62
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "reference": "U501",
+      "position_mm": [
+        101,
+        63
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "reference": "U501",
+      "position_mm": [
+        101,
+        64
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "reference": "U501",
+      "position_mm": [
+        102,
+        62
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "reference": "U501",
+      "position_mm": [
+        102,
+        63
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "reference": "U501",
+      "position_mm": [
+        102,
+        64
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "reference": "U502",
+      "position_mm": [
+        66.6,
+        76.6
+      ],
+      "diameter_mm": 0.4,
+      "drill_mm": 0.2
+    },
+    {
+      "reference": "U502",
+      "position_mm": [
+        66.6,
+        77.4
+      ],
+      "diameter_mm": 0.4,
+      "drill_mm": 0.2
+    },
+    {
+      "reference": "U502",
+      "position_mm": [
+        67.4,
+        76.6
+      ],
+      "diameter_mm": 0.4,
+      "drill_mm": 0.2
+    },
+    {
+      "reference": "U502",
+      "position_mm": [
+        67.4,
+        77.4
+      ],
+      "diameter_mm": 0.4,
+      "drill_mm": 0.2
+    }
+  ],
+  "authorization": "User: Yes allow thermal vias ofc"
+}

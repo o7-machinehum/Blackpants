@@ -1,0 +1,795 @@
+{
+  "repository": "https://github.com/DeciHD/allwinner_docs",
+  "commit": "d6cfc7c4c4ef35868322149776f7503a671367d6",
+  "retrieved": "2026-09-08",
+  "files": [
+    {
+      "path": "A523_Brief_V1.2.pdf",
+      "upstream_path": "a523_a527_t527/A523_Brief_V1.2.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_Brief_V1.2.pdf",
+      "expected_bytes": 1072466,
+      "git_blob_sha1": "d902d651990e615afaf63ce5d96629e0cc170895",
+      "sha256": "f2db096816c3fb4cf5b3a7b1f51a43be1c8bc44165e7d4efc0a37de6cc53e0b1",
+      "pdf_pages": 4
+    },
+    {
+      "path": "A523_Datasheet_V1.4.pdf",
+      "upstream_path": "a523_a527_t527/A523_Datasheet_V1.4.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_Datasheet_V1.4.pdf",
+      "expected_bytes": 26238242,
+      "git_blob_sha1": "3a5d15fe26f9e830239b9cbf9a36d17587a7e605",
+      "sha256": "5952cf1f6156f0ac25c7be5ce1e706d829b8f6f867e65003ce7f50e3cb80d8e0",
+      "pdf_pages": 143
+    },
+    {
+      "path": "A523_PINOUT_V1.4.xlsx",
+      "upstream_path": "a523_a527_t527/A523_PINOUT_V1.4.xlsx",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_PINOUT_V1.4.xlsx",
+      "expected_bytes": 131952,
+      "git_blob_sha1": "b2a824a1665ed7a776e2bdba6f5a5bfb7fdb94de",
+      "sha256": "f0f48c03cdeaeb6a08147ea2fee7b4be2edc063c10421586f13fe7672d38440a"
+    },
+    {
+      "path": "A523_User_Manual_V1.4.pdf",
+      "upstream_path": "a523_a527_t527/A523_User_Manual_V1.4.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_User_Manual_V1.4.pdf",
+      "expected_bytes": 93786244,
+      "git_blob_sha1": "84b055901e5a00ea1656a90df059d7512eca7c6f",
+      "sha256": "f212a0334d68623b0e440163e33e3ba1a217a12538741f0247d1570fcd7cecb5",
+      "pdf_pages": 1725
+    },
+    {
+      "path": "A523_eMMC_支持列表.xls",
+      "upstream_path": "a523_a527_t527/A523_eMMC_支持列表.xls",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_eMMC_%E6%94%AF%E6%8C%81%E5%88%97%E8%A1%A8.xls",
+      "expected_bytes": 100864,
+      "git_blob_sha1": "be364ee6b25094c9f842d2776cf02e2df2f5f360",
+      "sha256": "1de0cde84c72fbfbfdcfbee6fa48bf8c494e5b75a520baddef70c07ded36e994"
+    },
+    {
+      "path": "A523_hwref/IBIS模型/A523_IBIS_20230321.7z",
+      "upstream_path": "a523_a527_t527/A523_hwref/IBIS模型/A523_IBIS_20230321.7z",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/IBIS%E6%A8%A1%E5%9E%8B/A523_IBIS_20230321.7z",
+      "expected_bytes": 11230195,
+      "git_blob_sha1": "02e04e1720d6c333fa69169c9ab9c40b9e6d8507",
+      "sha256": "8e0064c46ebd5ad278c15c0fbcda27dbb7b1e63992b36c7c9f784c939543ab76"
+    },
+    {
+      "path": "A523_hwref/PCB参考/SoC套片PCB封装库/A523_SOC_Symbol.zip",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/SoC套片PCB封装库/A523_SOC_Symbol.zip",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/SoC%E5%A5%97%E7%89%87PCB%E5%B0%81%E8%A3%85%E5%BA%93/A523_SOC_Symbol.zip",
+      "expected_bytes": 188374,
+      "git_blob_sha1": "b09f90fb14703c35706775be25afd86e367f12e8",
+      "sha256": "59c4c7fd869e1197beda0faa5223ee5b07fd05cb1b74901e6525be19e9a3375e"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V1-0/A523-REF-DDR4-16X2-S4L-V1-0-20221107.DSN",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V1-0/A523-REF-DDR4-16X2-S4L-V1-0-20221107.DSN",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-DDR4-16X2-S4L-V1-0/A523-REF-DDR4-16X2-S4L-V1-0-20221107.DSN",
+      "expected_bytes": 263680,
+      "git_blob_sha1": "5fb5b75cf5ee45007542f6250f65770cc4b904e9",
+      "sha256": "7d9e0f6266d42f764d567279746daa7ed083e703c3e0cf9c6ebe2a506ef522a5"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V1-0/A523-REF-DDR4-16X2-S4L-V1-0-20221107.pdf",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V1-0/A523-REF-DDR4-16X2-S4L-V1-0-20221107.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-DDR4-16X2-S4L-V1-0/A523-REF-DDR4-16X2-S4L-V1-0-20221107.pdf",
+      "expected_bytes": 135397,
+      "git_blob_sha1": "53582fbf791803c6737daffb646cc49e6357a7ae",
+      "sha256": "6039d0e719cc2789aacb01cf4037fb7eb96c0200d1619f19149391ca81f316e2",
+      "pdf_pages": 2
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V1-0/A523-REF-DDR4-16X2-S4L-V1-0.brd",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V1-0/A523-REF-DDR4-16X2-S4L-V1-0.brd",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-DDR4-16X2-S4L-V1-0/A523-REF-DDR4-16X2-S4L-V1-0.brd",
+      "expected_bytes": 2006932,
+      "git_blob_sha1": "f1d11db36a4889d0c1e91386edeafeb7d4bc5fb3",
+      "sha256": "eecd80fcca6685a20d14cc0b5087010f247aa33954c018705465e2fb29971093"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V1-0/A523-REF-DDR4-16X2-S4L-V1-0_pads.asc",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V1-0/A523-REF-DDR4-16X2-S4L-V1-0_pads.asc",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-DDR4-16X2-S4L-V1-0/A523-REF-DDR4-16X2-S4L-V1-0_pads.asc",
+      "expected_bytes": 634699,
+      "git_blob_sha1": "e1e4cba9c042383b8664159c46514b90dbf2e38d",
+      "sha256": "3a2769739e6bd4f44a7d5b173d29af13c3d86d9805d28b0717c9b383f2aab454"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V1-0/A523-REF-DDR4-16X2-S4L-V1-0_pads.pcb",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V1-0/A523-REF-DDR4-16X2-S4L-V1-0_pads.pcb",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-DDR4-16X2-S4L-V1-0/A523-REF-DDR4-16X2-S4L-V1-0_pads.pcb",
+      "expected_bytes": 898715,
+      "git_blob_sha1": "a18dc3e832fdace07a61bb9c22da7c0b01b26abb",
+      "sha256": "60cea6df4b9732ac9867a1c568642784445a47d99a0fed681bab2a4c617f2789"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V1-0/AW_PCB-Stackup_4L_V1.0-wxf.xls",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V1-0/AW_PCB-Stackup_4L_V1.0-wxf.xls",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-DDR4-16X2-S4L-V1-0/AW_PCB-Stackup_4L_V1.0-wxf.xls",
+      "expected_bytes": 165888,
+      "git_blob_sha1": "af47042b0848421e6cc7e0534f86f11c331e4098",
+      "sha256": "0aa7f71f58db1122f7ad6c2e03a8c312b834cae6215113d812c62a7f5af3754b"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V2-0/A523-REF-DDR4-16X2-S4L-V2-0-20221107.DSN",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V2-0/A523-REF-DDR4-16X2-S4L-V2-0-20221107.DSN",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-DDR4-16X2-S4L-V2-0/A523-REF-DDR4-16X2-S4L-V2-0-20221107.DSN",
+      "expected_bytes": 270336,
+      "git_blob_sha1": "03c450117d150b6142d2428a733a91289c86f5ec",
+      "sha256": "5e199a6274ad9a270e34f1d64e26678c88874d09d50d72474b3bc15263b10b58"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V2-0/A523-REF-DDR4-16X2-S4L-V2-0-20221107.pdf",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V2-0/A523-REF-DDR4-16X2-S4L-V2-0-20221107.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-DDR4-16X2-S4L-V2-0/A523-REF-DDR4-16X2-S4L-V2-0-20221107.pdf",
+      "expected_bytes": 137091,
+      "git_blob_sha1": "41b50b1d3d5a5d39ba57235be76354de3f539bbc",
+      "sha256": "54a29200e094cf3cad7d7562c5295720f3aa0e26c65899d07b01261ffeb378b1",
+      "pdf_pages": 2
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V2-0/A523-REF-DDR4-16X2-S4L-V2-0.brd",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V2-0/A523-REF-DDR4-16X2-S4L-V2-0.brd",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-DDR4-16X2-S4L-V2-0/A523-REF-DDR4-16X2-S4L-V2-0.brd",
+      "expected_bytes": 2357024,
+      "git_blob_sha1": "8f450a225315e3d7fc3ab54df762418a6a60f68e",
+      "sha256": "7dad49e8ad18fd9813bb94d6dcbd92f01b1f22ccd0916e1f2cc1314d022f4b2f"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V2-0/A523-REF-DDR4-16X2-S4L-V2-0_pads.asc",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V2-0/A523-REF-DDR4-16X2-S4L-V2-0_pads.asc",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-DDR4-16X2-S4L-V2-0/A523-REF-DDR4-16X2-S4L-V2-0_pads.asc",
+      "expected_bytes": 913171,
+      "git_blob_sha1": "e9532a7e5a34e5a6069ebcd705c532e28ce5cf28",
+      "sha256": "657efd9c82d344283d0d5c4863198e7f3e72b654f57d13bbf3a5531c5473cd05"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V2-0/A523-REF-DDR4-16X2-S4L-V2-0_pads.pcb",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V2-0/A523-REF-DDR4-16X2-S4L-V2-0_pads.pcb",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-DDR4-16X2-S4L-V2-0/A523-REF-DDR4-16X2-S4L-V2-0_pads.pcb",
+      "expected_bytes": 1090598,
+      "git_blob_sha1": "1324b85dee90657b35a4d62e498ec197dc06e4ab",
+      "sha256": "b5cfd77b4e6993dd28a41f4eaa8a59ba80c6c754a6729532b50cf21d3a9e4198"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V2-0/AW_PCB-Stackup_4L_V1.0-wxf.xls",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-DDR4-16X2-S4L-V2-0/AW_PCB-Stackup_4L_V1.0-wxf.xls",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-DDR4-16X2-S4L-V2-0/AW_PCB-Stackup_4L_V1.0-wxf.xls",
+      "expected_bytes": 165888,
+      "git_blob_sha1": "af47042b0848421e6cc7e0534f86f11c331e4098",
+      "sha256": "0aa7f71f58db1122f7ad6c2e03a8c312b834cae6215113d812c62a7f5af3754b"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-342BALL-S6L-V2-0/6L_1.0mm叠层阻抗图.xlsx",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-342BALL-S6L-V2-0/6L_1.0mm叠层阻抗图.xlsx",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-LPDDR4-342BALL-S6L-V2-0/6L_1.0mm%E5%8F%A0%E5%B1%82%E9%98%BB%E6%8A%97%E5%9B%BE.xlsx",
+      "expected_bytes": 15432,
+      "git_blob_sha1": "4e931ec97050ff0eb9be52d7e5a77232a6388bbe",
+      "sha256": "c8b60424c93b32df9ebe7bfa2c6299fb6a24cddfec8626f2e16a8f40445f8583"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-342BALL-S6L-V2-0/A523_REF_LPDDR4_FBGA342BALL_64X1_S6L_V2_0.DSN",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-342BALL-S6L-V2-0/A523_REF_LPDDR4_FBGA342BALL_64X1_S6L_V2_0.DSN",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-LPDDR4-342BALL-S6L-V2-0/A523_REF_LPDDR4_FBGA342BALL_64X1_S6L_V2_0.DSN",
+      "expected_bytes": 343040,
+      "git_blob_sha1": "d4ba2762ec282f02da11ea1d1075d58a614d5396",
+      "sha256": "c60c04865900c5d7e3677e47bb16ef7b586f3fba06d711956fb20665add7ad37"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-342BALL-S6L-V2-0/A523_REF_LPDDR4_FBGA342BALL_64X1_S6L_V2_0.asc",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-342BALL-S6L-V2-0/A523_REF_LPDDR4_FBGA342BALL_64X1_S6L_V2_0.asc",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-LPDDR4-342BALL-S6L-V2-0/A523_REF_LPDDR4_FBGA342BALL_64X1_S6L_V2_0.asc",
+      "expected_bytes": 1357182,
+      "git_blob_sha1": "10138cd04dc2cb3f90a58896eb2e52ced21e9841",
+      "sha256": "c0c552037a9848c877b0303c71dc61f47c485a947fa7d680a12d1a5b64e96069"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-342BALL-S6L-V2-0/A523_REF_LPDDR4_FBGA342BALL_64X1_S6L_V2_0.brd",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-342BALL-S6L-V2-0/A523_REF_LPDDR4_FBGA342BALL_64X1_S6L_V2_0.brd",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-LPDDR4-342BALL-S6L-V2-0/A523_REF_LPDDR4_FBGA342BALL_64X1_S6L_V2_0.brd",
+      "expected_bytes": 7163772,
+      "git_blob_sha1": "329265918605197e00a565438278c959a29391c6",
+      "sha256": "12a3853de56e36a94eb5bf94f5ac5db89f4740f86c732a34c5a18895e3ce29ad"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-342BALL-S6L-V2-0/A523_REF_LPDDR4_FBGA342BALL_64X1_S6L_V2_0.pdf",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-342BALL-S6L-V2-0/A523_REF_LPDDR4_FBGA342BALL_64X1_S6L_V2_0.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-LPDDR4-342BALL-S6L-V2-0/A523_REF_LPDDR4_FBGA342BALL_64X1_S6L_V2_0.pdf",
+      "expected_bytes": 388912,
+      "git_blob_sha1": "b8fa62d85f53fe9f2ae3033e7b6ab2b0e988e3e7",
+      "sha256": "d969565fe29fadcd10e693321acbd8c0fc9638a5a12440a862aec5364bd147d3",
+      "pdf_pages": 2
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-342BALL-S6L-V2-0/Changlist_20240327.txt",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-342BALL-S6L-V2-0/Changlist_20240327.txt",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-LPDDR4-342BALL-S6L-V2-0/Changlist_20240327.txt",
+      "expected_bytes": 61,
+      "git_blob_sha1": "14ef65155808199aacea278c799c4e424351ad8b",
+      "sha256": "8cd93b513b6ac6dacfb037aa7fb1be3b539b56b5f3d3beed7090e95cda05c1e5"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V1-0(C0201)/A523-REF-LPDDR4-4X-32X1-S6L-V1-0-20221014.DSN",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V1-0(C0201)/A523-REF-LPDDR4-4X-32X1-S6L-V1-0-20221014.DSN",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-LPDDR4-4X-32X1-S6L-V1-0%28C0201%29/A523-REF-LPDDR4-4X-32X1-S6L-V1-0-20221014.DSN",
+      "expected_bytes": 289792,
+      "git_blob_sha1": "0cc5e634001dbc1e536a973123a3972e397eee9b",
+      "sha256": "35718ac0378ce7c03a2f89aa77d68ac48331fb419b5999ab0e9b6f5163f94f87"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V1-0(C0201)/A523-REF-LPDDR4-4X-32X1-S6L-V1-0-20221014.pdf",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V1-0(C0201)/A523-REF-LPDDR4-4X-32X1-S6L-V1-0-20221014.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-LPDDR4-4X-32X1-S6L-V1-0%28C0201%29/A523-REF-LPDDR4-4X-32X1-S6L-V1-0-20221014.pdf",
+      "expected_bytes": 142660,
+      "git_blob_sha1": "96f4ab40c72e4df93813ac18d16dd3d95b5d2913",
+      "sha256": "e5549b697921de8b465897b38f6c32dbd3304e6d2fe7145023fc1b5a9509fbc8",
+      "pdf_pages": 2
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V1-0(C0201)/A523-REF-LPDDR4-4X-32X1-S6L-V1-0.brd",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V1-0(C0201)/A523-REF-LPDDR4-4X-32X1-S6L-V1-0.brd",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-LPDDR4-4X-32X1-S6L-V1-0%28C0201%29/A523-REF-LPDDR4-4X-32X1-S6L-V1-0.brd",
+      "expected_bytes": 1442620,
+      "git_blob_sha1": "6e817280e56dc1515ab9b9e754a67468db36e56f",
+      "sha256": "466d8159bddd324100d08c0c433b8a44b8987e882ae3cf08f064f23c8df30008"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V1-0(C0201)/A523-REF-LPDDR4-4X-32X1-S6L-V1-0.pcb",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V1-0(C0201)/A523-REF-LPDDR4-4X-32X1-S6L-V1-0.pcb",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-LPDDR4-4X-32X1-S6L-V1-0%28C0201%29/A523-REF-LPDDR4-4X-32X1-S6L-V1-0.pcb",
+      "expected_bytes": 840776,
+      "git_blob_sha1": "d3472be8c3adecf9e1a04fdf048c778ae1859323",
+      "sha256": "255d297c2d7a234ee81ccf483b8fc90f0be7ab0037fcf34b5795b756d195d506"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V1-0(C0201)/A523-REF-LPDDR4-4X-32X1-S6L-V1-0_pads.asc",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V1-0(C0201)/A523-REF-LPDDR4-4X-32X1-S6L-V1-0_pads.asc",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-LPDDR4-4X-32X1-S6L-V1-0%28C0201%29/A523-REF-LPDDR4-4X-32X1-S6L-V1-0_pads.asc",
+      "expected_bytes": 516226,
+      "git_blob_sha1": "34b4df7a29999903fde1f9470c22f5e9595866a6",
+      "sha256": "657809e289d93322814702cd3fd46cacd3de4e529a2a102b0bf0b36e7d4f3a35"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V1-0(C0201)/AW_PCB-Stackup_6L_1mm-1.6mm_V1.0-20221101.xls",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V1-0(C0201)/AW_PCB-Stackup_6L_1mm-1.6mm_V1.0-20221101.xls",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-LPDDR4-4X-32X1-S6L-V1-0%28C0201%29/AW_PCB-Stackup_6L_1mm-1.6mm_V1.0-20221101.xls",
+      "expected_bytes": 378880,
+      "git_blob_sha1": "a333b30b9077a9a6a5ec5651e8e39c268d34eb81",
+      "sha256": "03cc3efd61e7d70070142d2946a3367b89e63656222950081cf87d618de7c9cf"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V2-0(C0402)/A523-REF-LPDDR4-4X-32X1-S6L-V2-0-20221014.DSN",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V2-0(C0402)/A523-REF-LPDDR4-4X-32X1-S6L-V2-0-20221014.DSN",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-LPDDR4-4X-32X1-S6L-V2-0%28C0402%29/A523-REF-LPDDR4-4X-32X1-S6L-V2-0-20221014.DSN",
+      "expected_bytes": 286720,
+      "git_blob_sha1": "691f08ee14270f6ecf13460d3c9c8be8f252a882",
+      "sha256": "a6003f727e63fe95b7d36c48734d14d8375fec5d1da2012e2221d36395ec5572"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V2-0(C0402)/A523-REF-LPDDR4-4X-32X1-S6L-V2-0-20221014.pdf",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V2-0(C0402)/A523-REF-LPDDR4-4X-32X1-S6L-V2-0-20221014.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-LPDDR4-4X-32X1-S6L-V2-0%28C0402%29/A523-REF-LPDDR4-4X-32X1-S6L-V2-0-20221014.pdf",
+      "expected_bytes": 141468,
+      "git_blob_sha1": "fb618e09fb05fc9f3e922e439c1a3195246b0e7d",
+      "sha256": "cff2e4fdc53125afa3ee3e7ed19875462407ff0a9de8929f917c8ea632898a5b",
+      "pdf_pages": 2
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V2-0(C0402)/A523-REF-LPDDR4-4X-32X1-S6L-V2-0.brd",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V2-0(C0402)/A523-REF-LPDDR4-4X-32X1-S6L-V2-0.brd",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-LPDDR4-4X-32X1-S6L-V2-0%28C0402%29/A523-REF-LPDDR4-4X-32X1-S6L-V2-0.brd",
+      "expected_bytes": 1426384,
+      "git_blob_sha1": "06e2eb1367bbccdd915dacd8a8a093c1ec03a095",
+      "sha256": "f964cec169f556adde3fd06da1b02a08a820e97391eaa99d99b938b047bf2e37"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V2-0(C0402)/A523-REF-LPDDR4-4X-32X1-S6L-V2-0_pads.asc",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V2-0(C0402)/A523-REF-LPDDR4-4X-32X1-S6L-V2-0_pads.asc",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-LPDDR4-4X-32X1-S6L-V2-0%28C0402%29/A523-REF-LPDDR4-4X-32X1-S6L-V2-0_pads.asc",
+      "expected_bytes": 789202,
+      "git_blob_sha1": "233b567b9846dd3c28e83029519bf787fc28790e",
+      "sha256": "b2ff5d5c9ac8c1bbed5288dc037723190c6e181d143bd26e6de35df07f415b71"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V2-0(C0402)/A523-REF-LPDDR4-4X-32X1-S6L-V2-0_pads.pcb",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V2-0(C0402)/A523-REF-LPDDR4-4X-32X1-S6L-V2-0_pads.pcb",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-LPDDR4-4X-32X1-S6L-V2-0%28C0402%29/A523-REF-LPDDR4-4X-32X1-S6L-V2-0_pads.pcb",
+      "expected_bytes": 1031401,
+      "git_blob_sha1": "8996b3fd71a9b696b3f09b699b6278ad3bbd2baa",
+      "sha256": "7efda165f65b3483bf88d4e8111995728262b06f46c61ff5a428f1842b1ab231"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V2-0(C0402)/AW_PCB-Stackup_6L_1mm-1.6mm_V1.0-20221101.xls",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S6L-V2-0(C0402)/AW_PCB-Stackup_6L_1mm-1.6mm_V1.0-20221101.xls",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-LPDDR4-4X-32X1-S6L-V2-0%28C0402%29/AW_PCB-Stackup_6L_1mm-1.6mm_V1.0-20221101.xls",
+      "expected_bytes": 378880,
+      "git_blob_sha1": "59a1d634c94395d1e5a8bc1fe77ada7dff8c006a",
+      "sha256": "2fe87f742eb4c82ba56a01fd67f65186f9ec40a64abc0fd7ba876970db7850c1"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S8L-V1-0/A523-REF-LPDDR4-4X-32X1-S8L-V1-0-20221014.DSN",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S8L-V1-0/A523-REF-LPDDR4-4X-32X1-S8L-V1-0-20221014.DSN",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-LPDDR4-4X-32X1-S8L-V1-0/A523-REF-LPDDR4-4X-32X1-S8L-V1-0-20221014.DSN",
+      "expected_bytes": 289792,
+      "git_blob_sha1": "02c74c54a21b1d03c36c8d9d2824b89bf1f9cebe",
+      "sha256": "eb0b4741909b94a9de8e10fa8615310c60d74934929f5dd1e777a9bca53cede9"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S8L-V1-0/A523-REF-LPDDR4-4X-32X1-S8L-V1-0.asc",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S8L-V1-0/A523-REF-LPDDR4-4X-32X1-S8L-V1-0.asc",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-LPDDR4-4X-32X1-S8L-V1-0/A523-REF-LPDDR4-4X-32X1-S8L-V1-0.asc",
+      "expected_bytes": 597831,
+      "git_blob_sha1": "1e33e1125c023ac82ce98af23b3feba009115201",
+      "sha256": "7bbe7bc631f3d4a9dabdeb849d8931ddcfcf3c83d779705e6f474e806db76d8b"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S8L-V1-0/A523-REF-LPDDR4-4X-32X1-S8L-V1-0.brd",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S8L-V1-0/A523-REF-LPDDR4-4X-32X1-S8L-V1-0.brd",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-LPDDR4-4X-32X1-S8L-V1-0/A523-REF-LPDDR4-4X-32X1-S8L-V1-0.brd",
+      "expected_bytes": 5935616,
+      "git_blob_sha1": "36b44db28f0033e350c4923ecd82b8146b3ebec1",
+      "sha256": "fa68dda10d3c4b0ecf8fd439642d492763d45699b895bdd1767f84b9a6d52571"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S8L-V1-0/A523-REF-LPDDR4-4X-32X1-S8L-V1-0.pdf",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S8L-V1-0/A523-REF-LPDDR4-4X-32X1-S8L-V1-0.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-LPDDR4-4X-32X1-S8L-V1-0/A523-REF-LPDDR4-4X-32X1-S8L-V1-0.pdf",
+      "expected_bytes": 383491,
+      "git_blob_sha1": "6335e009b3dac22b54c100ad5c0ee54b2a91d0c4",
+      "sha256": "b93293e8e7f0521aae076a4e41a943e07522511c48e68fdf45cbdb2da37c0c2d",
+      "pdf_pages": 2
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S8L-V1-0/AW_PCB-Stackup_8L_1mm_V1.0-20230313.xls",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523-REF-LPDDR4-4X-32X1-S8L-V1-0/AW_PCB-Stackup_8L_1mm_V1.0-20230313.xls",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523-REF-LPDDR4-4X-32X1-S8L-V1-0/AW_PCB-Stackup_8L_1mm_V1.0-20230313.xls",
+      "expected_bytes": 191488,
+      "git_blob_sha1": "1ccaec20509ac6386dfb757f1f90f74a0103fa97",
+      "sha256": "49820b328cbfb8998d499a2de5b14d9378c3c5bb2beb00f7995ac14ecc6fe83c"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256BALL_64X1_4L_V1_0(C0402)/A523_REF_LPDDR3_256BALL_64X1_V1_0.brd",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256BALL_64X1_4L_V1_0(C0402)/A523_REF_LPDDR3_256BALL_64X1_V1_0.brd",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256BALL_64X1_4L_V1_0%28C0402%29/A523_REF_LPDDR3_256BALL_64X1_V1_0.brd",
+      "expected_bytes": 2099472,
+      "git_blob_sha1": "81e18da93a1c1b9bead708a7444485f6407eac32",
+      "sha256": "8d67a7041af89d5a713b36d67a5a61cb3c91ab83b975f670c73ebf9d37affcba"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256BALL_64X1_4L_V1_0(C0402)/A523_REF_LPDDR3_256BALL_64X1_V1_0.pdf",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256BALL_64X1_4L_V1_0(C0402)/A523_REF_LPDDR3_256BALL_64X1_V1_0.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256BALL_64X1_4L_V1_0%28C0402%29/A523_REF_LPDDR3_256BALL_64X1_V1_0.pdf",
+      "expected_bytes": 384136,
+      "git_blob_sha1": "31e5749daf35b0cb14023a01b106ed22f3327bb5",
+      "sha256": "1ac6f30cdd18a56d651954ed77c9a347e7824ebaa9f00316f16142d0601bd9c4",
+      "pdf_pages": 2
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256BALL_64X1_4L_V1_0(C0402)/A523_REF_LPDDR3_256BALL_64X1_V1_0_20230217.DSN",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256BALL_64X1_4L_V1_0(C0402)/A523_REF_LPDDR3_256BALL_64X1_V1_0_20230217.DSN",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256BALL_64X1_4L_V1_0%28C0402%29/A523_REF_LPDDR3_256BALL_64X1_V1_0_20230217.DSN",
+      "expected_bytes": 284672,
+      "git_blob_sha1": "c40ac092463a10bcaf3258bd999aa0f290dd76c9",
+      "sha256": "75c8e4d7370853a643758d6f6450d96a8333b34d1d914bd3e8982c6d57334ca2"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256BALL_64X1_4L_V1_0(C0402)/A523_REF_LPDDR3_256BALL_64X1_V1_0_pads.asc",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256BALL_64X1_4L_V1_0(C0402)/A523_REF_LPDDR3_256BALL_64X1_V1_0_pads.asc",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256BALL_64X1_4L_V1_0%28C0402%29/A523_REF_LPDDR3_256BALL_64X1_V1_0_pads.asc",
+      "expected_bytes": 554213,
+      "git_blob_sha1": "a5c03781ddbe9e19ce5ca660446cfeadaa5ebddf",
+      "sha256": "c0057aa58c34f61fc74e3388f681ea1695acdc7b266a4742a9d370c2c5428407"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256BALL_64X1_4L_V1_0(C0402)/AW_PCB-Stackup_4L_V1.0-wxf.xls",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256BALL_64X1_4L_V1_0(C0402)/AW_PCB-Stackup_4L_V1.0-wxf.xls",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256BALL_64X1_4L_V1_0%28C0402%29/AW_PCB-Stackup_4L_V1.0-wxf.xls",
+      "expected_bytes": 165888,
+      "git_blob_sha1": "c1df38dcf942cbca7657c9584da5fa4f0b08b8bd",
+      "sha256": "7a7687fd280d726c32e706ee4ba5a7e8bba6487bf7062c2506aa4883df4e6ca3"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256BALL_64X1_V3_0_0201/A523_REF_LPDDR3_256BALL_64X1_6L_V3_0-C0201-PCB叠层规范_V1.2.xls",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256BALL_64X1_V3_0_0201/A523_REF_LPDDR3_256BALL_64X1_6L_V3_0-C0201-PCB叠层规范_V1.2.xls",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256BALL_64X1_V3_0_0201/A523_REF_LPDDR3_256BALL_64X1_6L_V3_0-C0201-PCB%E5%8F%A0%E5%B1%82%E8%A7%84%E8%8C%83_V1.2.xls",
+      "expected_bytes": 162816,
+      "git_blob_sha1": "73f92afac8fca96c6c84bdd75311b445d78bb9e7",
+      "sha256": "7ab257370c189692a3d1d03d7caa6d4498b309eb8356ec33bd5189054d48f930"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256BALL_64X1_V3_0_0201/A523_REF_LPDDR3_256BALL_64X1_V3_0_0201-20230717.DSN",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256BALL_64X1_V3_0_0201/A523_REF_LPDDR3_256BALL_64X1_V3_0_0201-20230717.DSN",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256BALL_64X1_V3_0_0201/A523_REF_LPDDR3_256BALL_64X1_V3_0_0201-20230717.DSN",
+      "expected_bytes": 314880,
+      "git_blob_sha1": "565c9ba4f75682499d7c7b46fdc31ae043777e5b",
+      "sha256": "fd9f33f796fee26034d5aa84ad9b7fcf678ec08061910377743cf1c8bab9369a"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256BALL_64X1_V3_0_0201/A523_REF_LPDDR3_256ball_64X1_6L_V3_0-C0201_0718_1407.brd",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256BALL_64X1_V3_0_0201/A523_REF_LPDDR3_256ball_64X1_6L_V3_0-C0201_0718_1407.brd",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256BALL_64X1_V3_0_0201/A523_REF_LPDDR3_256ball_64X1_6L_V3_0-C0201_0718_1407.brd",
+      "expected_bytes": 1705492,
+      "git_blob_sha1": "e5331b09f00f2edfdff73834b239f5f2043bece4",
+      "sha256": "2a043808bf093679adf17a16091956d753274022da411667f1ca682e173af4d1"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256BALL_64X1_V3_0_0201/A523_REF_LPDDR3_256ball_64X1_6L_V3_0-C0201_0718_1407_pads.asc",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256BALL_64X1_V3_0_0201/A523_REF_LPDDR3_256ball_64X1_6L_V3_0-C0201_0718_1407_pads.asc",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256BALL_64X1_V3_0_0201/A523_REF_LPDDR3_256ball_64X1_6L_V3_0-C0201_0718_1407_pads.asc",
+      "expected_bytes": 744831,
+      "git_blob_sha1": "18abaa9d7e052df2194d246021dbdc4275a09533",
+      "sha256": "7416c663c94bc457cf8b674dc8fd8e03358dbf58b19714c965cc16908a2764c9"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256BALL_64X1_V3_0_0201/DDR模板导入注意事项20240704-必看！！！.doc",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256BALL_64X1_V3_0_0201/DDR模板导入注意事项20240704-必看！！！.doc",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256BALL_64X1_V3_0_0201/DDR%E6%A8%A1%E6%9D%BF%E5%AF%BC%E5%85%A5%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B920240704-%E5%BF%85%E7%9C%8B%EF%BC%81%EF%BC%81%EF%BC%81.doc",
+      "expected_bytes": 928435,
+      "git_blob_sha1": "ac99f227aa93a4d17695e1ea6ec4e6945b98fe92",
+      "sha256": "e2d6b99d3181988f7ac35ffaeeb324394962d4c242074093168c788abd875022"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_4L_V1_0(C0201)/A523_REF_LPDDR3_256ball_64X1_V1_0-C0201-DSN-20230222.pdf",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_4L_V1_0(C0201)/A523_REF_LPDDR3_256ball_64X1_V1_0-C0201-DSN-20230222.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256ball_64X1_4L_V1_0%28C0201%29/A523_REF_LPDDR3_256ball_64X1_V1_0-C0201-DSN-20230222.pdf",
+      "expected_bytes": 383679,
+      "git_blob_sha1": "bef3be45635c867fd65f97b95b1b83f30e714137",
+      "sha256": "1987880f49d49a492606a05407e200a205ca24d2cfa1bfd7370df3371ddd1ad1",
+      "pdf_pages": 2
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_4L_V1_0(C0201)/A523_REF_LPDDR3_256ball_64X1_V1_0-C0201.brd",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_4L_V1_0(C0201)/A523_REF_LPDDR3_256ball_64X1_V1_0-C0201.brd",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256ball_64X1_4L_V1_0%28C0201%29/A523_REF_LPDDR3_256ball_64X1_V1_0-C0201.brd",
+      "expected_bytes": 2113812,
+      "git_blob_sha1": "8a215ab21be1fa9c6216287b141408e047770c00",
+      "sha256": "b40b96d3e3bcb226590646f76b83843cb8cd0e2208349517614755a342dd1168"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_4L_V1_0(C0201)/A523_REF_LPDDR3_256ball_64X1_V1_0-C0201_20230222.DSN",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_4L_V1_0(C0201)/A523_REF_LPDDR3_256ball_64X1_V1_0-C0201_20230222.DSN",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256ball_64X1_4L_V1_0%28C0201%29/A523_REF_LPDDR3_256ball_64X1_V1_0-C0201_20230222.DSN",
+      "expected_bytes": 284672,
+      "git_blob_sha1": "d3d323ca302f2d4aa75e5dbef35db294c7f91f00",
+      "sha256": "0284bed6d151490005fc46b035083fc518527ac54e75c74852549b3431020631"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_4L_V1_0(C0201)/A523_REF_LPDDR3_256ball_64X1_V1_0-C0201_pads.asc",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_4L_V1_0(C0201)/A523_REF_LPDDR3_256ball_64X1_V1_0-C0201_pads.asc",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256ball_64X1_4L_V1_0%28C0201%29/A523_REF_LPDDR3_256ball_64X1_V1_0-C0201_pads.asc",
+      "expected_bytes": 825122,
+      "git_blob_sha1": "11712a288caa46030c410937312eba6f35dc6e93",
+      "sha256": "f18f4ecd1ec5e638c6c41a48cd1d099eb0bd1578f3bc6cc32339c78d342ee244"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_4L_V1_0(C0201)/AW_PCB-Stackup_4L_V1.0-wxf.xls",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_4L_V1_0(C0201)/AW_PCB-Stackup_4L_V1.0-wxf.xls",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256ball_64X1_4L_V1_0%28C0201%29/AW_PCB-Stackup_4L_V1.0-wxf.xls",
+      "expected_bytes": 165888,
+      "git_blob_sha1": "37fdc781a6af301066125d347de92311a1703e08",
+      "sha256": "6031b8335bea412ed48959e018b251725cdcab3e8deac18354c078c406c4f99c"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201/A523_REF_LPDDR3_256BALL_64X1_6L_V3_1-C0201-PCB叠层规范_V1.2.xls",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201/A523_REF_LPDDR3_256BALL_64X1_6L_V3_1-C0201-PCB叠层规范_V1.2.xls",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201/A523_REF_LPDDR3_256BALL_64X1_6L_V3_1-C0201-PCB%E5%8F%A0%E5%B1%82%E8%A7%84%E8%8C%83_V1.2.xls",
+      "expected_bytes": 162816,
+      "git_blob_sha1": "73f92afac8fca96c6c84bdd75311b445d78bb9e7",
+      "sha256": "7ab257370c189692a3d1d03d7caa6d4498b309eb8356ec33bd5189054d48f930"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201/A523_REF_LPDDR3_256BALL_64X1_V3_1_0201-20230717.DSN",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201/A523_REF_LPDDR3_256BALL_64X1_V3_1_0201-20230717.DSN",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201/A523_REF_LPDDR3_256BALL_64X1_V3_1_0201-20230717.DSN",
+      "expected_bytes": 314880,
+      "git_blob_sha1": "565c9ba4f75682499d7c7b46fdc31ae043777e5b",
+      "sha256": "fd9f33f796fee26034d5aa84ad9b7fcf678ec08061910377743cf1c8bab9369a"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201_0828_1705.brd",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201_0828_1705.brd",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201_0828_1705.brd",
+      "expected_bytes": 1704984,
+      "git_blob_sha1": "adbac69186986b09bbc3da14f785954db82720cf",
+      "sha256": "ae8dd192a40ee56888f6f89bb3eb00ee9dbfa96028ce2d84027a0aeb94eacf6d"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201_0828_1705_pads.asc",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201_0828_1705_pads.asc",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201_0828_1705_pads.asc",
+      "expected_bytes": 739648,
+      "git_blob_sha1": "90822ea4ecfdbd01215aac911a2f087e4a27b0ad",
+      "sha256": "92fcb0a023f039d61f7e72647cba9fffeaeb2ff74d8f744ecac0d8a1dee4e434"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201/DDR模板导入注意事项20240704-必看！！！.doc",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201/DDR模板导入注意事项20240704-必看！！！.doc",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201/DDR%E6%A8%A1%E6%9D%BF%E5%AF%BC%E5%85%A5%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B920240704-%E5%BF%85%E7%9C%8B%EF%BC%81%EF%BC%81%EF%BC%81.doc",
+      "expected_bytes": 928435,
+      "git_blob_sha1": "ac99f227aa93a4d17695e1ea6ec4e6945b98fe92",
+      "sha256": "e2d6b99d3181988f7ac35ffaeeb324394962d4c242074093168c788abd875022"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201/修改记录.txt",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201/修改记录.txt",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256ball_64X1_6L_V3_1-C0201/%E4%BF%AE%E6%94%B9%E8%AE%B0%E5%BD%95.txt",
+      "expected_bytes": 562,
+      "git_blob_sha1": "5d32ffb1486a5872f8b311bf4a4ed63620f72035",
+      "sha256": "bf28d8b80a5325af4fb1e7b0fcc889f6f58540a005dbd93b0f1c335b8b328cb2"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201/A523_REF_LPDDR3_256BALL_64X1_8L_V1_0_0201-20230426.DSN",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201/A523_REF_LPDDR3_256BALL_64X1_8L_V1_0_0201-20230426.DSN",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201/A523_REF_LPDDR3_256BALL_64X1_8L_V1_0_0201-20230426.DSN",
+      "expected_bytes": 312832,
+      "git_blob_sha1": "18809abf1892cb1406fd1106d0cef4f0c39ce920",
+      "sha256": "61a6d581e795bbcbf8e93ac8f093081941bfc40a92c1a2d667819f0065a50f3a"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201_0616_1632.brd",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201_0616_1632.brd",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201_0616_1632.brd",
+      "expected_bytes": 1891580,
+      "git_blob_sha1": "2269813b5077fcd0a01c01ae62265f08519c4fa8",
+      "sha256": "be0f4c1f838b26fd5beb1330b95f1b8ba012e4afe7176e1665a21031e71f1580"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201_0616_1632_pads.asc",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201_0616_1632_pads.asc",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201_0616_1632_pads.asc",
+      "expected_bytes": 707764,
+      "git_blob_sha1": "cde97a0ec1271312ea1d383d29b0b7767d7959b7",
+      "sha256": "58f0e4bf15ceb82bf4652e5fc2bf3a3d6f171da9222b0b748c0113983f21ed21"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201_0616_1632_pads.pcb",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201_0616_1632_pads.pcb",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201_0616_1632_pads.pcb",
+      "expected_bytes": 1000043,
+      "git_blob_sha1": "64cb14f9203683ccf149637fda88d3b93d496834",
+      "sha256": "132387f883fef4cb2dbf696db90aa472e5ab0bad355d8bba22062ea4b5af52c6"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201/AW_PCB-Stackup_8L_1mm_V1.0-20230313.xls",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201/AW_PCB-Stackup_8L_1mm_V1.0-20230313.xls",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/A523_REF_LPDDR3_256ball_64X1_8L_V1_0-C0201/AW_PCB-Stackup_8L_1mm_V1.0-20230313.xls",
+      "expected_bytes": 191488,
+      "git_blob_sha1": "bef48d4ffa64e345fc7d02331a2fba269b020d57",
+      "sha256": "5bae5959bf6a9a6d262ae54cecbd45f6dae60a18e0b0cf1cfd59ad854bbcffdd"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/AW1890-A523_DDR走线规则.xlsx",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/AW1890-A523_DDR走线规则.xlsx",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/AW1890-A523_DDR%E8%B5%B0%E7%BA%BF%E8%A7%84%E5%88%99.xlsx",
+      "expected_bytes": 10021,
+      "git_blob_sha1": "a77cbd20f30be053f997d11d4a841157318fade5",
+      "sha256": "43a4da5a7f3cbde513ca77c3e15a2f071456d9021429e63ab752a97a19823ea5"
+    },
+    {
+      "path": "A523_hwref/PCB参考/硬件DDR模板&叠层文件/DDR模板导入&检查操作手册V1.0.pdf",
+      "upstream_path": "a523_a527_t527/A523_hwref/PCB参考/硬件DDR模板&叠层文件/DDR模板导入&检查操作手册V1.0.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PCB%E5%8F%82%E8%80%83/%E7%A1%AC%E4%BB%B6DDR%E6%A8%A1%E6%9D%BF%26%E5%8F%A0%E5%B1%82%E6%96%87%E4%BB%B6/DDR%E6%A8%A1%E6%9D%BF%E5%AF%BC%E5%85%A5%26%E6%A3%80%E6%9F%A5%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8CV1.0.pdf",
+      "expected_bytes": 4335020,
+      "git_blob_sha1": "d27ecd3743932c35bed0faf63fae8f4e7fbd64de",
+      "sha256": "e12ae21a444f5edbf30ef5e32bb9cb7fdaf71a9ffa736e307c3a0f1799e9e645",
+      "pdf_pages": 17
+    },
+    {
+      "path": "A523_hwref/PMIC搭配选型说明/A523&A527&T527产品方案之AXP电源方案(AXP717B&AXP717C)选型参考.xlsx",
+      "upstream_path": "a523_a527_t527/A523_hwref/PMIC搭配选型说明/A523&A527&T527产品方案之AXP电源方案(AXP717B&AXP717C)选型参考.xlsx",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/PMIC%E6%90%AD%E9%85%8D%E9%80%89%E5%9E%8B%E8%AF%B4%E6%98%8E/A523%26A527%26T527%E4%BA%A7%E5%93%81%E6%96%B9%E6%A1%88%E4%B9%8BAXP%E7%94%B5%E6%BA%90%E6%96%B9%E6%A1%88%28AXP717B%26AXP717C%29%E9%80%89%E5%9E%8B%E5%8F%82%E8%80%83.xlsx",
+      "expected_bytes": 104088,
+      "git_blob_sha1": "231d125ac5bdb8d0d407749d6b859e5e9cfa92bb",
+      "sha256": "09e68a5f904423d8b67220b20c4c942ca317b574a0d6212cacaa6193599aca29"
+    },
+    {
+      "path": "A523_hwref/原理图/开发板资料/开发板BOM表/A523-EVB-AXP717C-LPDDR4-4X-BOM-20221117.xlsx",
+      "upstream_path": "a523_a527_t527/A523_hwref/原理图/开发板资料/开发板BOM表/A523-EVB-AXP717C-LPDDR4-4X-BOM-20221117.xlsx",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/%E5%8E%9F%E7%90%86%E5%9B%BE/%E5%BC%80%E5%8F%91%E6%9D%BF%E8%B5%84%E6%96%99/%E5%BC%80%E5%8F%91%E6%9D%BFBOM%E8%A1%A8/A523-EVB-AXP717C-LPDDR4-4X-BOM-20221117.xlsx",
+      "expected_bytes": 11253283,
+      "git_blob_sha1": "51b23cf8090c45ad694a2bada9d4c6c94015c0a5",
+      "sha256": "5e0cef9084c534f91b2efa5d164e576feb2a63ea60ed7286f31941289c1bdcc8"
+    },
+    {
+      "path": "A523_hwref/原理图/开发板资料/开发板PCB/A523-EVB-AXP717C-LPDDR4-4X-32X1-V1-0.brd",
+      "upstream_path": "a523_a527_t527/A523_hwref/原理图/开发板资料/开发板PCB/A523-EVB-AXP717C-LPDDR4-4X-32X1-V1-0.brd",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/%E5%8E%9F%E7%90%86%E5%9B%BE/%E5%BC%80%E5%8F%91%E6%9D%BF%E8%B5%84%E6%96%99/%E5%BC%80%E5%8F%91%E6%9D%BFPCB/A523-EVB-AXP717C-LPDDR4-4X-32X1-V1-0.brd",
+      "expected_bytes": 23906076,
+      "git_blob_sha1": "c4db076b8caa49d5b4933c9d2e7acafd30d6472e",
+      "sha256": "7d53e2b3f2eebcf0010e06612878c77d2232da3a4873f3dd9bf49300209fe170"
+    },
+    {
+      "path": "A523_hwref/原理图/开发板资料/开发板原理图/A523-EVB-AXP717C-LPDDR4-4X-32X1-V1-0-20221115.DSN",
+      "upstream_path": "a523_a527_t527/A523_hwref/原理图/开发板资料/开发板原理图/A523-EVB-AXP717C-LPDDR4-4X-32X1-V1-0-20221115.DSN",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/%E5%8E%9F%E7%90%86%E5%9B%BE/%E5%BC%80%E5%8F%91%E6%9D%BF%E8%B5%84%E6%96%99/%E5%BC%80%E5%8F%91%E6%9D%BF%E5%8E%9F%E7%90%86%E5%9B%BE/A523-EVB-AXP717C-LPDDR4-4X-32X1-V1-0-20221115.DSN",
+      "expected_bytes": 3174400,
+      "git_blob_sha1": "999bebf63ad39e7ae7c4bfd2f5170ea362f2cf4e",
+      "sha256": "ed189502bc0ff53a0d506b876f85852273c1e17ad3e7d24b2b03b5f36081745f"
+    },
+    {
+      "path": "A523_hwref/原理图/开发板资料/开发板原理图/A523-EVB-AXP717C-LPDDR4-4X-32X1-V1-0-20221115.pdf",
+      "upstream_path": "a523_a527_t527/A523_hwref/原理图/开发板资料/开发板原理图/A523-EVB-AXP717C-LPDDR4-4X-32X1-V1-0-20221115.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/%E5%8E%9F%E7%90%86%E5%9B%BE/%E5%BC%80%E5%8F%91%E6%9D%BF%E8%B5%84%E6%96%99/%E5%BC%80%E5%8F%91%E6%9D%BF%E5%8E%9F%E7%90%86%E5%9B%BE/A523-EVB-AXP717C-LPDDR4-4X-32X1-V1-0-20221115.pdf",
+      "expected_bytes": 923579,
+      "git_blob_sha1": "4341a72d9b3ec57d1eeb4caee83e34fd2df64451",
+      "sha256": "4698de11e7f73ee66d9d7935be365260e684a4fb038a60ce24c343d86d19727c",
+      "pdf_pages": 27
+    },
+    {
+      "path": "A523_hwref/原理图/开发板资料/开发板用户指南/A523-EVB-AXP717C-LPDDR4-4X-32X1-V1-0-20221115.pdf",
+      "upstream_path": "a523_a527_t527/A523_hwref/原理图/开发板资料/开发板用户指南/A523-EVB-AXP717C-LPDDR4-4X-32X1-V1-0-20221115.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/%E5%8E%9F%E7%90%86%E5%9B%BE/%E5%BC%80%E5%8F%91%E6%9D%BF%E8%B5%84%E6%96%99/%E5%BC%80%E5%8F%91%E6%9D%BF%E7%94%A8%E6%88%B7%E6%8C%87%E5%8D%97/A523-EVB-AXP717C-LPDDR4-4X-32X1-V1-0-20221115.pdf",
+      "expected_bytes": 923579,
+      "git_blob_sha1": "4341a72d9b3ec57d1eeb4caee83e34fd2df64451",
+      "sha256": "4698de11e7f73ee66d9d7935be365260e684a4fb038a60ce24c343d86d19727c",
+      "pdf_pages": 27
+    },
+    {
+      "path": "A523_hwref/原理图/开发板资料/开发板用户指南/A523-EVB-AXP717C-LPDDR4-4X-32X1-V1-0.pdf",
+      "upstream_path": "a523_a527_t527/A523_hwref/原理图/开发板资料/开发板用户指南/A523-EVB-AXP717C-LPDDR4-4X-32X1-V1-0.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/%E5%8E%9F%E7%90%86%E5%9B%BE/%E5%BC%80%E5%8F%91%E6%9D%BF%E8%B5%84%E6%96%99/%E5%BC%80%E5%8F%91%E6%9D%BF%E7%94%A8%E6%88%B7%E6%8C%87%E5%8D%97/A523-EVB-AXP717C-LPDDR4-4X-32X1-V1-0.pdf",
+      "expected_bytes": 2024495,
+      "git_blob_sha1": "c3cf621c1e01de11a692fc3d4060e4d533a7fce8",
+      "sha256": "c9596f394d00be7d13b72ce281fa5273ced8ab63ecb573ebcfb4d2ae025dee0e",
+      "pdf_pages": 2
+    },
+    {
+      "path": "A523_hwref/原理图/开发板资料/开发板用户指南/A523_EVB开发板用户指南_V1.0.pdf",
+      "upstream_path": "a523_a527_t527/A523_hwref/原理图/开发板资料/开发板用户指南/A523_EVB开发板用户指南_V1.0.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/%E5%8E%9F%E7%90%86%E5%9B%BE/%E5%BC%80%E5%8F%91%E6%9D%BF%E8%B5%84%E6%96%99/%E5%BC%80%E5%8F%91%E6%9D%BF%E7%94%A8%E6%88%B7%E6%8C%87%E5%8D%97/A523_EVB%E5%BC%80%E5%8F%91%E6%9D%BF%E7%94%A8%E6%88%B7%E6%8C%87%E5%8D%97_V1.0.pdf",
+      "expected_bytes": 8821912,
+      "git_blob_sha1": "d9b17cb2ee1470dabe662cd5acf69b35b9f8c447",
+      "sha256": "fde5804ec19eb6b3b1e8f38a7bac21f9b90e0567ab31f48b7a565aea8e280b65",
+      "pdf_pages": 42
+    },
+    {
+      "path": "A523_hwref/原理图/标案原理图/A523-STD-Changelist-20240722.txt",
+      "upstream_path": "a523_a527_t527/A523_hwref/原理图/标案原理图/A523-STD-Changelist-20240722.txt",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/%E5%8E%9F%E7%90%86%E5%9B%BE/%E6%A0%87%E6%A1%88%E5%8E%9F%E7%90%86%E5%9B%BE/A523-STD-Changelist-20240722.txt",
+      "expected_bytes": 1229,
+      "git_blob_sha1": "34d73968b9ce2ee6b27b052fa692da7f2cc40c4e",
+      "sha256": "7b388b4cd9050e829dcf8255fee41297dfa2b2182f562d65d0f020630d5d0cf9"
+    },
+    {
+      "path": "A523_hwref/原理图/标案原理图/A523_STD_AXP717C_AXP323_LPDDR4_4X_32X1_V2-4_240712.DSN",
+      "upstream_path": "a523_a527_t527/A523_hwref/原理图/标案原理图/A523_STD_AXP717C_AXP323_LPDDR4_4X_32X1_V2-4_240712.DSN",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/%E5%8E%9F%E7%90%86%E5%9B%BE/%E6%A0%87%E6%A1%88%E5%8E%9F%E7%90%86%E5%9B%BE/A523_STD_AXP717C_AXP323_LPDDR4_4X_32X1_V2-4_240712.DSN",
+      "expected_bytes": 3141632,
+      "git_blob_sha1": "de60d3b582d7919a163a49f81cc20edfebd56310",
+      "sha256": "2eb8a0131f8f0195ef346b52a7092a6798c8e163141df0d855c45c3688474434"
+    },
+    {
+      "path": "A523_hwref/原理图/标案原理图/a523_std_axp717c_axp323_lpddr4_240712.pdf",
+      "upstream_path": "a523_a527_t527/A523_hwref/原理图/标案原理图/a523_std_axp717c_axp323_lpddr4_240712.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/%E5%8E%9F%E7%90%86%E5%9B%BE/%E6%A0%87%E6%A1%88%E5%8E%9F%E7%90%86%E5%9B%BE/a523_std_axp717c_axp323_lpddr4_240712.pdf",
+      "expected_bytes": 929070,
+      "git_blob_sha1": "91e7826dbbc7d033cdc0b577f4e7b9be87253417",
+      "sha256": "2fec2ebcac9201ff1b3395c71801a12307172c24dfe7f86f8d9578bd4ad6b9e4",
+      "pdf_pages": 31
+    },
+    {
+      "path": "A523_hwref/硬件checklist/A523原理图设计Checklist V1.0.xlsx",
+      "upstream_path": "a523_a527_t527/A523_hwref/硬件checklist/A523原理图设计Checklist V1.0.xlsx",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/%E7%A1%AC%E4%BB%B6checklist/A523%E5%8E%9F%E7%90%86%E5%9B%BE%E8%AE%BE%E8%AE%A1Checklist%20V1.0.xlsx",
+      "expected_bytes": 255176,
+      "git_blob_sha1": "91585f0ae40d444e902a2d42b46dd81cfcc61c25",
+      "sha256": "a03360bf4242b75b4a1824982c1f1470d8877ef551179062e0d43c2a15908c0f"
+    },
+    {
+      "path": "A523_hwref/硬件checklist/全志客户PCB设计Checklist_V2.0.xlsx",
+      "upstream_path": "a523_a527_t527/A523_hwref/硬件checklist/全志客户PCB设计Checklist_V2.0.xlsx",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/%E7%A1%AC%E4%BB%B6checklist/%E5%85%A8%E5%BF%97%E5%AE%A2%E6%88%B7PCB%E8%AE%BE%E8%AE%A1Checklist_V2.0.xlsx",
+      "expected_bytes": 162299,
+      "git_blob_sha1": "a52644d6db5f13d172b030a2105c9f8c012141dd",
+      "sha256": "03280690d165489b111aaa9ee41c5cd69023abec5afd9c2ae75f2978f521da88"
+    },
+    {
+      "path": "A523_hwref/设计指南/DDR Layout指南/A523 DDR layout设计指南-V1.1-0403.pdf",
+      "upstream_path": "a523_a527_t527/A523_hwref/设计指南/DDR Layout指南/A523 DDR layout设计指南-V1.1-0403.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97/DDR%20Layout%E6%8C%87%E5%8D%97/A523%20DDR%20layout%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97-V1.1-0403.pdf",
+      "expected_bytes": 3243081,
+      "git_blob_sha1": "3bf8dd1c96d7c27d90e7d268550341a324f4ca47",
+      "sha256": "603d6107be68ee2760888eb126d8409d368056dc9d628f5b0acf4e0f35459c8f",
+      "pdf_pages": 27
+    },
+    {
+      "path": "A523_hwref/设计指南/硬件设计指南/A523 PCB设计指南-V1.1.pdf",
+      "upstream_path": "a523_a527_t527/A523_hwref/设计指南/硬件设计指南/A523 PCB设计指南-V1.1.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97/%E7%A1%AC%E4%BB%B6%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97/A523%20PCB%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97-V1.1.pdf",
+      "expected_bytes": 5158119,
+      "git_blob_sha1": "424d88268e982c4e0430edea86f285636b95b450",
+      "sha256": "792566373681d0226d4fe3f9883f8097d1b57ee8c51c5445abbcf2a2ea74afde",
+      "pdf_pages": 39
+    },
+    {
+      "path": "A523_hwref/设计指南/硬件设计指南/A523硬件设计指南_V1.6-240712.pdf",
+      "upstream_path": "a523_a527_t527/A523_hwref/设计指南/硬件设计指南/A523硬件设计指南_V1.6-240712.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97/%E7%A1%AC%E4%BB%B6%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97/A523%E7%A1%AC%E4%BB%B6%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97_V1.6-240712.pdf",
+      "expected_bytes": 6275971,
+      "git_blob_sha1": "93c4fc5e600e04f1d88b87855808567d8f7a7f24",
+      "sha256": "5f5ce6ece37552674e3f98f39faf829f8bb3d38fb67207007a18ab5b2ca78446",
+      "pdf_pages": 87
+    },
+    {
+      "path": "A523_hwref/设计指南/硬件设计指南/全志平台A系列ESD防护设计及调试指导 V1.0_ 20240410.pdf",
+      "upstream_path": "a523_a527_t527/A523_hwref/设计指南/硬件设计指南/全志平台A系列ESD防护设计及调试指导 V1.0_ 20240410.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/A523_hwref/%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97/%E7%A1%AC%E4%BB%B6%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97/%E5%85%A8%E5%BF%97%E5%B9%B3%E5%8F%B0A%E7%B3%BB%E5%88%97ESD%E9%98%B2%E6%8A%A4%E8%AE%BE%E8%AE%A1%E5%8F%8A%E8%B0%83%E8%AF%95%E6%8C%87%E5%AF%BC%20V1.0_%2020240410.pdf",
+      "expected_bytes": 2821111,
+      "git_blob_sha1": "bb13e9640df0f9372d93f4b969120191ece16560",
+      "sha256": "a4d63181daae5ea659fc2486ee01ee0534117a940369193c61d48603786bb728",
+      "pdf_pages": 28
+    },
+    {
+      "path": "Allwinnertech A523 DRAM Support List V1.3.xls",
+      "upstream_path": "a523_a527_t527/Allwinnertech A523 DRAM Support List V1.3.xls",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/a523_a527_t527/Allwinnertech%20A523%20DRAM%20Support%20List%20V1.3.xls",
+      "expected_bytes": 57344,
+      "git_blob_sha1": "ac14007224f13e265d9942b8f11a1630d1f992b6",
+      "sha256": "fb481e869491af01a73d14ad4b9a053d8f40db014db3c9212aa72594bbf88647"
+    },
+    {
+      "path": "pmu_xpowers/AXP323_Datasheet_V1.1_en.pdf",
+      "upstream_path": "pmu_xpowers/AXP323_Datasheet_V1.1_en.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/pmu_xpowers/AXP323_Datasheet_V1.1_en.pdf",
+      "expected_bytes": 1374347,
+      "git_blob_sha1": "039b6293b75c0b94c361e24a1e3335f84de2f5bf",
+      "sha256": "7cb622d3b7780e9759877dd6641669929e7a87b92d3efe0d7ef94681ccb5bc24",
+      "pdf_pages": 31
+    },
+    {
+      "path": "pmu_xpowers/AXP717B_Datasheet_V1.0_en.pdf",
+      "upstream_path": "pmu_xpowers/AXP717B_Datasheet_V1.0_en.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/pmu_xpowers/AXP717B_Datasheet_V1.0_en.pdf",
+      "expected_bytes": 1129993,
+      "git_blob_sha1": "017891d0473519aad4e2f6febb824b6c35fa6f65",
+      "sha256": "976a882c4130e9b65a713b4e0e8cddf5687a47f0c6e06192a79344ff8966e8bf",
+      "pdf_pages": 40
+    },
+    {
+      "path": "pmu_xpowers/AXP717C_Datasheet_V1.1_en.pdf",
+      "upstream_path": "pmu_xpowers/AXP717C_Datasheet_V1.1_en.pdf",
+      "url": "https://raw.githubusercontent.com/DeciHD/allwinner_docs/d6cfc7c4c4ef35868322149776f7503a671367d6/pmu_xpowers/AXP717C_Datasheet_V1.1_en.pdf",
+      "expected_bytes": 1179903,
+      "git_blob_sha1": "1e67bbafa28e734c382610356d3e5e7d9211716a",
+      "sha256": "a9bb22e0d7a31ec3b3ea4c255708f291f060dfdc1bf40b350d237911fbca8908",
+      "pdf_pages": 53
+    },
+    {
+      "path": "NT6AN512T32AV_LPDDR4_V1.8.pdf",
+      "url": "https://resources.ampheo.com/static/datasheets/nanya-technology/nt6an512t32av-j2.pdf",
+      "retrieved": "2026-09-08",
+      "bytes": 15264009,
+      "sha256": "a0a894c574cc8dc83628f83c43fecb3c5a4b84403464c5a7772c678af09eba93",
+      "pdf_pages": 302,
+      "source_note": "Nanya-authored V1.8 datasheet, hosted by Ampheo; no upstream Git hash or independent expected-size verification."
+    },
+    {
+      "path": "TPS61230.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tps61230.pdf",
+      "expected_bytes": 1574142,
+      "sha256": "dd7ff8bd35a03e5a83c13f95e026e7cd18a3569cb535945f742b663f30aff892",
+      "pdf_pages": 32,
+      "retrieved": "2026-09-08",
+      "source": "Manufacturer"
+    },
+    {
+      "path": "AOZ1280CI.pdf",
+      "url": "https://www.aosmd.com/res/datasheets/AOZ1280CI.pdf",
+      "expected_bytes": 996766,
+      "sha256": "3e241e63f541ed66fd370756c9b2ee72b668f5f0044d51a991099ab914ed3a07",
+      "pdf_pages": 13,
+      "retrieved": "2026-09-08",
+      "source": "Manufacturer"
+    },
+    {
+      "path": "H9HCNNNBKUMLXR-NEE_LPDDR4_V1.0.pdf",
+      "url": "https://datasheet.lcsc.com/datasheet/pdf/39b1df36db758c471fe5051b87270265.pdf?productCode=C21912322",
+      "retrieved": "2026-09-08",
+      "bytes": 9162433,
+      "sha256": "32d382918c9c3dceb3c53d119b791fd5f8321519144caa85db771b039c3b3e03",
+      "pdf_pages": 251,
+      "source_note": "SK hynix-authored V1.0 datasheet hosted by LCSC; candidate RAM, not yet selected in the schematic."
+    }
+  ]
+}

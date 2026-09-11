@@ -60,10 +60,10 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2,
+          "min_clearance": 0.15,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
+          "min_thickness": 0.15,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -78,15 +78,7 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|103700000|35365000|21b0bd5e-2f22-4246-9550-b0586c548a9c|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|108137500|49712500|fac82685-3ad3-4a30-bad2-9a2302d7d02c|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|110700000|35400000|5466684c-07da-4af2-bb52-1df89ff2d2d5|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -135,10 +127,6 @@
         ],
         [
           "silk_over_copper|66499793|112574700|f94bee0c-7957-4e57-b61c-e370100e47a9|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_overlap|109197500|47960000|70b7cd0e-7590-4651-9259-89f954cb5298|bfcc5ce4-18dd-4d31-a832-5a3321afbb1a",
           ""
         ],
         [
@@ -210,14 +198,6 @@
           ""
         ],
         [
-          "solder_mask_bridge|101425000|126477278|20452deb-bef4-4597-9771-58aa32d23dd0|3183eb6d-318f-4a35-8344-e97c951b9d05",
-          ""
-        ],
-        [
-          "solder_mask_bridge|101425000|127177278|20452deb-bef4-4597-9771-58aa32d23dd0|3183eb6d-318f-4a35-8344-e97c951b9d05",
-          ""
-        ],
-        [
           "solder_mask_bridge|101425000|134377278|ee4260ba-26bb-40ea-9bd8-71f44055b44e|466cd50b-834f-492d-bf40-50a621bf03bc",
           ""
         ],
@@ -251,14 +231,6 @@
         ],
         [
           "solder_mask_bridge|108023800|142290400|e288ad18-b0f4-4181-9dea-1009e67aadc8|41636f37-6a69-4c48-9a11-be866812868f",
-          ""
-        ],
-        [
-          "solder_mask_bridge|108025000|126477278|3d3b6d46-e548-44af-ac34-81ff1f837faa|2f02e166-9e18-4f65-8875-2df1769ab22d",
-          ""
-        ],
-        [
-          "solder_mask_bridge|108025000|127177278|3d3b6d46-e548-44af-ac34-81ff1f837faa|2f02e166-9e18-4f65-8875-2df1769ab22d",
           ""
         ],
         [
@@ -346,14 +318,6 @@
           ""
         ],
         [
-          "solder_mask_bridge|56315000|117987278|77b05777-a615-43fe-8c77-9e3aadd03ef1|9cbf18eb-7196-4968-932a-f12cffb32a32",
-          ""
-        ],
-        [
-          "solder_mask_bridge|56315000|118687278|77b05777-a615-43fe-8c77-9e3aadd03ef1|9cbf18eb-7196-4968-932a-f12cffb32a32",
-          ""
-        ],
-        [
           "solder_mask_bridge|61825000|126477278|7572f734-707e-4e1b-89a1-e5dade4181d9|ac2fd18e-8dc0-4238-83b7-9eb8aecca352",
           ""
         ],
@@ -383,14 +347,6 @@
         ],
         [
           "solder_mask_bridge|73212143|137071564|1d921f25-a234-4bf7-a7b9-2c0cacb56067|0a7fdd86-5d84-475a-8394-c1bf34a9a103",
-          ""
-        ],
-        [
-          "solder_mask_bridge|75025000|126477278|af33265f-aaf4-4f52-8696-9f3ca856d097|53266b6e-3426-4f69-b1e7-2c445ec14e1a",
-          ""
-        ],
-        [
-          "solder_mask_bridge|75025000|127177278|af33265f-aaf4-4f52-8696-9f3ca856d097|53266b6e-3426-4f69-b1e7-2c445ec14e1a",
           ""
         ],
         [
@@ -434,14 +390,6 @@
           ""
         ],
         [
-          "solder_mask_bridge|88225000|126477278|40fc3b10-b8bc-4e47-9922-17bd08aa6354|3b4d4717-3238-4774-8e49-cc1c4d5a7c5e",
-          ""
-        ],
-        [
-          "solder_mask_bridge|88225000|127177278|40fc3b10-b8bc-4e47-9922-17bd08aa6354|3b4d4717-3238-4774-8e49-cc1c4d5a7c5e",
-          ""
-        ],
-        [
           "solder_mask_bridge|93740000|117987278|56c47343-c548-4019-b0b6-bafa7751878b|6522da72-d327-4ebe-be3a-162c74ea8c75",
           ""
         ],
@@ -475,7 +423,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "ignore",
+        "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -539,11 +487,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.14,
+        "min_clearance": 0.0762,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.15,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.2,
+        "min_hole_clearance": 0.15,
         "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -552,9 +500,9 @@
         "min_text_height": 0.5,
         "min_text_thickness": 0.1,
         "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.14,
-        "min_via_annular_width": 0.075,
-        "min_via_diameter": 0.35,
+        "min_track_width": 0.0762,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -604,11 +552,9 @@
       ],
       "track_widths": [
         0.0,
-        0.1354,
-        0.1402,
+        0.0762,
+        0.1,
         0.2,
-        0.3,
-        0.5,
         0.5,
         1.25
       ],
@@ -642,14 +588,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.5,
-          "drill": 0.25
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -930,34 +868,62 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "tuning_profile": "",
-        "via_diameter": 0.5,
-        "via_drill": 0.3,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
         "clearance": 0.15,
         "diff_pair_gap": 0.15,
-        "diff_pair_width": 0.175,
+        "diff_pair_width": 0.11,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "90Ω",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgb(255, 168, 41)",
-        "track_width": 0.14,
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.11,
         "tuning_profile": "",
-        "via_diameter": 0.5,
-        "via_drill": 0.3
+        "via_diameter": 0.4,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.1,
+        "name": "DSI 100Ω",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.127,
+        "diff_pair_width": 0.127,
+        "name": "LPDDR4",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1143,
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.2
       },
       {
         "clearance": 0.2,
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.25,
-        "tuning_profile": ""
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.2
       }
     ],
     "meta": {
@@ -991,8 +957,8 @@
         "pattern": "+BATT"
       },
       {
-        "netclass": "Default",
-        "pattern": "*DSI*"
+        "netclass": "DSI 100Ω",
+        "pattern": "/A523 system/DSI_*"
       },
       {
         "netclass": "90Ω",
@@ -1005,6 +971,50 @@
       {
         "netclass": "90Ω",
         "pattern": "/Power & USB/D*"
+      },
+      {
+        "netclass": "LPDDR4",
+        "pattern": "*/DDR_*"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "*/USB0_DP"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "*/USB0_DM"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/USB_HOST_DP"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/USB_HOST_DM"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/HUB_CONSOLE_DP"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/HUB_CONSOLE_DM"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "*/SENSE_DP"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "*/SENSE_DM"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "Net-(J101-D+-PadA6)"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "Net-(J101-D--PadA7)"
       }
     ]
   },
@@ -1172,7 +1182,7 @@
         "uuid": "d0a98fce-b133-4503-8f8a-83b2a1eed591"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J3,J101-103,J105,J701,J801,SW1,SW11-19,SW101,NT301,U1,U7,U11,U14-15,U101,U301,U402,U501-502,U701,U801,U901,TP2-3,JP101,JP801,R2,R22-23,R26,R33,R103-108,R121-126,R201-214,R301-302,R501-504,R703,R710-718,R801-802,R910-911,R920-921,L3,L501-507,L701,L801,L901-902,D6,D13,D15-22,D901,C6-11,C32-33,C44,C102-103,C121,C201-212,C220-226,C230-235,C240-245,C250-284,C301-318,C401,C501-517,C520-535,C540-545,C549-552,C701-705,C801-802,C910-914,C920-923,Y201-202,#PWR2-4,#PWR8-10,#PWR13-14,#PWR17-18,#PWR68-78,#PWR80,#PWR101,#PWR801-807,#PWR3955531,#PWR8083854,#PWR9941919,#PWR13098978,#PWR21405580,#PWR29890493,#PWR30574674,#PWR31755485,#PWR33045198,#PWR33781600,#PWR40001035,#PWR40873300,#PWR41180047,#PWR44900169,#PWR45629528,#PWR51136630,#PWR56159126,#PWR67174004,#PWR71726178,#PWR72946683,#PWR74066681,#PWR80355764,#PWR80576561,#PWR84086528,#PWR88986979,#PWR93009836,#PWR93593876,#PWR93828017,#PWR100934144,#PWR104011872,#PWR104462234,#PWR106637352,#PWR107537109,#PWR108402275,#PWR108701807,#PWR115372504,#PWR116394579,#PWR121888546,#PWR129196482,#PWR134402721,#PWR138403151,#PWR139508984,#PWR143123726,#PWR154700209,#PWR161160205,#PWR164778611,#PWR164823790,#PWR166213761,#PWR167371596,#PWR169760990,#PWR175002004,#PWR176939247,#PWR179585273,#PWR179754565,#PWR180313568,#PWR182981194,#PWR184597900,#PWR188422410,#PWR189963705,#PWR196927016,#PWR197059314,#PWR199237492,#PWR200801253,#PWR203783563,#PWR207147903,#PWR210932967,#PWR219083233,#PWR220104297,#PWR225115485,#PWR231378080,#PWR232824351,#PWR237054344,#PWR244473909,#PWR244551554,#PWR250221326,#PWR253293154,#PWR253586466,#PWR258284145,#PWR261435359,#PWR261438280,#PWR264992835,#PWR265593092,#PWR270450588,#PWR272202460,#PWR278608838,#PWR281649068,#PWR287662235,#PWR289495186,#PWR292065852,#PWR292319158,#PWR292343183,#PWR294052489,#PWR296169584,#PWR297227662,#PWR297774486,#PWR301039520,#PWR303001096,#PWR303276358,#PWR304658110,#PWR306107824,#PWR310675361,#PWR322153189,#PWR324872657,#PWR325060478,#PWR330071177,#PWR332270959,#PWR343819198,#PWR356326387,#PWR367182965,#PWR367359210,#PWR367393881,#PWR370067312,#PWR371212099,#PWR377003552,#PWR378713733,#PWR387583310,#PWR391048315,#PWR400305496,#PWR403505136,#PWR404951872,#PWR408211481,#PWR410720000,#PWR411313472,#PWR411793504,#PWR413595942,#PWR418795683,#PWR422834942,#PWR424201100,#PWR424766281,#PWR426394234,#PWR428210257,#PWR433617142,#PWR439891318,#PWR445709040,#PWR445909618,#PWR446622746,#PWR450383872,#PWR456492585,#PWR465010071,#PWR465734521,#PWR467449185,#PWR468504825,#PWR468903952,#PWR473339576,#PWR474900066,#PWR484037236,#PWR485275761,#PWR487420437,#PWR487809531,#PWR489745983,#PWR492980429,#PWR504277194,#PWR506012309,#PWR506674545,#PWR511064955,#PWR515383819,#PWR516751339,#PWR519337307,#PWR520629615,#PWR522992968,#PWR525676047,#PWR526920606,#PWR528751577,#PWR529181334,#PWR534641590,#PWR535249501,#PWR536157910,#PWR541423148,#PWR543125284,#PWR548575829,#PWR550789352,#PWR556700371,#PWR557843030,#PWR560070093,#PWR567237542,#PWR570566042,#PWR571030133,#PWR575210898,#PWR581253834,#PWR588425532,#PWR595861475,#PWR604891831,#PWR614351810,#PWR615646110,#PWR619506817,#PWR624090499,#PWR626937091,#PWR627291550,#PWR628341936,#PWR636518403,#PWR640741467,#PWR643905516,#PWR651042811,#PWR653597646,#PWR654374624,#PWR656515599,#PWR667556684,#PWR673175164,#PWR678181557,#PWR678333636,#PWR680549732,#PWR681105299,#PWR699132218,#PWR700461264,#PWR701464444,#PWR702486313,#PWR705529942,#PWR706491973,#PWR707978506,#PWR708476760,#PWR709437700,#PWR712690878,#PWR713414578,#PWR715930100,#PWR717682174,#PWR720632528,#PWR720811771,#PWR731169235,#PWR740680279,#PWR741277784,#PWR749356758,#PWR749474157,#PWR753819001,#PWR760817175,#PWR768873246,#PWR781624738,#PWR786214614,#PWR789329577,#PWR789626019,#PWR795967906,#PWR801317923,#PWR803842200,#PWR805177155,#PWR806026534,#PWR807583700,#PWR807795235,#PWR808161184,#PWR824587845,#PWR827188569,#PWR828227944,#PWR829119675,#PWR830718753,#PWR831823685,#PWR833757336,#PWR837036571,#PWR837745405,#PWR839609136,#PWR842480622,#PWR842705799,#PWR844497010,#PWR846660892,#PWR847582816,#PWR849068440,#PWR851904525,#PWR853362114,#PWR856262661,#PWR858559021,#PWR862705408,#PWR863746534,#PWR867304869,#PWR868617684,#PWR869997685,#PWR871003362,#PWR871126865,#PWR872547496,#PWR873080746,#PWR873897083,#PWR877233556,#PWR877905872,#PWR884394137,#PWR887058109,#PWR890959381,#PWR892819072,#PWR895745235,#PWR899177914,#PWR901235164,#PWR903839044,#PWR906143742,#PWR909538798,#PWR912231084,#PWR915238295,#PWR924662077,#PWR924808954,#PWR935299783,#PWR935369778,#PWR940701541,#PWR946272911,#PWR949139242,#PWR954003812,#PWR966654418,#PWR967418578,#PWR967582814,#PWR972231882,#PWR972538359,#PWR978180505,#PWR993516134,#PWR995002502,#PWR997293463,#FLG301,#FLG501-503,#FLG505,#FLG507,#FLG904-906",
     "variants": []
   },
   "sheets": [
@@ -1185,48 +1195,120 @@
       "Power & USB"
     ],
     [
-      "83b47a1d-beff-4fad-8dc4-09477bd5c4c9",
+      "773f8af3-a641-4fcc-9414-9cf290a67b77",
+      "USB Hub"
+    ],
+    [
+      "9ea6226f-0e0b-4196-8f09-87afd877f350",
       "Keyboard"
     ],
     [
-      "d2fe0700-5ac0-49f8-be88-fb2ff272cc57",
-      "DSI Bridge and Backlight"
+      "b9f74bdf-a26f-4f02-bb38-0b2e443d38e4",
+      "Keyboard Backlight"
     ],
     [
-      "773f8af3-a641-4fcc-9414-9cf290a67b77",
-      "USB"
+      "d6eb6394-a74a-4677-9332-342ecaceb986",
+      "AXP717C + AXP323"
     ],
     [
-      "8df227e7-e4f0-4624-83cb-7ffc2dd20696",
-      "Hardware"
+      "e223640c-1a02-512a-ae27-53dfaf7b0164",
+      "Main buck rails"
     ],
     [
-      "1b72ccf8-21bd-4dc7-b102-09d524005a44",
-      "PMIC"
+      "e5a5f6ff-b60a-5376-83a3-cf65ce830173",
+      "CPU big / DNR"
     ],
     [
-      "00000000-0000-0000-0000-000060536da4",
-      "DDR3"
+      "91029f4c-c0a7-545d-ad9a-65671338935b",
+      "Charger / control"
     ],
     [
-      "c2dd92bc-0e84-48d7-8115-16bbd6df4bef",
-      "DSI"
+      "433b05de-45b7-57c5-a0a6-1700ed104d6a",
+      "LDO rails"
     ],
     [
-      "fab53de4-7204-457c-835c-8279fdeb92b8",
-      "A33_RAM"
+      "b111457e-4551-4228-b804-a08d655d19fb",
+      "SoC support"
     ],
     [
-      "00000000-0000-0000-0000-000060a30bff",
-      "A33_Power"
+      "0a7049aa-bc2e-5abb-b62f-c8336a43fa06",
+      "Analog / straps"
     ],
     [
-      "00000000-0000-0000-0000-00006063be69",
-      "A33_GPIO"
+      "9354ebe4-6df9-58d3-99f0-bbda43ee6fab",
+      "CPU bypass"
     ],
     [
-      "f07df6ab-98c9-4714-b4f4-69f8b205f45b",
-      "WiFi"
+      "22c7f406-d0ec-5ca5-8355-9e6bc8145037",
+      "Core supplies"
+    ],
+    [
+      "ad8fb905-cd17-5aea-abbf-45325397e121",
+      "Clocks / reset / boot"
+    ],
+    [
+      "0c696df4-4a7a-5912-b05b-3e5bcaf8e5df",
+      "Ground balls"
+    ],
+    [
+      "988d3614-be63-4fa1-a3b5-9d1c0e9caf0a",
+      "2GB LPDDR4"
+    ],
+    [
+      "ce58b14d-05b5-575d-bf15-859494ef33bf",
+      "Data channels"
+    ],
+    [
+      "3863caa2-e617-5204-8634-5ba2755eedac",
+      "Command / DRAM supply"
+    ],
+    [
+      "05336049-e552-50c4-bf4a-445c33ed992d",
+      "DRAM power / ground"
+    ],
+    [
+      "9a57dc4c-c52c-4694-b419-f0eeecdbb748",
+      "Display DSI"
+    ],
+    [
+      "a7b22cbc-e70a-423a-bb17-e71e818a4631",
+      "A523 Standby IO"
+    ],
+    [
+      "a938a5df-a11c-43fa-9a1c-c4b1c658ea6a",
+      "A523 SD and GPIO"
+    ],
+    [
+      "1370cf87-4b20-46f5-9039-ebbf7c1b430d",
+      "A523 USB PHY"
+    ],
+    [
+      "7b29c749-8ab5-43b5-aee9-52b112811e58",
+      "Wi-Fi / Bluetooth1"
+    ],
+    [
+      "0134fef5-63c6-4538-976a-0ec6010a805b",
+      "5V / 3.3V peripherals"
+    ],
+    [
+      "4c080231-9d8c-4e1e-a878-bc11551bd68a",
+      "Display / backlight"
+    ],
+    [
+      "51bc8647-67ad-4e9e-8a09-f165a9ad95a1",
+      "MicroSD boot"
+    ],
+    [
+      "9f54d651-c58c-4b58-9ce3-74a3d151af1b",
+      "Recovery / UART / I2C"
+    ],
+    [
+      "782932e8-afcb-4ff4-98ef-9137d0d08286",
+      "Wi-Fi / Bluetooth"
+    ],
+    [
+      "1d61bc11-ced6-4e86-9d3b-e9abe9ac6c2d",
+      "STM32 + Keyboard"
     ]
   ],
   "text_variables": {},

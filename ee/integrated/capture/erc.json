@@ -1,0 +1,662 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-08T22:07:41",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591",
+            "violations": [
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C7 [C_Small]",
+                            "pos": {
+                                "x": 0.4826,
+                                "y": 1.6637
+                            },
+                            "uuid": "7f135fdc-d341-4cf1-a407-08cc1100dab5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C8 [C_Small]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.6637
+                            },
+                            "uuid": "7d5a4dc4-8b81-4a0e-b781-b543f5cb15ba"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C9 [C_Small]",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 1.6637
+                            },
+                            "uuid": "f4575ba3-b0f1-411d-bbb6-7e135e2cc670"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C10 [C_Small]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 1.6637
+                            },
+                            "uuid": "a0ba0de5-a9af-432b-b378-690858ff7a15"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C11 [C_Small]",
+                            "pos": {
+                                "x": 0.7874,
+                                "y": 1.6637
+                            },
+                            "uuid": "9e2efa5d-eb5e-4423-812f-4f7b0b2bb8bc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C6 [C_Small]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 0.762
+                            },
+                            "uuid": "680afd12-e1a0-4210-8129-ba5907f430c6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'USART_TX'",
+                            "pos": {
+                                "x": 1.4986,
+                                "y": 1.0668
+                            },
+                            "uuid": "f89beefd-0b36-4ae1-acbf-36f15765571f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'USART_RX'",
+                            "pos": {
+                                "x": 1.4986,
+                                "y": 1.0922
+                            },
+                            "uuid": "52f51f21-bb8c-4a7d-a1f5-1b3b62f65274"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Symbol 'FSUSB42MUX' doesn't match copy in library 'Interface_USB'",
+                    "items": [
+                        {
+                            "description": "Symbol U11 [FSUSB42MUX]",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 1.1684
+                            },
+                            "uuid": "57e32efc-0b18-4025-afac-cc432e9169d5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C33 [C_Small]",
+                            "pos": {
+                                "x": 1.8288,
+                                "y": 1.0287
+                            },
+                            "uuid": "5b94df8c-c32d-4116-8bf7-d35f3df7e3c9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C31 [C_Small]",
+                            "pos": {
+                                "x": 0.2794,
+                                "y": 0.7747
+                            },
+                            "uuid": "3a8794a0-5061-4ef5-8120-eec10518a128"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'SolderJumper_3_Bridged12' doesn't match copy in library 'Jumper'",
+                    "items": [
+                        {
+                            "description": "Symbol JP5 [SolderJumper_3_Bridged12]",
+                            "pos": {
+                                "x": 0.4318,
+                                "y": 1.3843
+                            },
+                            "uuid": "3da859c6-715f-485b-9bf4-b53f55b2b0f0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C12 [C_Small]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.6096
+                            },
+                            "uuid": "f249e3cb-5e66-413a-a35d-2f9c4743b9d5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C28 [C_Small]",
+                            "pos": {
+                                "x": 0.5842,
+                                "y": 1.2573
+                            },
+                            "uuid": "38e4225c-398a-4f2e-ae0c-4e3f42476a2b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C29 [C_Small]",
+                            "pos": {
+                                "x": 0.5842,
+                                "y": 1.3335
+                            },
+                            "uuid": "4331fff9-aa25-4931-a2ee-cd0aa83c78f5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C13 [C_Small]",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 0.6096
+                            },
+                            "uuid": "2ef1e753-0bf6-4e62-9aa1-307c1b3db9d0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C23 [C_Small]",
+                            "pos": {
+                                "x": 0.6731,
+                                "y": 1.4224
+                            },
+                            "uuid": "44d5618a-e99f-43e2-b701-2baa66a1c77c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C30 [C_Small]",
+                            "pos": {
+                                "x": 0.6985,
+                                "y": 0.8509
+                            },
+                            "uuid": "e356f901-ecc1-4bc5-b578-6a6e774b2574"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C14 [C_Small]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 0.6096
+                            },
+                            "uuid": "6c88432c-010e-478e-ae4a-34c28e673a4b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'Crystal_GND24_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol Y1 [Crystal_GND24_Small]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 1.2954
+                            },
+                            "uuid": "9ff9dfd7-a5cf-47ae-96ba-7bda79cfbfe4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C27 [C_Small]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 1.4224
+                            },
+                            "uuid": "76aac252-3116-4d02-baa8-1a5506557430"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C15 [C_Small]",
+                            "pos": {
+                                "x": 0.7874,
+                                "y": 0.6096
+                            },
+                            "uuid": "ea3cd94a-b0e3-4e3e-9304-3c290831ce61"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C16 [C_Small]",
+                            "pos": {
+                                "x": 0.8636,
+                                "y": 0.6096
+                            },
+                            "uuid": "da380fcd-2374-4241-acfe-92e5fdff6a40"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'SolderJumper_2_Bridged' doesn't match copy in library 'Jumper'",
+                    "items": [
+                        {
+                            "description": "Symbol JP4 [SolderJumper_2_Bridged]",
+                            "pos": {
+                                "x": 1.4859,
+                                "y": 1.2319
+                            },
+                            "uuid": "a2fc709b-8b77-4b9a-84dd-f26491b9077f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'SolderJumper_2_Bridged' doesn't match copy in library 'Jumper'",
+                    "items": [
+                        {
+                            "description": "Symbol JP6 [SolderJumper_2_Bridged]",
+                            "pos": {
+                                "x": 1.4859,
+                                "y": 1.4859
+                            },
+                            "uuid": "bd15f3b7-5e6b-472e-942e-7da9eab14d92"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'USB_A' doesn't match copy in library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol J4 [USB_A]",
+                            "pos": {
+                                "x": 2.6162,
+                                "y": 0.635
+                            },
+                            "uuid": "863aed23-481a-4d08-bfe4-bc856dac9d25"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'USB_A' doesn't match copy in library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol J5 [USB_A]",
+                            "pos": {
+                                "x": 2.6162,
+                                "y": 0.9144
+                            },
+                            "uuid": "50a26d2c-3b33-4ceb-9666-be724d8e11b8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C801 [C_Small]",
+                            "pos": {
+                                "x": 1.2065,
+                                "y": 0.4826
+                            },
+                            "uuid": "d03a5828-94d0-460f-a57c-b46c0469dbe5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C802 [C_Small]",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 0.5334
+                            },
+                            "uuid": "39b20db1-1bd6-414a-a579-84dc1006c296"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'SolderJumper_2_Bridged' doesn't match copy in library 'Jumper'",
+                    "items": [
+                        {
+                            "description": "Symbol JP801 [SolderJumper_2_Bridged]",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 0.9398
+                            },
+                            "uuid": "e0d4747b-860c-45de-9d47-e46d9c4251ce"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'TPS61230DRC' doesn't match copy in library 'Regulator_Switching'",
+                    "items": [
+                        {
+                            "description": "Symbol U901 [TPS61230DRC]",
+                            "pos": {
+                                "x": 0.8128,
+                                "y": 0.508
+                            },
+                            "uuid": "61b7bef7-9db7-54e0-87d2-97fb06a085a1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                }
+            ]
+        },
+        {
+            "path": "/Power & USB/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/05158df8-c1e6-40b8-af8c-4aba99cbc568",
+            "violations": []
+        },
+        {
+            "path": "/USB/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/773f8af3-a641-4fcc-9414-9cf290a67b77",
+            "violations": []
+        },
+        {
+            "path": "/Keyboard/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/83b47a1d-beff-4fad-8dc4-09477bd5c4c9",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/AXP717C + AXP323/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/ea25cef0-5c6c-552f-a927-10d7adbf2c90",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/AXP717C + AXP323/Charger / control/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/ea25cef0-5c6c-552f-a927-10d7adbf2c90/91029f4c-c0a7-545d-ad9a-65671338935b",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/AXP717C + AXP323/Main buck rails/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/ea25cef0-5c6c-552f-a927-10d7adbf2c90/e223640c-1a02-512a-ae27-53dfaf7b0164",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/AXP717C + AXP323/LDO rails/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/ea25cef0-5c6c-552f-a927-10d7adbf2c90/433b05de-45b7-57c5-a0a6-1700ed104d6a",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/AXP717C + AXP323/CPU big / DNR/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/ea25cef0-5c6c-552f-a927-10d7adbf2c90/e5a5f6ff-b60a-5376-83a3-cf65ce830173",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/SoC support/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/85ae5deb-122b-5aff-b376-e9f9e847e1fb",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/SoC support/Core supplies/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/85ae5deb-122b-5aff-b376-e9f9e847e1fb/22c7f406-d0ec-5ca5-8355-9e6bc8145037",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/SoC support/Clocks / reset / boot/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/85ae5deb-122b-5aff-b376-e9f9e847e1fb/ad8fb905-cd17-5aea-abbf-45325397e121",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/SoC support/CPU bypass/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/85ae5deb-122b-5aff-b376-e9f9e847e1fb/9354ebe4-6df9-58d3-99f0-bbda43ee6fab",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/SoC support/Ground balls/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/85ae5deb-122b-5aff-b376-e9f9e847e1fb/0c696df4-4a7a-5912-b05b-3e5bcaf8e5df",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/SoC support/Analog / straps/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/85ae5deb-122b-5aff-b376-e9f9e847e1fb/0a7049aa-bc2e-5abb-b62f-c8336a43fa06",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/2GB LPDDR4/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/ddefc8b4-f8d7-57ee-b2c3-72cf9fe94a29",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/2GB LPDDR4/Data channels/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/ddefc8b4-f8d7-57ee-b2c3-72cf9fe94a29/ce58b14d-05b5-575d-bf15-859494ef33bf",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/2GB LPDDR4/Command / DRAM supply/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/ddefc8b4-f8d7-57ee-b2c3-72cf9fe94a29/3863caa2-e617-5204-8634-5ba2755eedac",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/2GB LPDDR4/DRAM power / ground/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/ddefc8b4-f8d7-57ee-b2c3-72cf9fe94a29/05336049-e552-50c4-bf4a-445c33ed992d",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/Peripheral IO/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/13f98e83-7b60-5718-99af-3d0cbee97b0b",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/Peripheral IO/SD / console / GPIO/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/13f98e83-7b60-5718-99af-3d0cbee97b0b/d93d7628-b216-5d2d-8211-65e72e0fd1af",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/Peripheral IO/Wi-Fi / Bluetooth/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/13f98e83-7b60-5718-99af-3d0cbee97b0b/e24f5ec2-83fe-5a02-9b7f-1bf2df95ede5",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/Peripheral IO/Display DSI/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/13f98e83-7b60-5718-99af-3d0cbee97b0b/18804726-9400-59ea-b534-77f6e322e1c2",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/Peripheral IO/USB PHY/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/13f98e83-7b60-5718-99af-3d0cbee97b0b/f74895fe-ad98-5068-8d19-7c7920fccb5c",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/Peripheral IO/PMIC bus / standby IO/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/13f98e83-7b60-5718-99af-3d0cbee97b0b/92326d3a-d0ab-5fcf-9e7b-24a9a66b6b30",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/Product peripherals/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/b14d3db8-1fc3-5285-bf99-6489ddd760f1",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/Product peripherals/MicroSD boot/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/b14d3db8-1fc3-5285-bf99-6489ddd760f1/789a5031-61e5-5c1b-9614-158fc83e9fe9",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/Product peripherals/Wi-Fi / Bluetooth/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/b14d3db8-1fc3-5285-bf99-6489ddd760f1/49f67cc4-0c7a-5674-9af5-1aa3fd15f12c",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/Product peripherals/Display / backlight/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/b14d3db8-1fc3-5285-bf99-6489ddd760f1/43cdf7ee-b388-5370-bf4e-87f39511f2d6",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/Product peripherals/Recovery / UART / I2C/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/b14d3db8-1fc3-5285-bf99-6489ddd760f1/c3a922d0-db26-5e6c-a994-2a8d84e25312",
+            "violations": []
+        },
+        {
+            "path": "/A523 system/Product peripherals/5V / 3.3V peripherals/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/8df227e7-e4f0-4624-83cb-7ffc2dd20696/b14d3db8-1fc3-5285-bf99-6489ddd760f1/16384262-dad1-51ca-b83f-548209adfe7f",
+            "violations": []
+        },
+        {
+            "path": "/DSI Bridge and Backlight/",
+            "uuid_path": "/d0a98fce-b133-4503-8f8a-83b2a1eed591/d2fe0700-5ac0-49f8-be88-fb2ff272cc57",
+            "violations": []
+        }
+    ],
+    "source": "blackpants.kicad_sch"
+}

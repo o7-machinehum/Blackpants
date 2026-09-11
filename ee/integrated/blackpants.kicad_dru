@@ -1,0 +1,16 @@
+(version 1)
+
+(rule "Through vias only"
+  (constraint disallow micro_via blind_via buried_via))
+
+(rule "No via drill in an SMD solder pad"
+  (condition "A.Type == 'Via' && B.Type == 'Pad' && B.Pad_Type == 'SMD' && (B.existsOnLayer('F.Cu') || B.existsOnLayer('B.Cu')) && !(A.NetName == 'GND' && B.NetName == 'GND' && ((B.Reference == 'U501' && B.Pad_Number == '53') || (B.Reference == 'U502' && B.Pad_Number == '21') || (B.Reference == 'U901' && B.Pad_Number == '11') || (B.Reference == 'U1' && B.Pad_Number == '49')))")
+  (constraint physical_hole_clearance (min 0.075mm)))
+
+# User-approved thermal through vias in the PMIC, boost and STM32 exposed ground pads.
+# BGA pads and all other SMD pads retain the no-via-in-pad restriction.
+
+# Allwinner A523 PCB guide: 3 mil trace / clearance in the BGA escape.
+(rule "A523 and LPDDR4 BGA escape clearance"
+  (condition "A.intersectsCourtyard('U201') || B.intersectsCourtyard('U201') || A.intersectsCourtyard('U301') || B.intersectsCourtyard('U301')")
+  (constraint clearance (min 0.0762mm)))

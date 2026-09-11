@@ -1,0 +1,8245 @@
+{
+  "board": "ee/integrated/blackpants.kicad_pcb",
+  "board_sha256": "be119b93cf3c544962fda48e6336237466ada074d5de6280878d4d9104c28b60",
+  "date": "2026-09-09",
+  "status": "Placement screening failed; not a PDN impedance or inductance simulation.",
+  "method": [
+    "Read saved board and filled-zone connectivity without modifying the PCB.",
+    "Distances are XY pad-center distances, not routed lengths or electrical loop lengths.",
+    "Nearest same-net IC pad may differ from intended functional supply pin where multiple IC supplies share a net.",
+    "Via lists are geometrically nearest vias in the same connected island; they do not demonstrate a short local mounting path.",
+    "Ground connectivity is membership of the main ground network containing U201.A14.",
+    "Only selected SoC/RAM/PMIC shunt capacitors sharing an IC pin net are screened. Inductor-separated output caps, other peripherals, and signal/crystal capacitors are outside these counts.",
+    "5 mm is a screening marker, not an Allwinner acceptance limit."
+  ],
+  "counts": {
+    "U201": {
+      "capacitors_screened": 59,
+      "power_not_connected_to_target_ic": 26,
+      "ground_not_connected_to_main_network": 3,
+      "over_5mm_to_nearest_same_net_ic_pad": [
+        "C201",
+        "C202",
+        "C203",
+        "C205",
+        "C206",
+        "C207",
+        "C208",
+        "C209",
+        "C211",
+        "C212",
+        "C220",
+        "C221",
+        "C223",
+        "C224",
+        "C225",
+        "C226",
+        "C230",
+        "C231",
+        "C232",
+        "C233",
+        "C234",
+        "C235",
+        "C240",
+        "C241",
+        "C242",
+        "C243",
+        "C245",
+        "C254",
+        "C255",
+        "C256",
+        "C257",
+        "C261",
+        "C262",
+        "C263",
+        "C265",
+        "C266",
+        "C267",
+        "C268",
+        "C269",
+        "C270",
+        "C271",
+        "C272",
+        "C273",
+        "C275",
+        "C276",
+        "C278",
+        "C279",
+        "C280",
+        "C281",
+        "C282",
+        "C283",
+        "C284"
+      ]
+    },
+    "U301": {
+      "capacitors_screened": 17,
+      "power_not_connected_to_target_ic": 0,
+      "ground_not_connected_to_main_network": 1,
+      "over_5mm_to_nearest_same_net_ic_pad": []
+    },
+    "U501": {
+      "capacitors_screened": 28,
+      "power_not_connected_to_target_ic": 7,
+      "ground_not_connected_to_main_network": 8,
+      "over_5mm_to_nearest_same_net_ic_pad": [
+        "C501",
+        "C503",
+        "C507",
+        "C509",
+        "C520",
+        "C521",
+        "C522",
+        "C523",
+        "C526",
+        "C528",
+        "C529",
+        "C530",
+        "C531",
+        "C532",
+        "C533"
+      ]
+    },
+    "U502": {
+      "capacitors_screened": 7,
+      "power_not_connected_to_target_ic": 0,
+      "ground_not_connected_to_main_network": 0,
+      "over_5mm_to_nearest_same_net_ic_pad": []
+    }
+  },
+  "capacitors": [
+    {
+      "reference": "C201",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        57.5,
+        45.0
+      ],
+      "net": "VDD_CPUS",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        57.02,
+        45.0
+      ],
+      "ground_pad_mm": [
+        57.98,
+        45.0
+      ],
+      "nearest_same_net_ic_pad": "Y12",
+      "nearest_same_net_ic_pad_mm": [
+        65.707107,
+        51.171573
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 10.656179,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            56.42,
+            45.9
+          ],
+          "straight_line_mm": 1.081665
+        },
+        {
+          "position_mm": [
+            56.42,
+            51.1
+          ],
+          "straight_line_mm": 6.129437
+        },
+        {
+          "position_mm": [
+            55.82,
+            57.9
+          ],
+          "straight_line_mm": 12.955694
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            58.48,
+            45.0
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            58.48,
+            43.5
+          ],
+          "straight_line_mm": 1.581139
+        },
+        {
+          "position_mm": [
+            58.48,
+            46.5
+          ],
+          "straight_line_mm": 1.581139
+        }
+      ]
+    },
+    {
+      "reference": "C202",
+      "value": "100nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        61.5,
+        65.0
+      ],
+      "net": "VDD_CPUS",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        61.02,
+        65.0
+      ],
+      "ground_pad_mm": [
+        61.98,
+        65.0
+      ],
+      "nearest_same_net_ic_pad": "H15",
+      "nearest_same_net_ic_pad_mm": [
+        62.525126,
+        56.474874
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 8.656973,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            61.02,
+            65.6
+          ],
+          "straight_line_mm": 0.6
+        },
+        {
+          "position_mm": [
+            60.02,
+            62.9
+          ],
+          "straight_line_mm": 2.325941
+        },
+        {
+          "position_mm": [
+            69.095736,
+            62.075736
+          ],
+          "straight_line_mm": 8.588878
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            62.48,
+            65.0
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            61.46,
+            66.5
+          ],
+          "straight_line_mm": 1.587577
+        },
+        {
+          "position_mm": [
+            59.98,
+            65.0
+          ],
+          "straight_line_mm": 2.0
+        }
+      ]
+    },
+    {
+      "reference": "C203",
+      "value": "1uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        70.5,
+        64.0
+      ],
+      "net": "VCC_3V3",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        70.02,
+        64.0
+      ],
+      "ground_pad_mm": [
+        70.98,
+        64.0
+      ],
+      "nearest_same_net_ic_pad": "J23",
+      "nearest_same_net_ic_pad_mm": [
+        65.707107,
+        58.949747
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 6.641242,
+      "ic_pads_in_power_connected_island": [
+        "J23",
+        "N22",
+        "AA5"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            70.02,
+            63.4
+          ],
+          "straight_line_mm": 0.6
+        },
+        {
+          "position_mm": [
+            71.595736,
+            62.924264
+          ],
+          "straight_line_mm": 1.907918
+        },
+        {
+          "position_mm": [
+            63.095736,
+            64.575736
+          ],
+          "straight_line_mm": 6.948158
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            71.48,
+            64.0
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            70.98,
+            62.5
+          ],
+          "straight_line_mm": 1.5
+        },
+        {
+          "position_mm": [
+            73.48,
+            62.5
+          ],
+          "straight_line_mm": 2.915476
+        }
+      ]
+    },
+    {
+      "reference": "C204",
+      "value": "100nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        62.5,
+        61.0
+      ],
+      "net": "VCC_3V3",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        62.02,
+        61.0
+      ],
+      "ground_pad_mm": [
+        62.98,
+        61.0
+      ],
+      "nearest_same_net_ic_pad": "J23",
+      "nearest_same_net_ic_pad_mm": [
+        65.707107,
+        58.949747
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 4.218803,
+      "ic_pads_in_power_connected_island": [
+        "J23",
+        "N22",
+        "AA5"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            62.02,
+            61.6
+          ],
+          "straight_line_mm": 0.6
+        },
+        {
+          "position_mm": [
+            63.095736,
+            64.575736
+          ],
+          "straight_line_mm": 3.734046
+        },
+        {
+          "position_mm": [
+            65.707107,
+            58.24264
+          ],
+          "straight_line_mm": 4.604106
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            63.125126,
+            60.010408
+          ],
+          "straight_line_mm": 1.000177
+        },
+        {
+          "position_mm": [
+            62.418019,
+            59.303301
+          ],
+          "straight_line_mm": 1.787347
+        },
+        {
+          "position_mm": [
+            64.646446,
+            61.778175
+          ],
+          "straight_line_mm": 1.839184
+        }
+      ]
+    },
+    {
+      "reference": "C205",
+      "value": "22uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        58.0,
+        48.0
+      ],
+      "net": "VDD_SYS",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        57.225,
+        48.0
+      ],
+      "ground_pad_mm": [
+        58.775,
+        48.0
+      ],
+      "nearest_same_net_ic_pad": "N8",
+      "nearest_same_net_ic_pad_mm": [
+        61.818019,
+        52.232233
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 6.245608,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            59.482107,
+            48.0
+          ],
+          "straight_line_mm": 0.707107
+        },
+        {
+          "position_mm": [
+            59.631472,
+            48.651472
+          ],
+          "straight_line_mm": 1.076086
+        },
+        {
+          "position_mm": [
+            58.48,
+            46.5
+          ],
+          "straight_line_mm": 1.528733
+        }
+      ]
+    },
+    {
+      "reference": "C206",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        55.5,
+        60.5
+      ],
+      "net": "VDD_SYS",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        55.02,
+        60.5
+      ],
+      "ground_pad_mm": [
+        55.98,
+        60.5
+      ],
+      "nearest_same_net_ic_pad": "K10",
+      "nearest_same_net_ic_pad_mm": [
+        61.464466,
+        54.0
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 9.153204,
+      "ic_pads_in_power_connected_island": [
+        "K10",
+        "L10",
+        "K19",
+        "M12",
+        "M14",
+        "L18",
+        "M15",
+        "L19",
+        "N10",
+        "N8",
+        "P10",
+        "P9"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            55.52,
+            59.782233
+          ],
+          "straight_line_mm": 0.874751
+        },
+        {
+          "position_mm": [
+            56.52,
+            63.182233
+          ],
+          "straight_line_mm": 3.07317
+        },
+        {
+          "position_mm": [
+            62.585786,
+            53.707107
+          ],
+          "straight_line_mm": 10.167818
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            56.48,
+            60.5
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            56.48,
+            62.0
+          ],
+          "straight_line_mm": 1.581139
+        },
+        {
+          "position_mm": [
+            56.982107,
+            59.0
+          ],
+          "straight_line_mm": 1.803945
+        }
+      ]
+    },
+    {
+      "reference": "C207",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        55.5,
+        62.0
+      ],
+      "net": "VDD_SYS",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        55.02,
+        62.0
+      ],
+      "ground_pad_mm": [
+        55.98,
+        62.0
+      ],
+      "nearest_same_net_ic_pad": "K10",
+      "nearest_same_net_ic_pad_mm": [
+        61.464466,
+        54.0
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 10.272835,
+      "ic_pads_in_power_connected_island": [
+        "K10",
+        "K19",
+        "L10",
+        "L18",
+        "M12",
+        "L19",
+        "M14",
+        "M15",
+        "N10",
+        "N8",
+        "P10",
+        "P9"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            56.52,
+            63.182233
+          ],
+          "straight_line_mm": 1.909889
+        },
+        {
+          "position_mm": [
+            55.52,
+            59.782233
+          ],
+          "straight_line_mm": 2.273431
+        },
+        {
+          "position_mm": [
+            63.12868,
+            54.25
+          ],
+          "straight_line_mm": 11.216648
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            56.48,
+            62.0
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            56.48,
+            60.5
+          ],
+          "straight_line_mm": 1.581139
+        },
+        {
+          "position_mm": [
+            53.98,
+            61.0
+          ],
+          "straight_line_mm": 2.236068
+        }
+      ]
+    },
+    {
+      "reference": "C208",
+      "value": "22uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        57.0,
+        55.0
+      ],
+      "net": "VDD_SYS",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        56.225,
+        55.0
+      ],
+      "ground_pad_mm": [
+        57.775,
+        55.0
+      ],
+      "nearest_same_net_ic_pad": "K10",
+      "nearest_same_net_ic_pad_mm": [
+        61.464466,
+        54.0
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 5.334042,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            58.482107,
+            55.0
+          ],
+          "straight_line_mm": 0.707107
+        },
+        {
+          "position_mm": [
+            58.882486,
+            55.767767
+          ],
+          "straight_line_mm": 1.347587
+        },
+        {
+          "position_mm": [
+            57.471825,
+            53.042893
+          ],
+          "straight_line_mm": 1.98045
+        }
+      ]
+    },
+    {
+      "reference": "C209",
+      "value": "100nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        57.5,
+        63.5
+      ],
+      "net": "VDD_SYS",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        57.02,
+        63.5
+      ],
+      "ground_pad_mm": [
+        57.98,
+        63.5
+      ],
+      "nearest_same_net_ic_pad": "K19",
+      "nearest_same_net_ic_pad_mm": [
+        64.646447,
+        57.181981
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 9.903538,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            58.48,
+            63.5
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            57.46,
+            65.0
+          ],
+          "straight_line_mm": 1.587577
+        },
+        {
+          "position_mm": [
+            56.48,
+            62.0
+          ],
+          "straight_line_mm": 2.12132
+        }
+      ]
+    },
+    {
+      "reference": "C210",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        59.5,
+        58.0
+      ],
+      "net": "VDD_SYS",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        59.02,
+        58.0
+      ],
+      "ground_pad_mm": [
+        59.98,
+        58.0
+      ],
+      "nearest_same_net_ic_pad": "K10",
+      "nearest_same_net_ic_pad_mm": [
+        61.464466,
+        54.0
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 4.687794,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            61.357359,
+            57.535534
+          ],
+          "straight_line_mm": 1.453563
+        },
+        {
+          "position_mm": [
+            59.589592,
+            56.474874
+          ],
+          "straight_line_mm": 1.574302
+        },
+        {
+          "position_mm": [
+            60.050253,
+            59.742641
+          ],
+          "straight_line_mm": 1.744057
+        }
+      ]
+    },
+    {
+      "reference": "C211",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        53.0,
+        61.0
+      ],
+      "net": "VDD_SYS",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        52.52,
+        61.0
+      ],
+      "ground_pad_mm": [
+        53.48,
+        61.0
+      ],
+      "nearest_same_net_ic_pad": "K10",
+      "nearest_same_net_ic_pad_mm": [
+        61.464466,
+        54.0
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 11.35797,
+      "ic_pads_in_power_connected_island": [
+        "K10",
+        "L10",
+        "M12",
+        "K19",
+        "M14",
+        "N8",
+        "N10",
+        "M15",
+        "L18",
+        "L19",
+        "P9",
+        "P10"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            55.52,
+            59.782233
+          ],
+          "straight_line_mm": 3.237739
+        },
+        {
+          "position_mm": [
+            56.52,
+            63.182233
+          ],
+          "straight_line_mm": 4.556549
+        },
+        {
+          "position_mm": [
+            62.585786,
+            53.707107
+          ],
+          "straight_line_mm": 12.430058
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            53.98,
+            61.0
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            53.48,
+            59.5
+          ],
+          "straight_line_mm": 1.5
+        },
+        {
+          "position_mm": [
+            50.96,
+            61.5
+          ],
+          "straight_line_mm": 2.569124
+        }
+      ]
+    },
+    {
+      "reference": "C212",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        61.0,
+        63.5
+      ],
+      "net": "VDD_SYS",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        60.52,
+        63.5
+      ],
+      "ground_pad_mm": [
+        61.48,
+        63.5
+      ],
+      "nearest_same_net_ic_pad": "K19",
+      "nearest_same_net_ic_pad_mm": [
+        64.646447,
+        57.181981
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 7.546186,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": false,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": []
+    },
+    {
+      "reference": "C220",
+      "value": "22uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        59.0,
+        60.5
+      ],
+      "net": "VDD_CPUB",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        58.225,
+        60.5
+      ],
+      "ground_pad_mm": [
+        59.775,
+        60.5
+      ],
+      "nearest_same_net_ic_pad": "N16",
+      "nearest_same_net_ic_pad_mm": [
+        64.646447,
+        55.06066
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 8.415545,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            60.482107,
+            60.5
+          ],
+          "straight_line_mm": 0.707107
+        },
+        {
+          "position_mm": [
+            60.050253,
+            59.742641
+          ],
+          "straight_line_mm": 0.805827
+        },
+        {
+          "position_mm": [
+            60.48,
+            62.0
+          ],
+          "straight_line_mm": 1.657415
+        }
+      ]
+    },
+    {
+      "reference": "C221",
+      "value": "22uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        68.5,
+        61.0
+      ],
+      "net": "VDD_CPUB",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        67.725,
+        61.0
+      ],
+      "ground_pad_mm": [
+        69.275,
+        61.0
+      ],
+      "nearest_same_net_ic_pad": "N19",
+      "nearest_same_net_ic_pad_mm": [
+        65.707107,
+        56.12132
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 5.279528,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            69.9,
+            59.753553
+          ],
+          "straight_line_mm": 2.506842
+        },
+        {
+          "position_mm": [
+            71.4,
+            60.953553
+          ],
+          "straight_line_mm": 3.675294
+        },
+        {
+          "position_mm": [
+            71.8,
+            61.053553
+          ],
+          "straight_line_mm": 4.075352
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            69.982107,
+            61.0
+          ],
+          "straight_line_mm": 0.707107
+        },
+        {
+          "position_mm": [
+            70.303301,
+            59.389087
+          ],
+          "straight_line_mm": 1.911137
+        },
+        {
+          "position_mm": [
+            70.98,
+            62.5
+          ],
+          "straight_line_mm": 2.270908
+        }
+      ]
+    },
+    {
+      "reference": "C222",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        69.5,
+        58.5
+      ],
+      "net": "VDD_CPUB",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        69.02,
+        58.5
+      ],
+      "ground_pad_mm": [
+        69.98,
+        58.5
+      ],
+      "nearest_same_net_ic_pad": "P19",
+      "nearest_same_net_ic_pad_mm": [
+        66.06066,
+        55.767767
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 4.027753,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            69.9,
+            59.753553
+          ],
+          "straight_line_mm": 1.531599
+        },
+        {
+          "position_mm": [
+            71.4,
+            60.953553
+          ],
+          "straight_line_mm": 3.418234
+        },
+        {
+          "position_mm": [
+            71.8,
+            61.053553
+          ],
+          "straight_line_mm": 3.774789
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            70.303301,
+            59.389087
+          ],
+          "straight_line_mm": 0.946044
+        },
+        {
+          "position_mm": [
+            69.139087,
+            57.639087
+          ],
+          "straight_line_mm": 1.203456
+        },
+        {
+          "position_mm": [
+            69.982107,
+            61.0
+          ],
+          "straight_line_mm": 2.500001
+        }
+      ]
+    },
+    {
+      "reference": "C223",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        67.0,
+        65.0
+      ],
+      "net": "VDD_CPUB",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        66.52,
+        65.0
+      ],
+      "ground_pad_mm": [
+        67.48,
+        65.0
+      ],
+      "nearest_same_net_ic_pad": "N19",
+      "nearest_same_net_ic_pad_mm": [
+        65.707107,
+        56.12132
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 8.915815,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            67.98,
+            65.0
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            66.48,
+            66.5
+          ],
+          "straight_line_mm": 1.802776
+        },
+        {
+          "position_mm": [
+            68.98,
+            66.5
+          ],
+          "straight_line_mm": 2.12132
+        }
+      ]
+    },
+    {
+      "reference": "C224",
+      "value": "1uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        68.0,
+        66.5
+      ],
+      "net": "VDD_CPUB",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        67.52,
+        66.5
+      ],
+      "ground_pad_mm": [
+        68.48,
+        66.5
+      ],
+      "nearest_same_net_ic_pad": "N19",
+      "nearest_same_net_ic_pad_mm": [
+        65.707107,
+        56.12132
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 10.535824,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            68.98,
+            66.5
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            67.98,
+            65.0
+          ],
+          "straight_line_mm": 1.581139
+        },
+        {
+          "position_mm": [
+            66.48,
+            66.5
+          ],
+          "straight_line_mm": 2.0
+        }
+      ]
+    },
+    {
+      "reference": "C225",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        74.0,
+        61.0
+      ],
+      "net": "VDD_CPUB",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        73.52,
+        61.0
+      ],
+      "ground_pad_mm": [
+        74.48,
+        61.0
+      ],
+      "nearest_same_net_ic_pad": "P19",
+      "nearest_same_net_ic_pad_mm": [
+        66.06066,
+        55.767767
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 9.111422,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            71.8,
+            61.053553
+          ],
+          "straight_line_mm": 1.720833
+        },
+        {
+          "position_mm": [
+            71.4,
+            60.953553
+          ],
+          "straight_line_mm": 2.120509
+        },
+        {
+          "position_mm": [
+            69.9,
+            59.753553
+          ],
+          "straight_line_mm": 3.828581
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            73.48,
+            62.5
+          ],
+          "straight_line_mm": 1.802776
+        },
+        {
+          "position_mm": [
+            75.98,
+            57.5
+          ],
+          "straight_line_mm": 3.807887
+        },
+        {
+          "position_mm": [
+            70.98,
+            62.5
+          ],
+          "straight_line_mm": 3.807887
+        }
+      ]
+    },
+    {
+      "reference": "C226",
+      "value": "100nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        65.5,
+        66.5
+      ],
+      "net": "VDD_CPUB",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        65.02,
+        66.5
+      ],
+      "ground_pad_mm": [
+        65.98,
+        66.5
+      ],
+      "nearest_same_net_ic_pad": "N19",
+      "nearest_same_net_ic_pad_mm": [
+        65.707107,
+        56.12132
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 10.4014,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            66.48,
+            66.5
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            64.98,
+            65.0
+          ],
+          "straight_line_mm": 1.802776
+        },
+        {
+          "position_mm": [
+            63.98,
+            66.5
+          ],
+          "straight_line_mm": 2.0
+        }
+      ]
+    },
+    {
+      "reference": "C230",
+      "value": "22uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        73.5,
+        59.5
+      ],
+      "net": "VDD_CPUL",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        72.725,
+        59.5
+      ],
+      "ground_pad_mm": [
+        74.275,
+        59.5
+      ],
+      "nearest_same_net_ic_pad": "U18",
+      "nearest_same_net_ic_pad_mm": [
+        66.767767,
+        54.353553
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 7.872391,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            71.607107,
+            60.346447
+          ],
+          "straight_line_mm": 1.402197
+        },
+        {
+          "position_mm": [
+            74.407107,
+            63.346447
+          ],
+          "straight_line_mm": 4.198171
+        },
+        {
+          "position_mm": [
+            89.5,
+            63.7
+          ],
+          "straight_line_mm": 17.292791
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            75.98,
+            57.5
+          ],
+          "straight_line_mm": 2.628122
+        },
+        {
+          "position_mm": [
+            75.48,
+            57.0
+          ],
+          "straight_line_mm": 2.775252
+        },
+        {
+          "position_mm": [
+            73.48,
+            62.5
+          ],
+          "straight_line_mm": 3.10355
+        }
+      ]
+    },
+    {
+      "reference": "C231",
+      "value": "22uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        61.5,
+        47.0
+      ],
+      "net": "VDD_CPUL",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        60.725,
+        47.0
+      ],
+      "ground_pad_mm": [
+        62.275,
+        47.0
+      ],
+      "nearest_same_net_ic_pad": "U16",
+      "nearest_same_net_ic_pad_mm": [
+        66.06066,
+        53.646447
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 8.523176,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            61.673959,
+            46.398959
+          ],
+          "straight_line_mm": 0.85
+        },
+        {
+          "position_mm": [
+            62.62868,
+            47.886039
+          ],
+          "straight_line_mm": 0.95402
+        },
+        {
+          "position_mm": [
+            61.214466,
+            47.886039
+          ],
+          "straight_line_mm": 1.381954
+        }
+      ]
+    },
+    {
+      "reference": "C232",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        72.0,
+        57.0
+      ],
+      "net": "VDD_CPUL",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        71.52,
+        57.0
+      ],
+      "ground_pad_mm": [
+        72.48,
+        57.0
+      ],
+      "nearest_same_net_ic_pad": "U18",
+      "nearest_same_net_ic_pad_mm": [
+        66.767767,
+        54.353553
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 5.43943,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            71.607107,
+            60.346447
+          ],
+          "straight_line_mm": 3.34758
+        },
+        {
+          "position_mm": [
+            74.407107,
+            63.346447
+          ],
+          "straight_line_mm": 6.972286
+        },
+        {
+          "position_mm": [
+            89.5,
+            63.7
+          ],
+          "straight_line_mm": 19.187767
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            70.906854,
+            55.164214
+          ],
+          "straight_line_mm": 2.417623
+        },
+        {
+          "position_mm": [
+            75.48,
+            57.0
+          ],
+          "straight_line_mm": 3.0
+        },
+        {
+          "position_mm": [
+            70.303301,
+            59.389087
+          ],
+          "straight_line_mm": 3.231989
+        }
+      ]
+    },
+    {
+      "reference": "C233",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        73.5,
+        50.0
+      ],
+      "net": "VDD_CPUL",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        73.02,
+        50.0
+      ],
+      "ground_pad_mm": [
+        73.98,
+        50.0
+      ],
+      "nearest_same_net_ic_pad": "U18",
+      "nearest_same_net_ic_pad_mm": [
+        66.767767,
+        54.353553
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 7.618651,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": false,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": []
+    },
+    {
+      "reference": "C234",
+      "value": "1uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        75.5,
+        58.0
+      ],
+      "net": "VDD_CPUL",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        75.02,
+        58.0
+      ],
+      "ground_pad_mm": [
+        75.98,
+        58.0
+      ],
+      "nearest_same_net_ic_pad": "U18",
+      "nearest_same_net_ic_pad_mm": [
+        66.767767,
+        54.353553
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 9.021969,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            71.607107,
+            60.346447
+          ],
+          "straight_line_mm": 4.141697
+        },
+        {
+          "position_mm": [
+            74.407107,
+            63.346447
+          ],
+          "straight_line_mm": 5.381462
+        },
+        {
+          "position_mm": [
+            89.5,
+            63.7
+          ],
+          "straight_line_mm": 15.561504
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            75.98,
+            57.5
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            75.48,
+            57.0
+          ],
+          "straight_line_mm": 1.118034
+        },
+        {
+          "position_mm": [
+            76.48,
+            55.707107
+          ],
+          "straight_line_mm": 2.346776
+        }
+      ]
+    },
+    {
+      "reference": "C235",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        76.0,
+        55.0
+      ],
+      "net": "VDD_CPUL",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        75.52,
+        55.0
+      ],
+      "ground_pad_mm": [
+        76.48,
+        55.0
+      ],
+      "nearest_same_net_ic_pad": "U18",
+      "nearest_same_net_ic_pad_mm": [
+        66.767767,
+        54.353553
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 8.776074,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            76.48,
+            55.707107
+          ],
+          "straight_line_mm": 0.707107
+        },
+        {
+          "position_mm": [
+            75.749495,
+            54.0
+          ],
+          "straight_line_mm": 1.238401
+        },
+        {
+          "position_mm": [
+            77.91934,
+            54.43934
+          ],
+          "straight_line_mm": 1.544681
+        }
+      ]
+    },
+    {
+      "reference": "C240",
+      "value": "22uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        63.0,
+        43.0
+      ],
+      "net": "VDD_DNR",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        62.225,
+        43.0
+      ],
+      "ground_pad_mm": [
+        63.775,
+        43.0
+      ],
+      "nearest_same_net_ic_pad": "V9",
+      "nearest_same_net_ic_pad_mm": [
+        63.93934,
+        50.818019
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 8.003773,
+      "ic_pads_in_power_connected_island": [
+        "V9",
+        "U9",
+        "V10",
+        "U10"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            58.42,
+            42.9
+          ],
+          "straight_line_mm": 3.806314
+        },
+        {
+          "position_mm": [
+            57.62,
+            45.7
+          ],
+          "straight_line_mm": 5.338167
+        },
+        {
+          "position_mm": [
+            63.585786,
+            50.81802
+          ],
+          "straight_line_mm": 7.935564
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            64.482107,
+            43.0
+          ],
+          "straight_line_mm": 0.707107
+        },
+        {
+          "position_mm": [
+            63.272893,
+            42.207107
+          ],
+          "straight_line_mm": 0.938505
+        },
+        {
+          "position_mm": [
+            63.878959,
+            44.398959
+          ],
+          "straight_line_mm": 1.402816
+        }
+      ]
+    },
+    {
+      "reference": "C241",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        57.5,
+        46.5
+      ],
+      "net": "VDD_DNR",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        57.02,
+        46.5
+      ],
+      "ground_pad_mm": [
+        57.98,
+        46.5
+      ],
+      "nearest_same_net_ic_pad": "U9",
+      "nearest_same_net_ic_pad_mm": [
+        63.585786,
+        51.171573
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 8.05811,
+      "ic_pads_in_power_connected_island": [
+        "U9",
+        "V9",
+        "U10",
+        "V10"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            57.62,
+            45.7
+          ],
+          "straight_line_mm": 1.0
+        },
+        {
+          "position_mm": [
+            58.42,
+            42.9
+          ],
+          "straight_line_mm": 3.862642
+        },
+        {
+          "position_mm": [
+            57.22,
+            50.4
+          ],
+          "straight_line_mm": 3.905125
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            58.48,
+            46.5
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            58.48,
+            45.0
+          ],
+          "straight_line_mm": 1.581139
+        },
+        {
+          "position_mm": [
+            59.482107,
+            48.0
+          ],
+          "straight_line_mm": 2.122811
+        }
+      ]
+    },
+    {
+      "reference": "C242",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        61.0,
+        40.5
+      ],
+      "net": "VDD_DNR",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        60.52,
+        40.5
+      ],
+      "ground_pad_mm": [
+        61.48,
+        40.5
+      ],
+      "nearest_same_net_ic_pad": "V9",
+      "nearest_same_net_ic_pad_mm": [
+        63.93934,
+        50.818019
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 10.869839,
+      "ic_pads_in_power_connected_island": [
+        "V9",
+        "U9",
+        "V10",
+        "U10"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            58.42,
+            42.9
+          ],
+          "straight_line_mm": 3.189044
+        },
+        {
+          "position_mm": [
+            57.62,
+            45.7
+          ],
+          "straight_line_mm": 5.95399
+        },
+        {
+          "position_mm": [
+            57.22,
+            50.4
+          ],
+          "straight_line_mm": 10.435516
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            61.48,
+            39.65
+          ],
+          "straight_line_mm": 0.85
+        },
+        {
+          "position_mm": [
+            60.932823,
+            39.2307
+          ],
+          "straight_line_mm": 1.382217
+        },
+        {
+          "position_mm": [
+            60.48,
+            42.5
+          ],
+          "straight_line_mm": 2.236068
+        }
+      ]
+    },
+    {
+      "reference": "C243",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        60.0,
+        42.0
+      ],
+      "net": "VDD_DNR",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        59.52,
+        42.0
+      ],
+      "ground_pad_mm": [
+        60.48,
+        42.0
+      ],
+      "nearest_same_net_ic_pad": "V9",
+      "nearest_same_net_ic_pad_mm": [
+        63.93934,
+        50.818019
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 9.863469,
+      "ic_pads_in_power_connected_island": [
+        "V9",
+        "U9",
+        "V10",
+        "U10"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            58.42,
+            42.9
+          ],
+          "straight_line_mm": 1.421267
+        },
+        {
+          "position_mm": [
+            57.62,
+            45.7
+          ],
+          "straight_line_mm": 4.159327
+        },
+        {
+          "position_mm": [
+            57.22,
+            50.4
+          ],
+          "straight_line_mm": 8.709191
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            60.48,
+            42.5
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            60.98,
+            43.5
+          ],
+          "straight_line_mm": 1.581139
+        },
+        {
+          "position_mm": [
+            58.48,
+            42.0
+          ],
+          "straight_line_mm": 2.0
+        }
+      ]
+    },
+    {
+      "reference": "C244",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        68.0,
+        48.0
+      ],
+      "net": "VDD_DNR",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        67.52,
+        48.0
+      ],
+      "ground_pad_mm": [
+        68.48,
+        48.0
+      ],
+      "nearest_same_net_ic_pad": "V10",
+      "nearest_same_net_ic_pad_mm": [
+        64.292893,
+        51.171573
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 4.52472,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            68.98,
+            48.0
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            67.474874,
+            49.403806
+          ],
+          "straight_line_mm": 1.726543
+        },
+        {
+          "position_mm": [
+            66.664214,
+            47.178932
+          ],
+          "straight_line_mm": 1.992795
+        }
+      ]
+    },
+    {
+      "reference": "C245",
+      "value": "100nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        56.5,
+        52.0
+      ],
+      "net": "VDD_DNR",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        56.02,
+        52.0
+      ],
+      "ground_pad_mm": [
+        56.98,
+        52.0
+      ],
+      "nearest_same_net_ic_pad": "U9",
+      "nearest_same_net_ic_pad_mm": [
+        63.585786,
+        51.171573
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 7.611006,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            56.98,
+            51.5
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            57.471825,
+            53.042893
+          ],
+          "straight_line_mm": 1.153047
+        },
+        {
+          "position_mm": [
+            56.48,
+            50.5
+          ],
+          "straight_line_mm": 1.581139
+        }
+      ]
+    },
+    {
+      "reference": "C254",
+      "value": "100nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        52.5,
+        59.5
+      ],
+      "net": "VCC_1V8",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        52.02,
+        59.5
+      ],
+      "ground_pad_mm": [
+        52.98,
+        59.5
+      ],
+      "nearest_same_net_ic_pad": "H10",
+      "nearest_same_net_ic_pad_mm": [
+        60.757359,
+        54.707107
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 9.965604,
+      "ic_pads_in_power_connected_island": [
+        "H10",
+        "J7",
+        "K21",
+        "AG3"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            52.02,
+            58.9
+          ],
+          "straight_line_mm": 0.6
+        },
+        {
+          "position_mm": [
+            60.507359,
+            54.957107
+          ],
+          "straight_line_mm": 9.626689
+        },
+        {
+          "position_mm": [
+            60.050253,
+            53.646446
+          ],
+          "straight_line_mm": 9.937256
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            53.48,
+            59.5
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            53.48,
+            58.0
+          ],
+          "straight_line_mm": 1.581139
+        },
+        {
+          "position_mm": [
+            53.98,
+            61.0
+          ],
+          "straight_line_mm": 1.802776
+        }
+      ]
+    },
+    {
+      "reference": "C255",
+      "value": "100nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        74.5,
+        47.5
+      ],
+      "net": "VCC_RTC",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        74.02,
+        47.5
+      ],
+      "ground_pad_mm": [
+        74.98,
+        47.5
+      ],
+      "nearest_same_net_ic_pad": "AA10",
+      "nearest_same_net_ic_pad_mm": [
+        65.353553,
+        50.110913
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 9.051197,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            72.91934,
+            44.93934
+          ],
+          "straight_line_mm": 3.286837
+        },
+        {
+          "position_mm": [
+            71.41934,
+            46.43934
+          ],
+          "straight_line_mm": 3.715279
+        },
+        {
+          "position_mm": [
+            79.904264,
+            49.424264
+          ],
+          "straight_line_mm": 5.286886
+        }
+      ]
+    },
+    {
+      "reference": "C256",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        68.5,
+        42.0
+      ],
+      "net": "VCC_AVCC",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        68.02,
+        42.0
+      ],
+      "ground_pad_mm": [
+        68.98,
+        42.0
+      ],
+      "nearest_same_net_ic_pad": "W6",
+      "nearest_same_net_ic_pad_mm": [
+        63.232233,
+        49.403806
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 8.816975,
+      "ic_pads_in_power_connected_island": [
+        "W6",
+        "AB13",
+        "W7",
+        "AA12",
+        "AA21"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            67.02,
+            44.1
+          ],
+          "straight_line_mm": 2.325941
+        },
+        {
+          "position_mm": [
+            70.45934,
+            46.43934
+          ],
+          "straight_line_mm": 5.065384
+        },
+        {
+          "position_mm": [
+            73.722233,
+            44.232233
+          ],
+          "straight_line_mm": 6.123588
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            69.48,
+            41.0
+          ],
+          "straight_line_mm": 1.118034
+        },
+        {
+          "position_mm": [
+            70.1,
+            42.15
+          ],
+          "straight_line_mm": 1.13
+        },
+        {
+          "position_mm": [
+            68.131472,
+            41.151472
+          ],
+          "straight_line_mm": 1.2
+        }
+      ]
+    },
+    {
+      "reference": "C257",
+      "value": "100nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        72.0,
+        47.5
+      ],
+      "net": "VCC_AVCC",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        71.52,
+        47.5
+      ],
+      "ground_pad_mm": [
+        72.48,
+        47.5
+      ],
+      "nearest_same_net_ic_pad": "AB13",
+      "nearest_same_net_ic_pad_mm": [
+        66.767767,
+        50.818019
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 5.795944,
+      "ic_pads_in_power_connected_island": [
+        "AB13",
+        "AA12",
+        "AA21",
+        "W7",
+        "W6"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            70.45934,
+            46.43934
+          ],
+          "straight_line_mm": 1.5
+        },
+        {
+          "position_mm": [
+            73.722233,
+            44.232233
+          ],
+          "straight_line_mm": 3.940575
+        },
+        {
+          "position_mm": [
+            67.02,
+            44.1
+          ],
+          "straight_line_mm": 5.640035
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            71.41934,
+            46.43934
+          ],
+          "straight_line_mm": 1.5
+        },
+        {
+          "position_mm": [
+            72.91934,
+            44.93934
+          ],
+          "straight_line_mm": 2.598076
+        },
+        {
+          "position_mm": [
+            69.98,
+            45.0
+          ],
+          "straight_line_mm": 3.535534
+        }
+      ]
+    },
+    {
+      "reference": "C261",
+      "value": "100nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        64.0,
+        65.0
+      ],
+      "net": "VCC_3V3",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        63.52,
+        65.0
+      ],
+      "ground_pad_mm": [
+        64.48,
+        65.0
+      ],
+      "nearest_same_net_ic_pad": "J23",
+      "nearest_same_net_ic_pad_mm": [
+        65.707107,
+        58.949747
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 6.433428,
+      "ic_pads_in_power_connected_island": [
+        "J23",
+        "N22",
+        "AA5"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            63.095736,
+            64.575736
+          ],
+          "straight_line_mm": 0.6
+        },
+        {
+          "position_mm": [
+            62.02,
+            61.6
+          ],
+          "straight_line_mm": 3.716181
+        },
+        {
+          "position_mm": [
+            57.065736,
+            66.075736
+          ],
+          "straight_line_mm": 6.543297
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            64.98,
+            65.0
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            65.353553,
+            63.899495
+          ],
+          "straight_line_mm": 1.405064
+        },
+        {
+          "position_mm": [
+            63.98,
+            66.5
+          ],
+          "straight_line_mm": 1.581139
+        }
+      ]
+    },
+    {
+      "reference": "C262",
+      "value": "10uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        55.5,
+        59.0
+      ],
+      "net": "VCC_3V3",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        54.725,
+        59.0
+      ],
+      "ground_pad_mm": [
+        56.275,
+        59.0
+      ],
+      "nearest_same_net_ic_pad": "J12",
+      "nearest_same_net_ic_pad_mm": [
+        61.818019,
+        55.06066
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 8.113527,
+      "ic_pads_in_power_connected_island": [
+        "J23",
+        "N22",
+        "AA5"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            54.725,
+            59.8
+          ],
+          "straight_line_mm": 0.8
+        },
+        {
+          "position_mm": [
+            53.725,
+            59.0
+          ],
+          "straight_line_mm": 1.0
+        },
+        {
+          "position_mm": [
+            54.914264,
+            63.924264
+          ],
+          "straight_line_mm": 4.9279
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            56.982107,
+            59.0
+          ],
+          "straight_line_mm": 0.707107
+        },
+        {
+          "position_mm": [
+            56.48,
+            60.5
+          ],
+          "straight_line_mm": 1.513944
+        },
+        {
+          "position_mm": [
+            55.98,
+            56.5
+          ],
+          "straight_line_mm": 2.517345
+        }
+      ]
+    },
+    {
+      "reference": "C263",
+      "value": "100nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        63.0,
+        66.5
+      ],
+      "net": "VCC_3V3",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        62.52,
+        66.5
+      ],
+      "ground_pad_mm": [
+        63.48,
+        66.5
+      ],
+      "nearest_same_net_ic_pad": "J23",
+      "nearest_same_net_ic_pad_mm": [
+        65.707107,
+        58.949747
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 8.195363,
+      "ic_pads_in_power_connected_island": [
+        "J23",
+        "N22",
+        "AA5"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            63.095736,
+            64.575736
+          ],
+          "straight_line_mm": 2.008548
+        },
+        {
+          "position_mm": [
+            62.02,
+            61.6
+          ],
+          "straight_line_mm": 4.925444
+        },
+        {
+          "position_mm": [
+            57.065736,
+            66.075736
+          ],
+          "straight_line_mm": 5.47074
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            63.98,
+            66.5
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            62.48,
+            65.0
+          ],
+          "straight_line_mm": 1.802776
+        },
+        {
+          "position_mm": [
+            61.46,
+            66.5
+          ],
+          "straight_line_mm": 2.02
+        }
+      ]
+    },
+    {
+      "reference": "C264",
+      "value": "100nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        60.0,
+        49.5
+      ],
+      "net": "VCC_1V8",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        59.52,
+        49.5
+      ],
+      "ground_pad_mm": [
+        60.48,
+        49.5
+      ],
+      "nearest_same_net_ic_pad": "J7",
+      "nearest_same_net_ic_pad_mm": [
+        60.050253,
+        53.292893
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 3.829779,
+      "ic_pads_in_power_connected_island": [
+        "J7",
+        "H10",
+        "AG3",
+        "K21"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            59.095736,
+            49.075736
+          ],
+          "straight_line_mm": 0.6
+        },
+        {
+          "position_mm": [
+            63.22,
+            50.2
+          ],
+          "straight_line_mm": 3.765634
+        },
+        {
+          "position_mm": [
+            60.050253,
+            53.646446
+          ],
+          "straight_line_mm": 4.180213
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            61.357359,
+            49.757359
+          ],
+          "straight_line_mm": 0.914326
+        },
+        {
+          "position_mm": [
+            60.650253,
+            50.464466
+          ],
+          "straight_line_mm": 0.979378
+        },
+        {
+          "position_mm": [
+            59.631472,
+            48.651472
+          ],
+          "straight_line_mm": 1.2
+        }
+      ]
+    },
+    {
+      "reference": "C265",
+      "value": "100nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        55.0,
+        56.5
+      ],
+      "net": "VCC_PE",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        54.52,
+        56.5
+      ],
+      "ground_pad_mm": [
+        55.48,
+        56.5
+      ],
+      "nearest_same_net_ic_pad": "J6",
+      "nearest_same_net_ic_pad_mm": [
+        59.696699,
+        52.93934
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 6.283034,
+      "ic_pads_in_power_connected_island": [
+        "J6"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            54.52,
+            57.1
+          ],
+          "straight_line_mm": 0.6
+        },
+        {
+          "position_mm": [
+            59.946699,
+            52.68934
+          ],
+          "straight_line_mm": 6.631002
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            55.98,
+            56.5
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            55.100505,
+            54.353553
+          ],
+          "straight_line_mm": 2.179736
+        },
+        {
+          "position_mm": [
+            53.48,
+            58.0
+          ],
+          "straight_line_mm": 2.5
+        }
+      ]
+    },
+    {
+      "reference": "C266",
+      "value": "100nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        55.0,
+        47.5
+      ],
+      "net": "VCC_PG",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        54.52,
+        47.5
+      ],
+      "ground_pad_mm": [
+        55.48,
+        47.5
+      ],
+      "nearest_same_net_ic_pad": "N6",
+      "nearest_same_net_ic_pad_mm": [
+        61.110913,
+        51.525126
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 7.722809,
+      "ic_pads_in_power_connected_island": [
+        "N6"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            57.99,
+            47.2
+          ],
+          "straight_line_mm": 3.482944
+        },
+        {
+          "position_mm": [
+            51.89,
+            42.5
+          ],
+          "straight_line_mm": 5.649504
+        },
+        {
+          "position_mm": [
+            60.09,
+            51.1
+          ],
+          "straight_line_mm": 6.632111
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            55.98,
+            47.5
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            55.98,
+            49.0
+          ],
+          "straight_line_mm": 1.581139
+        },
+        {
+          "position_mm": [
+            53.625,
+            47.3
+          ],
+          "straight_line_mm": 1.865751
+        }
+      ]
+    },
+    {
+      "reference": "C267",
+      "value": "100nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        65.0,
+        63.0
+      ],
+      "net": "VCC_PL",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        64.52,
+        63.0
+      ],
+      "ground_pad_mm": [
+        65.48,
+        63.0
+      ],
+      "nearest_same_net_ic_pad": "H18",
+      "nearest_same_net_ic_pad_mm": [
+        63.585786,
+        57.535534
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 5.543748,
+      "ic_pads_in_power_connected_island": [
+        "H18",
+        "H17"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            64.52,
+            64.0
+          ],
+          "straight_line_mm": 1.0
+        },
+        {
+          "position_mm": [
+            65.22,
+            64.381981
+          ],
+          "straight_line_mm": 1.549152
+        },
+        {
+          "position_mm": [
+            65.42,
+            59.581981
+          ],
+          "straight_line_mm": 3.534523
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            65.353553,
+            63.899495
+          ],
+          "straight_line_mm": 0.908339
+        },
+        {
+          "position_mm": [
+            64.646446,
+            61.778175
+          ],
+          "straight_line_mm": 1.479077
+        },
+        {
+          "position_mm": [
+            64.98,
+            65.0
+          ],
+          "straight_line_mm": 2.061553
+        }
+      ]
+    },
+    {
+      "reference": "C268",
+      "value": "100nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        68.5,
+        40.5
+      ],
+      "net": "VDD18_LPDDR",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        68.02,
+        40.5
+      ],
+      "ground_pad_mm": [
+        68.98,
+        40.5
+      ],
+      "nearest_same_net_ic_pad": "AC7",
+      "nearest_same_net_ic_pad_mm": [
+        65.0,
+        48.343146
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 8.404483,
+      "ic_pads_in_power_connected_island": [
+        "AC7"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            68.046447,
+            39.9
+          ],
+          "straight_line_mm": 0.600583
+        },
+        {
+          "position_mm": [
+            74.546447,
+            43.4
+          ],
+          "straight_line_mm": 7.141744
+        },
+        {
+          "position_mm": [
+            64.646447,
+            48.343146
+          ],
+          "straight_line_mm": 8.537904
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            68.98,
+            39.9
+          ],
+          "straight_line_mm": 0.6
+        },
+        {
+          "position_mm": [
+            69.48,
+            41.0
+          ],
+          "straight_line_mm": 0.707107
+        },
+        {
+          "position_mm": [
+            68.131472,
+            41.151472
+          ],
+          "straight_line_mm": 1.069774
+        }
+      ]
+    },
+    {
+      "reference": "C269",
+      "value": "100nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        57.5,
+        43.5
+      ],
+      "net": "VCC_1V8",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        57.02,
+        43.5
+      ],
+      "ground_pad_mm": [
+        57.98,
+        43.5
+      ],
+      "nearest_same_net_ic_pad": "AG3",
+      "nearest_same_net_ic_pad_mm": [
+        65.0,
+        45.514719
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 8.230401,
+      "ic_pads_in_power_connected_island": [
+        "AG3",
+        "J7",
+        "H10",
+        "K21"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            57.02,
+            44.1
+          ],
+          "straight_line_mm": 0.6
+        },
+        {
+          "position_mm": [
+            59.017893,
+            44.292893
+          ],
+          "straight_line_mm": 2.149478
+        },
+        {
+          "position_mm": [
+            59.095736,
+            49.075736
+          ],
+          "straight_line_mm": 5.949581
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            58.48,
+            43.5
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            58.48,
+            45.0
+          ],
+          "straight_line_mm": 1.581139
+        },
+        {
+          "position_mm": [
+            58.48,
+            42.0
+          ],
+          "straight_line_mm": 1.581139
+        }
+      ]
+    },
+    {
+      "reference": "C270",
+      "value": "100nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        55.5,
+        50.5
+      ],
+      "net": "VCC_1V8",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        55.02,
+        50.5
+      ],
+      "ground_pad_mm": [
+        55.98,
+        50.5
+      ],
+      "nearest_same_net_ic_pad": "J7",
+      "nearest_same_net_ic_pad_mm": [
+        60.050253,
+        53.292893
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 5.753581,
+      "ic_pads_in_power_connected_island": [
+        "J7",
+        "H10",
+        "AG3",
+        "K21"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            55.02,
+            49.9
+          ],
+          "straight_line_mm": 0.6
+        },
+        {
+          "position_mm": [
+            59.095736,
+            49.075736
+          ],
+          "straight_line_mm": 4.317424
+        },
+        {
+          "position_mm": [
+            60.050253,
+            53.646446
+          ],
+          "straight_line_mm": 5.933259
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            56.48,
+            50.5
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            56.98,
+            51.5
+          ],
+          "straight_line_mm": 1.414214
+        },
+        {
+          "position_mm": [
+            55.98,
+            49.0
+          ],
+          "straight_line_mm": 1.5
+        }
+      ]
+    },
+    {
+      "reference": "C271",
+      "value": "100nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        59.0,
+        65.0
+      ],
+      "net": "VCC_PL",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        58.52,
+        65.0
+      ],
+      "ground_pad_mm": [
+        59.48,
+        65.0
+      ],
+      "nearest_same_net_ic_pad": "H18",
+      "nearest_same_net_ic_pad_mm": [
+        63.585786,
+        57.535534
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 9.021111,
+      "ic_pads_in_power_connected_island": [
+        "H18",
+        "H17"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            58.52,
+            64.4
+          ],
+          "straight_line_mm": 0.6
+        },
+        {
+          "position_mm": [
+            64.52,
+            64.0
+          ],
+          "straight_line_mm": 6.082763
+        },
+        {
+          "position_mm": [
+            65.22,
+            64.381981
+          ],
+          "straight_line_mm": 6.728443
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            59.98,
+            65.0
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            58.48,
+            63.5
+          ],
+          "straight_line_mm": 1.802776
+        },
+        {
+          "position_mm": [
+            57.46,
+            65.0
+          ],
+          "straight_line_mm": 2.02
+        }
+      ]
+    },
+    {
+      "reference": "C272",
+      "value": "100nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        70.0,
+        62.5
+      ],
+      "net": "VDD_CPUS",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        69.52,
+        62.5
+      ],
+      "ground_pad_mm": [
+        70.48,
+        62.5
+      ],
+      "nearest_same_net_ic_pad": "H15",
+      "nearest_same_net_ic_pad_mm": [
+        62.525126,
+        56.474874
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 9.232031,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            69.095736,
+            62.075736
+          ],
+          "straight_line_mm": 0.6
+        },
+        {
+          "position_mm": [
+            61.02,
+            65.6
+          ],
+          "straight_line_mm": 9.047652
+        },
+        {
+          "position_mm": [
+            60.02,
+            62.9
+          ],
+          "straight_line_mm": 9.508417
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            70.98,
+            62.5
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            69.982107,
+            61.0
+          ],
+          "straight_line_mm": 1.580474
+        },
+        {
+          "position_mm": [
+            71.48,
+            64.0
+          ],
+          "straight_line_mm": 1.802776
+        }
+      ]
+    },
+    {
+      "reference": "C273",
+      "value": "470nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        66.0,
+        42.0
+      ],
+      "net": "/A523 system/SoC support/Analog {slash} straps/VRA1",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        65.52,
+        42.0
+      ],
+      "ground_pad_mm": [
+        66.48,
+        42.0
+      ],
+      "nearest_same_net_ic_pad": "AC4",
+      "nearest_same_net_ic_pad_mm": [
+        63.93934,
+        47.282486
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 5.513905,
+      "ic_pads_in_power_connected_island": [
+        "AC4"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            66.4619,
+            42.7
+          ],
+          "straight_line_mm": 1.173531
+        },
+        {
+          "position_mm": [
+            63.3619,
+            44.296
+          ],
+          "straight_line_mm": 3.151033
+        },
+        {
+          "position_mm": [
+            63.5609,
+            47.6463
+          ],
+          "straight_line_mm": 5.976519
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            66.98,
+            42.0
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            66.98,
+            41.5
+          ],
+          "straight_line_mm": 0.707107
+        },
+        {
+          "position_mm": [
+            66.98,
+            40.5
+          ],
+          "straight_line_mm": 1.581139
+        }
+      ]
+    },
+    {
+      "reference": "C274",
+      "value": "470nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        64.0,
+        45.0
+      ],
+      "net": "/A523 system/SoC support/Analog {slash} straps/VRA2",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        63.52,
+        45.0
+      ],
+      "ground_pad_mm": [
+        64.48,
+        45.0
+      ],
+      "nearest_same_net_ic_pad": "AC3",
+      "nearest_same_net_ic_pad_mm": [
+        63.585786,
+        46.928932
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 1.930053,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            63.878959,
+            44.398959
+          ],
+          "straight_line_mm": 0.85
+        },
+        {
+          "position_mm": [
+            65.353553,
+            45.761165
+          ],
+          "straight_line_mm": 1.158649
+        },
+        {
+          "position_mm": [
+            64.482107,
+            43.0
+          ],
+          "straight_line_mm": 2.000001
+        }
+      ]
+    },
+    {
+      "reference": "C275",
+      "value": "470nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        60.0,
+        43.5
+      ],
+      "net": "/A523 system/SoC support/Analog {slash} straps/VRP",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        59.52,
+        43.5
+      ],
+      "ground_pad_mm": [
+        60.48,
+        43.5
+      ],
+      "nearest_same_net_ic_pad": "AA4",
+      "nearest_same_net_ic_pad_mm": [
+        63.232233,
+        47.989592
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 5.825557,
+      "ic_pads_in_power_connected_island": [
+        "AA4"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            60.22,
+            44.2
+          ],
+          "straight_line_mm": 0.989949
+        },
+        {
+          "position_mm": [
+            62.982233,
+            48.239592
+          ],
+          "straight_line_mm": 5.86948
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            60.98,
+            43.5
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            60.48,
+            42.5
+          ],
+          "straight_line_mm": 1.0
+        },
+        {
+          "position_mm": [
+            58.48,
+            43.5
+          ],
+          "straight_line_mm": 2.0
+        }
+      ]
+    },
+    {
+      "reference": "C276",
+      "value": "470nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        57.5,
+        42.0
+      ],
+      "net": "/A523 system/SoC support/Analog {slash} straps/VCM_ADC",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        57.02,
+        42.0
+      ],
+      "ground_pad_mm": [
+        57.98,
+        42.0
+      ],
+      "nearest_same_net_ic_pad": "U6",
+      "nearest_same_net_ic_pad_mm": [
+        62.525126,
+        50.110913
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 9.80272,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            58.48,
+            42.0
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            58.48,
+            43.5
+          ],
+          "straight_line_mm": 1.581139
+        },
+        {
+          "position_mm": [
+            60.48,
+            42.5
+          ],
+          "straight_line_mm": 2.54951
+        }
+      ]
+    },
+    {
+      "reference": "C277",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        63.5,
+        41.5
+      ],
+      "net": "/A523 system/SoC support/Analog {slash} straps/ALDO_OUT",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        63.02,
+        41.5
+      ],
+      "ground_pad_mm": [
+        63.98,
+        41.5
+      ],
+      "nearest_same_net_ic_pad": "AE3",
+      "nearest_same_net_ic_pad_mm": [
+        64.292893,
+        46.221825
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 4.890387,
+      "ic_pads_in_power_connected_island": [
+        "AE3"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            62.878679,
+            45.161165
+          ],
+          "straight_line_mm": 3.663891
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            63.272893,
+            42.207107
+          ],
+          "straight_line_mm": 1.0
+        },
+        {
+          "position_mm": [
+            64.482107,
+            43.0
+          ],
+          "straight_line_mm": 1.581806
+        },
+        {
+          "position_mm": [
+            63.878959,
+            44.398959
+          ],
+          "straight_line_mm": 2.900719
+        }
+      ]
+    },
+    {
+      "reference": "C278",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        71.0,
+        41.5
+      ],
+      "net": "/A523 system/SoC support/Analog {slash} straps/CPVEE",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        70.52,
+        41.5
+      ],
+      "ground_pad_mm": [
+        71.48,
+        41.5
+      ],
+      "nearest_same_net_ic_pad": "AE4",
+      "nearest_same_net_ic_pad_mm": [
+        64.646447,
+        46.575379
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 7.762609,
+      "ic_pads_in_power_connected_island": [
+        "AE4",
+        "AC5"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            70.087,
+            44.3881
+          ],
+          "straight_line_mm": 2.920379
+        },
+        {
+          "position_mm": [
+            64.9558,
+            46.266
+          ],
+          "straight_line_mm": 7.326328
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            71.98,
+            42.0
+          ],
+          "straight_line_mm": 0.707107
+        },
+        {
+          "position_mm": [
+            70.1,
+            42.15
+          ],
+          "straight_line_mm": 1.525418
+        },
+        {
+          "position_mm": [
+            69.48,
+            41.0
+          ],
+          "straight_line_mm": 2.061553
+        }
+      ]
+    },
+    {
+      "reference": "C279",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        66.0,
+        40.5
+      ],
+      "net": "/A523 system/SoC support/Analog {slash} straps/CPVDD",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        65.52,
+        40.5
+      ],
+      "ground_pad_mm": [
+        66.48,
+        40.5
+      ],
+      "nearest_same_net_ic_pad": "AE5",
+      "nearest_same_net_ic_pad_mm": [
+        65.0,
+        46.928932
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 6.449928,
+      "ic_pads_in_power_connected_island": [
+        "AE5"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            65.1193,
+            41.3
+          ],
+          "straight_line_mm": 0.89474
+        },
+        {
+          "position_mm": [
+            65.4193,
+            43.5
+          ],
+          "straight_line_mm": 3.00169
+        },
+        {
+          "position_mm": [
+            64.8217,
+            47.3737
+          ],
+          "straight_line_mm": 6.909079
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            66.98,
+            40.5
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            66.98,
+            41.5
+          ],
+          "straight_line_mm": 1.118034
+        },
+        {
+          "position_mm": [
+            66.98,
+            42.0
+          ],
+          "straight_line_mm": 1.581139
+        }
+      ]
+    },
+    {
+      "reference": "C280",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        67.5,
+        43.5
+      ],
+      "net": "VCC_AVCC",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        67.02,
+        43.5
+      ],
+      "ground_pad_mm": [
+        67.98,
+        43.5
+      ],
+      "nearest_same_net_ic_pad": "W6",
+      "nearest_same_net_ic_pad_mm": [
+        63.232233,
+        49.403806
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 7.014421,
+      "ic_pads_in_power_connected_island": [
+        "W6",
+        "W7",
+        "AB13",
+        "AA12",
+        "AA21"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            67.02,
+            44.1
+          ],
+          "straight_line_mm": 0.6
+        },
+        {
+          "position_mm": [
+            70.45934,
+            46.43934
+          ],
+          "straight_line_mm": 4.524244
+        },
+        {
+          "position_mm": [
+            73.722233,
+            44.232233
+          ],
+          "straight_line_mm": 6.742113
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            67.98,
+            44.0
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            66.98,
+            42.0
+          ],
+          "straight_line_mm": 1.802776
+        },
+        {
+          "position_mm": [
+            69.9,
+            43.85
+          ],
+          "straight_line_mm": 1.95164
+        }
+      ]
+    },
+    {
+      "reference": "C281",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        55.0,
+        49.0
+      ],
+      "net": "VCC_1V8",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        54.52,
+        49.0
+      ],
+      "ground_pad_mm": [
+        55.48,
+        49.0
+      ],
+      "nearest_same_net_ic_pad": "J7",
+      "nearest_same_net_ic_pad_mm": [
+        60.050253,
+        53.292893
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 7.000902,
+      "ic_pads_in_power_connected_island": [
+        "J7",
+        "H10",
+        "AG3",
+        "K21"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            55.02,
+            49.9
+          ],
+          "straight_line_mm": 1.029563
+        },
+        {
+          "position_mm": [
+            59.095736,
+            49.075736
+          ],
+          "straight_line_mm": 4.576363
+        },
+        {
+          "position_mm": [
+            57.02,
+            44.1
+          ],
+          "straight_line_mm": 5.500909
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            55.98,
+            49.0
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            55.98,
+            47.5
+          ],
+          "straight_line_mm": 1.581139
+        },
+        {
+          "position_mm": [
+            56.48,
+            50.5
+          ],
+          "straight_line_mm": 1.802776
+        }
+      ]
+    },
+    {
+      "reference": "C282",
+      "value": "10uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        60.5,
+        45.0
+      ],
+      "net": "VCC_1V8",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        59.725,
+        45.0
+      ],
+      "ground_pad_mm": [
+        61.275,
+        45.0
+      ],
+      "nearest_same_net_ic_pad": "AG3",
+      "nearest_same_net_ic_pad_mm": [
+        65.0,
+        45.514719
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 5.300053,
+      "ic_pads_in_power_connected_island": [
+        "AG3",
+        "J7",
+        "H10",
+        "K21"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            59.017893,
+            44.292893
+          ],
+          "straight_line_mm": 1.0
+        },
+        {
+          "position_mm": [
+            57.02,
+            44.1
+          ],
+          "straight_line_mm": 2.850794
+        },
+        {
+          "position_mm": [
+            59.095736,
+            49.075736
+          ],
+          "straight_line_mm": 4.124027
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            61.982107,
+            45.0
+          ],
+          "straight_line_mm": 0.707107
+        },
+        {
+          "position_mm": [
+            61.673959,
+            46.398959
+          ],
+          "straight_line_mm": 1.454735
+        },
+        {
+          "position_mm": [
+            60.98,
+            43.5
+          ],
+          "straight_line_mm": 1.528733
+        }
+      ]
+    },
+    {
+      "reference": "C283",
+      "value": "100nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        72.5,
+        62.5
+      ],
+      "net": "VCC_3V3",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        72.02,
+        62.5
+      ],
+      "ground_pad_mm": [
+        72.98,
+        62.5
+      ],
+      "nearest_same_net_ic_pad": "J23",
+      "nearest_same_net_ic_pad_mm": [
+        65.707107,
+        58.949747
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 7.242715,
+      "ic_pads_in_power_connected_island": [
+        "J23",
+        "N22",
+        "AA5"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            71.595736,
+            62.924264
+          ],
+          "straight_line_mm": 0.6
+        },
+        {
+          "position_mm": [
+            70.02,
+            63.4
+          ],
+          "straight_line_mm": 2.193171
+        },
+        {
+          "position_mm": [
+            67.017767,
+            56.931981
+          ],
+          "straight_line_mm": 7.484996
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            73.48,
+            62.5
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            70.98,
+            62.5
+          ],
+          "straight_line_mm": 2.0
+        },
+        {
+          "position_mm": [
+            71.48,
+            64.0
+          ],
+          "straight_line_mm": 2.12132
+        }
+      ]
+    },
+    {
+      "reference": "C284",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        76.0,
+        51.0
+      ],
+      "net": "VCC_AVCC",
+      "target_ic": "U201",
+      "power_pad_mm": [
+        75.52,
+        51.0
+      ],
+      "ground_pad_mm": [
+        76.48,
+        51.0
+      ],
+      "nearest_same_net_ic_pad": "AA21",
+      "nearest_same_net_ic_pad_mm": [
+        69.242641,
+        54.0
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 6.957387,
+      "ic_pads_in_power_connected_island": [
+        "AA21",
+        "AB13",
+        "AA12",
+        "W7",
+        "W6"
+      ],
+      "ground_connected_to_main_plane_network": false,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            69.70662,
+            54.13335
+          ],
+          "straight_line_mm": 6.604034
+        },
+        {
+          "position_mm": [
+            70.45934,
+            46.43934
+          ],
+          "straight_line_mm": 6.812481
+        },
+        {
+          "position_mm": [
+            73.722233,
+            44.232233
+          ],
+          "straight_line_mm": 7.002474
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": []
+    },
+    {
+      "reference": "C301",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        78.0,
+        52.5
+      ],
+      "net": "VCC_DRAM",
+      "target_ic": "U301",
+      "power_pad_mm": [
+        77.52,
+        52.5
+      ],
+      "ground_pad_mm": [
+        78.48,
+        52.5
+      ],
+      "nearest_same_net_ic_pad": "N1",
+      "nearest_same_net_ic_pad_mm": [
+        81.238008,
+        51.773542
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 3.788314,
+      "ic_pads_in_power_connected_island": [
+        "N1",
+        "K1",
+        "R1",
+        "H1",
+        "T2",
+        "N3",
+        "K3",
+        "G2",
+        "W1",
+        "U3",
+        "D1",
+        "F3",
+        "R5",
+        "H5",
+        "U5",
+        "F5",
+        "AA3",
+        "W5",
+        "B3",
+        "D5",
+        "AB4",
+        "AA5",
+        "A4",
+        "B5",
+        "R8",
+        "H8",
+        "U8",
+        "F8",
+        "W8",
+        "D8",
+        "N10",
+        "K10",
+        "AA8",
+        "B8",
+        "U10",
+        "F10",
+        "AB9",
+        "A9",
+        "AA10",
+        "N12",
+        "K12",
+        "B10",
+        "R12",
+        "H12",
+        "W12",
+        "D12"
+      ],
+      "ground_connected_to_main_plane_network": false,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            80.6972,
+            51.587
+          ],
+          "straight_line_mm": 3.305778
+        },
+        {
+          "position_mm": [
+            80.115032,
+            50.2916
+          ],
+          "straight_line_mm": 3.407524
+        },
+        {
+          "position_mm": [
+            80.724632,
+            53.873
+          ],
+          "straight_line_mm": 3.486373
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": []
+    },
+    {
+      "reference": "C302",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        83.0,
+        44.5
+      ],
+      "net": "VCC_DRAM",
+      "target_ic": "U301",
+      "power_pad_mm": [
+        82.52,
+        44.5
+      ],
+      "ground_pad_mm": [
+        83.48,
+        44.5
+      ],
+      "nearest_same_net_ic_pad": "AB4",
+      "nearest_same_net_ic_pad_mm": [
+        83.638008,
+        45.923542
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 1.810087,
+      "ic_pads_in_power_connected_island": [
+        "AB4",
+        "AA3",
+        "AA5",
+        "W1",
+        "W5",
+        "U3",
+        "AA8",
+        "U5",
+        "AB9",
+        "T2",
+        "W8",
+        "R1",
+        "AA10",
+        "R5",
+        "U8",
+        "N3",
+        "R8",
+        "N1",
+        "U10",
+        "W12",
+        "K3",
+        "K1",
+        "N10",
+        "R12",
+        "N12",
+        "H1",
+        "H5",
+        "K10",
+        "G2",
+        "H8",
+        "F3",
+        "K12",
+        "F5",
+        "F8",
+        "H12",
+        "D1",
+        "F10",
+        "D5",
+        "D8",
+        "B3",
+        "B5",
+        "B8",
+        "A4",
+        "D12",
+        "B10",
+        "A9"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            83.391632,
+            45.5164
+          ],
+          "straight_line_mm": 1.338959
+        },
+        {
+          "position_mm": [
+            83.264632,
+            46.304054
+          ],
+          "straight_line_mm": 1.951688
+        },
+        {
+          "position_mm": [
+            84.9898,
+            46.4308
+          ],
+          "straight_line_mm": 3.134948
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            82.8308,
+            45.4402
+          ],
+          "straight_line_mm": 1.142557
+        },
+        {
+          "position_mm": [
+            84.6596,
+            45.3894
+          ],
+          "straight_line_mm": 1.477325
+        },
+        {
+          "position_mm": [
+            84.894214,
+            45.914214
+          ],
+          "straight_line_mm": 2.000001
+        }
+      ]
+    },
+    {
+      "reference": "C303",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        90.5,
+        59.5
+      ],
+      "net": "VCC_DRAM",
+      "target_ic": "U301",
+      "power_pad_mm": [
+        90.02,
+        59.5
+      ],
+      "ground_pad_mm": [
+        90.98,
+        59.5
+      ],
+      "nearest_same_net_ic_pad": "B10",
+      "nearest_same_net_ic_pad_mm": [
+        88.438008,
+        58.923542
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 1.683747,
+      "ic_pads_in_power_connected_island": [
+        "B10",
+        "D12",
+        "A9",
+        "B8",
+        "F10",
+        "D8",
+        "H12",
+        "F8",
+        "H8",
+        "B5",
+        "K12",
+        "D5",
+        "K10",
+        "A4",
+        "F5",
+        "H5",
+        "B3",
+        "N12",
+        "F3",
+        "N10",
+        "G2",
+        "D1",
+        "R12",
+        "K3",
+        "R8",
+        "H1",
+        "U10",
+        "K1",
+        "N3",
+        "R5",
+        "U8",
+        "W12",
+        "N1",
+        "U5",
+        "W8",
+        "T2",
+        "U3",
+        "R1",
+        "W5",
+        "AA10",
+        "AA8",
+        "AB9",
+        "AA5",
+        "W1",
+        "AA3",
+        "AB4"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            88.801832,
+            58.6228
+          ],
+          "straight_line_mm": 1.501137
+        },
+        {
+          "position_mm": [
+            90.478232,
+            57.8862
+          ],
+          "straight_line_mm": 1.677596
+        },
+        {
+          "position_mm": [
+            87.714214,
+            59.9
+          ],
+          "straight_line_mm": 2.340224
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            91.58,
+            59.5
+          ],
+          "straight_line_mm": 0.6
+        },
+        {
+          "position_mm": [
+            89.6634,
+            57.9878
+          ],
+          "straight_line_mm": 2.00504
+        },
+        {
+          "position_mm": [
+            88.688008,
+            59.323542
+          ],
+          "straight_line_mm": 2.298775
+        }
+      ]
+    },
+    {
+      "reference": "C304",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        79.0,
+        49.0
+      ],
+      "net": "VCC_DRAM",
+      "target_ic": "U301",
+      "power_pad_mm": [
+        78.52,
+        49.0
+      ],
+      "ground_pad_mm": [
+        79.48,
+        49.0
+      ],
+      "nearest_same_net_ic_pad": "W1",
+      "nearest_same_net_ic_pad_mm": [
+        81.238008,
+        47.873542
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 2.942189,
+      "ic_pads_in_power_connected_island": [
+        "W1",
+        "R1",
+        "T2",
+        "N1",
+        "U3",
+        "AA3",
+        "N3",
+        "K1",
+        "U5",
+        "AB4",
+        "W5",
+        "R5",
+        "AA5",
+        "K3",
+        "H1",
+        "G2",
+        "U8",
+        "W8",
+        "H5",
+        "R8",
+        "F3",
+        "AA8",
+        "D1",
+        "F5",
+        "AB9",
+        "U10",
+        "AA10",
+        "H8",
+        "N10",
+        "D5",
+        "B3",
+        "K10",
+        "F8",
+        "B5",
+        "W12",
+        "R12",
+        "A4",
+        "N12",
+        "D8",
+        "F10",
+        "K12",
+        "B8",
+        "H12",
+        "A9",
+        "B10",
+        "D12"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            80.115032,
+            50.2916
+          ],
+          "straight_line_mm": 2.052403
+        },
+        {
+          "position_mm": [
+            80.239238,
+            47.414034
+          ],
+          "straight_line_mm": 2.339031
+        },
+        {
+          "position_mm": [
+            80.6972,
+            51.587
+          ],
+          "straight_line_mm": 3.381238
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            79.904264,
+            49.424264
+          ],
+          "straight_line_mm": 0.6
+        },
+        {
+          "position_mm": [
+            80.884455,
+            48.523542
+          ],
+          "straight_line_mm": 1.483073
+        },
+        {
+          "position_mm": [
+            80.884455,
+            49.823542
+          ],
+          "straight_line_mm": 1.628102
+        }
+      ]
+    },
+    {
+      "reference": "C305",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        85.5,
+        44.5
+      ],
+      "net": "VCC_DRAM",
+      "target_ic": "U301",
+      "power_pad_mm": [
+        85.02,
+        44.5
+      ],
+      "ground_pad_mm": [
+        85.98,
+        44.5
+      ],
+      "nearest_same_net_ic_pad": "AB4",
+      "nearest_same_net_ic_pad_mm": [
+        83.638008,
+        45.923542
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 1.98403,
+      "ic_pads_in_power_connected_island": [
+        "AB4",
+        "AA5",
+        "AA8",
+        "AB9",
+        "AA3",
+        "W5",
+        "W8",
+        "AA10",
+        "U5",
+        "U8",
+        "W1",
+        "U3",
+        "U10",
+        "R5",
+        "W12",
+        "T2",
+        "R8",
+        "R1",
+        "N3",
+        "R12",
+        "N10",
+        "N1",
+        "N12",
+        "K3",
+        "K10",
+        "K1",
+        "K12",
+        "H5",
+        "H8",
+        "H1",
+        "G2",
+        "H12",
+        "F5",
+        "F8",
+        "F3",
+        "F10",
+        "D5",
+        "D8",
+        "D1",
+        "D12",
+        "B5",
+        "B8",
+        "B3",
+        "B10",
+        "A4",
+        "A9"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            83.391632,
+            45.5164
+          ],
+          "straight_line_mm": 1.919545
+        },
+        {
+          "position_mm": [
+            84.9898,
+            46.4308
+          ],
+          "straight_line_mm": 1.931036
+        },
+        {
+          "position_mm": [
+            83.264632,
+            46.304054
+          ],
+          "straight_line_mm": 2.517127
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            85.98,
+            45.0
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            86.592032,
+            45.491
+          ],
+          "straight_line_mm": 1.164759
+        },
+        {
+          "position_mm": [
+            84.6596,
+            45.3894
+          ],
+          "straight_line_mm": 1.592008
+        }
+      ]
+    },
+    {
+      "reference": "C306",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        81.5,
+        59.0
+      ],
+      "net": "VCC_DRAM",
+      "target_ic": "U301",
+      "power_pad_mm": [
+        81.02,
+        59.0
+      ],
+      "ground_pad_mm": [
+        81.98,
+        59.0
+      ],
+      "nearest_same_net_ic_pad": "D1",
+      "nearest_same_net_ic_pad_mm": [
+        81.238008,
+        57.623542
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 1.393615,
+      "ic_pads_in_power_connected_island": [
+        "D1",
+        "B3",
+        "A4",
+        "F3",
+        "B5",
+        "G2",
+        "D5",
+        "H1",
+        "F5",
+        "H5",
+        "K1",
+        "K3",
+        "B8",
+        "D8",
+        "F8",
+        "A9",
+        "H8",
+        "N1",
+        "B10",
+        "N3",
+        "F10",
+        "R1",
+        "K10",
+        "D12",
+        "R5",
+        "T2",
+        "H12",
+        "U3",
+        "R8",
+        "N10",
+        "U5",
+        "K12",
+        "W1",
+        "U8",
+        "N12",
+        "W5",
+        "U10",
+        "R12",
+        "W8",
+        "AA3",
+        "AA5",
+        "AB4",
+        "AA8",
+        "W12",
+        "AA10",
+        "AB9"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            80.884455,
+            57.623542
+          ],
+          "straight_line_mm": 1.383116
+        },
+        {
+          "position_mm": [
+            83.184876,
+            58.576572
+          ],
+          "straight_line_mm": 2.205896
+        },
+        {
+          "position_mm": [
+            83.6309,
+            60.07568
+          ],
+          "straight_line_mm": 2.823807
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            81.98,
+            60.06066
+          ],
+          "straight_line_mm": 1.06066
+        },
+        {
+          "position_mm": [
+            81.535146,
+            57.97637
+          ],
+          "straight_line_mm": 1.116115
+        },
+        {
+          "position_mm": [
+            82.838008,
+            60.023542
+          ],
+          "straight_line_mm": 1.335596
+        }
+      ]
+    },
+    {
+      "reference": "C307",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        79.0,
+        57.0
+      ],
+      "net": "VCC_DRAM",
+      "target_ic": "U301",
+      "power_pad_mm": [
+        78.52,
+        57.0
+      ],
+      "ground_pad_mm": [
+        79.48,
+        57.0
+      ],
+      "nearest_same_net_ic_pad": "D1",
+      "nearest_same_net_ic_pad_mm": [
+        81.238008,
+        57.623542
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 2.788615,
+      "ic_pads_in_power_connected_island": [
+        "D1",
+        "H1",
+        "G2",
+        "K1",
+        "F3",
+        "B3",
+        "K3",
+        "A4",
+        "N1",
+        "D5",
+        "F5",
+        "B5",
+        "H5",
+        "N3",
+        "R1",
+        "T2",
+        "D8",
+        "F8",
+        "B8",
+        "H8",
+        "R5",
+        "U3",
+        "A9",
+        "W1",
+        "U5",
+        "F10",
+        "B10",
+        "K10",
+        "R8",
+        "W5",
+        "N10",
+        "AA3",
+        "U8",
+        "D12",
+        "H12",
+        "K12",
+        "AA5",
+        "AB4",
+        "W8",
+        "U10",
+        "N12",
+        "R12",
+        "AA8",
+        "AB9",
+        "AA10",
+        "W12"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            79.8336,
+            55.858264
+          ],
+          "straight_line_mm": 1.740433
+        },
+        {
+          "position_mm": [
+            80.884455,
+            57.623542
+          ],
+          "straight_line_mm": 2.445292
+        },
+        {
+          "position_mm": [
+            81.788008,
+            55.923542
+          ],
+          "straight_line_mm": 3.440732
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            80.86738,
+            56.826258
+          ],
+          "straight_line_mm": 1.398217
+        },
+        {
+          "position_mm": [
+            80.683992,
+            55.867916
+          ],
+          "straight_line_mm": 1.652638
+        },
+        {
+          "position_mm": [
+            80.7226,
+            58.131055
+          ],
+          "straight_line_mm": 1.68028
+        }
+      ]
+    },
+    {
+      "reference": "C308",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        81.5,
+        46.5
+      ],
+      "net": "VCC_DRAM",
+      "target_ic": "U301",
+      "power_pad_mm": [
+        81.02,
+        46.5
+      ],
+      "ground_pad_mm": [
+        81.98,
+        46.5
+      ],
+      "nearest_same_net_ic_pad": "W1",
+      "nearest_same_net_ic_pad_mm": [
+        81.238008,
+        47.873542
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 1.390735,
+      "ic_pads_in_power_connected_island": [
+        "W1",
+        "AA3",
+        "AB4",
+        "U3",
+        "AA5",
+        "T2",
+        "W5",
+        "R1",
+        "U5",
+        "R5",
+        "N1",
+        "N3",
+        "AA8",
+        "W8",
+        "U8",
+        "AB9",
+        "R8",
+        "K1",
+        "AA10",
+        "K3",
+        "U10",
+        "H1",
+        "N10",
+        "W12",
+        "H5",
+        "G2",
+        "R12",
+        "F3",
+        "H8",
+        "K10",
+        "F5",
+        "N12",
+        "D1",
+        "F8",
+        "K12",
+        "D5",
+        "F10",
+        "H12",
+        "D8",
+        "B3",
+        "B5",
+        "A4",
+        "B8",
+        "D12",
+        "B10",
+        "A9"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            80.239238,
+            47.414034
+          ],
+          "straight_line_mm": 1.202101
+        },
+        {
+          "position_mm": [
+            83.264632,
+            46.304054
+          ],
+          "straight_line_mm": 2.253168
+        },
+        {
+          "position_mm": [
+            83.391632,
+            45.5164
+          ],
+          "straight_line_mm": 2.56751
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            81.664432,
+            47.4722
+          ],
+          "straight_line_mm": 1.022133
+        },
+        {
+          "position_mm": [
+            82.8308,
+            45.4402
+          ],
+          "straight_line_mm": 1.359057
+        },
+        {
+          "position_mm": [
+            80.884455,
+            48.523542
+          ],
+          "straight_line_mm": 2.301074
+        }
+      ]
+    },
+    {
+      "reference": "C310",
+      "value": "10uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        86.0,
+        53.0
+      ],
+      "net": "VCC_DRAM",
+      "target_ic": "U301",
+      "power_pad_mm": [
+        85.225,
+        53.0
+      ],
+      "ground_pad_mm": [
+        86.775,
+        53.0
+      ],
+      "nearest_same_net_ic_pad": "H5",
+      "nearest_same_net_ic_pad_mm": [
+        84.438008,
+        55.023542
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 2.171193,
+      "ic_pads_in_power_connected_island": [
+        "H5",
+        "K3",
+        "H8",
+        "R5",
+        "N3",
+        "R8",
+        "K10",
+        "F5",
+        "N10",
+        "F8",
+        "U5",
+        "K1",
+        "F3",
+        "U8",
+        "G2",
+        "N1",
+        "H1",
+        "T2",
+        "U3",
+        "F10",
+        "D5",
+        "R1",
+        "K12",
+        "D8",
+        "N12",
+        "U10",
+        "W5",
+        "H12",
+        "W8",
+        "R12",
+        "B5",
+        "D1",
+        "B8",
+        "B3",
+        "AA5",
+        "W1",
+        "AA8",
+        "D12",
+        "B10",
+        "A4",
+        "AA3",
+        "A9",
+        "W12",
+        "AA10",
+        "AB4",
+        "AB9"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            85.064214,
+            51.4
+          ],
+          "straight_line_mm": 1.608058
+        },
+        {
+          "position_mm": [
+            84.188008,
+            54.773542
+          ],
+          "straight_line_mm": 2.054459
+        },
+        {
+          "position_mm": [
+            82.451832,
+            53.873
+          ],
+          "straight_line_mm": 2.907334
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            85.926472,
+            53.848528
+          ],
+          "straight_line_mm": 1.2
+        },
+        {
+          "position_mm": [
+            88.013744,
+            53.949278
+          ],
+          "straight_line_mm": 1.560646
+        },
+        {
+          "position_mm": [
+            88.039832,
+            51.4346
+          ],
+          "straight_line_mm": 2.01253
+        }
+      ]
+    },
+    {
+      "reference": "C311",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        92.0,
+        47.0
+      ],
+      "net": "VCC_DRAM",
+      "target_ic": "U301",
+      "power_pad_mm": [
+        91.52,
+        47.0
+      ],
+      "ground_pad_mm": [
+        92.48,
+        47.0
+      ],
+      "nearest_same_net_ic_pad": "W12",
+      "nearest_same_net_ic_pad_mm": [
+        90.038008,
+        47.873542
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 1.720284,
+      "ic_pads_in_power_connected_island": [
+        "W12",
+        "AA10",
+        "U10",
+        "R12",
+        "AB9",
+        "AA8",
+        "W8",
+        "N12",
+        "U8",
+        "N10",
+        "R8",
+        "K12",
+        "AA5",
+        "W5",
+        "K10",
+        "U5",
+        "R5",
+        "AB4",
+        "H12",
+        "AA3",
+        "U3",
+        "H8",
+        "F10",
+        "T2",
+        "N3",
+        "W1",
+        "F8",
+        "H5",
+        "D12",
+        "R1",
+        "K3",
+        "N1",
+        "D8",
+        "F5",
+        "K1",
+        "B10",
+        "F3",
+        "D5",
+        "B8",
+        "G2",
+        "H1",
+        "A9",
+        "B5",
+        "B3",
+        "D1",
+        "A4"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            90.4762,
+            47.5738
+          ],
+          "straight_line_mm": 1.191119
+        },
+        {
+          "position_mm": [
+            88.8633,
+            46.1895
+          ],
+          "straight_line_mm": 2.777583
+        },
+        {
+          "position_mm": [
+            88.688008,
+            48.923542
+          ],
+          "straight_line_mm": 3.423477
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            92.98,
+            47.0
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            90.70607,
+            48.252742
+          ],
+          "straight_line_mm": 2.171679
+        },
+        {
+          "position_mm": [
+            90.288008,
+            46.973542
+          ],
+          "straight_line_mm": 2.192152
+        }
+      ]
+    },
+    {
+      "reference": "C312",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        92.0,
+        56.0
+      ],
+      "net": "VCC_DRAM",
+      "target_ic": "U301",
+      "power_pad_mm": [
+        91.52,
+        56.0
+      ],
+      "ground_pad_mm": [
+        92.48,
+        56.0
+      ],
+      "nearest_same_net_ic_pad": "H12",
+      "nearest_same_net_ic_pad_mm": [
+        90.038008,
+        55.023542
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 1.774759,
+      "ic_pads_in_power_connected_island": [
+        "H12",
+        "D12",
+        "K12",
+        "F10",
+        "K10",
+        "B10",
+        "N12",
+        "F8",
+        "H8",
+        "D8",
+        "N10",
+        "A9",
+        "B8",
+        "R12",
+        "F5",
+        "H5",
+        "R8",
+        "D5",
+        "U10",
+        "B5",
+        "W12",
+        "U8",
+        "A4",
+        "F3",
+        "K3",
+        "R5",
+        "B3",
+        "W8",
+        "G2",
+        "N3",
+        "U5",
+        "AA10",
+        "H1",
+        "D1",
+        "AA8",
+        "K1",
+        "W5",
+        "AB9",
+        "U3",
+        "N1",
+        "T2",
+        "R1",
+        "AA5",
+        "AB4",
+        "AA3",
+        "W1"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            90.433274,
+            54.732536
+          ],
+          "straight_line_mm": 1.669562
+        },
+        {
+          "position_mm": [
+            90.478232,
+            57.8862
+          ],
+          "straight_line_mm": 2.154769
+        },
+        {
+          "position_mm": [
+            88.842726,
+            56.601468
+          ],
+          "straight_line_mm": 2.744004
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            92.98,
+            56.0
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            90.391561,
+            55.673542
+          ],
+          "straight_line_mm": 2.1138
+        },
+        {
+          "position_mm": [
+            90.630632,
+            57.0988
+          ],
+          "straight_line_mm": 2.151168
+        }
+      ]
+    },
+    {
+      "reference": "C313",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        94.0,
+        52.5
+      ],
+      "net": "VCC_DRAM",
+      "target_ic": "U301",
+      "power_pad_mm": [
+        93.52,
+        52.5
+      ],
+      "ground_pad_mm": [
+        94.48,
+        52.5
+      ],
+      "nearest_same_net_ic_pad": "N12",
+      "nearest_same_net_ic_pad_mm": [
+        90.038008,
+        51.773542
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 3.556966,
+      "ic_pads_in_power_connected_island": [
+        "N12",
+        "K12",
+        "R12",
+        "H12",
+        "N10",
+        "K10",
+        "W12",
+        "U10",
+        "D12",
+        "F10",
+        "R8",
+        "H8",
+        "U8",
+        "F8",
+        "AA10",
+        "W8",
+        "B10",
+        "D8",
+        "AB9",
+        "AA8",
+        "A9",
+        "B8",
+        "R5",
+        "H5",
+        "U5",
+        "F5",
+        "W5",
+        "D5",
+        "N3",
+        "K3",
+        "AA5",
+        "B5",
+        "U3",
+        "F3",
+        "T2",
+        "AB4",
+        "G2",
+        "A4",
+        "AA3",
+        "N1",
+        "K1",
+        "R1",
+        "B3",
+        "H1",
+        "W1",
+        "D1"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            89.788008,
+            52.023542
+          ],
+          "straight_line_mm": 3.762283
+        },
+        {
+          "position_mm": [
+            90.433274,
+            54.732536
+          ],
+          "straight_line_mm": 3.809474
+        },
+        {
+          "position_mm": [
+            89.71293,
+            50.798584
+          ],
+          "straight_line_mm": 4.169964
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            94.98,
+            52.5
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            94.98,
+            51.0
+          ],
+          "straight_line_mm": 1.581139
+        },
+        {
+          "position_mm": [
+            96.48,
+            54.0
+          ],
+          "straight_line_mm": 2.5
+        }
+      ]
+    },
+    {
+      "reference": "C314",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        80.5,
+        52.5
+      ],
+      "net": "VCC_DRAM",
+      "target_ic": "U301",
+      "power_pad_mm": [
+        80.02,
+        52.5
+      ],
+      "ground_pad_mm": [
+        80.98,
+        52.5
+      ],
+      "nearest_same_net_ic_pad": "N1",
+      "nearest_same_net_ic_pad_mm": [
+        81.238008,
+        51.773542
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 1.418198,
+      "ic_pads_in_power_connected_island": [
+        "N1",
+        "K1",
+        "R1",
+        "H1",
+        "N3",
+        "K3",
+        "T2",
+        "G2",
+        "U3",
+        "F3",
+        "W1",
+        "R5",
+        "H5",
+        "D1",
+        "U5",
+        "F5",
+        "W5",
+        "AA3",
+        "D5",
+        "B3",
+        "R8",
+        "H8",
+        "AA5",
+        "AB4",
+        "U8",
+        "B5",
+        "F8",
+        "A4",
+        "W8",
+        "N10",
+        "K10",
+        "D8",
+        "AA8",
+        "U10",
+        "F10",
+        "B8",
+        "N12",
+        "AB9",
+        "K12",
+        "R12",
+        "AA10",
+        "H12",
+        "A9",
+        "B10",
+        "W12",
+        "D12"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            80.6972,
+            51.587
+          ],
+          "straight_line_mm": 1.136736
+        },
+        {
+          "position_mm": [
+            80.724632,
+            53.873
+          ],
+          "straight_line_mm": 1.543255
+        },
+        {
+          "position_mm": [
+            80.115032,
+            50.2916
+          ],
+          "straight_line_mm": 2.210444
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            81.671798,
+            51.647198
+          ],
+          "straight_line_mm": 1.098115
+        },
+        {
+          "position_mm": [
+            80.131472,
+            51.651472
+          ],
+          "straight_line_mm": 1.2
+        },
+        {
+          "position_mm": [
+            81.6878,
+            53.9238
+          ],
+          "straight_line_mm": 1.590027
+        }
+      ]
+    },
+    {
+      "reference": "C315",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        94.0,
+        51.0
+      ],
+      "net": "VCC_DRAM",
+      "target_ic": "U301",
+      "power_pad_mm": [
+        93.52,
+        51.0
+      ],
+      "ground_pad_mm": [
+        94.48,
+        51.0
+      ],
+      "nearest_same_net_ic_pad": "R12",
+      "nearest_same_net_ic_pad_mm": [
+        90.038008,
+        50.473542
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 3.521566,
+      "ic_pads_in_power_connected_island": [
+        "R12",
+        "N12",
+        "K12",
+        "W12",
+        "N10",
+        "H12",
+        "U10",
+        "K10",
+        "R8",
+        "AA10",
+        "U8",
+        "F10",
+        "W8",
+        "D12",
+        "AB9",
+        "H8",
+        "AA8",
+        "F8",
+        "R5",
+        "U5",
+        "D8",
+        "B10",
+        "W5",
+        "H5",
+        "AA5",
+        "B8",
+        "A9",
+        "F5",
+        "N3",
+        "U3",
+        "K3",
+        "AB4",
+        "D5",
+        "T2",
+        "AA3",
+        "F3",
+        "B5",
+        "R1",
+        "N1",
+        "G2",
+        "K1",
+        "W1",
+        "H1",
+        "A4",
+        "B3",
+        "D1"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            89.71293,
+            50.798584
+          ],
+          "straight_line_mm": 3.812394
+        },
+        {
+          "position_mm": [
+            89.788008,
+            52.023542
+          ],
+          "straight_line_mm": 3.869807
+        },
+        {
+          "position_mm": [
+            90.4762,
+            47.5738
+          ],
+          "straight_line_mm": 4.582965
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            94.98,
+            51.0
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            94.98,
+            52.5
+          ],
+          "straight_line_mm": 1.581139
+        },
+        {
+          "position_mm": [
+            96.48,
+            54.0
+          ],
+          "straight_line_mm": 3.605551
+        }
+      ]
+    },
+    {
+      "reference": "C316",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        94.0,
+        54.0
+      ],
+      "net": "VCC_DRAM",
+      "target_ic": "U301",
+      "power_pad_mm": [
+        93.52,
+        54.0
+      ],
+      "ground_pad_mm": [
+        94.48,
+        54.0
+      ],
+      "nearest_same_net_ic_pad": "K12",
+      "nearest_same_net_ic_pad_mm": [
+        90.038008,
+        53.723542
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 3.49295,
+      "ic_pads_in_power_connected_island": [
+        "K12",
+        "H12",
+        "N12",
+        "R12",
+        "D12",
+        "K10",
+        "N10",
+        "F10",
+        "H8",
+        "U10",
+        "W12",
+        "F8",
+        "B10",
+        "R8",
+        "D8",
+        "A9",
+        "U8",
+        "B8",
+        "AA10",
+        "W8",
+        "H5",
+        "F5",
+        "R5",
+        "D5",
+        "AA8",
+        "AB9",
+        "U5",
+        "B5",
+        "K3",
+        "N3",
+        "F3",
+        "W5",
+        "A4",
+        "G2",
+        "U3",
+        "AA5",
+        "B3",
+        "T2",
+        "K1",
+        "H1",
+        "N1",
+        "AB4",
+        "R1",
+        "D1",
+        "AA3",
+        "W1"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            90.433274,
+            54.732536
+          ],
+          "straight_line_mm": 3.172457
+        },
+        {
+          "position_mm": [
+            89.788008,
+            52.023542
+          ],
+          "straight_line_mm": 4.22305
+        },
+        {
+          "position_mm": [
+            90.478232,
+            57.8862
+          ],
+          "straight_line_mm": 4.935069
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            94.98,
+            52.5
+          ],
+          "straight_line_mm": 1.581139
+        },
+        {
+          "position_mm": [
+            96.48,
+            54.0
+          ],
+          "straight_line_mm": 2.0
+        },
+        {
+          "position_mm": [
+            92.98,
+            56.0
+          ],
+          "straight_line_mm": 2.5
+        }
+      ]
+    },
+    {
+      "reference": "C317",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        81.0,
+        55.0
+      ],
+      "net": "VDD18_LPDDR",
+      "target_ic": "U301",
+      "power_pad_mm": [
+        80.52,
+        55.0
+      ],
+      "ground_pad_mm": [
+        81.48,
+        55.0
+      ],
+      "nearest_same_net_ic_pad": "F1",
+      "nearest_same_net_ic_pad_mm": [
+        81.238008,
+        56.323542
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 1.505755,
+      "ic_pads_in_power_connected_island": [
+        "F1",
+        "U1",
+        "T4",
+        "G9",
+        "T9",
+        "F12",
+        "U12"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            81.613632,
+            56.7432
+          ],
+          "straight_line_mm": 2.057857
+        },
+        {
+          "position_mm": [
+            77.546447,
+            55.7
+          ],
+          "straight_line_mm": 3.054835
+        },
+        {
+          "position_mm": [
+            81.625823,
+            49.491246
+          ],
+          "straight_line_mm": 5.618649
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            82.44091,
+            54.61722
+          ],
+          "straight_line_mm": 1.034345
+        },
+        {
+          "position_mm": [
+            81.6878,
+            53.9238
+          ],
+          "straight_line_mm": 1.096078
+        },
+        {
+          "position_mm": [
+            80.683992,
+            55.867916
+          ],
+          "straight_line_mm": 1.17767
+        }
+      ]
+    },
+    {
+      "reference": "C318",
+      "value": "100nF",
+      "layer": "F.Cu",
+      "center_mm": [
+        78.5,
+        55.5
+      ],
+      "net": "VDD18_LPDDR",
+      "target_ic": "U301",
+      "power_pad_mm": [
+        78.02,
+        55.5
+      ],
+      "ground_pad_mm": [
+        78.98,
+        55.5
+      ],
+      "nearest_same_net_ic_pad": "F1",
+      "nearest_same_net_ic_pad_mm": [
+        81.238008,
+        56.323542
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 3.321716,
+      "ic_pads_in_power_connected_island": [
+        "F1",
+        "U1",
+        "T4",
+        "G9",
+        "T9",
+        "F12",
+        "U12"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            77.546447,
+            55.7
+          ],
+          "straight_line_mm": 0.514055
+        },
+        {
+          "position_mm": [
+            81.613632,
+            56.7432
+          ],
+          "straight_line_mm": 3.802596
+        },
+        {
+          "position_mm": [
+            81.625823,
+            49.491246
+          ],
+          "straight_line_mm": 7.007645
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            77.91934,
+            54.43934
+          ],
+          "straight_line_mm": 1.5
+        },
+        {
+          "position_mm": [
+            80.683992,
+            55.867916
+          ],
+          "straight_line_mm": 1.743259
+        },
+        {
+          "position_mm": [
+            80.86738,
+            56.826258
+          ],
+          "straight_line_mm": 2.306765
+        }
+      ]
+    },
+    {
+      "reference": "C501",
+      "value": "10uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        93.8,
+        68.0
+      ],
+      "net": "VBUS",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        94.575,
+        68.0
+      ],
+      "ground_pad_mm": [
+        93.025,
+        68.0
+      ],
+      "nearest_same_net_ic_pad": "50",
+      "nearest_same_net_ic_pad_mm": [
+        99.4,
+        65.885
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 5.268192,
+      "ic_pads_in_power_connected_island": [
+        "50",
+        "49"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            95.775,
+            69.95
+          ],
+          "straight_line_mm": 2.289651
+        },
+        {
+          "position_mm": [
+            103.075,
+            70.1
+          ],
+          "straight_line_mm": 8.75557
+        },
+        {
+          "position_mm": [
+            111.475,
+            66.05
+          ],
+          "straight_line_mm": 17.012128
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            96.225,
+            69.45
+          ],
+          "straight_line_mm": 3.513189
+        },
+        {
+          "position_mm": [
+            87.525,
+            65.75
+          ],
+          "straight_line_mm": 5.942432
+        },
+        {
+          "position_mm": [
+            100.0,
+            64.0
+          ],
+          "straight_line_mm": 8.040561
+        }
+      ]
+    },
+    {
+      "reference": "C502",
+      "value": "22uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        97.0,
+        68.7
+      ],
+      "net": "PMIC_VMID",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        97.775,
+        68.7
+      ],
+      "ground_pad_mm": [
+        96.225,
+        68.7
+      ],
+      "nearest_same_net_ic_pad": "48",
+      "nearest_same_net_ic_pad_mm": [
+        100.2,
+        65.885
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 3.715488,
+      "ic_pads_in_power_connected_island": [
+        "48",
+        "47"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            96.225,
+            69.45
+          ],
+          "straight_line_mm": 0.75
+        },
+        {
+          "position_mm": [
+            100.0,
+            64.0
+          ],
+          "straight_line_mm": 6.028319
+        },
+        {
+          "position_mm": [
+            101.0,
+            64.0
+          ],
+          "straight_line_mm": 6.700047
+        }
+      ]
+    },
+    {
+      "reference": "C503",
+      "value": "22uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        104.5,
+        71.0
+      ],
+      "net": "VSYS",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        103.725,
+        71.0
+      ],
+      "ground_pad_mm": [
+        105.275,
+        71.0
+      ],
+      "nearest_same_net_ic_pad": "43",
+      "nearest_same_net_ic_pad_mm": [
+        102.2,
+        65.885
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 5.337495,
+      "ic_pads_in_power_connected_island": [
+        "43",
+        "44",
+        "9",
+        "20"
+      ],
+      "ground_connected_to_main_plane_network": false,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            103.5,
+            72.2
+          ],
+          "straight_line_mm": 1.220912
+        },
+        {
+          "position_mm": [
+            104.3,
+            72.2
+          ],
+          "straight_line_mm": 1.330648
+        },
+        {
+          "position_mm": [
+            103.5,
+            73.0
+          ],
+          "straight_line_mm": 2.012616
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": []
+    },
+    {
+      "reference": "C504",
+      "value": "22uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        105.5,
+        65.8
+      ],
+      "net": "VSYS",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        104.725,
+        65.8
+      ],
+      "ground_pad_mm": [
+        106.275,
+        65.8
+      ],
+      "nearest_same_net_ic_pad": "43",
+      "nearest_same_net_ic_pad_mm": [
+        102.2,
+        65.885
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 2.52643,
+      "ic_pads_in_power_connected_island": [
+        "43",
+        "44",
+        "20",
+        "9"
+      ],
+      "ground_connected_to_main_plane_network": false,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            104.3,
+            72.2
+          ],
+          "straight_line_mm": 6.414096
+        },
+        {
+          "position_mm": [
+            103.5,
+            72.2
+          ],
+          "straight_line_mm": 6.516182
+        },
+        {
+          "position_mm": [
+            104.3,
+            73.0
+          ],
+          "straight_line_mm": 7.212532
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": []
+    },
+    {
+      "reference": "C505",
+      "value": "10uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        104.5,
+        69.3
+      ],
+      "net": "VSYS",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        103.725,
+        69.3
+      ],
+      "ground_pad_mm": [
+        105.275,
+        69.3
+      ],
+      "nearest_same_net_ic_pad": "43",
+      "nearest_same_net_ic_pad_mm": [
+        102.2,
+        65.885
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 3.740033,
+      "ic_pads_in_power_connected_island": [
+        "43",
+        "44",
+        "9",
+        "20"
+      ],
+      "ground_connected_to_main_plane_network": false,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            103.5,
+            72.2
+          ],
+          "straight_line_mm": 2.908715
+        },
+        {
+          "position_mm": [
+            104.3,
+            72.2
+          ],
+          "straight_line_mm": 2.956455
+        },
+        {
+          "position_mm": [
+            101.982107,
+            72.5
+          ],
+          "straight_line_mm": 3.643855
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": []
+    },
+    {
+      "reference": "C506",
+      "value": "4.7uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        107.3,
+        67.7
+      ],
+      "net": "VBAT",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        106.82,
+        67.7
+      ],
+      "ground_pad_mm": [
+        107.78,
+        67.7
+      ],
+      "nearest_same_net_ic_pad": "41",
+      "nearest_same_net_ic_pad_mm": [
+        103.0,
+        65.885
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 4.229258,
+      "ic_pads_in_power_connected_island": [
+        "41",
+        "42"
+      ],
+      "ground_connected_to_main_plane_network": false,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            107.8,
+            70.4
+          ],
+          "straight_line_mm": 2.872351
+        },
+        {
+          "position_mm": [
+            108.6,
+            70.4
+          ],
+          "straight_line_mm": 3.233945
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": []
+    },
+    {
+      "reference": "C507",
+      "value": "100nF",
+      "layer": "B.Cu",
+      "center_mm": [
+        109.3,
+        68.6
+      ],
+      "net": "VBAT",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        108.82,
+        68.6
+      ],
+      "ground_pad_mm": [
+        109.78,
+        68.6
+      ],
+      "nearest_same_net_ic_pad": "41",
+      "nearest_same_net_ic_pad_mm": [
+        103.0,
+        65.885
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 6.42212,
+      "ic_pads_in_power_connected_island": [
+        "41",
+        "42"
+      ],
+      "ground_connected_to_main_plane_network": false,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            108.6,
+            70.4
+          ],
+          "straight_line_mm": 1.813395
+        },
+        {
+          "position_mm": [
+            107.8,
+            70.4
+          ],
+          "straight_line_mm": 2.068913
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": []
+    },
+    {
+      "reference": "C508",
+      "value": "1uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        96.6,
+        64.8
+      ],
+      "net": "Net-(U501A-VREF)",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        96.6,
+        64.32
+      ],
+      "ground_pad_mm": [
+        96.6,
+        65.28
+      ],
+      "nearest_same_net_ic_pad": "7",
+      "nearest_same_net_ic_pad_mm": [
+        98.115,
+        63.0
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 2.009384,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            100.0,
+            64.0
+          ],
+          "straight_line_mm": 3.63296
+        },
+        {
+          "position_mm": [
+            100.0,
+            63.0
+          ],
+          "straight_line_mm": 4.093702
+        },
+        {
+          "position_mm": [
+            96.225,
+            69.45
+          ],
+          "straight_line_mm": 4.186828
+        }
+      ]
+    },
+    {
+      "reference": "C509",
+      "value": "1uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        112.5,
+        70.0
+      ],
+      "net": "VCC_RTC",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        112.02,
+        70.0
+      ],
+      "ground_pad_mm": [
+        112.98,
+        70.0
+      ],
+      "nearest_same_net_ic_pad": "35",
+      "nearest_same_net_ic_pad_mm": [
+        103.885,
+        63.8
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 10.228305,
+      "ic_pads_in_power_connected_island": [
+        "35"
+      ],
+      "ground_connected_to_main_plane_network": false,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            109.095736,
+            66.454264
+          ],
+          "straight_line_mm": 4.596038
+        },
+        {
+          "position_mm": [
+            109.353553,
+            64.110913
+          ],
+          "straight_line_mm": 6.464618
+        },
+        {
+          "position_mm": [
+            104.553553,
+            63.810913
+          ],
+          "straight_line_mm": 9.698073
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": []
+    },
+    {
+      "reference": "C511",
+      "value": "1uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        96.2,
+        62.0
+      ],
+      "net": "VSYS",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        96.68,
+        62.0
+      ],
+      "ground_pad_mm": [
+        95.72,
+        62.0
+      ],
+      "nearest_same_net_ic_pad": "9",
+      "nearest_same_net_ic_pad_mm": [
+        98.115,
+        62.2
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 1.44887,
+      "ic_pads_in_power_connected_island": [
+        "9",
+        "20",
+        "44",
+        "43"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            96.45,
+            63.1
+          ],
+          "straight_line_mm": 1.123788
+        },
+        {
+          "position_mm": [
+            96.3,
+            58.9
+          ],
+          "straight_line_mm": 3.123203
+        },
+        {
+          "position_mm": [
+            101.0,
+            59.3
+          ],
+          "straight_line_mm": 5.09435
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            100.0,
+            62.0
+          ],
+          "straight_line_mm": 4.28
+        },
+        {
+          "position_mm": [
+            100.0,
+            63.0
+          ],
+          "straight_line_mm": 4.39527
+        },
+        {
+          "position_mm": [
+            100.0,
+            64.0
+          ],
+          "straight_line_mm": 4.724235
+        }
+      ]
+    },
+    {
+      "reference": "C512",
+      "value": "1uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        104.8,
+        61.6
+      ],
+      "net": "VSYS",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        104.32,
+        61.6
+      ],
+      "ground_pad_mm": [
+        105.28,
+        61.6
+      ],
+      "nearest_same_net_ic_pad": "31",
+      "nearest_same_net_ic_pad_mm": [
+        103.885,
+        62.2
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 0.741097,
+      "ic_pads_in_power_connected_island": [
+        "20",
+        "43",
+        "44",
+        "9"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            101.0,
+            59.3
+          ],
+          "straight_line_mm": 4.038861
+        },
+        {
+          "position_mm": [
+            102.5,
+            55.65
+          ],
+          "straight_line_mm": 6.22213
+        },
+        {
+          "position_mm": [
+            96.45,
+            63.1
+          ],
+          "straight_line_mm": 8.011673
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            102.0,
+            62.0
+          ],
+          "straight_line_mm": 3.3043
+        },
+        {
+          "position_mm": [
+            102.0,
+            63.0
+          ],
+          "straight_line_mm": 3.566287
+        },
+        {
+          "position_mm": [
+            102.0,
+            64.0
+          ],
+          "straight_line_mm": 4.064283
+        }
+      ]
+    },
+    {
+      "reference": "C513",
+      "value": "1uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        105.7,
+        62.7
+      ],
+      "net": "VSYS",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        105.22,
+        62.7
+      ],
+      "ground_pad_mm": [
+        106.18,
+        62.7
+      ],
+      "nearest_same_net_ic_pad": "32",
+      "nearest_same_net_ic_pad_mm": [
+        103.885,
+        62.6
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 1.33874,
+      "ic_pads_in_power_connected_island": [
+        "32",
+        "31"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            102.0,
+            63.0
+          ],
+          "straight_line_mm": 4.190752
+        },
+        {
+          "position_mm": [
+            102.0,
+            62.0
+          ],
+          "straight_line_mm": 4.238207
+        },
+        {
+          "position_mm": [
+            102.0,
+            64.0
+          ],
+          "straight_line_mm": 4.377488
+        }
+      ]
+    },
+    {
+      "reference": "C520",
+      "value": "1uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        95.0,
+        57.0
+      ],
+      "net": "VSYS",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        94.52,
+        57.0
+      ],
+      "ground_pad_mm": [
+        95.48,
+        57.0
+      ],
+      "nearest_same_net_ic_pad": "15",
+      "nearest_same_net_ic_pad_mm": [
+        99.0,
+        60.115
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 5.456521,
+      "ic_pads_in_power_connected_island": [
+        "9",
+        "20",
+        "44",
+        "43"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            96.3,
+            58.9
+          ],
+          "straight_line_mm": 2.603536
+        },
+        {
+          "position_mm": [
+            96.45,
+            63.1
+          ],
+          "straight_line_mm": 6.398039
+        },
+        {
+          "position_mm": [
+            101.0,
+            59.3
+          ],
+          "straight_line_mm": 6.876074
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            92.98,
+            56.0
+          ],
+          "straight_line_mm": 2.692582
+        },
+        {
+          "position_mm": [
+            96.48,
+            54.0
+          ],
+          "straight_line_mm": 3.162278
+        },
+        {
+          "position_mm": [
+            94.98,
+            52.5
+          ],
+          "straight_line_mm": 4.527693
+        }
+      ]
+    },
+    {
+      "reference": "C521",
+      "value": "1uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        103.0,
+        52.5
+      ],
+      "net": "VSYS",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        102.52,
+        52.5
+      ],
+      "ground_pad_mm": [
+        103.48,
+        52.5
+      ],
+      "nearest_same_net_ic_pad": "25",
+      "nearest_same_net_ic_pad_mm": [
+        103.0,
+        60.115
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 7.630113,
+      "ic_pads_in_power_connected_island": [
+        "20",
+        "9",
+        "43",
+        "44"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            102.5,
+            55.65
+          ],
+          "straight_line_mm": 3.150063
+        },
+        {
+          "position_mm": [
+            101.0,
+            59.3
+          ],
+          "straight_line_mm": 6.967812
+        },
+        {
+          "position_mm": [
+            96.3,
+            58.9
+          ],
+          "straight_line_mm": 8.924595
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            103.98,
+            52.5
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            103.98,
+            54.0
+          ],
+          "straight_line_mm": 1.581139
+        },
+        {
+          "position_mm": [
+            101.48,
+            52.5
+          ],
+          "straight_line_mm": 2.0
+        }
+      ]
+    },
+    {
+      "reference": "C522",
+      "value": "1uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        103.0,
+        54.0
+      ],
+      "net": "VSYS",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        102.52,
+        54.0
+      ],
+      "ground_pad_mm": [
+        103.48,
+        54.0
+      ],
+      "nearest_same_net_ic_pad": "25",
+      "nearest_same_net_ic_pad_mm": [
+        103.0,
+        60.115
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 6.13381,
+      "ic_pads_in_power_connected_island": [
+        "20",
+        "9",
+        "43",
+        "44"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            102.5,
+            55.65
+          ],
+          "straight_line_mm": 1.650121
+        },
+        {
+          "position_mm": [
+            101.0,
+            59.3
+          ],
+          "straight_line_mm": 5.513656
+        },
+        {
+          "position_mm": [
+            96.3,
+            58.9
+          ],
+          "straight_line_mm": 7.918232
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            103.98,
+            54.0
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            103.98,
+            52.5
+          ],
+          "straight_line_mm": 1.581139
+        },
+        {
+          "position_mm": [
+            101.48,
+            54.0
+          ],
+          "straight_line_mm": 2.0
+        }
+      ]
+    },
+    {
+      "reference": "C523",
+      "value": "2.2uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        92.5,
+        57.0
+      ],
+      "net": "ALDO1_UNUSED",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        92.02,
+        57.0
+      ],
+      "ground_pad_mm": [
+        92.98,
+        57.0
+      ],
+      "nearest_same_net_ic_pad": "13",
+      "nearest_same_net_ic_pad_mm": [
+        98.115,
+        60.6
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 7.078773,
+      "ic_pads_in_power_connected_island": [
+        "13"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            94.2996,
+            59.3334
+          ],
+          "straight_line_mm": 3.262105
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            92.98,
+            56.0
+          ],
+          "straight_line_mm": 1.0
+        },
+        {
+          "position_mm": [
+            90.630632,
+            57.0988
+          ],
+          "straight_line_mm": 2.351445
+        },
+        {
+          "position_mm": [
+            91.58,
+            59.5
+          ],
+          "straight_line_mm": 2.86531
+        }
+      ]
+    },
+    {
+      "reference": "C524",
+      "value": "2.2uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        97.5,
+        57.0
+      ],
+      "net": "VCC_PE",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        97.02,
+        57.0
+      ],
+      "ground_pad_mm": [
+        97.98,
+        57.0
+      ],
+      "nearest_same_net_ic_pad": "14",
+      "nearest_same_net_ic_pad_mm": [
+        98.6,
+        60.115
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 3.492796,
+      "ic_pads_in_power_connected_island": [
+        "14"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            99.12,
+            57.63934
+          ],
+          "straight_line_mm": 2.195166
+        },
+        {
+          "position_mm": [
+            97.52,
+            59.18934
+          ],
+          "straight_line_mm": 2.245709
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            98.98,
+            53.99
+          ],
+          "straight_line_mm": 3.171766
+        },
+        {
+          "position_mm": [
+            96.48,
+            54.0
+          ],
+          "straight_line_mm": 3.354102
+        },
+        {
+          "position_mm": [
+            101.48,
+            54.0
+          ],
+          "straight_line_mm": 4.609772
+        }
+      ]
+    },
+    {
+      "reference": "C525",
+      "value": "2.2uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        96.0,
+        60.0
+      ],
+      "net": "VCC_PL",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        95.52,
+        60.0
+      ],
+      "ground_pad_mm": [
+        96.48,
+        60.0
+      ],
+      "nearest_same_net_ic_pad": "16",
+      "nearest_same_net_ic_pad_mm": [
+        99.4,
+        60.115
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 3.881704,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            95.02,
+            59.957359
+          ],
+          "straight_line_mm": 0.501815
+        },
+        {
+          "position_mm": [
+            97.32,
+            62.557359
+          ],
+          "straight_line_mm": 3.127313
+        },
+        {
+          "position_mm": [
+            91.42,
+            67.057359
+          ],
+          "straight_line_mm": 8.161882
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            100.0,
+            62.0
+          ],
+          "straight_line_mm": 4.048506
+        },
+        {
+          "position_mm": [
+            100.0,
+            63.0
+          ],
+          "straight_line_mm": 4.624976
+        },
+        {
+          "position_mm": [
+            91.58,
+            59.5
+          ],
+          "straight_line_mm": 4.925444
+        }
+      ]
+    },
+    {
+      "reference": "C526",
+      "value": "2.2uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        95.5,
+        54.0
+      ],
+      "net": "VCC_AVCC",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        95.02,
+        54.0
+      ],
+      "ground_pad_mm": [
+        95.98,
+        54.0
+      ],
+      "nearest_same_net_ic_pad": "17",
+      "nearest_same_net_ic_pad_mm": [
+        99.8,
+        60.115
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 7.761548,
+      "ic_pads_in_power_connected_island": [
+        "17"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            95.04,
+            54.5
+          ],
+          "straight_line_mm": 0.5004
+        },
+        {
+          "position_mm": [
+            93.59,
+            50.0
+          ],
+          "straight_line_mm": 4.247929
+        },
+        {
+          "position_mm": [
+            99.54,
+            59.4
+          ],
+          "straight_line_mm": 7.042045
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            96.48,
+            54.0
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            94.98,
+            52.5
+          ],
+          "straight_line_mm": 1.802776
+        },
+        {
+          "position_mm": [
+            98.98,
+            53.99
+          ],
+          "straight_line_mm": 3.000017
+        }
+      ]
+    },
+    {
+      "reference": "C527",
+      "value": "2.2uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        100.0,
+        57.0
+      ],
+      "net": "VCC_PG",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        99.52,
+        57.0
+      ],
+      "ground_pad_mm": [
+        100.48,
+        57.0
+      ],
+      "nearest_same_net_ic_pad": "18",
+      "nearest_same_net_ic_pad_mm": [
+        100.2,
+        60.115
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 3.188358,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": false,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            98.59,
+            56.9
+          ],
+          "straight_line_mm": 0.935361
+        },
+        {
+          "position_mm": [
+            61.360913,
+            51.275126
+          ],
+          "straight_line_mm": 38.586139
+        },
+        {
+          "position_mm": [
+            60.09,
+            51.1
+          ],
+          "straight_line_mm": 39.868972
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": []
+    },
+    {
+      "reference": "C528",
+      "value": "2.2uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        100.5,
+        52.5
+      ],
+      "net": "VDD18_LPDDR",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        100.02,
+        52.5
+      ],
+      "ground_pad_mm": [
+        100.98,
+        52.5
+      ],
+      "nearest_same_net_ic_pad": "19",
+      "nearest_same_net_ic_pad_mm": [
+        100.6,
+        60.115
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 7.637056,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            90.346914,
+            49.482102
+          ],
+          "straight_line_mm": 10.132932
+        },
+        {
+          "position_mm": [
+            90.5778,
+            56.323592
+          ],
+          "straight_line_mm": 10.187001
+        },
+        {
+          "position_mm": [
+            87.984968,
+            50.170442
+          ],
+          "straight_line_mm": 12.258419
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            101.48,
+            52.5
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            101.48,
+            54.0
+          ],
+          "straight_line_mm": 1.581139
+        },
+        {
+          "position_mm": [
+            98.98,
+            53.99
+          ],
+          "straight_line_mm": 2.494013
+        }
+      ]
+    },
+    {
+      "reference": "C529",
+      "value": "2.2uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        96.0,
+        55.5
+      ],
+      "net": "BLDO3_UNUSED",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        95.52,
+        55.5
+      ],
+      "ground_pad_mm": [
+        96.48,
+        55.5
+      ],
+      "nearest_same_net_ic_pad": "21",
+      "nearest_same_net_ic_pad_mm": [
+        101.4,
+        60.115
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 7.474799,
+      "ic_pads_in_power_connected_island": [
+        "21"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            95.52,
+            56.1247
+          ],
+          "straight_line_mm": 0.6247
+        },
+        {
+          "position_mm": [
+            101.7283,
+            59.4625
+          ],
+          "straight_line_mm": 7.365079
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            96.48,
+            54.0
+          ],
+          "straight_line_mm": 1.5
+        },
+        {
+          "position_mm": [
+            98.98,
+            53.99
+          ],
+          "straight_line_mm": 2.920633
+        },
+        {
+          "position_mm": [
+            94.98,
+            52.5
+          ],
+          "straight_line_mm": 3.354102
+        }
+      ]
+    },
+    {
+      "reference": "C530",
+      "value": "2.2uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        98.0,
+        54.0
+      ],
+      "net": "BLDO4_UNUSED",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        97.52,
+        54.0
+      ],
+      "ground_pad_mm": [
+        98.48,
+        54.0
+      ],
+      "nearest_same_net_ic_pad": "22",
+      "nearest_same_net_ic_pad_mm": [
+        101.8,
+        60.115
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 7.464022,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            98.98,
+            53.99
+          ],
+          "straight_line_mm": 0.5001
+        },
+        {
+          "position_mm": [
+            96.48,
+            54.0
+          ],
+          "straight_line_mm": 2.0
+        },
+        {
+          "position_mm": [
+            101.48,
+            54.0
+          ],
+          "straight_line_mm": 3.0
+        }
+      ]
+    },
+    {
+      "reference": "C531",
+      "value": "2.2uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        105.5,
+        53.5
+      ],
+      "net": "VCC_1V8",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        105.02,
+        53.5
+      ],
+      "ground_pad_mm": [
+        105.98,
+        53.5
+      ],
+      "nearest_same_net_ic_pad": "23",
+      "nearest_same_net_ic_pad_mm": [
+        102.2,
+        60.115
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 7.19101,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            72.12,
+            42.8
+          ],
+          "straight_line_mm": 34.596243
+        },
+        {
+          "position_mm": [
+            65.103553,
+            57.639087
+          ],
+          "straight_line_mm": 40.130472
+        },
+        {
+          "position_mm": [
+            64.75,
+            45.764719
+          ],
+          "straight_line_mm": 41.006188
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            106.48,
+            53.5
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            103.98,
+            54.0
+          ],
+          "straight_line_mm": 2.061553
+        },
+        {
+          "position_mm": [
+            103.98,
+            52.5
+          ],
+          "straight_line_mm": 2.236068
+        }
+      ]
+    },
+    {
+      "reference": "C532",
+      "value": "2.2uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        100.5,
+        54.0
+      ],
+      "net": "CLDO2_UNUSED",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        100.02,
+        54.0
+      ],
+      "ground_pad_mm": [
+        100.98,
+        54.0
+      ],
+      "nearest_same_net_ic_pad": "24",
+      "nearest_same_net_ic_pad_mm": [
+        102.6,
+        60.115
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 6.636989,
+      "ic_pads_in_power_connected_island": [
+        "24"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            99.8201,
+            54.6109
+          ],
+          "straight_line_mm": 0.642774
+        },
+        {
+          "position_mm": [
+            102.6,
+            59.491
+          ],
+          "straight_line_mm": 6.066917
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            101.48,
+            54.0
+          ],
+          "straight_line_mm": 0.5
+        },
+        {
+          "position_mm": [
+            101.48,
+            52.5
+          ],
+          "straight_line_mm": 1.581139
+        },
+        {
+          "position_mm": [
+            98.98,
+            53.99
+          ],
+          "straight_line_mm": 2.000025
+        }
+      ]
+    },
+    {
+      "reference": "C533",
+      "value": "2.2uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        98.5,
+        55.5
+      ],
+      "net": "VCC_3V3",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        98.02,
+        55.5
+      ],
+      "ground_pad_mm": [
+        98.98,
+        55.5
+      ],
+      "nearest_same_net_ic_pad": "26",
+      "nearest_same_net_ic_pad_mm": [
+        103.4,
+        60.115
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 7.088203,
+      "ic_pads_in_power_connected_island": [
+        "26"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            96.54,
+            54.55
+          ],
+          "straight_line_mm": 1.758664
+        },
+        {
+          "position_mm": [
+            96.1,
+            56.6
+          ],
+          "straight_line_mm": 2.212781
+        },
+        {
+          "position_mm": [
+            104.09,
+            35.4
+          ],
+          "straight_line_mm": 20.996545
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            98.98,
+            53.99
+          ],
+          "straight_line_mm": 1.51
+        },
+        {
+          "position_mm": [
+            96.48,
+            54.0
+          ],
+          "straight_line_mm": 2.915476
+        },
+        {
+          "position_mm": [
+            101.48,
+            54.0
+          ],
+          "straight_line_mm": 2.915476
+        }
+      ]
+    },
+    {
+      "reference": "C534",
+      "value": "2.2uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        103.0,
+        57.0
+      ],
+      "net": "VCC_LCD",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        102.52,
+        57.0
+      ],
+      "ground_pad_mm": [
+        103.48,
+        57.0
+      ],
+      "nearest_same_net_ic_pad": "27",
+      "nearest_same_net_ic_pad_mm": [
+        103.885,
+        60.6
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 3.850094,
+      "ic_pads_in_power_connected_island": [
+        "27"
+      ],
+      "ground_connected_to_main_plane_network": false,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": []
+    },
+    {
+      "reference": "C535",
+      "value": "2.2uF",
+      "layer": "F.Cu",
+      "center_mm": [
+        105.0,
+        59.5
+      ],
+      "net": "VDD_CPUS",
+      "target_ic": "U501",
+      "power_pad_mm": [
+        104.52,
+        59.5
+      ],
+      "ground_pad_mm": [
+        105.48,
+        59.5
+      ],
+      "nearest_same_net_ic_pad": "28",
+      "nearest_same_net_ic_pad_mm": [
+        103.885,
+        61.0
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 1.628872,
+      "ic_pads_in_power_connected_island": [],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            102.0,
+            62.0
+          ],
+          "straight_line_mm": 4.284904
+        },
+        {
+          "position_mm": [
+            102.0,
+            63.0
+          ],
+          "straight_line_mm": 4.935626
+        },
+        {
+          "position_mm": [
+            101.0,
+            62.0
+          ],
+          "straight_line_mm": 5.130341
+        }
+      ]
+    },
+    {
+      "reference": "C540",
+      "value": "2.2uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        69.7,
+        79.55
+      ],
+      "net": "VSYS",
+      "target_ic": "U502",
+      "power_pad_mm": [
+        69.22,
+        79.55
+      ],
+      "ground_pad_mm": [
+        70.18,
+        79.55
+      ],
+      "nearest_same_net_ic_pad": "17",
+      "nearest_same_net_ic_pad_mm": [
+        67.4,
+        78.385
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 2.160932,
+      "ic_pads_in_power_connected_island": [
+        "17",
+        "20",
+        "2"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            69.0,
+            80.6
+          ],
+          "straight_line_mm": 1.0728
+        },
+        {
+          "position_mm": [
+            69.65,
+            80.6
+          ],
+          "straight_line_mm": 1.134637
+        },
+        {
+          "position_mm": [
+            63.8,
+            80.7
+          ],
+          "straight_line_mm": 5.540659
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            70.7,
+            80.4
+          ],
+          "straight_line_mm": 0.996444
+        },
+        {
+          "position_mm": [
+            71.2,
+            78.0
+          ],
+          "straight_line_mm": 1.855505
+        },
+        {
+          "position_mm": [
+            71.2,
+            76.6
+          ],
+          "straight_line_mm": 3.121362
+        }
+      ]
+    },
+    {
+      "reference": "C541",
+      "value": "2.2uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        63.8,
+        79.9
+      ],
+      "net": "VSYS",
+      "target_ic": "U502",
+      "power_pad_mm": [
+        64.28,
+        79.9
+      ],
+      "ground_pad_mm": [
+        63.32,
+        79.9
+      ],
+      "nearest_same_net_ic_pad": "20",
+      "nearest_same_net_ic_pad_mm": [
+        66.2,
+        78.385
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 2.445736,
+      "ic_pads_in_power_connected_island": [
+        "20",
+        "2",
+        "17"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            63.8,
+            80.7
+          ],
+          "straight_line_mm": 0.932952
+        },
+        {
+          "position_mm": [
+            63.3,
+            81.2
+          ],
+          "straight_line_mm": 1.628005
+        },
+        {
+          "position_mm": [
+            63.6,
+            78.15
+          ],
+          "straight_line_mm": 1.877472
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            63.2,
+            79.1
+          ],
+          "straight_line_mm": 0.80895
+        },
+        {
+          "position_mm": [
+            66.599999,
+            77.4
+          ],
+          "straight_line_mm": 4.124123
+        },
+        {
+          "position_mm": [
+            66.599999,
+            76.6
+          ],
+          "straight_line_mm": 4.652783
+        }
+      ]
+    },
+    {
+      "reference": "C542",
+      "value": "2.2uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        64.45,
+        78.2
+      ],
+      "net": "VSYS",
+      "target_ic": "U502",
+      "power_pad_mm": [
+        64.45,
+        77.72
+      ],
+      "ground_pad_mm": [
+        64.45,
+        78.68
+      ],
+      "nearest_same_net_ic_pad": "2",
+      "nearest_same_net_ic_pad_mm": [
+        65.615,
+        77.4
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 1.208149,
+      "ic_pads_in_power_connected_island": [
+        "2",
+        "20",
+        "17"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            63.6,
+            78.15
+          ],
+          "straight_line_mm": 0.952575
+        },
+        {
+          "position_mm": [
+            63.8,
+            80.7
+          ],
+          "straight_line_mm": 3.050066
+        },
+        {
+          "position_mm": [
+            63.3,
+            81.2
+          ],
+          "straight_line_mm": 3.665092
+        }
+      ],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            63.2,
+            79.1
+          ],
+          "straight_line_mm": 1.318674
+        },
+        {
+          "position_mm": [
+            66.599999,
+            77.4
+          ],
+          "straight_line_mm": 2.502178
+        },
+        {
+          "position_mm": [
+            66.599999,
+            76.6
+          ],
+          "straight_line_mm": 2.99147
+        }
+      ]
+    },
+    {
+      "reference": "C549",
+      "value": "2.2uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        70.0,
+        78.0
+      ],
+      "net": "Net-(U502-ALDO1)",
+      "target_ic": "U502",
+      "power_pad_mm": [
+        69.52,
+        78.0
+      ],
+      "ground_pad_mm": [
+        70.48,
+        78.0
+      ],
+      "nearest_same_net_ic_pad": "15",
+      "nearest_same_net_ic_pad_mm": [
+        68.385,
+        77.8
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 1.152486,
+      "ic_pads_in_power_connected_island": [
+        "15"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            71.2,
+            78.0
+          ],
+          "straight_line_mm": 0.72
+        },
+        {
+          "position_mm": [
+            71.2,
+            76.6
+          ],
+          "straight_line_mm": 1.574293
+        },
+        {
+          "position_mm": [
+            70.7,
+            80.4
+          ],
+          "straight_line_mm": 2.410062
+        }
+      ]
+    },
+    {
+      "reference": "C550",
+      "value": "2.2uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        70.0,
+        76.6
+      ],
+      "net": "Net-(U502-DLDO1)",
+      "target_ic": "U502",
+      "power_pad_mm": [
+        69.52,
+        76.6
+      ],
+      "ground_pad_mm": [
+        70.48,
+        76.6
+      ],
+      "nearest_same_net_ic_pad": "12",
+      "nearest_same_net_ic_pad_mm": [
+        68.385,
+        76.6
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 1.135,
+      "ic_pads_in_power_connected_island": [
+        "12"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            71.2,
+            76.6
+          ],
+          "straight_line_mm": 0.72
+        },
+        {
+          "position_mm": [
+            71.2,
+            78.0
+          ],
+          "straight_line_mm": 1.574293
+        },
+        {
+          "position_mm": [
+            67.4,
+            76.6
+          ],
+          "straight_line_mm": 3.08
+        }
+      ]
+    },
+    {
+      "reference": "C551",
+      "value": "2.2uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        66.2,
+        73.8
+      ],
+      "net": "Net-(U502-RTCLDO)",
+      "target_ic": "U502",
+      "power_pad_mm": [
+        66.2,
+        74.28
+      ],
+      "ground_pad_mm": [
+        66.2,
+        73.32
+      ],
+      "nearest_same_net_ic_pad": "7",
+      "nearest_same_net_ic_pad_mm": [
+        66.6,
+        75.615
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 1.393637,
+      "ic_pads_in_power_connected_island": [
+        "7"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            66.2,
+            72.3
+          ],
+          "straight_line_mm": 1.02
+        },
+        {
+          "position_mm": [
+            66.599999,
+            76.6
+          ],
+          "straight_line_mm": 3.3043
+        },
+        {
+          "position_mm": [
+            67.4,
+            76.6
+          ],
+          "straight_line_mm": 3.492621
+        }
+      ]
+    },
+    {
+      "reference": "C552",
+      "value": "1uF",
+      "layer": "B.Cu",
+      "center_mm": [
+        67.4,
+        73.8
+      ],
+      "net": "Net-(U502-VREF)",
+      "target_ic": "U502",
+      "power_pad_mm": [
+        67.4,
+        74.28
+      ],
+      "ground_pad_mm": [
+        67.4,
+        73.32
+      ],
+      "nearest_same_net_ic_pad": "8",
+      "nearest_same_net_ic_pad_mm": [
+        67.0,
+        75.615
+      ],
+      "nearest_same_net_ic_pad_distance_mm": 1.393637,
+      "ic_pads_in_power_connected_island": [
+        "8"
+      ],
+      "ground_connected_to_main_plane_network": true,
+      "nearest_power_vias_in_same_connected_island": [],
+      "nearest_ground_vias_in_same_connected_island": [
+        {
+          "position_mm": [
+            66.2,
+            72.3
+          ],
+          "straight_line_mm": 1.574929
+        },
+        {
+          "position_mm": [
+            67.4,
+            76.6
+          ],
+          "straight_line_mm": 3.28
+        },
+        {
+          "position_mm": [
+            66.599999,
+            76.6
+          ],
+          "straight_line_mm": 3.376152
+        }
+      ]
+    }
+  ]
+}

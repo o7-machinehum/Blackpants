@@ -1,0 +1,300 @@
+{
+  "source_pcb": "docs/a523/A523_hwref/PCB\u53c2\u8003/\u786c\u4ef6DDR\u6a21\u677f&\u53e0\u5c42\u6587\u4ef6/A523-REF-LPDDR4-4X-32X1-S6L-V2-0(C0402)/A523-REF-LPDDR4-4X-32X1-S6L-V2-0_pads.asc",
+  "source_pcb_sha256": "b2ff5d5c9ac8c1bbed5288dc037723190c6e181d143bd26e6de35df07f415b71",
+  "source_schematic": "docs/a523/A523_hwref/PCB\u53c2\u8003/\u786c\u4ef6DDR\u6a21\u677f&\u53e0\u5c42\u6587\u4ef6/A523-REF-LPDDR4-4X-32X1-S6L-V2-0(C0402)/A523-REF-LPDDR4-4X-32X1-S6L-V2-0-20221014.pdf",
+  "source_schematic_sha256": "cff2e4fdc53125afa3ee3e7ed19875462407ff0a9de8929f917c8ea632898a5b",
+  "scope": "Exact Allwinner reference DQ permutation within each byte; DQS, DMI and all command/control pins unchanged",
+  "soc_to_ram_dq": [
+    5,
+    4,
+    2,
+    3,
+    0,
+    7,
+    1,
+    6,
+    13,
+    12,
+    15,
+    14,
+    9,
+    8,
+    11,
+    10,
+    19,
+    18,
+    20,
+    17,
+    21,
+    16,
+    23,
+    22,
+    31,
+    24,
+    26,
+    25,
+    28,
+    27,
+    30,
+    29
+  ],
+  "connections": [
+    {
+      "soc_dq": 0,
+      "soc_ball": "AA24",
+      "ram_dq": 5,
+      "ram_name": "DQ5_a",
+      "ram_ball": "E4",
+      "reference_net": "SDQ0"
+    },
+    {
+      "soc_dq": 1,
+      "soc_ball": "AA23",
+      "ram_dq": 4,
+      "ram_name": "DQ4_a",
+      "ram_ball": "F4",
+      "reference_net": "SDQ1"
+    },
+    {
+      "soc_dq": 2,
+      "soc_ball": "AC28",
+      "ram_dq": 2,
+      "ram_name": "DQ2_a",
+      "ram_ball": "E2",
+      "reference_net": "SDQ2"
+    },
+    {
+      "soc_dq": 3,
+      "soc_ball": "AD29",
+      "ram_dq": 3,
+      "ram_name": "DQ3_a",
+      "ram_ball": "F2",
+      "reference_net": "SDQ3"
+    },
+    {
+      "soc_dq": 4,
+      "soc_ball": "AA26",
+      "ram_dq": 0,
+      "ram_name": "DQ0_a",
+      "ram_ball": "B2",
+      "reference_net": "SDQ4"
+    },
+    {
+      "soc_dq": 5,
+      "soc_ball": "Y28",
+      "ram_dq": 7,
+      "ram_name": "DQ7_a",
+      "ram_ball": "B4",
+      "reference_net": "SDQ5"
+    },
+    {
+      "soc_dq": 6,
+      "soc_ball": "AA27",
+      "ram_dq": 1,
+      "ram_name": "DQ1_a",
+      "ram_ball": "C2",
+      "reference_net": "SDQ6"
+    },
+    {
+      "soc_dq": 7,
+      "soc_ball": "Y29",
+      "ram_dq": 6,
+      "ram_name": "DQ6_a",
+      "ram_ball": "C4",
+      "reference_net": "SDQ7"
+    },
+    {
+      "soc_dq": 8,
+      "soc_ball": "W23",
+      "ram_dq": 13,
+      "ram_name": "DQ13_a",
+      "ram_ball": "E9",
+      "reference_net": "SDQ8"
+    },
+    {
+      "soc_dq": 9,
+      "soc_ball": "W24",
+      "ram_dq": 12,
+      "ram_name": "DQ12_a",
+      "ram_ball": "F9",
+      "reference_net": "SDQ9"
+    },
+    {
+      "soc_dq": 10,
+      "soc_ball": "W26",
+      "ram_dq": 15,
+      "ram_name": "DQ15_a",
+      "ram_ball": "B9",
+      "reference_net": "SDQ10"
+    },
+    {
+      "soc_dq": 11,
+      "soc_ball": "W27",
+      "ram_dq": 14,
+      "ram_name": "DQ14_a",
+      "ram_ball": "C9",
+      "reference_net": "SDQ11"
+    },
+    {
+      "soc_dq": 12,
+      "soc_ball": "U29",
+      "ram_dq": 9,
+      "ram_name": "DQ9_a",
+      "ram_ball": "C11",
+      "reference_net": "SDQ12"
+    },
+    {
+      "soc_dq": 13,
+      "soc_ball": "U27",
+      "ram_dq": 8,
+      "ram_name": "DQ8_a",
+      "ram_ball": "B11",
+      "reference_net": "SDQ13"
+    },
+    {
+      "soc_dq": 14,
+      "soc_ball": "U24",
+      "ram_dq": 11,
+      "ram_name": "DQ11_a",
+      "ram_ball": "F11",
+      "reference_net": "SDQ14"
+    },
+    {
+      "soc_dq": 15,
+      "soc_ball": "U23",
+      "ram_dq": 10,
+      "ram_name": "DQ10_a",
+      "ram_ball": "E11",
+      "reference_net": "SDQ15"
+    },
+    {
+      "soc_dq": 16,
+      "soc_ball": "AH21",
+      "ram_dq": 19,
+      "ram_name": "DQ3_b",
+      "ram_ball": "U2",
+      "reference_net": "SDQ16"
+    },
+    {
+      "soc_dq": 17,
+      "soc_ball": "AJ21",
+      "ram_dq": 18,
+      "ram_name": "DQ2_b",
+      "ram_ball": "V2",
+      "reference_net": "SDQ17"
+    },
+    {
+      "soc_dq": 18,
+      "soc_ball": "AD19",
+      "ram_dq": 20,
+      "ram_name": "DQ4_b",
+      "ram_ball": "U4",
+      "reference_net": "SDQ18"
+    },
+    {
+      "soc_dq": 19,
+      "soc_ball": "AF19",
+      "ram_dq": 17,
+      "ram_name": "DQ1_b",
+      "ram_ball": "Y2",
+      "reference_net": "SDQ19"
+    },
+    {
+      "soc_dq": 20,
+      "soc_ball": "AG19",
+      "ram_dq": 21,
+      "ram_name": "DQ5_b",
+      "ram_ball": "V4",
+      "reference_net": "SDQ20"
+    },
+    {
+      "soc_dq": 21,
+      "soc_ball": "AH18",
+      "ram_dq": 16,
+      "ram_name": "DQ0_b",
+      "ram_ball": "AA2",
+      "reference_net": "SDQ21"
+    },
+    {
+      "soc_dq": 22,
+      "soc_ball": "AJ17",
+      "ram_dq": 23,
+      "ram_name": "DQ7_b",
+      "ram_ball": "AA4",
+      "reference_net": "SDQ22"
+    },
+    {
+      "soc_dq": 23,
+      "soc_ball": "AC17",
+      "ram_dq": 22,
+      "ram_name": "DQ6_b",
+      "ram_ball": "Y4",
+      "reference_net": "SDQ23"
+    },
+    {
+      "soc_dq": 24,
+      "soc_ball": "AC15",
+      "ram_dq": 31,
+      "ram_name": "DQ15_b",
+      "ram_ball": "AA9",
+      "reference_net": "SDQ24"
+    },
+    {
+      "soc_dq": 25,
+      "soc_ball": "AD15",
+      "ram_dq": 24,
+      "ram_name": "DQ8_b",
+      "ram_ball": "AA11",
+      "reference_net": "SDQ25"
+    },
+    {
+      "soc_dq": 26,
+      "soc_ball": "AF15",
+      "ram_dq": 26,
+      "ram_name": "DQ10_b",
+      "ram_ball": "V11",
+      "reference_net": "SDQ26"
+    },
+    {
+      "soc_dq": 27,
+      "soc_ball": "AG15",
+      "ram_dq": 25,
+      "ram_name": "DQ9_b",
+      "ram_ball": "Y11",
+      "reference_net": "SDQ27"
+    },
+    {
+      "soc_dq": 28,
+      "soc_ball": "AH17",
+      "ram_dq": 28,
+      "ram_name": "DQ12_b",
+      "ram_ball": "U9",
+      "reference_net": "SDQ28"
+    },
+    {
+      "soc_dq": 29,
+      "soc_ball": "AG17",
+      "ram_dq": 27,
+      "ram_name": "DQ11_b",
+      "ram_ball": "U11",
+      "reference_net": "SDQ29"
+    },
+    {
+      "soc_dq": 30,
+      "soc_ball": "AF17",
+      "ram_dq": 30,
+      "ram_name": "DQ14_b",
+      "ram_ball": "Y9",
+      "reference_net": "SDQ30"
+    },
+    {
+      "soc_dq": 31,
+      "soc_ball": "AD17",
+      "ram_dq": 29,
+      "ram_name": "DQ13_b",
+      "ram_ball": "V9",
+      "reference_net": "SDQ31"
+    }
+  ],
+  "verification": "All 32 PCB endpoint pairs independently match net labels beside RAM balls in the accompanying schematic PDF; all permutations stay within an 8-bit byte."
+}

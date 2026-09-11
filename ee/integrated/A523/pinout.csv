@@ -1,0 +1,523 @@
+ball,name,vendor_type,electrical_type,unit,unit_title,group,supply,source_row,correction,mux
+A1,GND,G,power_in,L,Digital ground 1,Ground,N/A,392,,
+A2,GND,G,power_in,L,Digital ground 1,Ground,N/A,393,,
+A3,PK2,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,311,,2:MCSIA-D1N; 14:PK-EINT2
+A4,PK0,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,309,,2:MCSIA-D0N; 14:PK-EINT0
+A5,PH16,I/O,bidirectional,F,GPIO G / H,Port H,VCC-IO,304,,3:I2S3-DOUT0; 4:I2S3-DIN1; 5:RGMII0-RXCK/RMII0-NULL; 6:CLK-FANOUT0; 14:PH-EINT16
+A6,PH14,I/O,bidirectional,F,GPIO G / H,Port H,VCC-IO,302,,4:I2S3-BCLK; 5:RGMII0-RXD3/RMII0-NULL; 14:PH-EINT14
+A8,PH11,I/O,bidirectional,F,GPIO G / H,Port H,VCC-IO,299,,2:DMIC-DATA2; 3:SPI2-MISO; 4:I2S2-DOUT0; 5:I2S2-DIN1; 6:PCIE0-PERSTN; 14:PH-EINT11
+A10,PH4,I/O,bidirectional,F,GPIO G / H,Port H,VCC-IO,292,,2:UART3-TX; 3:SPI1-CS0; 5:RGMII0-TXD1/RMII0-TXD1; 14:PH-EINT4
+A12,PF3,I/O,bidirectional,D,GPIO B / C / F,Port F,VCC-IO/VCC-MCSI,266,,2:SDC0-CMD; 3:JTAG-DO; 5:I2S3-LRCK; 14:PF-EINT3
+A14,AVSS,G,power_in,N,Analog ground,Ground,N/A,375,,
+A16,PCIE-RX0-DP/USB3-RXP,AI,input,H,USB / PCIe,PCIe2.1&USB3.1 DRD,VCC18-PCIE,119,,
+A18,USB0-DP,A I/O,bidirectional,H,USB / PCIe,USB2.0 DRD,VCC33-USB,102,,
+A20,EDP-TX1P,AO,output,I,eDP,eDP1.3,VCC18-EDP,134,,
+A22,EDP-TX3P,AO,output,I,eDP,eDP1.3,VCC18-EDP,138,,
+A24,PD0,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD/VCC-LVDS0,218,,2:LCD0-D2; 3:LVDS0-D0P; 4:DSI0-D0P; 5:PWM0-0; 14:PD-EINT0
+A25,PD2,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD/VCC-LVDS0,220,,2:LCD0-D4; 3:LVDS0-D1P; 4:DSI0-D1P; 5:PWM0-2; 14:PD-EINT2
+A26,PD4,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD/VCC-LVDS0,222,,2:LCD0-D6; 3:LVDS0-D2P; 4:DSI0-CKP; 5:PWM0-4; 14:PD-EINT4
+A27,PD6,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD/VCC-LVDS0,224,,2:LCD0-D10; 3:LVDS0-CKP; 4:DSI0-D2P; 5:PWM0-6; 14:PD-EINT6
+A28,PD8,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD/VCC-LVDS0,226,,2:LCD0-D12; 3:LVDS0-D3P; 4:DSI0-D3P; 5:PWM0-8; 14:PD-EINT8
+A29,GND,G,power_in,L,Digital ground 1,Ground,N/A,394,,
+B1,PK5,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,314,,2:MCSIA-CKP; 3:TWI2-SDA; 14:PK-EINT5
+B2,PK4,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,313,,2:MCSIA-CKN; 3:TWI2-SCK; 14:PK-EINT4
+B3,PK3,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,312,,2:MCSIA-D1P; 14:PK-EINT3
+B4,PK1,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,310,,2:MCSIA-D0P; 14:PK-EINT1
+B5,PH17,I/O,bidirectional,F,GPIO G / H,Port H,VCC-IO,305,,3:I2S3-DOUT1; 4:I2S3-DIN0; 5:RGMII0-TXD3/RMII0-NULL; 14:PH-EINT17
+B6,PH15,I/O,bidirectional,F,GPIO G / H,Port H,VCC-IO,303,,4:I2S3-LRCK; 5:RGMII0-RXD2/RMII0-NULL; 14:PH-EINT15
+B7,PH13,I/O,bidirectional,F,GPIO G / H,Port H,VCC-IO,301,,3:TWI3-SDA; 4:I2S3-MCLK; 5:RGMII0-EPHY-25M; 14:PH-EINT13
+B8,PH10,I/O,bidirectional,F,GPIO G / H,Port H,VCC-IO,298,,2:DMIC-DATA1; 3:SPI2-MOSI; 4:I2S2-LRCK; 5:RGMII0-MDIO; 14:PH-EINT10
+B9,PH5,I/O,bidirectional,F,GPIO G / H,Port H,VCC-IO,293,,2:UART3-RX; 3:SPI1-CLK; 4:LEDC; 5:RGMII0-TXD0/RMII0-TXD0; 14:PH-EINT5
+B10,PH3,I/O,bidirectional,F,GPIO G / H,Port H,VCC-IO,291,,2:TWI1-SDA; 3:IR-TX; 4:I2S2-DIN2; 5:RGMII0-CLKIN/RMII0-RXER; 6:I2S2-DOUT2; 14:PH-EINT3
+B11,PF5,I/O,bidirectional,D,GPIO B / C / F,Port F,VCC-IO/VCC-MCSI,268,,2:SDC0-D2; 3:JTAG-CK; 5:I2S3-BCLK; 14:PF-EINT5
+B12,PF2,I/O,bidirectional,D,GPIO B / C / F,Port F,VCC-IO/VCC-MCSI,265,,2:SDC0-CLK; 3:UART0-TX; 5:I2S3-DIN2; 6:I2S3-DOUT2; 14:PF-EINT2
+B13,PF1,I/O,bidirectional,D,GPIO B / C / F,Port F,VCC-IO/VCC-MCSI,264,,2:SDC0-D0; 3:JTAG-DI; 5:I2S3-DOUT0; 6:I2S3-DIN1; 14:PF-EINT1
+B14,PCIE-REF-CLKP,A I/O,input,H,USB / PCIe,PCIe2.1&USB3.1 DRD,VCC18-PCIE,116,,
+B15,PCIE-TX0-DP/USB3-TXP,AO,output,H,USB / PCIe,PCIe2.1&USB3.1 DRD,VCC18-PCIE,121,,
+B16,PCIE-RX0-DN/USB3-RXN,AI,input,H,USB / PCIe,PCIe2.1&USB3.1 DRD,VCC18-PCIE,120,,
+B17,USB2-DP,A I/O,bidirectional,H,USB / PCIe,PCIe2.1&USB3.1 DRD,VCC33-USB-2,113,Supply spelling: VCC33-UAB-2 -> VCC33-USB-2,
+B18,USB0-DM,A I/O,bidirectional,H,USB / PCIe,USB2.0 DRD,VCC33-USB,103,,
+B19,EDP-TX0P,AO,output,I,eDP,eDP1.3,VCC18-EDP,132,,
+B20,EDP-TX1N,AO,output,I,eDP,eDP1.3,VCC18-EDP,135,,
+B21,EDP-TX2P,AO,output,I,eDP,eDP1.3,VCC18-EDP,136,,
+B22,EDP-TX3N,AO,output,I,eDP,eDP1.3,VCC18-EDP,139,,
+B23,EDP-AUXP,A I/O,bidirectional,I,eDP,eDP1.3,VCC18-EDP,128,,
+B24,PD1,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD/VCC-LVDS0,219,,2:LCD0-D3; 3:LVDS0-D0N; 4:DSI0-D0N; 5:PWM0-1; 14:PD-EINT1
+B25,PD3,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD/VCC-LVDS0,221,,2:LCD0-D5; 3:LVDS0-D1N; 4:DSI0-D1N; 5:PWM0-3; 14:PD-EINT3
+B26,PD5,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD/VCC-LVDS0,223,,2:LCD0-D7; 3:LVDS0-D2N; 4:DSI0-CKN; 5:PWM0-5; 14:PD-EINT5
+B27,PD7,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD/VCC-LVDS0,225,,2:LCD0-D11; 3:LVDS0-CKN; 4:DSI0-D2N; 5:PWM0-7; 14:PD-EINT7
+B28,PD9,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD/VCC-LVDS0,227,,2:LCD0-D13; 3:LVDS0-D3N; 4:DSI0-D3N; 5:PWM0-9; 14:PD-EINT9
+B29,GND,G,power_in,L,Digital ground 1,Ground,N/A,395,,
+C1,PK13,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,322,,2:MCSIC-D0P; 3:UART7-RX; 4:TWI4-SDA; 5:NCSI-MCLK; 14:PK-EINT13
+C2,PK12,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,321,,2:MCSIC-D0N; 3:UART7-TX; 4:TWI4-SCK; 5:NCSI-PCLK; 14:PK-EINT12
+C3,GND,G,power_in,L,Digital ground 1,Ground,N/A,396,,
+C4,PK7,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,316,,2:MCSIB-D0P; 14:PK-EINT7
+C5,PK6,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,315,,2:MCSIB-D0N; 14:PK-EINT6
+C6,GND,G,power_in,L,Digital ground 1,Ground,N/A,397,,
+C7,PH12,I/O,bidirectional,F,GPIO G / H,Port H,VCC-IO,300,,2:DMIC-DATA3; 3:TWI3-SCK; 4:I2S2-DIN0; 5:I2S2-DOUT1; 6:PCIE0-WAKEN; 14:PH-EINT12
+C8,GND,G,power_in,L,Digital ground 1,Ground,N/A,398,,
+C9,PH6,I/O,bidirectional,F,GPIO G / H,Port H,VCC-IO,294,,2:UART3-RTS; 3:SPI1-MOSI; 4:OWA-IN; 5:RGMII0-TXCK/RMII0-TXCK; 14:PH-EINT6
+C10,GND,G,power_in,L,Digital ground 1,Ground,N/A,399,,
+C11,PF4,I/O,bidirectional,D,GPIO B / C / F,Port F,VCC-IO/VCC-MCSI,267,,2:SDC0-D3; 3:UART0-RX; 5:I2S3-DIN3; 6:I2S3-DOUT3; 14:PF-EINT4
+C12,PF6,I/O,bidirectional,D,GPIO B / C / F,Port F,VCC-IO/VCC-MCSI,269,,5:I2S3-MCLK; 14:PF-EINT6
+C13,PF0,I/O,bidirectional,D,GPIO B / C / F,Port F,VCC-IO/VCC-MCSI,263,,2:SDC0-D1; 3:JTAG-MS; 5:I2S3-DIN0; 6:I2S3-DOUT1; 14:PF-EINT0
+C14,PCIE-REF-CLKN,A I/O,input,H,USB / PCIe,PCIe2.1&USB3.1 DRD,VCC18-PCIE,117,,
+C15,PCIE-TX0-DN/USB3-TXN,AO,output,H,USB / PCIe,PCIe2.1&USB3.1 DRD,VCC18-PCIE,122,,
+C16,AVSS,G,power_in,N,Analog ground,Ground,N/A,376,,
+C17,USB2-DM,A I/O,bidirectional,H,USB / PCIe,PCIe2.1&USB3.1 DRD,VCC33-USB-2,114,Supply spelling: VCC33-UAB-2 -> VCC33-USB-2,
+C18,AVSS,G,power_in,N,Analog ground,Ground,N/A,377,,
+C19,EDP-TX0N,AO,output,I,eDP,eDP1.3,VCC18-EDP,133,,
+C20,AVSS,G,power_in,N,Analog ground,Ground,N/A,378,,
+C21,EDP-TX2N,AO,output,I,eDP,eDP1.3,VCC18-EDP,137,,
+C22,AVSS,G,power_in,N,Analog ground,Ground,N/A,379,,
+C23,EDP-AUXN,A I/O,bidirectional,I,eDP,eDP1.3,VCC18-EDP,129,,
+C24,GND,G,power_in,L,Digital ground 1,Ground,N/A,400,,
+C25,GND,G,power_in,L,Digital ground 1,Ground,N/A,401,,
+C26,GND,G,power_in,L,Digital ground 1,Ground,N/A,402,,
+C27,GND,G,power_in,L,Digital ground 1,Ground,N/A,403,,
+C28,PD10,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD/VCC-LVDS0,228,,2:LCD0-D14; 3:LVDS1-D0P; 4:DSI1-D0P; 5:PWM0-10; 6:SPI1-CS0/DBI-CSX; 14:PD-EINT10
+C29,PD11,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD/VCC-LVDS0,229,,2:LCD0-D15; 3:LVDS1-D0N; 4:DSI1-D0N; 5:PWM0-11; 6:SPI1-CLK/DBI-SCLK; 14:PD-EINT11
+D1,PK15,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,324,,2:MCSIC-D1P; 3:UART7-CTS; 4:UART5-CTS; 5:NCSI-VSYNC; 14:PK-EINT15
+D2,PK14,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,323,,2:MCSIC-D1N; 3:UART7-RTS; 4:UART5-RTS; 5:NCSI-HSYNC; 14:PK-EINT14
+D6,PH18,I/O,bidirectional,F,GPIO G / H,Port H,VCC-IO,306,,2:IR-TX; 3:I2S3-DOUT2; 4:I2S3-DIN2; 5:RGMII0-TXD2/RMII0-NULL; 14:PH-EINT18
+D8,PH9,I/O,bidirectional,F,GPIO G / H,Port H,VCC-IO,297,,2:DMIC-DATA0; 3:SPI2-CLK; 4:I2S2-BCLK; 5:RGMII0-MDC; 14:PH-EINT9
+D10,PH2,I/O,bidirectional,F,GPIO G / H,Port H,VCC-IO,290,,2:TWI1-SCK; 4:I2S2-DIN3; 5:RGMII0-RXCTL/RMII0-CRS-DV; 6:I2S2-DOUT3; 14:PH-EINT2
+D12,GND,G,power_in,L,Digital ground 1,Ground,N/A,404,,
+D14,AVSS,G,power_in,N,Analog ground,Ground,N/A,380,,
+D16,USB2-REXT,AO,output,H,USB / PCIe,PCIe2.1&USB3.1 DRD,VCC33-USB-2,115,Supply spelling: VCC33-UAB-2 -> VCC33-USB-2,
+D18,USB1-REXT,AO,output,H,USB / PCIe,USB2.0 Host,VCC33-USB,111,,
+D20,USB1-DP,A I/O,bidirectional,H,USB / PCIe,USB2.0 Host,VCC33-USB,109,,
+D22,EDP-REXT,AO,output,I,eDP,eDP1.3,VCC18-EDP,131,,
+D28,PD12,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD/VCC-LVDS0,230,,2:LCD0-D18; 3:LVDS1-D1P; 4:DSI1-D1P; 5:PWM0-12; 6:SPI1-MOSI/DBI-SDO; 14:PD-EINT12
+D29,PD13,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD/VCC-LVDS0,231,,2:LCD0-D19; 3:LVDS1-D1N; 4:DSI1-D1N; 5:PWM0-13; 6:SPI1-MISO/DBI-SDI/DBI-TE/DBI-DCX; 14:PD-EINT13
+E1,PK17,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,326,,2:MCSIC-CKP; 3:TWI5-SDA; 4:UART5-RX; 5:NCSI-D1; 14:PK-EINT17
+E2,PK16,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,325,,2:MCSIC-CKN; 3:TWI5-SCK; 4:UART5-TX; 5:NCSI-D0; 14:PK-EINT16
+E3,GND,G,power_in,L,Digital ground 1,Ground,N/A,405,,
+E4,PK9,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,318,,2:MCSIB-D1P; 14:PK-EINT9
+E5,PK8,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,317,,2:MCSIB-D1N; 14:PK-EINT8
+E6,PH19,I/O,bidirectional,F,GPIO G / H,Port H,VCC-IO,307,,2:IR-RX; 3:I2S3-DOUT3; 4:I2S3-DIN3; 5:LEDC; 6:PCIE0-CLKREQN; 14:PH-EINT19
+E8,PH8,I/O,bidirectional,F,GPIO G / H,Port H,VCC-IO,296,,2:DMIC-CLK; 3:SPI2-CS0; 4:I2S2-MCLK; 5:I2S2-DIN2; 14:PH-EINT8
+E10,PH1,I/O,bidirectional,F,GPIO G / H,Port H,VCC-IO,289,,2:TWI0-SDA; 5:RGMII0-RXD0/RMII0-RXD0; 14:PH-EINT1
+E12,FEL,I,input,C,System / clocks / boot,System,VCC-IO,83,,
+E14,PCIE-REXT,AO,output,H,USB / PCIe,PCIe2.1&USB3.1 DRD,VCC18-PCIE,118,,
+E16,VCC33-18-USB-2,P,power_in,H,USB / PCIe,PCIe2.1&USB3.1 DRD,N/A,124,,
+E18,USB0-REXT,AO,output,H,USB / PCIe,USB2.0 DRD,VCC33-USB,104,,
+E20,USB1-DM,A I/O,bidirectional,H,USB / PCIe,USB2.0 Host,VCC33-USB,110,,
+E22,EDP-HPD,AI,input,I,eDP,eDP1.3,VCC18-EDP,130,,
+E24,GND,G,power_in,L,Digital ground 1,Ground,N/A,406,,
+E25,PD17,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD/VCC-LVDS0,235,,2:LCD0-D23; 3:LVDS1-CKN; 4:DSI1-D2N; 5:PWM1-1; 6:UART3-CTS; 14:PD-EINT17
+E26,PD16,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD/VCC-LVDS0,234,,2:LCD0-D22; 3:LVDS1-CKP; 4:DSI1-D2P; 5:PWM1-0; 6:UART3-RTS; 14:PD-EINT16
+E27,GND,G,power_in,L,Digital ground 1,Ground,N/A,407,,
+E28,PD14,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD/VCC-LVDS0,232,,2:LCD0-D20; 3:LVDS1-D2P; 4:DSI1-CKP; 5:PWM0-14; 6:UART3-TX; 14:PD-EINT14
+E29,PD15,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD/VCC-LVDS0,233,,2:LCD0-D21; 3:LVDS1-D2N; 4:DSI1-CKN; 5:PWM0-15; 6:UART3-RX; 14:PD-EINT15
+F1,PK18,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,327,,2:MCSID-D0N; 3:MCSI0-MCLK; 4:UART6-TX; 5:NCSI-D2; 14:PK-EINT18
+F2,PK19,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,328,,2:MCSID-D0P; 3:TWI2-SCK; 4:UART6-RX; 5:NCSI-D3; 14:PK-EINT19
+F8,PH7,I/O,bidirectional,F,GPIO G / H,Port H,VCC-IO,295,,2:UART3-CTS; 3:SPI1-MISO; 4:OWA-OUT; 5:RGMII0-TXCTL/RMII0-TXEN; 14:PH-EINT7
+F10,PH0,I/O,bidirectional,F,GPIO G / H,Port H,VCC-IO,288,,2:TWI0-SCK; 5:RGMII0-RXD1/RMII0-RXD1; 14:PH-EINT0
+F12,JTAG-SEL,I,input,C,System / clocks / boot,System,VCC-IO,84,,
+F14,NC,N/A,no_connect,C,System / clocks / boot,Others,N/A,517,,
+F16,AVSS,G,power_in,N,Analog ground,Ground,N/A,381,,
+F18,AVSS,G,power_in,N,Analog ground,Ground,N/A,382,,
+F20,AVSS,G,power_in,N,Analog ground,Ground,N/A,383,,
+F22,AVSS,G,power_in,N,Analog ground,Ground,N/A,384,,
+F28,PD19,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD/VCC-LVDS0,237,,2:LCD0-DE; 3:LVDS1-D3N; 4:DSI1-D3N; 5:PWM1-3; 6:UART4-RX; 14:PD-EINT19
+F29,PD18,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD/VCC-LVDS0,236,,2:LCD0-CLK; 3:LVDS1-D3P; 4:DSI1-D3P; 5:PWM1-2; 6:UART4-TX; 14:PD-EINT18
+G1,PK21,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,330,,2:MCSID-D1P; 3:MCSI1-MCLK; 4:UART6-CTS; 5:NCSI-D5; 14:PK-EINT21
+G2,PK20,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,329,,2:MCSID-D1N; 3:TWI2-SDA; 4:UART6-RTS; 5:NCSI-D4; 14:PK-EINT20
+G3,GND,G,power_in,L,Digital ground 1,Ground,N/A,408,,
+G4,PK11,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,320,,2:MCSIB-CKP; 3:TWI3-SDA; 14:PK-EINT11
+G5,PK10,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,319,,2:MCSIB-CKN; 3:TWI3-SCK; 14:PK-EINT10
+G6,GND,G,power_in,L,Digital ground 1,Ground,N/A,409,,
+G7,GND,G,power_in,L,Digital ground 1,Ground,N/A,410,,
+G23,GND,G,power_in,L,Digital ground 1,Ground,N/A,411,,
+G24,GND,G,power_in,L,Digital ground 1,Ground,N/A,412,,
+G25,PD22,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD,240,,2:PWM0-1; 3:SPI1-HOLD/DBI-DCX/DBI-WRX; 4:UART2-RTS; 5:UART7-TX; 6:TWI0-SCK; 14:PD-EINT22
+G26,PD23,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD,241,,2:PWM0-0; 3:SPI1-WP/DBI-TE; 4:UART2-CTS; 5:UART7-RX; 6:TWI0-SDA; 14:PD-EINT23
+G27,GND,G,power_in,L,Digital ground 1,Ground,N/A,413,,
+G28,PD20,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD,238,,2:LCD0-HSYNC; 3:PWM0-2; 4:UART2-TX; 5:UART7-RTS; 6:UART4-RTS; 14:PD-EINT20
+G29,PD21,I/O,bidirectional,E,GPIO D / E,Port D,VCC-PD,239,,2:LCD0-VSYNC; 3:PWM0-3; 4:UART2-RX; 5:UART7-CTS; 6:UART4-CTS; 14:PD-EINT21
+H1,PK23,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,332,,2:MCSID-CKP; 3:TWI3-SDA; 4:PWM0-7; 5:NCSI-D7; 14:PK-EINT23
+H2,PK22,I/O,bidirectional,G,GPIO K / L / M,Port K,VCC-PK/VCC-MCSI,331,,2:MCSID-CKN; 3:TWI3-SCK; 4:PWM0-6; 5:NCSI-D6; 14:PK-EINT22
+H9,GND,G,power_in,L,Digital ground 1,Ground,N/A,414,,
+H10,VCC-MCSI,P,power_in,G,GPIO K / L / M,Port K,N/A,334,,
+H11,GND,G,power_in,L,Digital ground 1,Ground,N/A,415,,
+H12,VCC18-PCIE,P,power_in,H,USB / PCIe,PCIe2.1&USB3.1 DRD,N/A,125,,
+H13,AVSS,G,power_in,N,Analog ground,Ground,N/A,385,,
+H14,VDD09-PCIE,P,power_in,H,USB / PCIe,PCIe2.1&USB3.1 DRD,N/A,126,,
+H15,VDD09-USB,P,power_in,H,USB / PCIe,USB2.0 DRD,N/A,107,,
+H16,AVSS,G,power_in,N,Analog ground,Ground,N/A,386,,
+H17,VCC33-USB,P,power_in,H,USB / PCIe,USB2.0 DRD,N/A,105,,
+H18,VCC33-18-USB,P,power_in,H,USB / PCIe,USB2.0 DRD,N/A,106,,
+H19,AVSS,G,power_in,N,Analog ground,Ground,N/A,387,,
+H20,VCC18-EDP,P,power_in,I,eDP,eDP1.3,N/A,140,,
+H21,VDD09-EDP,P,power_in,I,eDP,eDP1.3,N/A,141,,
+H27,PB2,I/O,bidirectional,D,GPIO B / C / F,Port B,VCC-IO,185,,2:UART2-RTS; 3:SPI2-MOSI; 4:JTAG-DO; 14:PB-EINT2
+H28,PB3,I/O,bidirectional,D,GPIO B / C / F,Port B,VCC-IO,186,,2:UART2-CTS; 3:SPI2-MISO; 4:JTAG-DI; 14:PB-EINT3
+J1,PE0,I/O,bidirectional,E,GPIO D / E,Port E,VCC-PE,245,,2:MCSI0-MCLK; 14:PE-EINT0
+J2,PE1,I/O,bidirectional,E,GPIO D / E,Port E,VCC-PE,246,,2:TWI2-SCK; 3:UART4-TX; 14:PE-EINT1
+J3,GND,G,power_in,L,Digital ground 1,Ground,N/A,416,,
+J4,PE8,I/O,bidirectional,E,GPIO D / E,Port E,VCC-PE,253,,4:I2S2-DOUT0; 6:NCSI-D10; 14:PE-EINT8
+J5,PE9,I/O,bidirectional,E,GPIO D / E,Port E,VCC-PE,254,,4:I2S2-DIN0; 6:NCSI-D11; 14:PE-EINT9
+J6,VCC-PE,P,power_in,E,GPIO D / E,Port E,N/A,261,VCC_PE -> VCC-PE,
+J7,VCC-PK,P,power_in,G,GPIO K / L / M,Port K,N/A,333,,
+J10,GND,G,power_in,L,Digital ground 1,Ground,N/A,417,,
+J12,VCC-IO,P,power_in,K,Core power / sense,Power,N/A,360,,
+J13,AVSS,G,power_in,N,Analog ground,Ground,N/A,388,,
+J15,VCC33-USB-2,P,power_in,H,USB / PCIe,PCIe2.1&USB3.1 DRD,N/A,123,,
+J16,AVSS,G,power_in,N,Analog ground,Ground,N/A,389,,
+J18,AVSS,G,power_in,N,Analog ground,Ground,N/A,390,,
+J19,AVSS,G,power_in,N,Analog ground,Ground,N/A,391,,
+J22,GND,G,power_in,L,Digital ground 1,Ground,N/A,418,,
+J23,VCC-PD,P,power_in,E,GPIO D / E,Port D,N/A,242,,
+J24,PB0,I/O,bidirectional,D,GPIO B / C / F,Port B,VCC-IO,183,,2:UART2-TX; 3:SPI2-CS0; 4:JTAG-MS; 6:PWM0-6; 14:PB-EINT0
+J25,PB1,I/O,bidirectional,D,GPIO B / C / F,Port B,VCC-IO,184,,2:UART2-RX; 3:SPI2-CLK; 4:JTAG-CK; 6:PWM0-7; 14:PB-EINT1
+J26,GND,G,power_in,L,Digital ground 1,Ground,N/A,419,,
+J27,PB4,I/O,bidirectional,D,GPIO B / C / F,Port B,VCC-IO,187,,2:TWI1-SCK; 3:I2S0-MCLK; 5:PWM0-8; 14:PB-EINT4
+J28,PB5,I/O,bidirectional,D,GPIO B / C / F,Port B,VCC-IO,188,,2:TWI1-SDA; 3:I2S0-BCLK; 5:PWM0-9; 14:PB-EINT5
+J29,PB6,I/O,bidirectional,D,GPIO B / C / F,Port B,VCC-IO,189,,3:I2S0-LRCK; 5:PWM0-10; 14:PB-EINT6
+K1,PE3,I/O,bidirectional,E,GPIO D / E,Port E,VCC-PE,248,,2:TWI3-SCK; 3:UART4-RTS; 14:PE-EINT3
+K2,PE2,I/O,bidirectional,E,GPIO D / E,Port E,VCC-PE,247,,2:TWI2-SDA; 3:UART4-RX; 14:PE-EINT2
+K9,GND,G,power_in,L,Digital ground 1,Ground,N/A,420,,
+K10,VDD-VE,P,power_in,K,Core power / sense,Power,N/A,366,,
+K12,GND,G,power_in,L,Digital ground 1,Ground,N/A,421,,
+K15,GND,G,power_in,L,Digital ground 1,Ground,N/A,422,,
+K16,GND,G,power_in,L,Digital ground 1,Ground,N/A,423,,
+K18,GND,G,power_in,L,Digital ground 1,Ground,N/A,424,,
+K19,VDD-DE,P,power_in,K,Core power / sense,Power,N/A,367,,
+K21,VCC-LVDS0,P,power_in,E,GPIO D / E,Port D,N/A,243,,
+K27,PB7,I/O,bidirectional,D,GPIO B / C / F,Port B,VCC-IO,190,,2:OWA-IN; 3:I2S0-DOUT0; 4:I2S0-DIN1; 5:LCD0-D16; 6:PWM0-11; 14:PB-EINT7
+K28,PB8,I/O,bidirectional,D,GPIO B / C / F,Port B,VCC-IO,191,,2:OWA-OUT; 3:I2S0-DIN0; 4:I2S0-DOUT1; 5:LCD0-D17; 6:PWM0-0; 14:PB-EINT8
+L1,PE4,I/O,bidirectional,E,GPIO D / E,Port E,VCC-PE,249,,2:TWI3-SDA; 3:UART4-CTS; 14:PE-EINT4
+L2,PE5,I/O,bidirectional,E,GPIO D / E,Port E,VCC-PE,250,,2:MCSI1-MCLK; 4:I2S2-MCLK; 5:LEDC; 14:PE-EINT5
+L3,GND,G,power_in,L,Digital ground 1,Ground,N/A,425,,
+L4,PE12,I/O,bidirectional,E,GPIO D / E,Port E,VCC-PE,257,,2:TWI1-SDA; 3:UART5-CTS; 4:SPI2-CLK; 5:UART6-RX; 6:NCSI-D14; 14:PE-EINT12
+L5,PE13,I/O,bidirectional,E,GPIO D / E,Port E,VCC-PE,258,,2:TWI4-SCK; 3:UART5-TX; 4:SPI2-MOSI; 5:UART6-RTS; 6:CSI0-XVS-FSYNC; 14:PE-EINT13
+L6,GND,G,power_in,L,Digital ground 1,Ground,N/A,426,,
+L7,GND,G,power_in,L,Digital ground 1,Ground,N/A,427,,
+L9,GND,G,power_in,L,Digital ground 1,Ground,N/A,428,,
+L10,VDD-VE,P,power_in,K,Core power / sense,Power,N/A,366,,
+L13,GND,G,power_in,L,Digital ground 1,Ground,N/A,429,,
+L15,VDD-SYSFB,P,passive,K,Core power / sense,Power,N/A,372,,
+L16,GND,G,power_in,L,Digital ground 1,Ground,N/A,430,,
+L18,VDD-DE,P,power_in,K,Core power / sense,Power,N/A,367,,
+L19,VDD-DE,P,power_in,K,Core power / sense,Power,N/A,367,,
+L21,GND,G,power_in,L,Digital ground 1,Ground,N/A,431,,
+L23,GND,G,power_in,L,Digital ground 1,Ground,N/A,432,,
+L24,PB9,I/O,bidirectional,D,GPIO B / C / F,Port B,VCC-IO,192,,2:UART0-TX; 3:TWI0-SCK; 5:I2S0-DIN2; 6:I2S0-DOUT2; 14:PB-EINT9
+L25,PB10,I/O,bidirectional,D,GPIO B / C / F,Port B,VCC-IO,193,PB10: invalid ball PB10 -> L25,2:UART0-RX; 3:TWI0-SDA; 4:PWM0-1; 5:I2S0-DIN3; 6:I2S0-DOUT3; 14:PB-EINT10
+L26,PB11,I/O,bidirectional,D,GPIO B / C / F,Port B,VCC-IO,194,PB11: invalid ball PB11 -> L26,2:TWI5-SCK; 3:UART7-RTS; 4:SPI1-CS0; 5:PWM0-2; 14:PB-EINT11
+L27,PB12,I/O,bidirectional,D,GPIO B / C / F,Port B,VCC-IO,195,PB12: invalid ball PB12 -> L27,2:TWI5-SDA; 3:UART7-CTS; 4:SPI1-CLK; 5:PWM0-3; 14:PB-EINT12
+L28,PB13,I/O,bidirectional,D,GPIO B / C / F,Port B,VCC-IO,196,PB13: invalid ball PB13 -> L28,2:TWI4-SCK; 3:UART7-TX; 4:SPI1-MOSI; 5:PWM0-4; 14:PB-EINT13
+L29,PB14,I/O,bidirectional,D,GPIO B / C / F,Port B,VCC-IO,197,PB14: invalid ball PB14 -> L29,2:TWI4-SDA; 3:UART7-RX; 4:SPI1-MISO; 5:PWM0-5; 14:PB-EINT14
+M1,PE6,I/O,bidirectional,E,GPIO D / E,Port E,VCC-PE,251,,4:I2S2-BCLK; 5:LCD0-TRIG; 6:NCSI-D8; 14:PE-EINT6
+M2,PE7,I/O,bidirectional,E,GPIO D / E,Port E,VCC-PE,252,,4:I2S2-LRCK; 5:LCD1-TRIG; 6:NCSI-D9; 14:PE-EINT7
+M9,GND,G,power_in,L,Digital ground 1,Ground,N/A,433,,
+M10,GND,G,power_in,L,Digital ground 1,Ground,N/A,434,,
+M12,VDD-SYS,P,power_in,K,Core power / sense,Power,N/A,365,,
+M14,VDD-SYS,P,power_in,K,Core power / sense,Power,N/A,365,,
+M15,VDD-SYS,P,power_in,K,Core power / sense,Power,N/A,365,,
+M16,GND,G,power_in,L,Digital ground 1,Ground,N/A,435,,
+M19,VDD-CPUBFB,P,passive,K,Core power / sense,Power,N/A,370,,
+M21,GND,G,power_in,L,Digital ground 1,Ground,N/A,436,,
+M27,PC16,I/O,bidirectional,D,GPIO B / C / F,Port C,VCC-PC,215,,2:NAND-DQ0; 3:SDC2-D7; 4:SPI0-HOLD; 5:SPIF-HOLD; 14:PC-EINT16
+M28,PC15,I/O,bidirectional,D,GPIO B / C / F,Port C,VCC-PC,214,,2:NAND-DQ1; 3:SDC2-D2; 4:SPI0-WP; 5:SPIF-WP; 14:PC-EINT15
+N1,PE10,I/O,bidirectional,E,GPIO D / E,Port E,VCC-PE,255,,2:MCSI3-MCLK; 3:PWM0-3; 6:NCSI-D12; 14:PE-EINT10
+N2,PE11,I/O,bidirectional,E,GPIO D / E,Port E,VCC-PE,256,,2:TWI1-SCK; 3:UART5-RTS; 4:SPI2-CS0; 5:UART6-TX; 6:NCSI-D13; 14:PE-EINT11
+N3,GND,G,power_in,L,Digital ground 1,Ground,N/A,437,,
+N4,PE14,I/O,bidirectional,E,GPIO D / E,Port E,VCC-PE,259,,2:TWI4-SDA; 3:UART5-RX; 4:SPI2-MISO; 5:UART6-CTS; 6:CSI1-XVS-FSYNC; 14:PE-EINT14
+N5,PE15,I/O,bidirectional,E,GPIO D / E,Port E,VCC-PE,260,,2:MCSI2-MCLK; 3:PWM0-2; 6:NCSI-D15; 14:PE-EINT15
+N6,VCC-PG,P,power_in,F,GPIO G / H,Port G,N/A,286,,
+N7,GND,G,power_in,L,Digital ground 1,Ground,N/A,438,,
+N8,VDD-GPU,P,power_in,K,Core power / sense,Power,N/A,368,,
+N10,VDD-GPU,P,power_in,K,Core power / sense,Power,N/A,368,,
+N12,GND,G,power_in,L,Digital ground 1,Ground,N/A,439,,
+N13,GND,G,power_in,L,Digital ground 1,Ground,N/A,440,,
+N15,GND,G,power_in,L,Digital ground 1,Ground,N/A,441,,
+N16,VDD-CPUB,P,power_in,K,Core power / sense,Power,N/A,363,,
+N18,VDD-CPUB,P,power_in,K,Core power / sense,Power,N/A,363,,
+N19,VDD-CPUB,P,power_in,K,Core power / sense,Power,N/A,363,,
+N21,GND,G,power_in,L,Digital ground 1,Ground,N/A,442,,
+N22,VCC-PC,P,power_in,D,GPIO B / C / F,Port C,N/A,216,,
+N23,VCC-EFUSE,P,power_in,C,System / clocks / boot,Power,N/A,361,,
+N24,PC4,I/O,bidirectional,D,GPIO B / C / F,Port C,VCC-PC,203,,2:NAND-CE0; 4:SPI0-MISO; 5:SPIF-MISO; 14:PC-EINT4
+N25,PC3,I/O,bidirectional,D,GPIO B / C / F,Port C,VCC-PC,202,,2:NAND-CE1; 4:SPI0-CS0; 5:SPIF-CS0; 14:PC-EINT3
+N26,PC2,I/O,bidirectional,D,GPIO B / C / F,Port C,VCC-PC,201,,2:NAND-CLE; 4:SPI0-MOSI; 5:SPIF-MOSI; 14:PC-EINT2
+N27,PC14,I/O,bidirectional,D,GPIO B / C / F,Port C,VCC-PC,213,,2:NAND-DQ2; 3:SDC2-D6; 14:PC-EINT14
+N28,PC13,I/O,bidirectional,D,GPIO B / C / F,Port C,VCC-PC,212,,2:NAND-DQ3; 3:SDC2-D1; 14:PC-EINT13
+N29,PC12,I/O,bidirectional,D,GPIO B / C / F,Port C,VCC-PC,211,,2:NAND-DQS; 4:SPI0-CLK; 5:SPIF-CLK; 14:PC-EINT12
+P2,PG3,I/O,bidirectional,F,GPIO G / H,Port G,VCC-PG,274,,2:SDC1-D1; 3:PCIE0-WAKEN; 14:PG-EINT3
+P3,PG2,I/O,bidirectional,F,GPIO G / H,Port G,VCC-PG,273,,2:SDC1-D0; 3:PCIE0-PERSTN; 14:PG-EINT2
+P9,VDD-GPU,P,power_in,K,Core power / sense,Power,N/A,368,,
+P10,VDD-GPU,P,power_in,K,Core power / sense,Power,N/A,368,,
+P11,GND,G,power_in,L,Digital ground 1,Ground,N/A,443,,
+P13,GND,G,power_in,L,Digital ground 1,Ground,N/A,444,,
+P15,VDD-CPUB,P,power_in,K,Core power / sense,Power,N/A,363,,
+P16,VDD-CPUB,P,power_in,K,Core power / sense,Power,N/A,363,,
+P18,VDD-CPUB,P,power_in,K,Core power / sense,Power,N/A,363,,
+P19,VDD-CPUB,P,power_in,K,Core power / sense,Power,N/A,363,,
+P27,PC11,I/O,bidirectional,D,GPIO B / C / F,Port C,VCC-PC,210,,2:NAND-DQ4; 3:SDC2-D5; 5:SPIF-D4; 14:PC-EINT11
+P28,PC10,I/O,bidirectional,D,GPIO B / C / F,Port C,VCC-PC,209,,2:NAND-DQ5; 3:SDC2-D0; 5:SPIF-D5; 14:PC-EINT10
+R1,PG0,I/O,bidirectional,F,GPIO G / H,Port G,VCC-PG,271,,2:SDC1-CLK; 14:PG-EINT0
+R2,PG1,I/O,bidirectional,F,GPIO G / H,Port G,VCC-PG,272,,2:SDC1-CMD; 14:PG-EINT1
+R3,GND,G,power_in,L,Digital ground 1,Ground,N/A,445,,
+R4,PG8,I/O,bidirectional,F,GPIO G / H,Port G,VCC-PG,279,,2:UART1-RTS; 14:PG-EINT8
+R5,PG6,I/O,bidirectional,F,GPIO G / H,Port G,VCC-PG,277,,2:UART1-TX; 14:PG-EINT6
+R6,GND,G,power_in,L,Digital ground 1,Ground,N/A,446,,
+R7,GND,G,power_in,L,Digital ground 1,Ground,N/A,447,,
+R15,GND,G,power_in,L,Digital ground 1,Ground,N/A,448,,
+R16,GND,G,power_in,L,Digital ground 1,Ground,N/A,449,,
+R23,GND,G,power_in,L,Digital ground 1,Ground,N/A,450,,
+R24,PC0,I/O,bidirectional,D,GPIO B / C / F,Port C,VCC-PC,199,,2:NAND-WE; 3:SDC2-DS; 14:PC-EINT0
+R25,PC7,I/O,bidirectional,D,GPIO B / C / F,Port C,VCC-PC,206,,2:NAND-RB1; 4:SPI0-CS1; 5:SPIF-DQS; 14:PC-EINT7
+R26,GND,G,power_in,L,Digital ground 1,Ground,N/A,451,,
+R27,PC9,I/O,bidirectional,D,GPIO B / C / F,Port C,VCC-PC,208,,2:NAND-DQ6; 3:SDC2-D4; 5:SPIF-D6; 14:PC-EINT9
+R28,PC8,I/O,bidirectional,D,GPIO B / C / F,Port C,VCC-PC,207,,2:NAND-DQ7; 3:SDC2-D3; 5:SPIF-D7; 14:PC-EINT8
+R29,PC6,I/O,bidirectional,D,GPIO B / C / F,Port C,VCC-PC,205,,2:NAND-RB0; 3:SDC2-CMD; 14:PC-EINT6
+T2,PG5,I/O,bidirectional,F,GPIO G / H,Port G,VCC-PG,276,,2:SDC1-D3; 14:PG-EINT5
+T3,PG4,I/O,bidirectional,F,GPIO G / H,Port G,VCC-PG,275,,2:SDC1-D2; 3:PCIE0-CLKREQN; 14:PG-EINT4
+T9,GND,G,power_in,L,Digital ground 1,Ground,N/A,452,,
+T10,GND,G,power_in,L,Digital ground 1,Ground,N/A,453,,
+T12,GND,G,power_in,M,Digital ground 2,Ground,N/A,454,,
+T13,GND,G,power_in,M,Digital ground 2,Ground,N/A,455,,
+T16,VDD-CPUL,P,power_in,K,Core power / sense,Power,N/A,364,,
+T18,VDD-CPUL,P,power_in,K,Core power / sense,Power,N/A,364,,
+T19,GND,G,power_in,M,Digital ground 2,Ground,N/A,456,,
+T20,VCC-DRAM,P,power_in,B,DRAM address / control / power,SDRAM,N/A,79,,
+T21,VCC-DRAM,P,power_in,B,DRAM address / control / power,SDRAM,N/A,79,,
+T22,VCC-DRAM,P,power_in,B,DRAM address / control / power,SDRAM,N/A,79,,
+T27,PC1,I/O,bidirectional,D,GPIO B / C / F,Port C,VCC-PC,200,,2:NAND-ALE; 3:SDC2-RST; 14:PC-EINT1
+T28,PC5,I/O,bidirectional,D,GPIO B / C / F,Port C,VCC-PC,204,,2:NAND-RE; 3:SDC2-CLK; 14:PC-EINT5
+U1,PG10,I/O,bidirectional,F,GPIO G / H,Port G,VCC-PG,281,,3:I2S1-MCLK; 14:PG-EINT10
+U2,PG11,I/O,bidirectional,F,GPIO G / H,Port G,VCC-PG,282,,3:I2S1-BCLK; 14:PG-EINT11
+U3,PG7,I/O,bidirectional,F,GPIO G / H,Port G,VCC-PG,278,,2:UART1-RX; 14:PG-EINT7
+U4,PG9,I/O,bidirectional,F,GPIO G / H,Port G,VCC-PG,280,,2:UART1-CTS; 14:PG-EINT9
+U5,PG14,I/O,bidirectional,F,GPIO G / H,Port G,VCC-PG,285,,3:I2S1-DIN0; 4:I2S1-DOUT1; 14:PG-EINT14
+U6,VCM-ADC,A I/O,bidirectional,J,Audio / ADC,GPADC,AVCC,176,,
+U7,VREFN-ADC,P,power_in,J,Audio / ADC,GPADC,N/A,177,,
+U9,VDD-DNR,P,power_in,K,Core power / sense,Power,N/A,369,,
+U10,VDD-DNR,P,power_in,K,Core power / sense,Power,N/A,369,,
+U12,GND,G,power_in,M,Digital ground 2,Ground,N/A,457,,
+U15,GND,G,power_in,M,Digital ground 2,Ground,N/A,458,,
+U16,VDD-CPUL,P,power_in,K,Core power / sense,Power,N/A,364,,
+U18,VDD-CPUL,P,power_in,K,Core power / sense,Power,N/A,364,,
+U19,GND,G,power_in,M,Digital ground 2,Ground,N/A,459,,
+U20,GND,G,power_in,M,Digital ground 2,Ground,N/A,460,,
+U21,VCC-DRAM,P,power_in,B,DRAM address / control / power,SDRAM,N/A,79,,
+U23,SDQ15,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,46,,
+U24,SDQ14,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,45,,
+U25,SZQ,AI,input,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,78,,
+U26,GND,G,power_in,M,Digital ground 2,Ground,N/A,461,,
+U27,SDQ13,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,44,,
+U28,GND,G,power_in,M,Digital ground 2,Ground,N/A,462,,
+U29,SDQ12,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,43,,
+V2,PG12,I/O,bidirectional,F,GPIO G / H,Port G,VCC-PG,283,,3:I2S1-LRCK; 14:PG-EINT12
+V3,PG13,I/O,bidirectional,F,GPIO G / H,Port G,VCC-PG,284,,3:I2S1-DOUT0; 4:I2S1-DIN1; 14:PG-EINT13
+V9,VDD-DNR,P,power_in,K,Core power / sense,Power,N/A,369,,
+V10,VDD-DNR,P,power_in,K,Core power / sense,Power,N/A,369,,
+V12,GND,G,power_in,M,Digital ground 2,Ground,N/A,463,,
+V13,GND,G,power_in,M,Digital ground 2,Ground,N/A,464,,
+V15,GND,G,power_in,M,Digital ground 2,Ground,N/A,465,,
+V16,VDD-CPULFB,P,passive,K,Core power / sense,Power,N/A,371,,
+V18,GND,G,power_in,M,Digital ground 2,Ground,N/A,466,,
+V19,GND,G,power_in,M,Digital ground 2,Ground,N/A,467,,
+V21,VCC-DRAM,P,power_in,B,DRAM address / control / power,SDRAM,N/A,79,,
+V28,SDQS1P,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,69,,
+V29,SDQS1N,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,70,,
+W1,GND,G,power_in,M,Digital ground 2,Ground,N/A,468,,
+W2,GPADC0,AI,input,J,Audio / ADC,GPADC,AVCC,172,,
+W3,GPADC1,AI,input,J,Audio / ADC,GPADC,AVCC,173,,
+W4,GPADC2,AI,input,J,Audio / ADC,GPADC,AVCC,174,,
+W5,GPADC3,AI,input,J,Audio / ADC,GPADC,AVCC,175,,
+W6,VREFP-ADC,P,power_in,J,Audio / ADC,GPADC,N/A,178,,
+W7,AVCC,P,power_in,J,Audio / ADC,Audio Codec,N/A,165,,
+W8,GND,G,power_in,M,Digital ground 2,Ground,N/A,469,,
+W9,GND,G,power_in,M,Digital ground 2,Ground,N/A,470,,
+W10,VDD-DNRFB,P,passive,K,Core power / sense,Power,N/A,373,,
+W12,GND,G,power_in,M,Digital ground 2,Ground,N/A,471,,
+W14,GND,G,power_in,M,Digital ground 2,Ground,N/A,472,,
+W21,VCC-DRAM,P,power_in,B,DRAM address / control / power,SDRAM,N/A,79,,
+W23,SDQ8,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,39,,
+W24,SDQ9,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,40,,
+W25,GND,G,power_in,M,Digital ground 2,Ground,N/A,473,,
+W26,SDQ10,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,41,,
+W27,SDQ11,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,42,,
+W28,SDQM1,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,64,,
+W29,GND,G,power_in,M,Digital ground 2,Ground,N/A,474,,
+Y1,LRADC0,AI,input,J,Audio / ADC,LRADC,AVCC,180,,
+Y2,LRADC1,AI,input,J,Audio / ADC,LRADC,AVCC,181,,
+Y12,VDD-CPUS,P,power_in,K,Core power / sense,Power,N/A,362,,
+Y14,VCC-DRAML,P,power_in,B,DRAM address / control / power,SDRAM,N/A,80,,
+Y15,VCC-DRAML,P,power_in,B,DRAM address / control / power,SDRAM,N/A,80,,
+Y16,VCC-DRAML,P,power_in,B,DRAM address / control / power,SDRAM,N/A,80,,
+Y17,VCC-DRAML,P,power_in,B,DRAM address / control / power,SDRAM,N/A,80,,
+Y19,VCC-DRAML,P,power_in,B,DRAM address / control / power,SDRAM,N/A,80,,
+Y21,VCC-DRAM,P,power_in,B,DRAM address / control / power,SDRAM,N/A,79,,
+Y28,SDQ5,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,36,,
+Y29,SDQ7,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,38,,
+AA1,MICIN1N,AI,input,J,Audio / ADC,Audio Codec,AVCC,144,,
+AA2,MICIN1P,AI,input,J,Audio / ADC,Audio Codec,AVCC,143,,
+AA3,AGND,G,power_in,J,Audio / ADC,Audio Codec,N/A,170,,
+AA4,VRP,P,output,J,Audio / ADC,Audio Codec,N/A,169,,
+AA5,VDD33,P,power_in,J,Audio / ADC,Audio Codec,N/A,167,,
+AA6,GND,G,power_in,M,Digital ground 2,Ground,N/A,475,,
+AA7,GND,G,power_in,M,Digital ground 2,Ground,N/A,476,,
+AA9,VCC-PL,P,power_in,G,GPIO K / L / M,Port L,N/A,350,,
+AA10,VCC-RTC,P,power_in,C,System / clocks / boot,RTC&PLL,N/A,93,,
+AA11,GND,G,power_in,M,Digital ground 2,Ground,N/A,477,,
+AA12,VCC-DCXO,P,power_in,C,System / clocks / boot,DCXO,N/A,100,,
+AA17,GND,G,power_in,M,Digital ground 2,Ground,N/A,478,,
+AA18,GND,G,power_in,M,Digital ground 2,Ground,N/A,479,,
+AA19,GND,G,power_in,M,Digital ground 2,Ground,N/A,480,,
+AA20,GND,G,power_in,M,Digital ground 2,Ground,N/A,481,,
+AA21,VDD18-DRAM,P,power_in,B,DRAM address / control / power,SDRAM,N/A,81,,
+AA23,SDQ1,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,32,,
+AA24,SDQ0,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,31,,
+AA25,GND,G,power_in,M,Digital ground 2,Ground,N/A,482,,
+AA26,SDQ4,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,35,,
+AA27,SDQ6,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,37,,
+AA28,GND,G,power_in,M,Digital ground 2,Ground,N/A,483,,
+AA29,SDQM0,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,63,,
+AB1,MICIN2N,AI,input,J,Audio / ADC,Audio Codec,AVCC,146,,
+AB2,MICIN2P,AI,input,J,Audio / ADC,Audio Codec,AVCC,145,,
+AB13,VCC-PLL,P,power_in,C,System / clocks / boot,RTC&PLL,N/A,94,,
+AB28,SDQS0P,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,67,,
+AB29,SDQS0N,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,68,,
+AC1,MICIN3N,AI,input,J,Audio / ADC,Audio Codec,AVCC,148,,
+AC2,MICIN3P,AI,input,J,Audio / ADC,Audio Codec,AVCC,147,,
+AC3,VRA2,AO,output,J,Audio / ADC,Audio Codec,AVCC,161,,
+AC4,VRA1,AO,output,J,Audio / ADC,Audio Codec,AVCC,160,,
+AC5,CPVEE,P,power_out,J,Audio / ADC,Audio Codec,N/A,163,,
+AC7,VCC-PM,P,power_in,G,GPIO K / L / M,Port M,N/A,358,,
+AC9,PL10,I/O,bidirectional,G,GPIO K / L / M,Port L,VCC-PL,346,,2:S-PWM0-0; 4:S-RJTAG-DO; 5:S-DMIC-DATA0; 6:S-SPI0-CS0; 14:PL-EINT10
+AC11,RESET,"I/O, OD",bidirectional,C,System / clocks / boot,System,VCC-RTC,87,,
+AC13,GND,G,power_in,M,Digital ground 2,Ground,N/A,484,,
+AC15,SDQ24,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,55,,
+AC17,SDQ23,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,54,,
+AC19,SRST,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,77,,
+AC21,GND,G,power_in,M,Digital ground 2,Ground,N/A,485,,
+AC24,GND,G,power_in,M,Digital ground 2,Ground,N/A,486,,
+AC25,SA10,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,13,,
+AC26,SA1,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,4,,
+AC27,GND,G,power_in,M,Digital ground 2,Ground,N/A,487,,
+AC28,SDQ2,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,33,,
+AC29,GND,G,power_in,M,Digital ground 2,Ground,N/A,488,,
+AD1,LINEOUTLN,AO,output,J,Audio / ADC,Audio Codec,AVCC,150,,
+AD2,LINEOUTLP,AO,output,J,Audio / ADC,Audio Codec,AVCC,149,,
+AD7,GND,G,power_in,M,Digital ground 2,Ground,N/A,489,,
+AD9,PL11,I/O,bidirectional,G,GPIO K / L / M,Port L,VCC-PL,347,,2:S-IR-RX; 4:S-RJTAG-DI; 5:S-DMIC-DATA1; 6:S-SPI0-CLK; 14:PL-EINT11
+AD11,NMI,"I/O, OD",bidirectional,C,System / clocks / boot,System,VCC-RTC,86,,
+AD13,PLLTEST,"AO, OD",open_collector,C,System / clocks / boot,RTC&PLL,VCC-PLL,92,,
+AD15,SDQ25,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,56,,
+AD17,SDQ31,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,62,,
+AD19,SDQ18,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,49,,
+AD21,SA4,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,7,,
+AD23,GND,G,power_in,M,Digital ground 2,Ground,N/A,490,,
+AD28,GND,G,power_in,M,Digital ground 2,Ground,N/A,491,,
+AD29,SDQ3,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,34,,
+AE1,LINEOUTRN,AO,output,J,Audio / ADC,Audio Codec,AVCC,152,,
+AE2,LINEOUTRP,AO,output,J,Audio / ADC,Audio Codec,AVCC,151,,
+AE3,ALDO-OUT,P,power_out,J,Audio / ADC,Audio Codec,N/A,166,,
+AE4,VEE,P,power_in,J,Audio / ADC,Audio Codec,N/A,168,,
+AE5,CPVDD,P,power_out,J,Audio / ADC,Audio Codec,N/A,162,,
+AE7,PL13,I/O,bidirectional,G,GPIO K / L / M,Port L,VCC-PL,349,,2:S-TWI2-SDA; 3:MCU-PWM0-7; 4:S-UART0-RX; 5:S-DMIC-DATA3; 6:S-SPI0-MISO; 14:PL-EINT13
+AE9,PL6,I/O,bidirectional,G,GPIO K / L / M,Port L,VCC-PL,342,,2:S-JTAG-DO; 3:MCU-PWM0-4; 4:S-I2S0-DIN1; 5:S-I2S0-DOUT0; 6:S-DMIC-DATA2; 14:PL-EINT6
+AE11,TEST,I,input,C,System / clocks / boot,System,VCC-RTC,85,TEST: AE1 -> AE11,
+AE13,WREQIN,I,input,C,System / clocks / boot,DCXO,VCC-PG,99,,
+AE15,GND,G,power_in,M,Digital ground 2,Ground,N/A,492,,
+AE17,GND,G,power_in,M,Digital ground 2,Ground,N/A,493,,
+AE19,GND,G,power_in,M,Digital ground 2,Ground,N/A,494,,
+AE21,SBA1,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,23,,
+AE23,SA16,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,19,,
+AE26,SA17,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,20,,
+AE27,SA9,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,12,,
+AE28,SA11,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,14,,
+AE29,SA2,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,5,,
+AF1,MIC-DET,AI,input,J,Audio / ADC,Audio Codec,AVCC,156,,
+AF2,HP-DET,AI,input,J,Audio / ADC,Audio Codec,AVCC,157,,
+AF7,PL12,I/O,bidirectional,G,GPIO K / L / M,Port L,VCC-PL,348,,2:S-TWI2-SCK; 3:MCU-PWM0-6; 4:S-UART0-TX; 5:S-DMIC-DATA2; 6:S-SPI0-MOSI; 14:PL-EINT12
+AF9,PL7,I/O,bidirectional,G,GPIO K / L / M,Port L,VCC-PL,343,,2:S-JTAG-DI; 3:MCU-PWM0-5; 4:S-I2S0-DOUT1; 5:S-I2S0-DIN0; 6:S-DMIC-DATA1; 14:PL-EINT7
+AF11,GND,G,power_in,M,Digital ground 2,Ground,N/A,495,,
+AF13,GND,G,power_in,M,Digital ground 2,Ground,N/A,496,,
+AF15,SDQ26,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,57,,
+AF17,SDQ30,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,61,,
+AF19,SDQ19,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,50,,
+AF21,SBA0,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,22,,
+AF23,SA5,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,8,,
+AF25,SA13,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,16,,
+AF28,GND,G,power_in,M,Digital ground 2,Ground,N/A,497,,
+AF29,SA0,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,3,,
+AG1,MBIAS,AO,output,J,Audio / ADC,Audio Codec,VDD33,158,,
+AG2,HBIAS,AO,output,J,Audio / ADC,Audio Codec,VDD33,159,,
+AG3,CPVIN,P,power_in,J,Audio / ADC,Audio Codec,N/A,164,,
+AG5,GND,G,power_in,M,Digital ground 2,Ground,N/A,498,,
+AG7,GND,G,power_in,M,Digital ground 2,Ground,N/A,499,,
+AG9,PL9,I/O,bidirectional,G,GPIO K / L / M,Port L,VCC-PL,345,,2:S-TWI1-SDA; 4:S-RJTAG-CK; 5:S-PWM0-1; 6:S-DMIC-CLK; 14:PL-EINT9
+AG10,PL8,I/O,bidirectional,G,GPIO K / L / M,Port L,VCC-PL,344,,2:S-TWI1-SCK; 4:S-RJTAG-MS; 5:S-I2S0-MCLK; 6:S-DMIC-DATA0; 14:PL-EINT8
+AG11,X32KFOUT,"AO, OD",open_collector,C,System / clocks / boot,RTC&PLL,VCC-PM,89,,
+AG12,GND,G,power_in,M,Digital ground 2,Ground,N/A,500,,
+AG13,GND,G,power_in,M,Digital ground 2,Ground,N/A,501,,
+AG14,GND,G,power_in,M,Digital ground 2,Ground,N/A,502,,
+AG15,SDQ27,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,58,,
+AG17,SDQ29,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,60,,
+AG19,SDQ20,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,51,,
+AG21,SA8,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,11,,
+AG23,SA3,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,6,,
+AG25,SACT,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,21,,
+AG27,SA12,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,15,,
+AG28,SODT0,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,75,,
+AG29,SODT1,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,76,,
+AH1,HPOUTL,AO,output,J,Audio / ADC,Audio Codec,CPVIN,153,,
+AH2,HPOUTFB,AI,input,J,Audio / ADC,Audio Codec,CPVIN,155,,
+AH3,GND,G,power_in,M,Digital ground 2,Ground,N/A,503,,
+AH4,PM3,I/O,bidirectional,G,GPIO K / L / M,Port M,VCC-PM,355,,2:S-TWI1-SDA; 3:S-RJTAG-CK; 4:MCU-PWM0-5; 14:PM-EINT3
+AH5,PM2,I/O,bidirectional,G,GPIO K / L / M,Port M,VCC-PM,354,,2:S-TWI1-SCK; 3:S-RJTAG-MS; 4:MCU-PWM0-4; 14:PM-EINT2
+AH6,PM5,I/O,bidirectional,G,GPIO K / L / M,Port M,VCC-PM,357,,2:S-IR-RX; 3:S-RJTAG-DI; 4:S-TWI2-SDA; 5:MCU-PWM0-7; 14:PM-EINT5
+AH7,PL1,I/O,bidirectional,G,GPIO K / L / M,Port L,VCC-PL,337,,2:S-TWI0-SDA; 14:PL-EINT1
+AH8,PL3,I/O,bidirectional,G,GPIO K / L / M,Port L,VCC-PL,339,,2:S-UART0-RX; 3:S-UART1-RX; 4:MCU-PWM0-1; 14:PL-EINT3
+AH9,PL4,I/O,bidirectional,G,GPIO K / L / M,Port L,VCC-PL,340,,2:S-JTAG-MS; 4:MCU-PWM0-2; 5:S-I2S0-BCLK; 14:PL-EINT4
+AH10,GND,G,power_in,M,Digital ground 2,Ground,N/A,504,,
+AH11,X32KOUT,AO,output,C,System / clocks / boot,RTC&PLL,VCC-RTC,91,,
+AH12,X32KIN,AI,input,C,System / clocks / boot,RTC&PLL,VCC-RTC,90,,
+AH13,DXIN,AI,input,C,System / clocks / boot,DCXO,VCC-DCXO,96,,
+AH14,REFCLK-OUT,AO,output,C,System / clocks / boot,DCXO,VCC-DCXO,98,,
+AH15,SDQS3P,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,73,,
+AH16,GND,G,power_in,M,Digital ground 2,Ground,N/A,505,,
+AH17,SDQ28,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,59,,
+AH18,SDQ21,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,52,,
+AH19,SDQS2P,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,71,,
+AH20,SDQM2,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,65,,
+AH21,SDQ16,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,47,,
+AH22,GND,G,power_in,M,Digital ground 2,Ground,N/A,506,,
+AH23,SBG1,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,25,,
+AH24,SA14,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,17,,
+AH25,GND,G,power_in,M,Digital ground 2,Ground,N/A,507,,
+AH26,SCKP,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,27,,
+AH27,SCKE0,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,26,,
+AH28,SCS1,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,30,,
+AH29,SA7,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,10,,
+AJ1,GND,G,power_in,M,Digital ground 2,Ground,N/A,508,,
+AJ2,HPOUTR,AO,output,J,Audio / ADC,Audio Codec,CPVIN,154,,
+AJ3,PM1,I/O,bidirectional,G,GPIO K / L / M,Port M,VCC-PM,353,,2:S-UART0-RX; 3:S-UART1-RX; 4:MCU-PWM0-1; 14:PM-EINT1
+AJ4,PM0,I/O,bidirectional,G,GPIO K / L / M,Port M,VCC-PM,352,,2:S-UART0-TX; 3:S-UART1-TX; 4:MCU-PWM0-0; 14:PM-EINT0
+AJ5,PM4,I/O,bidirectional,G,GPIO K / L / M,Port M,VCC-PM,356,,2:MCU-PWM0-6; 3:S-RJTAG-DO; 4:S-TWI2-SCK; 14:PM-EINT4
+AJ6,GND,G,power_in,M,Digital ground 2,Ground,N/A,509,,
+AJ7,PL0,I/O,bidirectional,G,GPIO K / L / M,Port L,VCC-PL,336,,2:S-TWI0-SCK; 14:PL-EINT0
+AJ8,PL2,I/O,bidirectional,G,GPIO K / L / M,Port L,VCC-PL,338,,2:S-UART0-TX; 3:S-UART1-TX; 4:MCU-PWM0-0; 14:PL-EINT2
+AJ9,PL5,I/O,bidirectional,G,GPIO K / L / M,Port L,VCC-PL,341,,2:S-JTAG-CK; 4:MCU-PWM0-3; 5:S-I2S0-LRCK; 6:S-DMIC-DATA3; 14:PL-EINT5
+AJ11,GND,G,power_in,M,Digital ground 2,Ground,N/A,510,,
+AJ13,DXOUT,AO,output,C,System / clocks / boot,DCXO,VCC-DCXO,97,,
+AJ15,SDQS3N,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,74,,
+AJ16,SDQM3,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,66,,
+AJ17,SDQ22,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,53,,
+AJ18,GND,G,power_in,M,Digital ground 2,Ground,N/A,511,,
+AJ19,SDQS2N,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,72,,
+AJ20,GND,G,power_in,M,Digital ground 2,Ground,N/A,512,,
+AJ21,SDQ17,I/O,bidirectional,A,DRAM data,SDRAM,VCC-DRAM/VCC-DRAML,48,,
+AJ22,SBG0,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,24,,
+AJ23,SA6,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,9,,
+AJ24,GND,G,power_in,M,Digital ground 2,Ground,N/A,513,,
+AJ25,SA15,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,18,,
+AJ26,SCKN,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,28,,
+AJ27,GND,G,power_in,M,Digital ground 2,Ground,N/A,514,,
+AJ28,SCS0,O,output,B,DRAM address / control / power,SDRAM,VCC-DRAM/VCC-DRAML,29,,
+AJ29,GND,G,power_in,M,Digital ground 2,Ground,N/A,515,,

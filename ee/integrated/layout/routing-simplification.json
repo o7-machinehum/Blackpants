@@ -1,0 +1,1090 @@
+[
+  {
+    "net": "/A523 system/A523_I2C1_SCL",
+    "layer": "B.Cu",
+    "before_segments": 30,
+    "after_segments": 2,
+    "before_mm": 15.269848480983503,
+    "after_mm": 15.269848480983498
+  },
+  {
+    "net": "/A523 system/A523_I2C1_SCL",
+    "layer": "In2.Cu",
+    "before_segments": 23,
+    "after_segments": 2,
+    "before_mm": 13.513645409183026,
+    "after_mm": 13.431064232696588
+  },
+  {
+    "net": "/A523 system/A523_I2C1_SDA",
+    "layer": "F.Cu",
+    "before_segments": 4,
+    "after_segments": 2,
+    "before_mm": 2.13137084989847,
+    "after_mm": 1.9656854249492375
+  },
+  {
+    "net": "/A523 system/A523_I2C1_SDA",
+    "layer": "F.Cu",
+    "before_segments": 10,
+    "after_segments": 2,
+    "before_mm": 8.136178077558464,
+    "after_mm": 7.9076626235351375
+  },
+  {
+    "net": "/A523 system/A523_I2C1_SDA",
+    "layer": "B.Cu",
+    "before_segments": 9,
+    "after_segments": 3,
+    "before_mm": 11.0651803615609,
+    "after_mm": 11.065180361560904
+  },
+  {
+    "net": "/A523 system/A523_I2C1_SDA",
+    "layer": "In3.Cu",
+    "before_segments": 4,
+    "after_segments": 2,
+    "before_mm": 9.733809511662429,
+    "after_mm": 9.675230867899737
+  },
+  {
+    "net": "/A523 system/AP_NMI",
+    "layer": "B.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 0.884617229075027,
+    "after_mm": 0.8846172290750229
+  },
+  {
+    "net": "/A523 system/AP_NMI",
+    "layer": "In3.Cu",
+    "before_segments": 7,
+    "after_segments": 2,
+    "before_mm": 6.096744881223917,
+    "after_mm": 5.880412211663712
+  },
+  {
+    "net": "/A523 system/AP_RESET_N",
+    "layer": "B.Cu",
+    "before_segments": 5,
+    "after_segments": 2,
+    "before_mm": 5.640203939722036,
+    "after_mm": 4.379131911807031
+  },
+  {
+    "net": "/A523 system/AP_RESET_N",
+    "layer": "In3.Cu",
+    "before_segments": 4,
+    "after_segments": 2,
+    "before_mm": 3.656365133207635,
+    "after_mm": 3.656306554563872
+  },
+  {
+    "net": "/A523 system/BT_CTS_N",
+    "layer": "F.Cu",
+    "before_segments": 16,
+    "after_segments": 2,
+    "before_mm": 11.201863542635214,
+    "after_mm": 11.196749524614631
+  },
+  {
+    "net": "/A523 system/BT_HOST_WAKE",
+    "layer": "F.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 1.3431815367264193,
+    "after_mm": 1.3431815367264193
+  },
+  {
+    "net": "/A523 system/BT_HOST_WAKE",
+    "layer": "B.Cu",
+    "before_segments": 4,
+    "after_segments": 2,
+    "before_mm": 3.248672836413581,
+    "after_mm": 3.2367772870152107
+  },
+  {
+    "net": "/A523 system/BT_RESET_N",
+    "layer": "In3.Cu",
+    "before_segments": 4,
+    "after_segments": 1,
+    "before_mm": 0.4000000000000057,
+    "after_mm": 0.282842712474623
+  },
+  {
+    "net": "/A523 system/BT_RESET_N",
+    "layer": "In3.Cu",
+    "before_segments": 4,
+    "after_segments": 1,
+    "before_mm": 0.4000000000000057,
+    "after_mm": 0.282842712474623
+  },
+  {
+    "net": "/A523 system/BT_RESET_N",
+    "layer": "In3.Cu",
+    "before_segments": 4,
+    "after_segments": 1,
+    "before_mm": 0.3999999999999915,
+    "after_mm": 0.28284271247461296
+  },
+  {
+    "net": "/A523 system/BT_RESET_N",
+    "layer": "In3.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 18.953256419547383,
+    "after_mm": 18.741770838638303
+  },
+  {
+    "net": "/A523 system/BT_TXD",
+    "layer": "F.Cu",
+    "before_segments": 7,
+    "after_segments": 2,
+    "before_mm": 1.8759988163802002,
+    "after_mm": 1.61936520613579
+  },
+  {
+    "net": "/A523 system/BT_WAKE",
+    "layer": "B.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 1.362893202794901,
+    "after_mm": 1.3506899705197362
+  },
+  {
+    "net": "/A523 system/FEL_N",
+    "layer": "B.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 1.2258583186782224,
+    "after_mm": 1.2222264427649419
+  },
+  {
+    "net": "/A523 system/FEL_N",
+    "layer": "In3.Cu",
+    "before_segments": 5,
+    "after_segments": 2,
+    "before_mm": 6.882740782483745,
+    "after_mm": 6.882740782483745
+  },
+  {
+    "net": "/A523 system/LCD_RST",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 2,
+    "before_mm": 1.4071067811865432,
+    "after_mm": 1.4071067811865432
+  },
+  {
+    "net": "/A523 system/LCD_RST",
+    "layer": "F.Cu",
+    "before_segments": 6,
+    "after_segments": 2,
+    "before_mm": 1.2171718490336554,
+    "after_mm": 1.212811519460591
+  },
+  {
+    "net": "/A523 system/LCD_RST",
+    "layer": "B.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 0.9414213562373086,
+    "after_mm": 0.9414213562373086
+  },
+  {
+    "net": "/A523 system/PMU_SCL",
+    "layer": "In2.Cu",
+    "before_segments": 4,
+    "after_segments": 2,
+    "before_mm": 7.8945117547359045,
+    "after_mm": 7.212117712474613
+  },
+  {
+    "net": "/A523 system/PMU_SCL",
+    "layer": "In2.Cu",
+    "before_segments": 11,
+    "after_segments": 2,
+    "before_mm": 4.739817881375817,
+    "after_mm": 4.248225642426409
+  },
+  {
+    "net": "/A523 system/PMU_SDA",
+    "layer": "B.Cu",
+    "before_segments": 8,
+    "after_segments": 2,
+    "before_mm": 1.7363954717749788,
+    "after_mm": 1.7071073094489515
+  },
+  {
+    "net": "/A523 system/SD0_D0",
+    "layer": "B.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 2.3632831935711542,
+    "after_mm": 1.8632837459534644
+  },
+  {
+    "net": "/A523 system/SoC support/Analog {slash} straps/CPVDD",
+    "layer": "In2.Cu",
+    "before_segments": 6,
+    "after_segments": 3,
+    "before_mm": 4.547582329546219,
+    "after_mm": 4.535447587247256
+  },
+  {
+    "net": "/A523 system/SoC support/Analog {slash} straps/VRP",
+    "layer": "In3.Cu",
+    "before_segments": 10,
+    "after_segments": 2,
+    "before_mm": 5.214514267949316,
+    "after_mm": 5.1837463710345215
+  },
+  {
+    "net": "/A523 system/UART0_RX",
+    "layer": "In3.Cu",
+    "before_segments": 7,
+    "after_segments": 2,
+    "before_mm": 5.19095449041381,
+    "after_mm": 4.935534138875298
+  },
+  {
+    "net": "/A523 system/UART0_TX",
+    "layer": "B.Cu",
+    "before_segments": 5,
+    "after_segments": 2,
+    "before_mm": 3.521320343559637,
+    "after_mm": 3.521320343559641
+  },
+  {
+    "net": "/A523 system/UART0_TX",
+    "layer": "In3.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 5.5787162251066365,
+    "after_mm": 5.578716225106638
+  },
+  {
+    "net": "/A523 system/UART0_TX",
+    "layer": "In3.Cu",
+    "before_segments": 6,
+    "after_segments": 2,
+    "before_mm": 5.539199923645498,
+    "after_mm": 5.316972821407182
+  },
+  {
+    "net": "/A523 system/WL_REG_ON",
+    "layer": "F.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 1.481333881299156,
+    "after_mm": 0.8710417233739182
+  },
+  {
+    "net": "/BAT_TS",
+    "layer": "B.Cu",
+    "before_segments": 4,
+    "after_segments": 2,
+    "before_mm": 2.125382810792711,
+    "after_mm": 2.080685424949232
+  },
+  {
+    "net": "/BOOT0",
+    "layer": "B.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 1.6745584412271604,
+    "after_mm": 1.3230865786510146
+  },
+  {
+    "net": "/BOOT0",
+    "layer": "B.Cu",
+    "before_segments": 5,
+    "after_segments": 2,
+    "before_mm": 7.722792206135791,
+    "after_mm": 7.722792206135791
+  },
+  {
+    "net": "/Keyboard/COL_0",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_0",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373114,
+    "after_mm": 6.651287128425868
+  },
+  {
+    "net": "/Keyboard/COL_0",
+    "layer": "F.Cu",
+    "before_segments": 4,
+    "after_segments": 2,
+    "before_mm": 7.708935562373095,
+    "after_mm": 5.947413193458118
+  },
+  {
+    "net": "/Keyboard/COL_0",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_0",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_0",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_0",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_0",
+    "layer": "B.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 65.03137084989847,
+    "after_mm": 64.78284271247463
+  },
+  {
+    "net": "/Keyboard/COL_1",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_1",
+    "layer": "F.Cu",
+    "before_segments": 4,
+    "after_segments": 2,
+    "before_mm": 7.708935562373088,
+    "after_mm": 5.947413193458113
+  },
+  {
+    "net": "/Keyboard/COL_1",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373114,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_1",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_1",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_1",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373114,
+    "after_mm": 6.651287128425868
+  },
+  {
+    "net": "/Keyboard/COL_1",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_1",
+    "layer": "B.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 67.59411254969542,
+    "after_mm": 67.09705627484772
+  },
+  {
+    "net": "/Keyboard/COL_2",
+    "layer": "F.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 7.001828781186541,
+    "after_mm": 5.654519974644661
+  },
+  {
+    "net": "/Keyboard/COL_2",
+    "layer": "F.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 4.795024755568244,
+    "after_mm": 3.7406091678398172
+  },
+  {
+    "net": "/Keyboard/COL_2",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_2",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_2",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_2",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_2",
+    "layer": "B.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 68.35685424949239,
+    "after_mm": 68.35685424949239
+  },
+  {
+    "net": "/Keyboard/COL_3",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.0096335623731,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_3",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373114,
+    "after_mm": 6.651287128425868
+  },
+  {
+    "net": "/Keyboard/COL_3",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373129,
+    "after_mm": 6.651287128425868
+  },
+  {
+    "net": "/Keyboard/COL_3",
+    "layer": "F.Cu",
+    "before_segments": 4,
+    "after_segments": 2,
+    "before_mm": 7.708935562373088,
+    "after_mm": 5.947413193458113
+  },
+  {
+    "net": "/Keyboard/COL_3",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.0096335623731,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_3",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.0096335623731,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_3",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.008237562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_4",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.008237562373086,
+    "after_mm": 6.651865370558912
+  },
+  {
+    "net": "/Keyboard/COL_4",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.0096335623731,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_4",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.0096335623731,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_4",
+    "layer": "F.Cu",
+    "before_segments": 4,
+    "after_segments": 2,
+    "before_mm": 7.709633562373088,
+    "after_mm": 5.947702314524646
+  },
+  {
+    "net": "/Keyboard/COL_4",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373143,
+    "after_mm": 6.651287128425868
+  },
+  {
+    "net": "/Keyboard/COL_4",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.0096335623731,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_4",
+    "layer": "F.Cu",
+    "before_segments": 4,
+    "after_segments": 2,
+    "before_mm": 10.088333719048268,
+    "after_mm": 9.82628563064399
+  },
+  {
+    "net": "/Keyboard/COL_4",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373129,
+    "after_mm": 6.651287128425868
+  },
+  {
+    "net": "/Keyboard/COL_5",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_5",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373114,
+    "after_mm": 6.651287128425868
+  },
+  {
+    "net": "/Keyboard/COL_5",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.008237562373115,
+    "after_mm": 6.651865370558941
+  },
+  {
+    "net": "/Keyboard/COL_5",
+    "layer": "F.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 7.002526781186555,
+    "after_mm": 5.654809095711203
+  },
+  {
+    "net": "/Keyboard/COL_5",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.00463356237309,
+    "after_mm": 6.649794302747049
+  },
+  {
+    "net": "/Keyboard/COL_5",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.651865370558912
+  },
+  {
+    "net": "/Keyboard/COL_6",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373114,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_6",
+    "layer": "F.Cu",
+    "before_segments": 4,
+    "after_segments": 2,
+    "before_mm": 4.407249062286386,
+    "after_mm": 4.407249062286386
+  },
+  {
+    "net": "/Keyboard/COL_6",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.008237562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_6",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373143,
+    "after_mm": 6.651287128425868
+  },
+  {
+    "net": "/Keyboard/COL_6",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_6",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 13.154276598153809,
+    "after_mm": 11.389001593872685
+  },
+  {
+    "net": "/Keyboard/COL_6",
+    "layer": "F.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 7.002526781186541,
+    "after_mm": 5.654809095711193
+  },
+  {
+    "net": "/Keyboard/COL_6",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373114,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_6",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.008237562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_6",
+    "layer": "B.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 15.273620633260508,
+    "after_mm": 15.252081528017134
+  },
+  {
+    "net": "/Keyboard/COL_6",
+    "layer": "B.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 2.4930624934709686,
+    "after_mm": 2.4930624934709686
+  },
+  {
+    "net": "/Keyboard/COL_7",
+    "layer": "F.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 7.001828781186569,
+    "after_mm": 5.6545199746446855
+  },
+  {
+    "net": "/Keyboard/COL_7",
+    "layer": "F.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 6.997526781186531,
+    "after_mm": 5.6527380278993276
+  },
+  {
+    "net": "/Keyboard/COL_7",
+    "layer": "F.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 7.002526781186541,
+    "after_mm": 5.654809095711193
+  },
+  {
+    "net": "/Keyboard/COL_7",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.008237562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_8",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.008237562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_8",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.400668447371675,
+    "after_mm": 9.278521888579073
+  },
+  {
+    "net": "/Keyboard/COL_8",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_8",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373114,
+    "after_mm": 6.651287128425868
+  },
+  {
+    "net": "/Keyboard/COL_8",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_8",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_8",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_8",
+    "layer": "F.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 11.432213544954527,
+    "after_mm": 11.432213544954525
+  },
+  {
+    "net": "/Keyboard/COL_9",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_9",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_9",
+    "layer": "F.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 7.002526781186541,
+    "after_mm": 5.654809095711197
+  },
+  {
+    "net": "/Keyboard/COL_9",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.008237562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_9",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_9",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373114,
+    "after_mm": 6.651287128425868
+  },
+  {
+    "net": "/Keyboard/COL_9",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 10.009633562373086,
+    "after_mm": 6.65128712842584
+  },
+  {
+    "net": "/Keyboard/COL_9",
+    "layer": "F.Cu",
+    "before_segments": 4,
+    "after_segments": 2,
+    "before_mm": 8.2423398108016,
+    "after_mm": 8.2423398108016
+  },
+  {
+    "net": "/Keyboard/COL_9",
+    "layer": "F.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 7.001130781186541,
+    "after_mm": 5.654230853578124
+  },
+  {
+    "net": "/Keyboard/ROW_0",
+    "layer": "B.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 23.75269119345812,
+    "after_mm": 22.352691193458124
+  },
+  {
+    "net": "/Keyboard/ROW_3",
+    "layer": "B.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 2.283210263905095,
+    "after_mm": 2.283210263905095
+  },
+  {
+    "net": "/Keyboard/ROW_5",
+    "layer": "B.Cu",
+    "before_segments": 4,
+    "after_segments": 1,
+    "before_mm": 59.400000000000006,
+    "after_mm": 59.400000000000006
+  },
+  {
+    "net": "/Keyboard/ROW_7",
+    "layer": "B.Cu",
+    "before_segments": 4,
+    "after_segments": 2,
+    "before_mm": 15.774182248443017,
+    "after_mm": 15.662999982581422
+  },
+  {
+    "net": "/Keyboard/ROW_7",
+    "layer": "B.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 36.207474746830584,
+    "after_mm": 35.67294462249604
+  },
+  {
+    "net": "/PWRON",
+    "layer": "B.Cu",
+    "before_segments": 7,
+    "after_segments": 2,
+    "before_mm": 2.709405673264254,
+    "after_mm": 2.6961473891972227
+  },
+  {
+    "net": "/PWRON",
+    "layer": "B.Cu",
+    "before_segments": 4,
+    "after_segments": 2,
+    "before_mm": 2.050902092318483,
+    "after_mm": 1.7747301638357982
+  },
+  {
+    "net": "/SWCLK",
+    "layer": "B.Cu",
+    "before_segments": 4,
+    "after_segments": 2,
+    "before_mm": 5.535218613006977,
+    "after_mm": 5.203847763108492
+  },
+  {
+    "net": "/nRST",
+    "layer": "B.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 1.5749264068711932,
+    "after_mm": 1.5749264068711932
+  },
+  {
+    "net": "/nRST",
+    "layer": "B.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 2.0483850494921585,
+    "after_mm": 2.0483850494921585
+  },
+  {
+    "net": "ALDO1_UNUSED",
+    "layer": "B.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 3.4237363743298546,
+    "after_mm": 3.2776412367857057
+  },
+  {
+    "net": "CLDO2_UNUSED",
+    "layer": "In3.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 6.0315722820409645,
+    "after_mm": 6.031572282040965
+  },
+  {
+    "net": "Net-(D13-A)",
+    "layer": "B.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 3.9215950421796886,
+    "after_mm": 3.2938077169749325
+  },
+  {
+    "net": "Net-(JP4-A)",
+    "layer": "F.Cu",
+    "before_segments": 5,
+    "after_segments": 2,
+    "before_mm": 7.751727858577684,
+    "after_mm": 6.358031739553299
+  },
+  {
+    "net": "Net-(U1-PA1)",
+    "layer": "B.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 6.1488961030679,
+    "after_mm": 6.1488961030679
+  },
+  {
+    "net": "Net-(U3-OCS_N1)",
+    "layer": "B.Cu",
+    "before_segments": 4,
+    "after_segments": 2,
+    "before_mm": 6.44875326113669,
+    "after_mm": 5.928604614807101
+  },
+  {
+    "net": "Net-(U3-PLLFILT)",
+    "layer": "B.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 1.47813708498985,
+    "after_mm": 1.4781370849898543
+  },
+  {
+    "net": "Net-(U3-PRTPWR3{slash}BC_EN3)",
+    "layer": "B.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 3.6868986283848377,
+    "after_mm": 3.6868986283848377
+  },
+  {
+    "net": "Net-(U3-RBIAS)",
+    "layer": "B.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 1.6552438661763964,
+    "after_mm": 1.6552438661764006
+  },
+  {
+    "net": "Net-(U3-VBUS_DET)",
+    "layer": "B.Cu",
+    "before_segments": 4,
+    "after_segments": 3,
+    "before_mm": 6.821029576173025,
+    "after_mm": 6.763688847609927
+  },
+  {
+    "net": "Net-(U3-XTALIN{slash}CLKIN)",
+    "layer": "B.Cu",
+    "before_segments": 3,
+    "after_segments": 2,
+    "before_mm": 1.6271067811865492,
+    "after_mm": 1.6271067811865492
+  },
+  {
+    "net": "Net-(U3-XTALOUT)",
+    "layer": "B.Cu",
+    "before_segments": 5,
+    "after_segments": 3,
+    "before_mm": 5.298233764908638,
+    "after_mm": 4.299898987322329
+  }
+]

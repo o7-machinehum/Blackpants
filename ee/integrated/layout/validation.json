@@ -1,0 +1,21 @@
+{
+  "physical_components": 319,
+  "schematic_pins_checked": 1818,
+  "copper_layers": 6,
+  "through_vias": 1007,
+  "via_pad_diameter_mm": 0.4,
+  "via_drill_diameter_mm": 0.2,
+  "exposed_ground_pad_thermal_vias": {
+    "U1": 2,
+    "U501": 9,
+    "U502": 4,
+    "U901": 6
+  },
+  "ddr_routing_matches_frozen_baseline": true,
+  "ddr_soc_to_ram_connections": 65,
+  "ddr_soc_to_ram_total": 65,
+  "ddr_soc_to_ram_unconnected": [],
+  "unconnected_count": 214,
+  "routing_complete": false,
+  "status": "Pin/net and via geometry checks pass; timing and power integrity are not approved."
+}

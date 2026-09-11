@@ -1,0 +1,1314 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "b14d3db8-1fc3-5285-bf99-6489ddd760f1")
+	(paper "A3")
+	(title_block
+		(title "A523 - product peripherals")
+		(rev "A523 capture")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 325.12 33.02) (xy 335.28 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0053dfd3-8658-5628-a4c6-2c21a3849fd1")
+	)
+	(wire
+		(pts
+			(xy 325.12 105.41) (xy 335.28 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a74e9f3-6f80-5cf4-bc0d-603e69cb82f5")
+	)
+	(wire
+		(pts
+			(xy 325.12 109.22) (xy 335.28 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a8d90aa-8d87-51dc-8c41-bc00e765ad04")
+	)
+	(wire
+		(pts
+			(xy 325.12 158.75) (xy 335.28 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "166c5d7a-e882-57b3-9f36-31754380a895")
+	)
+	(wire
+		(pts
+			(xy 325.12 135.89) (xy 335.28 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c2e0251-689e-585f-85c7-b2f389ee95bd")
+	)
+	(wire
+		(pts
+			(xy 325.12 113.03) (xy 335.28 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b662ec-9d5f-534d-99b2-0b7e1f351d22")
+	)
+	(wire
+		(pts
+			(xy 325.12 55.88) (xy 335.28 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2517ef33-3ed0-5e12-a6cb-a56a85cc42e0")
+	)
+	(wire
+		(pts
+			(xy 325.12 170.18) (xy 335.28 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d4caa38-c219-5efa-9485-0e7cf064f6f6")
+	)
+	(wire
+		(pts
+			(xy 325.12 63.5) (xy 335.28 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "360c4c7e-78ae-5d88-97dd-b77459937948")
+	)
+	(wire
+		(pts
+			(xy 325.12 132.08) (xy 335.28 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3abb917c-564e-5d62-8512-82de655edb8e")
+	)
+	(wire
+		(pts
+			(xy 325.12 97.79) (xy 335.28 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d765313-3ed6-5815-b327-ddba83811f8c")
+	)
+	(wire
+		(pts
+			(xy 325.12 181.61) (xy 335.28 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f86cb12-2c1f-5378-8323-cb282e603588")
+	)
+	(wire
+		(pts
+			(xy 325.12 29.21) (xy 335.28 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4024e293-d2a0-5eb5-bdb2-4f3f1985d662")
+	)
+	(wire
+		(pts
+			(xy 325.12 143.51) (xy 335.28 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41b4c288-5192-5242-99a0-27b2447e8d08")
+	)
+	(wire
+		(pts
+			(xy 325.12 40.64) (xy 335.28 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b4fa39-530f-5590-9b06-98a362be036f")
+	)
+	(wire
+		(pts
+			(xy 325.12 120.65) (xy 335.28 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4814c130-9f57-5561-92ba-afeb5e493a41")
+	)
+	(wire
+		(pts
+			(xy 325.12 93.98) (xy 335.28 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63415808-27bb-586d-a516-570a8aaf99ba")
+	)
+	(wire
+		(pts
+			(xy 325.12 124.46) (xy 335.28 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a55bd6-55c9-56c2-ae91-f6c01707082b")
+	)
+	(wire
+		(pts
+			(xy 325.12 90.17) (xy 335.28 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70059262-f608-5fc5-8cdf-bac856af903f")
+	)
+	(wire
+		(pts
+			(xy 325.12 36.83) (xy 335.28 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a0856df-5bb8-5177-9af4-dfe1984544eb")
+	)
+	(wire
+		(pts
+			(xy 325.12 52.07) (xy 335.28 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b526a13-5566-5904-96f8-ccdd90d0934a")
+	)
+	(wire
+		(pts
+			(xy 325.12 151.13) (xy 335.28 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8851cdb8-80ed-58f8-8140-e8c71dc3ccfd")
+	)
+	(wire
+		(pts
+			(xy 325.12 74.93) (xy 335.28 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903de00f-510e-5dd5-be4c-e3a9a9ed196a")
+	)
+	(wire
+		(pts
+			(xy 325.12 78.74) (xy 335.28 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96af50d4-e69f-54d9-9447-c257aae4137d")
+	)
+	(wire
+		(pts
+			(xy 325.12 128.27) (xy 335.28 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d776a9-ad2e-577a-ab74-3457e2537199")
+	)
+	(wire
+		(pts
+			(xy 325.12 25.4) (xy 335.28 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d48e77-d7ca-54bb-926b-19b9d665d524")
+	)
+	(wire
+		(pts
+			(xy 325.12 86.36) (xy 335.28 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9877eff-c3cd-578b-ac0e-6affe19d73a7")
+	)
+	(wire
+		(pts
+			(xy 325.12 82.55) (xy 335.28 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa3d2d7-eb96-5321-bfc8-9bc9546dfb68")
+	)
+	(wire
+		(pts
+			(xy 325.12 44.45) (xy 335.28 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "affc4541-e656-5f7b-b58c-7f438dc1b11b")
+	)
+	(wire
+		(pts
+			(xy 325.12 101.6) (xy 335.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c1529b-a1da-5ebb-a45c-67685ff08f50")
+	)
+	(wire
+		(pts
+			(xy 325.12 162.56) (xy 335.28 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8bd6331-ca5e-5ec1-8404-f87fdd035d1e")
+	)
+	(wire
+		(pts
+			(xy 325.12 71.12) (xy 335.28 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92d0274-75c0-56ad-8c28-6ab768fa7713")
+	)
+	(wire
+		(pts
+			(xy 325.12 166.37) (xy 335.28 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca9f5eb-a4e1-5185-9afb-b565836fba44")
+	)
+	(wire
+		(pts
+			(xy 325.12 59.69) (xy 335.28 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce817a1f-9719-59b0-a9b2-89626c95a295")
+	)
+	(wire
+		(pts
+			(xy 325.12 48.26) (xy 335.28 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cedff5a9-702b-5b49-84c3-3cf25abf9a59")
+	)
+	(wire
+		(pts
+			(xy 325.12 147.32) (xy 335.28 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f6e267-5dcb-51cc-92cd-1d3e2f192a20")
+	)
+	(wire
+		(pts
+			(xy 325.12 116.84) (xy 335.28 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de6d5610-46eb-5939-97de-a0a4792c6fc5")
+	)
+	(wire
+		(pts
+			(xy 325.12 139.7) (xy 335.28 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de8ce08d-e1a4-59fc-b7da-ef88fd1c31b5")
+	)
+	(wire
+		(pts
+			(xy 325.12 67.31) (xy 335.28 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee11bf02-eb0d-544a-a554-45fc6dfa08ac")
+	)
+	(wire
+		(pts
+			(xy 325.12 177.8) (xy 335.28 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee2215be-b5aa-5455-be9c-21883ed2210a")
+	)
+	(wire
+		(pts
+			(xy 325.12 154.94) (xy 335.28 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f122bdc5-cce3-51e2-adb3-d4dbcd0d05c7")
+	)
+	(wire
+		(pts
+			(xy 325.12 173.99) (xy 335.28 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4dc5e62-6c77-58e2-978c-0259ad7adf59")
+	)
+	(label "SD0_D1"
+		(at 335.28 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "006a5c3f-45a9-5e53-bd87-51b812fea45d")
+	)
+	(label "A523_I2C1_SCL"
+		(at 335.28 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05882543-69db-501d-9dcc-69acd0cd0e36")
+	)
+	(label "SD1_D1"
+		(at 335.28 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "083aa1fe-4ba9-58d6-a243-bc7a1492c075")
+	)
+	(label "SD0_D2"
+		(at 335.28 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a65939a-ff1e-5daa-8192-02455c37661f")
+	)
+	(label "LCD_PWM"
+		(at 335.28 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1cc6a3df-e0c1-511a-ae74-6ce1cbc4568a")
+	)
+	(label "UART0_TX"
+		(at 335.28 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1dfe7cb3-a084-56a1-847e-6a787aad6727")
+	)
+	(label "LCD_TE"
+		(at 335.28 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f8519c0-9742-57d7-983e-ec9667ecb16c")
+	)
+	(label "FEL_N"
+		(at 335.28 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20335174-380c-5840-a30d-3394bc5f216a")
+	)
+	(label "SD0_D3"
+		(at 335.28 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a956b05-dde4-5d63-bdbb-7dc1889f223d")
+	)
+	(label "DSI_CKP"
+		(at 335.28 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d76e75a-15dd-529e-b9af-e3a1734f7ca3")
+	)
+	(label "SD0_CLK"
+		(at 335.28 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31ddb8a3-800a-5033-a8df-067fcf386e94")
+	)
+	(label "SD1_D3"
+		(at 335.28 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e525a8c-0b4f-592f-80fe-d87299094ec4")
+	)
+	(label "BT_WAKE"
+		(at 335.28 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43b57e96-83c6-52ec-8ea3-6c37e75d9e12")
+	)
+	(label "SD1_D2"
+		(at 335.28 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a1ec2c0-b658-5eb7-b37b-9bd18500eefe")
+	)
+	(label "HUB_CONSOLE_DP"
+		(at 335.28 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e754885-dec8-5a9b-bad8-ca45a152ff62")
+	)
+	(label "USB0_DP"
+		(at 335.28 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f62ad2f-5932-5629-8473-6d0304ce3849")
+	)
+	(label "HUB_CONSOLE_DM"
+		(at 335.28 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56b32cd2-6ce5-5e72-91f5-6f89a8f3df69")
+	)
+	(label "BT_RESET_N"
+		(at 335.28 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a51fbfd-7a06-5a4d-8a0f-289bbc2d12a4")
+	)
+	(label "SD0_CMD"
+		(at 335.28 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61ec0716-b2f5-51d0-8a56-71f4bbc94c75")
+	)
+	(label "DSI_CKN"
+		(at 335.28 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68e73fba-831b-50ab-a4a2-965e468e5378")
+	)
+	(label "BT_RXD"
+		(at 335.28 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f0e5b25-a744-58d6-b59a-9fea735b5957")
+	)
+	(label "BT_CTS_N"
+		(at 335.28 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "817d0a07-94c1-52b5-9ead-08d69b37f042")
+	)
+	(label "BT_RTS_N"
+		(at 335.28 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "834bc532-29cf-5a64-91bf-52215f8f7916")
+	)
+	(label "WL_HOST_WAKE"
+		(at 335.28 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "895034bf-2f59-511c-8591-14abe417190f")
+	)
+	(label "DSI_D1N"
+		(at 335.28 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93d2e1bb-13a3-5dbf-b4b3-57fea068230f")
+	)
+	(label "BT_TXD"
+		(at 335.28 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f66be71-8fd3-56ee-9b77-fe8c652ed2fc")
+	)
+	(label "USB0_VBUS_DET"
+		(at 335.28 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6c707a5-4848-5e4a-b00c-7db2238f4ea7")
+	)
+	(label "UART0_RX"
+		(at 335.28 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad71d485-d1fe-59e5-929c-5803a2ee89ae")
+	)
+	(label "SD0_DET"
+		(at 335.28 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1d61d85-ce87-5e4a-b6b8-b44961a3fa87")
+	)
+	(label "SD1_CMD"
+		(at 335.28 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b300d1d2-d049-54ec-9b37-f754a4bba217")
+	)
+	(label "DSI_D1P"
+		(at 335.28 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3cf9326-fa10-59fb-8431-5aafb51ae73f")
+	)
+	(label "USB0_DM"
+		(at 335.28 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c26b522a-b1f2-52bf-bc05-2ab8af91c5db")
+	)
+	(label "SD1_CLK"
+		(at 335.28 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c34dcf32-cb51-5e8d-80a7-c4d850dd737d")
+	)
+	(label "A523_I2C1_SDA"
+		(at 335.28 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3ce4ecb-2d0d-511a-bba0-4c8963660ccc")
+	)
+	(label "SD1_D0"
+		(at 335.28 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbc6ce72-d5c1-5383-8fa5-770376d216df")
+	)
+	(label "DSI_D0N"
+		(at 335.28 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd06625e-a959-5371-972b-870c71ecd8c1")
+	)
+	(label "BT_HOST_WAKE"
+		(at 335.28 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6836593-0a2c-549b-ad50-95df1e8df65b")
+	)
+	(label "DSI_D0P"
+		(at 335.28 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1aa14d1-f2db-5284-ae3a-259570f51053")
+	)
+	(label "SD0_D0"
+		(at 335.28 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef103d16-9ad1-58a8-95ca-42e44207eeb4")
+	)
+	(label "LCD_RST"
+		(at 335.28 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0f508f0-519b-5f35-949e-218c38a502bd")
+	)
+	(label "WL_REG_ON"
+		(at 335.28 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fdcb664e-31c2-5fe9-abe0-8de1379346c8")
+	)
+	(label "CLK32K"
+		(at 335.28 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff7a9829-de94-5140-9e16-f4e3314f5d71")
+	)
+	(hierarchical_label "SD0_D0"
+		(shape bidirectional)
+		(at 325.12 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00b3f18d-b72f-56d6-aff2-3c65bf99575f")
+	)
+	(hierarchical_label "SD1_D1"
+		(shape bidirectional)
+		(at 325.12 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02ec696f-dc9d-5ed7-add5-ff9d8704ae2f")
+	)
+	(hierarchical_label "SD0_D2"
+		(shape bidirectional)
+		(at 325.12 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08b60579-d55d-54c8-b7b3-93b92c53fc0c")
+	)
+	(hierarchical_label "USB0_DM"
+		(shape bidirectional)
+		(at 325.12 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08d8d725-322e-538e-855a-2450fefcc60e")
+	)
+	(hierarchical_label "DSI_CKP"
+		(shape bidirectional)
+		(at 325.12 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17c2cc54-2469-5bce-9f17-2b86c1bd82a9")
+	)
+	(hierarchical_label "SD0_D3"
+		(shape bidirectional)
+		(at 325.12 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f014659-c072-5028-8a86-2a5d7a690f02")
+	)
+	(hierarchical_label "USB0_VBUS_DET"
+		(shape bidirectional)
+		(at 325.12 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "228053df-cafe-5007-a0a0-2511ebbc94e2")
+	)
+	(hierarchical_label "SD1_D0"
+		(shape bidirectional)
+		(at 325.12 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22b171ab-6c3b-580c-912d-95633d2f7ffd")
+	)
+	(hierarchical_label "LCD_RST"
+		(shape bidirectional)
+		(at 325.12 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "269f3506-a566-59e6-8219-e30a4856b347")
+	)
+	(hierarchical_label "BT_TXD"
+		(shape bidirectional)
+		(at 325.12 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29bce5ca-7810-5f24-9e79-7216f702ed7c")
+	)
+	(hierarchical_label "SD1_D3"
+		(shape bidirectional)
+		(at 325.12 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2cd87acf-09b8-57a5-a642-5603f893c47e")
+	)
+	(hierarchical_label "A523_I2C1_SDA"
+		(shape bidirectional)
+		(at 325.12 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37fb9aa8-1d06-5f73-83dd-6d0662cc373e")
+	)
+	(hierarchical_label "DSI_D0N"
+		(shape bidirectional)
+		(at 325.12 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4064c755-a45d-585e-921c-32b9c16f57ec")
+	)
+	(hierarchical_label "BT_RTS_N"
+		(shape bidirectional)
+		(at 325.12 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45b586a1-831d-5bcc-aa46-99f01db5704b")
+	)
+	(hierarchical_label "DSI_CKN"
+		(shape bidirectional)
+		(at 325.12 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b3c9daf-a893-5fc4-9dcb-188a10dbf23e")
+	)
+	(hierarchical_label "SD1_CLK"
+		(shape bidirectional)
+		(at 325.12 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50077b4d-acc7-5557-8fbf-a7208711d65d")
+	)
+	(hierarchical_label "A523_I2C1_SCL"
+		(shape bidirectional)
+		(at 325.12 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "516421f9-2711-51d0-b495-63783f7a2786")
+	)
+	(hierarchical_label "HUB_CONSOLE_DP"
+		(shape bidirectional)
+		(at 325.12 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58b5b556-1f1c-5b75-a480-3c79e71c534a")
+	)
+	(hierarchical_label "FEL_N"
+		(shape bidirectional)
+		(at 325.12 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e77f07b-e057-5057-b00f-1b3523ce62f8")
+	)
+	(hierarchical_label "BT_HOST_WAKE"
+		(shape bidirectional)
+		(at 325.12 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ca22e33-62a8-5c68-a94d-c6a72de12097")
+	)
+	(hierarchical_label "UART0_TX"
+		(shape bidirectional)
+		(at 325.12 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78bb1855-4b94-5c9f-bf6c-fd100fd4a8c2")
+	)
+	(hierarchical_label "BT_RESET_N"
+		(shape bidirectional)
+		(at 325.12 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a2bc7d2-c5d5-51a9-a7af-448f34f94cad")
+	)
+	(hierarchical_label "SD0_CLK"
+		(shape bidirectional)
+		(at 325.12 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8dc8cf50-f7ce-5088-a741-002141e2c95d")
+	)
+	(hierarchical_label "HUB_CONSOLE_DM"
+		(shape bidirectional)
+		(at 325.12 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91961400-f4ff-56c9-9c2b-9007d5fc02ec")
+	)
+	(hierarchical_label "CLK32K"
+		(shape bidirectional)
+		(at 325.12 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9746446f-679d-50d6-9b74-cd2cc8bd5582")
+	)
+	(hierarchical_label "BT_CTS_N"
+		(shape bidirectional)
+		(at 325.12 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a522b768-1b3a-55a2-ae85-7d820899c095")
+	)
+	(hierarchical_label "LCD_TE"
+		(shape bidirectional)
+		(at 325.12 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a657fcec-583a-5be8-8e89-5fb99caf9227")
+	)
+	(hierarchical_label "DSI_D1N"
+		(shape bidirectional)
+		(at 325.12 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa3fc6af-19ce-5675-b583-300a0b7736db")
+	)
+	(hierarchical_label "DSI_D0P"
+		(shape bidirectional)
+		(at 325.12 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "adc62e95-c43b-5e71-9a3b-8c8ec44de2cd")
+	)
+	(hierarchical_label "USB0_DP"
+		(shape bidirectional)
+		(at 325.12 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b11366b6-f540-5bde-be4a-b2645990158e")
+	)
+	(hierarchical_label "BT_RXD"
+		(shape bidirectional)
+		(at 325.12 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bed452e8-df2a-5e66-8efb-3f93272fd54b")
+	)
+	(hierarchical_label "DSI_D1P"
+		(shape bidirectional)
+		(at 325.12 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf341cfd-d166-5cd5-a4d8-34c7ebb2ec54")
+	)
+	(hierarchical_label "SD0_DET"
+		(shape bidirectional)
+		(at 325.12 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c03f8872-b98a-5d71-9879-4acd6195a545")
+	)
+	(hierarchical_label "SD0_CMD"
+		(shape bidirectional)
+		(at 325.12 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0999079-cd49-5e9d-a50e-ed7c08fde8ff")
+	)
+	(hierarchical_label "UART0_RX"
+		(shape bidirectional)
+		(at 325.12 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c80a8abd-d4ad-554a-a021-73f4710403d7")
+	)
+	(hierarchical_label "SD1_CMD"
+		(shape bidirectional)
+		(at 325.12 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d11b1267-6389-56ab-a99b-dc4ffa2d09ae")
+	)
+	(hierarchical_label "WL_REG_ON"
+		(shape bidirectional)
+		(at 325.12 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d25e16e8-e9cd-5237-bbe6-5bd68a855f5d")
+	)
+	(hierarchical_label "LCD_PWM"
+		(shape bidirectional)
+		(at 325.12 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d79c700a-8e83-5751-a434-ea503d68a7b1")
+	)
+	(hierarchical_label "BT_WAKE"
+		(shape bidirectional)
+		(at 325.12 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee595f1b-2faa-5cba-8265-9914d2b54e5b")
+	)
+	(hierarchical_label "SD0_D1"
+		(shape bidirectional)
+		(at 325.12 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2be3b12-bd4f-51b2-beaa-097eb1a165d1")
+	)
+	(hierarchical_label "SD1_D2"
+		(shape bidirectional)
+		(at 325.12 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9024928-a6b2-552e-81ed-9094c2889446")
+	)
+	(hierarchical_label "WL_HOST_WAKE"
+		(shape bidirectional)
+		(at 325.12 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe07e855-8ccf-5266-9ad1-500efaf3c4e0")
+	)
+)

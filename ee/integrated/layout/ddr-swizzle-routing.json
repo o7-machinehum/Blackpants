@@ -1,0 +1,502 @@
+{
+  "changed_pads": [
+    {
+      "ram_ball": "AA2",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ16",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ21"
+    },
+    {
+      "ram_ball": "AA4",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ23",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ22"
+    },
+    {
+      "ram_ball": "AA9",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ31",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ24"
+    },
+    {
+      "ram_ball": "AA11",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ24",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ25"
+    },
+    {
+      "ram_ball": "B2",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ0",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ4"
+    },
+    {
+      "ram_ball": "B4",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ7",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ5"
+    },
+    {
+      "ram_ball": "B9",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ15",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ10"
+    },
+    {
+      "ram_ball": "B11",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ8",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ13"
+    },
+    {
+      "ram_ball": "C2",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ1",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ6"
+    },
+    {
+      "ram_ball": "C4",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ6",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ7"
+    },
+    {
+      "ram_ball": "C9",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ14",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ11"
+    },
+    {
+      "ram_ball": "C11",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ9",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ12"
+    },
+    {
+      "ram_ball": "E4",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ5",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ0"
+    },
+    {
+      "ram_ball": "E9",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ13",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ8"
+    },
+    {
+      "ram_ball": "E11",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ10",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ15"
+    },
+    {
+      "ram_ball": "F4",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ4",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ1"
+    },
+    {
+      "ram_ball": "F9",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ12",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ9"
+    },
+    {
+      "ram_ball": "F11",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ11",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ14"
+    },
+    {
+      "ram_ball": "U2",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ19",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ16"
+    },
+    {
+      "ram_ball": "U4",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ20",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ18"
+    },
+    {
+      "ram_ball": "U11",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ27",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ29"
+    },
+    {
+      "ram_ball": "V2",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ18",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ17"
+    },
+    {
+      "ram_ball": "V4",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ21",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ20"
+    },
+    {
+      "ram_ball": "V9",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ29",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ31"
+    },
+    {
+      "ram_ball": "Y2",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ17",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ19"
+    },
+    {
+      "ram_ball": "Y4",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ22",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ23"
+    },
+    {
+      "ram_ball": "Y11",
+      "before": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ25",
+      "after": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ27"
+    }
+  ],
+  "before_dq_copper_length_mm": 692.1400419359064,
+  "before_dq_vias": 67,
+  "after_dq_copper_length_mm": 662.627207318588,
+  "after_dq_vias": 42,
+  "routes": [
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ6",
+      "reference_net": "SDQ6",
+      "pins": [
+        "UD1.C2",
+        "U1.AA27"
+      ],
+      "length_mm": 12.367428609701062,
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ29",
+      "reference_net": "SDQ29",
+      "pins": [
+        "UD1.U11",
+        "U1.AG17"
+      ],
+      "length_mm": 26.60429406869717,
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ21",
+      "reference_net": "SDQ21",
+      "pins": [
+        "UD1.AA2",
+        "U1.AH18"
+      ],
+      "length_mm": 14.094784014673992,
+      "vias": 0
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ23",
+      "reference_net": "SDQ23",
+      "pins": [
+        "UD1.Y4",
+        "U1.AC17"
+      ],
+      "length_mm": 19.543792175960792,
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ0",
+      "reference_net": "SDQ0",
+      "pins": [
+        "UD1.E4",
+        "U1.AA24"
+      ],
+      "length_mm": 18.535580742638345,
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ19",
+      "reference_net": "SDQ19",
+      "pins": [
+        "UD1.Y2",
+        "U1.AF19"
+      ],
+      "length_mm": 14.054490324144629,
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ28",
+      "reference_net": "SDQ28",
+      "pins": [
+        "UD1.U9",
+        "U1.AH17"
+      ],
+      "length_mm": 23.054948838306483,
+      "vias": 0
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ20",
+      "reference_net": "SDQ20",
+      "pins": [
+        "UD1.V4",
+        "U1.AG19"
+      ],
+      "length_mm": 18.34499660848649,
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ18",
+      "reference_net": "SDQ18",
+      "pins": [
+        "UD1.U4",
+        "U1.AD19"
+      ],
+      "length_mm": 19.839505238972436,
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ13",
+      "reference_net": "SDQ13",
+      "pins": [
+        "UD1.B11",
+        "U1.U27"
+      ],
+      "length_mm": 25.436885951514657,
+      "vias": 0
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ27",
+      "reference_net": "SDQ27",
+      "pins": [
+        "UD1.Y11",
+        "U1.AG15"
+      ],
+      "length_mm": 27.755290249482965,
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ15",
+      "reference_net": "SDQ15",
+      "pins": [
+        "UD1.E11",
+        "U1.U23"
+      ],
+      "length_mm": 32.006775647046716,
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ22",
+      "reference_net": "SDQ22",
+      "pins": [
+        "UD1.AA4",
+        "U1.AJ17"
+      ],
+      "length_mm": 16.80991566754163,
+      "vias": 0
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ8",
+      "reference_net": "SDQ8",
+      "pins": [
+        "UD1.E9",
+        "U1.W23"
+      ],
+      "length_mm": 24.688056128154145,
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ14",
+      "reference_net": "SDQ14",
+      "pins": [
+        "UD1.F11",
+        "U1.U24"
+      ],
+      "length_mm": 33.22052698039097,
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ17",
+      "reference_net": "SDQ17",
+      "pins": [
+        "UD1.V2",
+        "U1.AJ21"
+      ],
+      "length_mm": 11.342381020343,
+      "vias": 0
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ25",
+      "reference_net": "SDQ25",
+      "pins": [
+        "UD1.AA11",
+        "U1.AD15"
+      ],
+      "length_mm": 27.065708010176003,
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ3",
+      "reference_net": "SDQ3",
+      "pins": [
+        "UD1.F2",
+        "U1.AD29"
+      ],
+      "length_mm": 10.123093804932935,
+      "vias": 0
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ7",
+      "reference_net": "SDQ7",
+      "pins": [
+        "UD1.C4",
+        "U1.Y29"
+      ],
+      "length_mm": 16.583222302545295,
+      "vias": 0
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ12",
+      "reference_net": "SDQ12",
+      "pins": [
+        "UD1.C11",
+        "U1.U29"
+      ],
+      "length_mm": 26.12709463212657,
+      "vias": 0
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ11",
+      "reference_net": "SDQ11",
+      "pins": [
+        "UD1.C9",
+        "U1.W27"
+      ],
+      "length_mm": 23.205286245082384,
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ30",
+      "reference_net": "SDQ30",
+      "pins": [
+        "UD1.Y9",
+        "U1.AF17"
+      ],
+      "length_mm": 22.15075432734835,
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ16",
+      "reference_net": "SDQ16",
+      "pins": [
+        "UD1.U2",
+        "U1.AH21"
+      ],
+      "length_mm": 11.531082547457567,
+      "vias": 0
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ24",
+      "reference_net": "SDQ24",
+      "pins": [
+        "UD1.AA9",
+        "U1.AC15"
+      ],
+      "length_mm": 24.116653600144087,
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ5",
+      "reference_net": "SDQ5",
+      "pins": [
+        "UD1.B4",
+        "U1.Y28"
+      ],
+      "length_mm": 15.22784145979621,
+      "vias": 0
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ26",
+      "reference_net": "SDQ26",
+      "pins": [
+        "UD1.V11",
+        "U1.AF15"
+      ],
+      "length_mm": 28.925254562645044,
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ10",
+      "reference_net": "SDQ10",
+      "pins": [
+        "UD1.B9",
+        "U1.W26"
+      ],
+      "length_mm": 23.73287017312909,
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ1",
+      "reference_net": "SDQ1",
+      "pins": [
+        "UD1.F4",
+        "U1.AA23"
+      ],
+      "length_mm": 22.045315633005345,
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ31",
+      "reference_net": "SDQ31",
+      "pins": [
+        "UD1.V9",
+        "U1.AD17"
+      ],
+      "length_mm": 23.973428369076494,
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ9",
+      "reference_net": "SDQ9",
+      "pins": [
+        "UD1.F9",
+        "U1.W24"
+      ],
+      "length_mm": 25.50549847744175,
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ4",
+      "reference_net": "SDQ4",
+      "pins": [
+        "UD1.B2",
+        "U1.AA26"
+      ],
+      "length_mm": 13.405906589363136,
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ2",
+      "reference_net": "SDQ2",
+      "pins": [
+        "UD1.E2",
+        "U1.AC28"
+      ],
+      "length_mm": 11.208544318262346,
+      "vias": 0
+    }
+  ],
+  "ram_escape_adjustment": "RAM V4 jog shifted to clear 0.30 mm lands; neighbouring DQ18 through via uses 0.35/0.20 mm pad/drill",
+  "ground_reconnections": [
+    {
+      "pad_end": [
+        74.48,
+        61.0
+      ],
+      "via_end": [
+        73.48,
+        62.5
+      ],
+      "new_via": false
+    },
+    {
+      "pad_end": [
+        74.275,
+        59.5
+      ],
+      "via_end": [
+        73.48,
+        62.5
+      ],
+      "new_via": false
+    },
+    {
+      "pad_end": [
+        74.98,
+        47.5
+      ],
+      "via_end": [
+        72.91934,
+        44.93934
+      ],
+      "new_via": false
+    }
+  ],
+  "status": "All 65 SoC-to-RAM signals connected; no added length matching; physical DRC passes"
+}

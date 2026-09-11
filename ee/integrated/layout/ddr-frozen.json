@@ -1,0 +1,282 @@
+{
+  "components": {
+    "U301": [
+      85638008,
+      52748542,
+      0.0,
+      2
+    ],
+    "U201": [
+      65000000,
+      54000000,
+      -45.0,
+      2
+    ]
+  },
+  "nets": {
+    "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA0_0": {
+      "objects": 13,
+      "sha256": "17b7d7b97f13723b259e3990ca4a4c76d462e208ece9bdbbc9a69ad815e4c976"
+    },
+    "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA0_1": {
+      "objects": 44,
+      "sha256": "60293d280598e7a44b025c604ae80b00b138f37d4ed908b4594fe0e411c43f81"
+    },
+    "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA0_2": {
+      "objects": 29,
+      "sha256": "2fa8349e1d3a802cd0e7c838c65fc3806307179879a39fcfc1fa8d6a6384517c"
+    },
+    "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA0_3": {
+      "objects": 21,
+      "sha256": "4ec7ab84a80bad5eeec601f4dda07a1a518bef05096533864ca0525048fba047"
+    },
+    "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA0_4": {
+      "objects": 13,
+      "sha256": "8ef6b0cb79257682149cef47674ffd0f6c367c95d05b122fdd09eaf90c7b14f7"
+    },
+    "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA0_5": {
+      "objects": 13,
+      "sha256": "b78fe5935796a1d11be5b6920bcf0905a913325dd2e4e70e63d48956a04908f4"
+    },
+    "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA1_0": {
+      "objects": 33,
+      "sha256": "672469a4579683628f358b64534c7329230d497d28de04081cc38f2145e10e6b"
+    },
+    "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA1_1": {
+      "objects": 32,
+      "sha256": "8327f1db28999f43450bc548d0fea6e7b14860cfd20f9511eb062a358defe858"
+    },
+    "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA1_2": {
+      "objects": 21,
+      "sha256": "58b3f6fe2400c8882a1e49bed1af66da38eed7f0fc0b2cb9ad5a7b006b91b466"
+    },
+    "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA1_3": {
+      "objects": 31,
+      "sha256": "3e2c98ad3fb7e79943d3948e37e526c5294726ff977104653caa83aac49dce0d"
+    },
+    "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA1_4": {
+      "objects": 25,
+      "sha256": "dc66e56e7029f7769736a9dde8d54f6fc0e23c9d33324fceaf393a1f84c63912"
+    },
+    "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA1_5": {
+      "objects": 11,
+      "sha256": "d8a46ee6799da0a2c964c25a29c2a7208237af1e0b88a49b322d5503ebca1722"
+    },
+    "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CK0_N": {
+      "objects": 14,
+      "sha256": "987cd0ef48debcd8ae84362cd098fcbb557a40264c5cc71b8f80a5d1839de31e"
+    },
+    "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CK0_P": {
+      "objects": 15,
+      "sha256": "7bf270150bc7df36d2acd6e619965336f79ccf25b6dda94a8ee9a2fc5e14a423"
+    },
+    "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CK1_N": {
+      "objects": 19,
+      "sha256": "30f7816b63bd0fd8b22e9f3448023db1e2c1bea78b58222a1467ff75cc4a4b86"
+    },
+    "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CK1_P": {
+      "objects": 23,
+      "sha256": "9ab738c388e10b2a0a0cff1e3876c5f00fb16870f964b6b3718eaa96866c7085"
+    },
+    "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CKE0": {
+      "objects": 20,
+      "sha256": "e3cec6cd2ef8db997967f4f33482f1c867e12db3f7729e03fb381fe258409761"
+    },
+    "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CKE1": {
+      "objects": 25,
+      "sha256": "a43be96dd908d1cd0e4e5efe061e414eb9b113767efe2aa19ef791501154b893"
+    },
+    "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CS0": {
+      "objects": 21,
+      "sha256": "de50a08a671f13a7ab51ff952fdba01543acf7375b1b555a2d5cf5a78c0fa181"
+    },
+    "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CS1": {
+      "objects": 19,
+      "sha256": "d1d42ea47827272c734f753ef5bd78133be7aeecea5cc4cbb3f29c0109863cc6"
+    },
+    "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_RESET_N": {
+      "objects": 29,
+      "sha256": "66e210be5fe2fa98349290a01e56b0080a67c676dc054b736b231617eaed5d46"
+    },
+    "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_ZQ": {
+      "objects": 3,
+      "sha256": "773d1e981664c3f0210ef331911bbb306a4b81a5433d6ec65e79873b1b00cc35"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DM0": {
+      "objects": 15,
+      "sha256": "08fe908a329dde39a50106e3d293d98ffe50c61d83fa342b14f905bd639b5597"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DM1": {
+      "objects": 18,
+      "sha256": "78a3ca2e58297085fed1545ff80ef92f644a2ab05fde70a84c220e9e32217937"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DM2": {
+      "objects": 85,
+      "sha256": "480fad20fa7d388068a4cec09d7660ef49d69c27f43f9b381f6193272dad0189"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DM3": {
+      "objects": 21,
+      "sha256": "5496b7ed512b982a38e2062e2de6ed7902c08f535e9d93ecc9fb1df6d52740f4"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ0": {
+      "objects": 24,
+      "sha256": "819f6c97887de24a774491707f40bdd99a890200435608b42453986df4d0a230"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ1": {
+      "objects": 32,
+      "sha256": "dc6906cb627116ae5afffe636448882a626d5da3271a25ba47ff9e2520a2a19a"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ10": {
+      "objects": 19,
+      "sha256": "956eea050bc68877fdc3f4eccbfd1c3a3e63eeb048b45a7faac9331541fd8fd3"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ11": {
+      "objects": 25,
+      "sha256": "62b38fd5103c2cfdcd8926627ef93552ff3caba35bbf6cff5c628fdbbef55568"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ12": {
+      "objects": 18,
+      "sha256": "dffe62c62bac3bf41482b59f663f2ed829326d11baacfa3899be5744901dcedd"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ13": {
+      "objects": 41,
+      "sha256": "80587bd7a7daa9545e86e84538dfe1eb7ab0b66171156a31ae435413a4bc40d8"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ14": {
+      "objects": 21,
+      "sha256": "cb08156f1b89c1a36b1d0dd4b55384da1f62050744276caae6faa9e51578ba7e"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ15": {
+      "objects": 22,
+      "sha256": "d3eb65fbf299dabb480e219dc55249e5f10c54a6fc756fa522d542f05fc58d61"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ16": {
+      "objects": 13,
+      "sha256": "21a7c6f12e18580377b938325c7bfb9a8a695e8baffaf5da6d4d73d9647b6fc1"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ17": {
+      "objects": 11,
+      "sha256": "b87453674ea0306325888a86941586647e00e0604178e542ee7730f2ec27e04b"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ18": {
+      "objects": 34,
+      "sha256": "747c21eeab7f1c1dd5a29f5e71e4f7b0e762a473303e1fbdab3a7500659c2c74"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ19": {
+      "objects": 22,
+      "sha256": "cbdd62992a29ead31d248f02502d508df64eaf19839f63f734834a918c96e0fe"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ2": {
+      "objects": 14,
+      "sha256": "49b2a90a4994c988240330590e2b1aa3148a780b5c36c2bc0f0f2f44c396130e"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ20": {
+      "objects": 23,
+      "sha256": "e61221a7bb867ee96e88dfcebc4d24fc00e501e0aae399ce7776bcd083e95c35"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ21": {
+      "objects": 32,
+      "sha256": "665740f010331c880c66fb8675464220fd00aaff4c2fc81ed9aaaf56ff78ea10"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ22": {
+      "objects": 16,
+      "sha256": "969b0bb2e1c1058a4d45cb444a15e062b9f8297932871b0891f5985415393757"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ23": {
+      "objects": 23,
+      "sha256": "7d070caf6c6b865fbfdec1b8af004e2e77d8da5f5df805bf805e67ee2b804991"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ24": {
+      "objects": 23,
+      "sha256": "4b933fc17fb583295d66dc0e0814a13f75dfd47d8e48eb9d8776cc23c92903e7"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ25": {
+      "objects": 28,
+      "sha256": "2556c92f3e5a4ce5ee513db16447795d1ae69d46d1b3a979ff993d799841d50d"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ26": {
+      "objects": 23,
+      "sha256": "aac26635db504d2de3659e0269e7860ea55d9703bf7453aab9833c0e4f9982fd"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ27": {
+      "objects": 26,
+      "sha256": "89a65bead6330720980edff6ce8c4dfda5c77e628119c3786b79660bc902f371"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ28": {
+      "objects": 15,
+      "sha256": "04ac4a19eaf635fabe85547da02729a0bcb10c34f6b2f66295802c5e7d636971"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ29": {
+      "objects": 26,
+      "sha256": "89986f63dbc9765f345ff33f1ac2ed3ea29832534a4e31076f76eae59399ead0"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ3": {
+      "objects": 18,
+      "sha256": "8070244263dc73b7b2693d8f2b79b945c6e6eff8aa6bd5eed01741b5ed2d4d98"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ30": {
+      "objects": 16,
+      "sha256": "2c3c73034c63e410c30c85cc97c587afd22a8529ba647bf78fcfa0e3491e1372"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ31": {
+      "objects": 26,
+      "sha256": "671a4bd332bd16d21b73c7cac73f69c6582ce4fa6316d29bdaeaf93f98eb3364"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ4": {
+      "objects": 23,
+      "sha256": "be11e30dcce7d972a223dbfc4d8c2d4225bfbb1a9c20f89d7894669ad50c903f"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ5": {
+      "objects": 11,
+      "sha256": "cf6d91d9a64491e9aeb5c674bb856ad29cc552bbd065eb3cf3f8216e08695307"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ6": {
+      "objects": 16,
+      "sha256": "f7673751182434f026c4d20feba6a5afdbb598c0bc9695d950a35da3b8789103"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ7": {
+      "objects": 9,
+      "sha256": "e77d627f358fe9997fc43e71288aa5761c06448e0104cd19f13f55e338d4b358"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ8": {
+      "objects": 24,
+      "sha256": "e4aa98738b4ad0ca8a5003b934580f3258c671f4fff12bdbf44cb86823465064"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQ9": {
+      "objects": 27,
+      "sha256": "720078de60dc30f7ce46ccac5688d3976233f3a0207a2736bab950bf7e10b610"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQS0N": {
+      "objects": 32,
+      "sha256": "6f83911ce71f2a73c812d0c937cd1047072838886d449381bf456822198e7d53"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQS0P": {
+      "objects": 30,
+      "sha256": "14f259884c7aa0bc6b45be6da233cb045351e793b1cc804d80fb10f83190fae9"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQS1N": {
+      "objects": 21,
+      "sha256": "897a7f7cdb628e44f18b862407a960d3d1eb4aa22395557408c67605adf8f19d"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQS1P": {
+      "objects": 39,
+      "sha256": "0a0584e0b30b603c8f3940a938ea6047ee93833b114788978f0697fd2e7d65fb"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQS2N": {
+      "objects": 30,
+      "sha256": "ec7a303fe9852489b012daeaa979c690866b6c57b355b5d0fdaba6f7456590bc"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQS2P": {
+      "objects": 21,
+      "sha256": "ca707db6ba28db1c2bcf744a979994973e061fb741b2041b768b7dc9c9911f3b"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQS3N": {
+      "objects": 34,
+      "sha256": "96dbc25598a2577e39c17068a4c9adfc84f9a7a1bc2fdd218d0744f19514d301"
+    },
+    "/A523 system/2GB LPDDR4/Data channels/DDR_DQS3P": {
+      "objects": 22,
+      "sha256": "4cc4ce98fe424a4c1d33cac583c5a1f5de7e758c6f13ee2de1e35d64260dbb60"
+    }
+  }
+}

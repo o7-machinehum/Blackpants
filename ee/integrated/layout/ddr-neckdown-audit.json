@@ -1,0 +1,1017 @@
+{
+  "status": "not electrically validated",
+  "working_board": "/tmp/a523-finish/blackpants.kicad_pcb",
+  "note": "Geometric comparison with Allwinner template, not SI approval. Endpoint coordinates matched to 0.001 mm. A segment mismatch can include a small endpoint adjustment.",
+  "narrow_definition": "track width below 0.1 mm",
+  "reference_comparison": {
+    "segments": {
+      "narrowed from reference": 27,
+      "inherited from reference": 272,
+      "new/reworked geometry": 17
+    },
+    "length_mm": {
+      "narrowed from reference": 23.037262855457033,
+      "inherited from reference": 156.07686424010168,
+      "new/reworked geometry": 4.197108222418822
+    },
+    "changed_segments": [
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ21",
+        "uuid": "1e1ee50c-d5be-4455-9478-7da29d8cd8b1",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 0.9741781840135818
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ21",
+        "uuid": "4a95f41d-cba9-4066-9e78-ec98b75fefa4",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 3.142488
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ21",
+        "uuid": "de6aa7d3-7148-4fec-865a-880a66d56589",
+        "source_width_mm": null,
+        "width_mm": 0.0762,
+        "length_mm": 0.3529520775686127
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ4",
+        "uuid": "e15d4f51-f3fd-40fa-8ac8-aac19832309c",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 1.110742
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ5",
+        "uuid": "d7aafb8c-59c4-4d77-94a4-70065288bf59",
+        "source_width_mm": null,
+        "width_mm": 0.0762,
+        "length_mm": 0.3543390193162475
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ13",
+        "uuid": "14f80aa1-8b98-4250-ad7b-fbcdb911ad7b",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 0.222504
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ13",
+        "uuid": "30f3aa39-1593-4b6a-979b-06e61c77b25b",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 0.20906036249848992
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ13",
+        "uuid": "696e0b71-4388-400e-b072-3a2e803caac2",
+        "source_width_mm": null,
+        "width_mm": 0.0762,
+        "length_mm": 0.35275701653262687
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ13",
+        "uuid": "755ec2d9-2bc0-48ba-acd8-41d4abd297af",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 0.20906036249848992
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ6",
+        "uuid": "ccec0525-dbd0-46e9-bdd7-49337b1d4865",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 0.94107
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DM0",
+        "uuid": "346c57b0-ff01-4f7e-a265-5179816efc64",
+        "source_width_mm": null,
+        "width_mm": 0.0762,
+        "length_mm": 0.004689153974865828
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ12",
+        "uuid": "0b480eac-b14c-4cea-9ca4-39c9624b1d01",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 1.006856
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQS1P",
+        "uuid": "e3108dab-13fa-4a21-b0bc-c799debb227a",
+        "source_width_mm": null,
+        "width_mm": 0.0762,
+        "length_mm": 0.030842887672849314
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ3",
+        "uuid": "7eff46be-f7bb-4f82-a104-c89c9471d0f9",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 0.372364
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ1",
+        "uuid": "5938b5c5-6b00-4336-90c4-b752cbedf2d8",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 0.7874
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ9",
+        "uuid": "0b3adc4c-7364-49ba-8325-5b0d8720689a",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 1.080262
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA0_0",
+        "uuid": "ba8f9fa7-c1f0-4df8-be7d-03d6ce309b2a",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 1.373377
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA0_1",
+        "uuid": "304921c2-ebf7-4725-8571-68531405c226",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 0.243586
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA0_1",
+        "uuid": "f197a97c-3492-477a-b35b-0e7d376aa629",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 0.36244313704635106
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CK0_N",
+        "uuid": "b2bed687-f73b-43b0-8f6b-3b0ee416d23a",
+        "source_width_mm": null,
+        "width_mm": 0.0762,
+        "length_mm": 0.06640533205247903
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA1_1",
+        "uuid": "be1e40fe-7f45-485d-aed7-cbc99594326c",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 0.339343
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CK1_P",
+        "uuid": "a8b6a0d1-e1c9-4446-af26-4b9d52c7e8ea",
+        "source_width_mm": null,
+        "width_mm": 0.0762,
+        "length_mm": 0.2221460190505335
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CK1_N",
+        "uuid": "52397409-d4ad-4010-a6db-c46cf29e7c11",
+        "source_width_mm": null,
+        "width_mm": 0.0762,
+        "length_mm": 0.22225401904127629
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA1_0",
+        "uuid": "295e3401-1622-4f8f-be99-792d3ae6e426",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 1.838198
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA1_3",
+        "uuid": "53f0a95c-9aeb-4cca-be25-e77092c608e1",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 1.736344
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ18",
+        "uuid": "08d5ea2a-0f4d-4051-b776-ab82900f85b1",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 0.818896
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ17",
+        "uuid": "a83a086b-edf8-4801-8977-0488da355648",
+        "source_width_mm": null,
+        "width_mm": 0.0762,
+        "length_mm": 0.2386245037249947
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQS2N",
+        "uuid": "5a93ec05-5587-4996-b6b7-f53ba9f3e07f",
+        "source_width_mm": null,
+        "width_mm": 0.0762,
+        "length_mm": 0.11467082096592839
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ20",
+        "uuid": "1fd6877d-167f-49b4-8a9d-c76243c9ac0a",
+        "source_width_mm": null,
+        "width_mm": 0.0762,
+        "length_mm": 0.359536
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ20",
+        "uuid": "229a41a3-91b8-407d-b41b-20b6df3d1589",
+        "source_width_mm": null,
+        "width_mm": 0.0762,
+        "length_mm": 0.49411
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ20",
+        "uuid": "2d9dcd1a-114c-4977-acd5-5110791340a1",
+        "source_width_mm": null,
+        "width_mm": 0.0762,
+        "length_mm": 0.3810343885373078
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ20",
+        "uuid": "3e02cb95-2188-4bc3-a7da-50a9502c5da5",
+        "source_width_mm": null,
+        "width_mm": 0.0762,
+        "length_mm": 0.267308
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ20",
+        "uuid": "f26e4a07-e580-4f64-a47a-d198dae9f22b",
+        "source_width_mm": null,
+        "width_mm": 0.0762,
+        "length_mm": 0.11313708498984762
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ20",
+        "uuid": "f928657b-6648-47cb-8f1c-6be8dc0c3d84",
+        "source_width_mm": null,
+        "width_mm": 0.0762,
+        "length_mm": 0.2694868795915675
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQS3N",
+        "uuid": "5180a520-7d48-4878-9c96-2cd380173f85",
+        "source_width_mm": 0.127,
+        "width_mm": 0.0762,
+        "length_mm": 0.261366
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQS3N",
+        "uuid": "ca175f1a-3adc-40b2-a473-bc23803a8b38",
+        "source_width_mm": 0.127,
+        "width_mm": 0.0762,
+        "length_mm": 0.222710351802515
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ19",
+        "uuid": "bc1e7d78-1b19-4223-869a-5ebaec269ce5",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 1.712468
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DM2",
+        "uuid": "6042530d-b1f3-4e67-8659-a6a80b7db961",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 1.292606
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DM2",
+        "uuid": "9766fe2a-bc7b-40e8-a37a-48681961dbf1",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 0.021082
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DM2",
+        "uuid": "a831a38c-383f-42f4-9360-6291d52113df",
+        "source_width_mm": null,
+        "width_mm": 0.0762,
+        "length_mm": 0.35281501939968485
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DM2",
+        "uuid": "b9353d96-31cd-4061-b976-e7a346aedc79",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 0.04274601913628917
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DM2",
+        "uuid": "cdf32560-d1fd-4a54-93ec-417e0b951b7e",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 0.32004
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DM2",
+        "uuid": "e9bc7142-0dc2-4ec0-8c6e-b797116f40a4",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 0.7166244384613185
+      },
+      {
+        "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ27",
+        "uuid": "810b2632-98ac-49dc-8309-4a50d7ec2a03",
+        "source_width_mm": 0.11429866666666667,
+        "width_mm": 0.0762,
+        "length_mm": 1.679448
+      }
+    ]
+  },
+  "per_net": [
+    {
+      "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA1_1",
+      "total_mm": 13.543,
+      "under_0p1mm_length_mm": 5.128,
+      "longest_contiguous_under_0p1mm_mm": 4.788,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA1_0",
+      "total_mm": 13.015,
+      "under_0p1mm_length_mm": 6.567,
+      "longest_contiguous_under_0p1mm_mm": 4.729,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ23",
+      "total_mm": 19.544,
+      "under_0p1mm_length_mm": 4.615,
+      "longest_contiguous_under_0p1mm_mm": 4.615,
+      "widths_mm": [
+        0.0762,
+        0.1016,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_RESET_N",
+      "total_mm": 23.309,
+      "under_0p1mm_length_mm": 4.685,
+      "longest_contiguous_under_0p1mm_mm": 4.15,
+      "widths_mm": [
+        0.0762,
+        0.1016,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ21",
+      "total_mm": 14.095,
+      "under_0p1mm_length_mm": 7.07,
+      "longest_contiguous_under_0p1mm_mm": 4.117,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ31",
+      "total_mm": 23.973,
+      "under_0p1mm_length_mm": 4.098,
+      "longest_contiguous_under_0p1mm_mm": 4.098,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ24",
+      "total_mm": 24.117,
+      "under_0p1mm_length_mm": 4.03,
+      "longest_contiguous_under_0p1mm_mm": 4.03,
+      "widths_mm": [
+        0.0762,
+        0.1016,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA1_3",
+      "total_mm": 20.699,
+      "under_0p1mm_length_mm": 5.691,
+      "longest_contiguous_under_0p1mm_mm": 3.955,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ18",
+      "total_mm": 19.84,
+      "under_0p1mm_length_mm": 5.223,
+      "longest_contiguous_under_0p1mm_mm": 3.911,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ15",
+      "total_mm": 32.007,
+      "under_0p1mm_length_mm": 3.903,
+      "longest_contiguous_under_0p1mm_mm": 3.903,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ9",
+      "total_mm": 25.505,
+      "under_0p1mm_length_mm": 4.843,
+      "longest_contiguous_under_0p1mm_mm": 3.763,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ19",
+      "total_mm": 14.054,
+      "under_0p1mm_length_mm": 5.286,
+      "longest_contiguous_under_0p1mm_mm": 3.574,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA0_4",
+      "total_mm": 19.119,
+      "under_0p1mm_length_mm": 3.566,
+      "longest_contiguous_under_0p1mm_mm": 3.566,
+      "widths_mm": [
+        0.0762,
+        0.1016,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CK1_P",
+      "total_mm": 16.868,
+      "under_0p1mm_length_mm": 5.258,
+      "longest_contiguous_under_0p1mm_mm": 3.524,
+      "widths_mm": [
+        0.0762,
+        0.127
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ10",
+      "total_mm": 23.733,
+      "under_0p1mm_length_mm": 3.928,
+      "longest_contiguous_under_0p1mm_mm": 3.462,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQS2P",
+      "total_mm": 15.105,
+      "under_0p1mm_length_mm": 3.401,
+      "longest_contiguous_under_0p1mm_mm": 3.401,
+      "widths_mm": [
+        0.0762,
+        0.127
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ25",
+      "total_mm": 27.066,
+      "under_0p1mm_length_mm": 3.277,
+      "longest_contiguous_under_0p1mm_mm": 3.277,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA1_2",
+      "total_mm": 19.252,
+      "under_0p1mm_length_mm": 3.173,
+      "longest_contiguous_under_0p1mm_mm": 3.173,
+      "widths_mm": [
+        0.0762,
+        0.1016,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ14",
+      "total_mm": 33.221,
+      "under_0p1mm_length_mm": 3.169,
+      "longest_contiguous_under_0p1mm_mm": 3.169,
+      "widths_mm": [
+        0.0762,
+        0.1016,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQS2N",
+      "total_mm": 15.095,
+      "under_0p1mm_length_mm": 3.113,
+      "longest_contiguous_under_0p1mm_mm": 3.113,
+      "widths_mm": [
+        0.0762,
+        0.127
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ20",
+      "total_mm": 18.35,
+      "under_0p1mm_length_mm": 4.95,
+      "longest_contiguous_under_0p1mm_mm": 3.065,
+      "widths_mm": [
+        0.0762,
+        0.1016,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ28",
+      "total_mm": 23.055,
+      "under_0p1mm_length_mm": 2.848,
+      "longest_contiguous_under_0p1mm_mm": 2.848,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ5",
+      "total_mm": 15.228,
+      "under_0p1mm_length_mm": 2.828,
+      "longest_contiguous_under_0p1mm_mm": 2.828,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA0_5",
+      "total_mm": 19.134,
+      "under_0p1mm_length_mm": 2.735,
+      "longest_contiguous_under_0p1mm_mm": 2.735,
+      "widths_mm": [
+        0.0762,
+        0.1016,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ11",
+      "total_mm": 23.205,
+      "under_0p1mm_length_mm": 2.661,
+      "longest_contiguous_under_0p1mm_mm": 2.661,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ30",
+      "total_mm": 22.151,
+      "under_0p1mm_length_mm": 2.619,
+      "longest_contiguous_under_0p1mm_mm": 2.619,
+      "widths_mm": [
+        0.0762,
+        0.1016,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DM1",
+      "total_mm": 22.375,
+      "under_0p1mm_length_mm": 2.555,
+      "longest_contiguous_under_0p1mm_mm": 2.555,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQS0P",
+      "total_mm": 14.639,
+      "under_0p1mm_length_mm": 2.971,
+      "longest_contiguous_under_0p1mm_mm": 2.512,
+      "widths_mm": [
+        0.0762,
+        0.09652,
+        0.127
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQS3P",
+      "total_mm": 26.43,
+      "under_0p1mm_length_mm": 2.408,
+      "longest_contiguous_under_0p1mm_mm": 2.408,
+      "widths_mm": [
+        0.0762,
+        0.127
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DM2",
+      "total_mm": 13.87,
+      "under_0p1mm_length_mm": 4.76,
+      "longest_contiguous_under_0p1mm_mm": 2.393,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DM0",
+      "total_mm": 14.173,
+      "under_0p1mm_length_mm": 2.282,
+      "longest_contiguous_under_0p1mm_mm": 2.282,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQS1P",
+      "total_mm": 26.537,
+      "under_0p1mm_length_mm": 2.767,
+      "longest_contiguous_under_0p1mm_mm": 2.261,
+      "widths_mm": [
+        0.0762,
+        0.09652,
+        0.104139,
+        0.127
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ16",
+      "total_mm": 11.531,
+      "under_0p1mm_length_mm": 2.261,
+      "longest_contiguous_under_0p1mm_mm": 2.261,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CK1_N",
+      "total_mm": 16.092,
+      "under_0p1mm_length_mm": 4.235,
+      "longest_contiguous_under_0p1mm_mm": 2.249,
+      "widths_mm": [
+        0.0762,
+        0.127
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CKE1",
+      "total_mm": 13.154,
+      "under_0p1mm_length_mm": 2.242,
+      "longest_contiguous_under_0p1mm_mm": 2.242,
+      "widths_mm": [
+        0.0762,
+        0.09652,
+        0.1016,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ13",
+      "total_mm": 25.437,
+      "under_0p1mm_length_mm": 2.843,
+      "longest_contiguous_under_0p1mm_mm": 2.202,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ22",
+      "total_mm": 16.81,
+      "under_0p1mm_length_mm": 2.169,
+      "longest_contiguous_under_0p1mm_mm": 2.169,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DM3",
+      "total_mm": 22.892,
+      "under_0p1mm_length_mm": 2.134,
+      "longest_contiguous_under_0p1mm_mm": 2.134,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CK0_P",
+      "total_mm": 15.635,
+      "under_0p1mm_length_mm": 3.214,
+      "longest_contiguous_under_0p1mm_mm": 1.998,
+      "widths_mm": [
+        0.0762,
+        0.127
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA0_1",
+      "total_mm": 9.776,
+      "under_0p1mm_length_mm": 2.538,
+      "longest_contiguous_under_0p1mm_mm": 1.932,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ7",
+      "total_mm": 16.583,
+      "under_0p1mm_length_mm": 1.864,
+      "longest_contiguous_under_0p1mm_mm": 1.864,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ2",
+      "total_mm": 11.209,
+      "under_0p1mm_length_mm": 1.86,
+      "longest_contiguous_under_0p1mm_mm": 1.86,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQS0N",
+      "total_mm": 14.354,
+      "under_0p1mm_length_mm": 2.286,
+      "longest_contiguous_under_0p1mm_mm": 1.827,
+      "widths_mm": [
+        0.0762,
+        0.09652,
+        0.127
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQS3N",
+      "total_mm": 26.403,
+      "under_0p1mm_length_mm": 2.26,
+      "longest_contiguous_under_0p1mm_mm": 1.776,
+      "widths_mm": [
+        0.0762,
+        0.127
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ26",
+      "total_mm": 28.925,
+      "under_0p1mm_length_mm": 1.772,
+      "longest_contiguous_under_0p1mm_mm": 1.772,
+      "widths_mm": [
+        0.0762,
+        0.1016,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ29",
+      "total_mm": 26.604,
+      "under_0p1mm_length_mm": 1.734,
+      "longest_contiguous_under_0p1mm_mm": 1.734,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ17",
+      "total_mm": 11.342,
+      "under_0p1mm_length_mm": 1.707,
+      "longest_contiguous_under_0p1mm_mm": 1.707,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA0_0",
+      "total_mm": 9.304,
+      "under_0p1mm_length_mm": 3.053,
+      "longest_contiguous_under_0p1mm_mm": 1.679,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ27",
+      "total_mm": 27.755,
+      "under_0p1mm_length_mm": 2.442,
+      "longest_contiguous_under_0p1mm_mm": 1.679,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CK0_N",
+      "total_mm": 15.636,
+      "under_0p1mm_length_mm": 2.794,
+      "longest_contiguous_under_0p1mm_mm": 1.583,
+      "widths_mm": [
+        0.0762,
+        0.127
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CKE0",
+      "total_mm": 10.878,
+      "under_0p1mm_length_mm": 1.515,
+      "longest_contiguous_under_0p1mm_mm": 1.515,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA1_4",
+      "total_mm": 20.509,
+      "under_0p1mm_length_mm": 1.485,
+      "longest_contiguous_under_0p1mm_mm": 1.485,
+      "widths_mm": [
+        0.0762,
+        0.1016,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQS1N",
+      "total_mm": 26.091,
+      "under_0p1mm_length_mm": 1.784,
+      "longest_contiguous_under_0p1mm_mm": 1.275,
+      "widths_mm": [
+        0.0762,
+        0.09652,
+        0.127
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ3",
+      "total_mm": 10.123,
+      "under_0p1mm_length_mm": 1.572,
+      "longest_contiguous_under_0p1mm_mm": 1.2,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ4",
+      "total_mm": 13.406,
+      "under_0p1mm_length_mm": 1.111,
+      "longest_contiguous_under_0p1mm_mm": 1.111,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ8",
+      "total_mm": 24.688,
+      "under_0p1mm_length_mm": 1.04,
+      "longest_contiguous_under_0p1mm_mm": 1.04,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ12",
+      "total_mm": 26.127,
+      "under_0p1mm_length_mm": 2.037,
+      "longest_contiguous_under_0p1mm_mm": 1.03,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ6",
+      "total_mm": 12.367,
+      "under_0p1mm_length_mm": 0.941,
+      "longest_contiguous_under_0p1mm_mm": 0.941,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CS0",
+      "total_mm": 11.238,
+      "under_0p1mm_length_mm": 0.805,
+      "longest_contiguous_under_0p1mm_mm": 0.805,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ1",
+      "total_mm": 22.045,
+      "under_0p1mm_length_mm": 1.202,
+      "longest_contiguous_under_0p1mm_mm": 0.787,
+      "widths_mm": [
+        0.0762,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_ZQ",
+      "total_mm": 0.514,
+      "under_0p1mm_length_mm": 0,
+      "longest_contiguous_under_0p1mm_mm": 0,
+      "widths_mm": [
+        0.114298
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ0",
+      "total_mm": 18.536,
+      "under_0p1mm_length_mm": 0,
+      "longest_contiguous_under_0p1mm_mm": 0,
+      "widths_mm": [
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA0_2",
+      "total_mm": 18.456,
+      "under_0p1mm_length_mm": 0,
+      "longest_contiguous_under_0p1mm_mm": 0,
+      "widths_mm": [
+        0.1016,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA0_3",
+      "total_mm": 18.906,
+      "under_0p1mm_length_mm": 0,
+      "longest_contiguous_under_0p1mm_mm": 0,
+      "widths_mm": [
+        0.1016,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CA1_5",
+      "total_mm": 17.881,
+      "under_0p1mm_length_mm": 0,
+      "longest_contiguous_under_0p1mm_mm": 0,
+      "widths_mm": [
+        0.1016,
+        0.114299
+      ]
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_CS1",
+      "total_mm": 14.752,
+      "under_0p1mm_length_mm": 0,
+      "longest_contiguous_under_0p1mm_mm": 0,
+      "widths_mm": [
+        0.1016,
+        0.114299
+      ]
+    }
+  ],
+  "working_board_sha256_at_audit": "not recorded; geometry extracted before subsequent power routing",
+  "findings": {
+    "electrical_simulation_run": false,
+    "width_change_impedance_verified": false,
+    "reference_targets_ohms": {
+      "single_ended": 50,
+      "differential": 85
+    },
+    "source": "Allwinner A523 DDR layout design guide V1.1, section 3.3.1",
+    "reference_ram_ground_via_guidance": "Approximately one via per ground ball where space permits, section 3.3.3(6)"
+  }
+}

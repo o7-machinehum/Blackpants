@@ -1,0 +1,774 @@
+{
+  "source": "/home/machinehum/flipper-blackhat/blackpants/docs/a523/A523_hwref/PCB\u53c2\u8003/\u786c\u4ef6DDR\u6a21\u677f&\u53e0\u5c42\u6587\u4ef6/A523-REF-LPDDR4-4X-32X1-S6L-V2-0(C0402)/A523-REF-LPDDR4-4X-32X1-S6L-V2-0_pads.asc",
+  "imported": [
+    {
+      "net": "/A523 system/2GB LPDDR4/Command / DRAM supply/DDR_RESET_N",
+      "reference_net": "SRST",
+      "pins": [
+        "UD1.T11",
+        "U1.AC19"
+      ],
+      "length_mm": 23.308531556487356,
+      "layer_lengths_mm": {
+        "1": 1.0498697338144956,
+        "4": 22.25866182267286
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ28",
+      "reference_net": "SDQ28",
+      "pins": [
+        "UD1.U9",
+        "U1.AH17"
+      ],
+      "length_mm": 23.05494883830649,
+      "layer_lengths_mm": {
+        "1": 23.05494883830649
+      },
+      "vias": 0
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DM1",
+      "reference_net": "SDQM1",
+      "pins": [
+        "UD1.C10",
+        "U1.W28"
+      ],
+      "length_mm": 22.374908594924,
+      "layer_lengths_mm": {
+        "1": 22.374908594924
+      },
+      "vias": 0
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ3",
+      "reference_net": "SDQ3",
+      "pins": [
+        "UD1.F2",
+        "U1.AD29"
+      ],
+      "length_mm": 10.12309380493294,
+      "layer_lengths_mm": {
+        "1": 10.12309380493294
+      },
+      "vias": 0
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DM2",
+      "reference_net": "SDQM2",
+      "pins": [
+        "UD1.Y3",
+        "U1.AH20"
+      ],
+      "length_mm": 13.870359428496391,
+      "layer_lengths_mm": {
+        "1": 13.870359428496391
+      },
+      "vias": 0
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ30",
+      "reference_net": "SDQ30",
+      "pins": [
+        "UD1.Y9",
+        "U1.AF17"
+      ],
+      "length_mm": 22.15075432734836,
+      "layer_lengths_mm": {
+        "1": 1.0597336263158432,
+        "4": 21.091020701032516
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ26",
+      "reference_net": "SDQ26",
+      "pins": [
+        "UD1.V11",
+        "U1.AF15"
+      ],
+      "length_mm": 28.925254562645037,
+      "layer_lengths_mm": {
+        "1": 1.03446469384013,
+        "4": 27.890789868804905
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DM0",
+      "reference_net": "SDQM0",
+      "pins": [
+        "UD1.C3",
+        "U1.AA29"
+      ],
+      "length_mm": 14.172540081566597,
+      "layer_lengths_mm": {
+        "1": 14.172540081566597
+      },
+      "vias": 0
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DM3",
+      "reference_net": "SDQM3",
+      "pins": [
+        "UD1.Y10",
+        "U1.AJ16"
+      ],
+      "length_mm": 22.89245066747521,
+      "layer_lengths_mm": {
+        "1": 22.89245066747521
+      },
+      "vias": 0
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQ2",
+      "reference_net": "SDQ2",
+      "pins": [
+        "UD1.E2",
+        "U1.AC28"
+      ],
+      "length_mm": 11.208544318262348,
+      "layer_lengths_mm": {
+        "1": 11.208544318262348
+      },
+      "vias": 0
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQS2N",
+      "reference_net": "SDQS2N",
+      "pins": [
+        "UD1.V3",
+        "U1.AJ19"
+      ],
+      "length_mm": 15.094840775957195,
+      "layer_lengths_mm": {
+        "1": 9.772333236118765,
+        "4": 5.322507539838429
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQS1N",
+      "reference_net": "SDQS1N",
+      "pins": [
+        "UD1.E10",
+        "U1.V29"
+      ],
+      "length_mm": 26.091283153428243,
+      "layer_lengths_mm": {
+        "1": 21.553324999534514,
+        "4": 4.53795815389373
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQS0N",
+      "reference_net": "SDQS0N",
+      "pins": [
+        "UD1.E3",
+        "U1.AB29"
+      ],
+      "length_mm": 14.354143254564375,
+      "layer_lengths_mm": {
+        "1": 8.353989938671742,
+        "4": 6.000153315892634
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQS0P",
+      "reference_net": "SDQS0P",
+      "pins": [
+        "UD1.D3",
+        "U1.AB28"
+      ],
+      "length_mm": 14.639459822254405,
+      "layer_lengths_mm": {
+        "1": 8.455097221245106,
+        "4": 6.1843626010093
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQS3N",
+      "reference_net": "SDQS3N",
+      "pins": [
+        "UD1.V10",
+        "U1.AJ15"
+      ],
+      "length_mm": 26.402500134410126,
+      "layer_lengths_mm": {
+        "1": 21.747274837580132,
+        "4": 4.655225296829994
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQS1P",
+      "reference_net": "SDQS1P",
+      "pins": [
+        "UD1.D10",
+        "U1.V28"
+      ],
+      "length_mm": 26.536757545504162,
+      "layer_lengths_mm": {
+        "1": 22.36307128149276,
+        "4": 4.173686264011401
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQS3P",
+      "reference_net": "SDQS3P",
+      "pins": [
+        "UD1.W10",
+        "U1.AH15"
+      ],
+      "length_mm": 26.429783470519713,
+      "layer_lengths_mm": {
+        "1": 22.669833548647993,
+        "4": 3.759949921871719
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Data channels/DDR_DQS2P",
+      "reference_net": "SDQS2P",
+      "pins": [
+        "UD1.W3",
+        "U1.AH19"
+      ],
+      "length_mm": 15.105019727851154,
+      "layer_lengths_mm": {
+        "1": 9.296014275092846,
+        "4": 5.809005452758307
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command / DRAM supply/DDR_CA0_2",
+      "reference_net": "SAA2",
+      "pins": [
+        "UD1.H9",
+        "U1.AC26"
+      ],
+      "length_mm": 18.455638130410012,
+      "layer_lengths_mm": {
+        "1": 1.3168179242582463,
+        "4": 17.138820206151767
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command / DRAM supply/DDR_CA0_0",
+      "reference_net": "SAA0",
+      "pins": [
+        "UD1.H2",
+        "U1.AE29"
+      ],
+      "length_mm": 9.304150887584449,
+      "layer_lengths_mm": {
+        "1": 9.304150887584449
+      },
+      "vias": 0
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command / DRAM supply/DDR_CA1_1",
+      "reference_net": "SAB1",
+      "pins": [
+        "UD1.P2",
+        "U1.AD21"
+      ],
+      "length_mm": 13.54329925972678,
+      "layer_lengths_mm": {
+        "1": 5.264280768432922,
+        "4": 8.279018491293858
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command / DRAM supply/DDR_CKE1",
+      "reference_net": "SCKE0-B",
+      "pins": [
+        "UD1.P4",
+        "U1.AJ23"
+      ],
+      "length_mm": 13.15380740556331,
+      "layer_lengths_mm": {
+        "1": 6.604126938434385,
+        "4": 6.549680467128924
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command / DRAM supply/DDR_CA1_2",
+      "reference_net": "SAB2",
+      "pins": [
+        "UD1.R9",
+        "U1.AG21"
+      ],
+      "length_mm": 19.25167094225249,
+      "layer_lengths_mm": {
+        "1": 1.0054636650996354,
+        "4": 18.246207277152852
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command / DRAM supply/DDR_CA0_5",
+      "reference_net": "SAA5",
+      "pins": [
+        "UD1.J11",
+        "U1.AE27"
+      ],
+      "length_mm": 19.13392210609112,
+      "layer_lengths_mm": {
+        "1": 1.0671045246197526,
+        "4": 18.06681758147137
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command / DRAM supply/DDR_CA0_3",
+      "reference_net": "SAA3",
+      "pins": [
+        "UD1.H10",
+        "U1.AC25"
+      ],
+      "length_mm": 18.90642532021813,
+      "layer_lengths_mm": {
+        "1": 1.247027477778391,
+        "4": 17.659397842439738
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command / DRAM supply/DDR_CA0_1",
+      "reference_net": "SAA1",
+      "pins": [
+        "UD1.J2",
+        "U1.AE28"
+      ],
+      "length_mm": 9.776053400127822,
+      "layer_lengths_mm": {
+        "1": 9.776053400127822
+      },
+      "vias": 0
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command / DRAM supply/DDR_CS1",
+      "reference_net": "SCS0-B",
+      "pins": [
+        "UD1.R4",
+        "U1.AF25"
+      ],
+      "length_mm": 14.751883889104622,
+      "layer_lengths_mm": {
+        "1": 1.9612258238043823,
+        "4": 12.79065806530024
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command / DRAM supply/DDR_CA1_4",
+      "reference_net": "SAB4",
+      "pins": [
+        "UD1.R11",
+        "U1.AE23"
+      ],
+      "length_mm": 20.508591573704635,
+      "layer_lengths_mm": {
+        "1": 1.0120131992051096,
+        "4": 19.496578374499524
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command / DRAM supply/DDR_CA0_4",
+      "reference_net": "SAA4",
+      "pins": [
+        "UD1.H11",
+        "U1.AE26"
+      ],
+      "length_mm": 19.11862788288474,
+      "layer_lengths_mm": {
+        "1": 0.9206451220918133,
+        "4": 18.19798276079293
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command / DRAM supply/DDR_CA1_3",
+      "reference_net": "SAB3",
+      "pins": [
+        "UD1.R10",
+        "U1.AF21"
+      ],
+      "length_mm": 20.699239692522916,
+      "layer_lengths_mm": {
+        "1": 4.445509077951204,
+        "4": 16.25373061457171
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command / DRAM supply/DDR_CA1_0",
+      "reference_net": "SAB0",
+      "pins": [
+        "UD1.R2",
+        "U1.AE21"
+      ],
+      "length_mm": 13.015024350977797,
+      "layer_lengths_mm": {
+        "1": 4.280356003907547,
+        "4": 8.734668347070249
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command / DRAM supply/DDR_CA1_5",
+      "reference_net": "SAB5",
+      "pins": [
+        "UD1.P11",
+        "U1.AG25"
+      ],
+      "length_mm": 17.881070444390442,
+      "layer_lengths_mm": {
+        "1": 1.0156698192248574,
+        "4": 16.865400625165584
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command / DRAM supply/DDR_CS0",
+      "reference_net": "SCS0-A",
+      "pins": [
+        "UD1.H4",
+        "U1.AJ28"
+      ],
+      "length_mm": 11.237879459308246,
+      "layer_lengths_mm": {
+        "1": 5.633240915205346,
+        "4": 5.604638544102901
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command / DRAM supply/DDR_CKE0",
+      "reference_net": "SCKE0-A",
+      "pins": [
+        "UD1.J4",
+        "U1.AH27"
+      ],
+      "length_mm": 10.878142328057084,
+      "layer_lengths_mm": {
+        "1": 6.950017631801361,
+        "4": 3.9281246962557237
+      },
+      "vias": 2
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command / DRAM supply/DDR_CK1_P",
+      "reference_net": "SCKP-B",
+      "pins": [
+        "UD1.P8",
+        "U1.AH24"
+      ],
+      "length_mm": 16.868232220178104,
+      "layer_lengths_mm": {
+        "1": 16.868232220178104
+      },
+      "vias": 0
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command / DRAM supply/DDR_CK1_N",
+      "reference_net": "SCKN-B",
+      "pins": [
+        "UD1.P9",
+        "U1.AJ25"
+      ],
+      "length_mm": 16.092119981740886,
+      "layer_lengths_mm": {
+        "1": 16.092119981740886
+      },
+      "vias": 0
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command / DRAM supply/DDR_CK0_P",
+      "reference_net": "SCKP-A",
+      "pins": [
+        "UD1.J8",
+        "U1.AH26"
+      ],
+      "length_mm": 15.634910769236276,
+      "layer_lengths_mm": {
+        "1": 15.634910769236276
+      },
+      "vias": 0
+    },
+    {
+      "net": "/A523 system/2GB LPDDR4/Command / DRAM supply/DDR_CK0_N",
+      "reference_net": "SCKN-A",
+      "pins": [
+        "UD1.J9",
+        "U1.AJ26"
+      ],
+      "length_mm": 15.636077140322259,
+      "layer_lengths_mm": {
+        "1": 15.636077140322259
+      },
+      "vias": 0
+    }
+  ],
+  "skipped": [
+    {
+      "reference_net": "SDQ6",
+      "pins": [
+        "UD1.C2",
+        "U1.AA27"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ29",
+      "pins": [
+        "UD1.U11",
+        "U1.AG17"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ21",
+      "pins": [
+        "UD1.AA2",
+        "U1.AH18"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ23",
+      "pins": [
+        "UD1.Y4",
+        "U1.AC17"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ0",
+      "pins": [
+        "UD1.E4",
+        "U1.AA24"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ19",
+      "pins": [
+        "UD1.Y2",
+        "U1.AF19"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ20",
+      "pins": [
+        "UD1.V4",
+        "U1.AG19"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ18",
+      "pins": [
+        "UD1.U4",
+        "U1.AD19"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ13",
+      "pins": [
+        "UD1.B11",
+        "U1.U27"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ27",
+      "pins": [
+        "UD1.Y11",
+        "U1.AG15"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ15",
+      "pins": [
+        "UD1.E11",
+        "U1.U23"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ22",
+      "pins": [
+        "UD1.AA4",
+        "U1.AJ17"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ8",
+      "pins": [
+        "UD1.E9",
+        "U1.W23"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ14",
+      "pins": [
+        "UD1.F11",
+        "U1.U24"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ17",
+      "pins": [
+        "UD1.V2",
+        "U1.AJ21"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ25",
+      "pins": [
+        "UD1.AA11",
+        "U1.AD15"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ7",
+      "pins": [
+        "UD1.C4",
+        "U1.Y29"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ12",
+      "pins": [
+        "UD1.C11",
+        "U1.U29"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ11",
+      "pins": [
+        "UD1.C9",
+        "U1.W27"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ16",
+      "pins": [
+        "UD1.U2",
+        "U1.AH21"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ24",
+      "pins": [
+        "UD1.AA9",
+        "U1.AC15"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ5",
+      "pins": [
+        "UD1.B4",
+        "U1.Y28"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ10",
+      "pins": [
+        "UD1.B9",
+        "U1.W26"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ1",
+      "pins": [
+        "UD1.F4",
+        "U1.AA23"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ31",
+      "pins": [
+        "UD1.V9",
+        "U1.AD17"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ9",
+      "pins": [
+        "UD1.F9",
+        "U1.W24"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SDQ4",
+      "pins": [
+        "UD1.B2",
+        "U1.AA26"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SCS1-B",
+      "pins": [
+        "UD1.R3",
+        "U1.AF23"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SCKE1-A",
+      "pins": [
+        "UD1.J5",
+        "U1.AG27"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SCKE1-B",
+      "pins": [
+        "UD1.P5",
+        "U1.AH23"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    },
+    {
+      "reference_net": "SCS1-A",
+      "pins": [
+        "UD1.H3",
+        "U1.AH28"
+      ],
+      "reason": "Physical endpoints differ in the active schematic"
+    }
+  ]
+}

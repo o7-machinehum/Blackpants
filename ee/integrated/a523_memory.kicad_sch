@@ -1,0 +1,188 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ddefc8b4-f8d7-57ee-b2c3-72cf9fe94a29")
+	(paper "A4")
+	(title_block
+		(title "A523 - 2GB LPDDR4")
+		(rev "A523 capture")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 166.37 27.94) (xy 187.96 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ab4b61d-ab53-5060-bd0d-2a9a23b5b61f")
+	)
+	(label "VCC_DRAM_FB"
+		(at 180.34 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "466c113a-eb67-5e1d-918b-f50ee8dc859a")
+	)
+	(hierarchical_label "VCC_DRAM_FB"
+		(shape bidirectional)
+		(at 166.37 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92e3d100-588c-56ca-ac60-fb6583997fc5")
+	)
+	(sheet
+		(at 55.88 76.2)
+		(size 71.12 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "05336049-e552-50c4-bf4a-445c33ed992d")
+		(property "Sheetname" "DRAM power / ground"
+			(at 55.88 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "a523_dram_power.kicad_sch"
+			(at 55.88 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "blackpants"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/988d3614-be63-4fa1-a3b5-9d1c0e9caf0a"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 25.4)
+		(size 71.12 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3863caa2-e617-5204-8634-5ba2755eedac")
+		(property "Sheetname" "Command / DRAM supply"
+			(at 187.96 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "a523_dram_control.kicad_sch"
+			(at 187.96 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VCC_DRAM_FB" bidirectional
+			(at 187.96 27.94 180)
+			(uuid "12fd48b3-8b4b-4b60-80c3-a7c6f819eef8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "blackpants"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/988d3614-be63-4fa1-a3b5-9d1c0e9caf0a"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 25.4)
+		(size 71.12 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ce58b14d-05b5-575d-bf15-859494ef33bf")
+		(property "Sheetname" "Data channels"
+			(at 55.88 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "a523_dram_data.kicad_sch"
+			(at 55.88 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "blackpants"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/988d3614-be63-4fa1-a3b5-9d1c0e9caf0a"
+					(page "18")
+				)
+			)
+		)
+	)
+)

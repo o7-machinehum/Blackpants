@@ -1,0 +1,7666 @@
+{
+  "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/DDR_ZQ": [
+    [
+      {
+        "reference": "R302",
+        "pad": "2",
+        "position_mm": [
+          81.01,
+          60.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U301",
+        "pad": "A5",
+        "position_mm": [
+          84.438008,
+          59.573542
+        ]
+      }
+    ]
+  ],
+  "/A523 system/2GB LPDDR4/Command {slash} DRAM supply/SOC_DDR_ZQ": [
+    [
+      {
+        "reference": "R301",
+        "pad": "1",
+        "position_mm": [
+          93.99,
+          55.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "U25",
+        "position_mm": [
+          69.242641,
+          56.828427
+        ]
+      }
+    ]
+  ],
+  "/A523 system/A523_I2C1_SCL": [
+    [
+      {
+        "reference": "J103",
+        "pad": "2",
+        "position_mm": [
+          44.04,
+          33.0
+        ]
+      },
+      {
+        "reference": "R125",
+        "pad": "2",
+        "position_mm": [
+          38.01,
+          54.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "J27",
+        "position_mm": [
+          67.12132,
+          60.363961
+        ]
+      }
+    ]
+  ],
+  "/A523 system/AP_RESET_N": [
+    [
+      {
+        "reference": "C259",
+        "pad": "1",
+        "position_mm": [
+          68.52,
+          45.0
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AC11",
+        "position_mm": [
+          66.414214,
+          49.757359
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U501",
+        "pad": "1",
+        "position_mm": [
+          98.115,
+          65.4
+        ]
+      },
+      {
+        "reference": "U502",
+        "pad": "13",
+        "position_mm": [
+          68.385,
+          77.0
+        ]
+      },
+      {
+        "reference": "R504",
+        "pad": "2",
+        "position_mm": [
+          96.01,
+          71.2
+        ]
+      }
+    ]
+  ],
+  "/A523 system/BT_HOST_WAKE": [
+    [
+      {
+        "reference": "U701",
+        "pad": "7",
+        "position_mm": [
+          47.9,
+          55.775
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "A10",
+        "position_mm": [
+          58.282486,
+          57.181981
+        ]
+      }
+    ]
+  ],
+  "/A523 system/BT_RTS_N": [
+    [
+      {
+        "reference": "U701",
+        "pad": "41",
+        "position_mm": [
+          41.225,
+          51.8
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "U4",
+        "position_mm": [
+          61.818019,
+          49.403806
+        ]
+      }
+    ]
+  ],
+  "/A523 system/BT_RXD": [
+    [
+      {
+        "reference": "U701",
+        "pad": "43",
+        "position_mm": [
+          41.225,
+          53.6
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "R5",
+        "position_mm": [
+          61.464466,
+          50.464466
+        ]
+      }
+    ]
+  ],
+  "/A523 system/CLK32K": [
+    [
+      {
+        "reference": "R715",
+        "pad": "2",
+        "position_mm": [
+          49.01,
+          41.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U701",
+        "pad": "24",
+        "position_mm": [
+          50.6,
+          44.225
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "AG11",
+        "position_mm": [
+          67.828427,
+          48.343146
+        ]
+      }
+    ]
+  ],
+  "/A523 system/DSI_CKN": [
+    [
+      {
+        "reference": "J801",
+        "pad": "6",
+        "position_mm": [
+          58.432823,
+          38.3807
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "B26",
+        "position_mm": [
+          64.292893,
+          62.485281
+        ]
+      }
+    ]
+  ],
+  "/A523 system/DSI_CKP": [
+    [
+      {
+        "reference": "J801",
+        "pad": "7",
+        "position_mm": [
+          58.932823,
+          38.3807
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "A26",
+        "position_mm": [
+          63.93934,
+          62.838835
+        ]
+      }
+    ]
+  ],
+  "/A523 system/DSI_D1N": [
+    [
+      {
+        "reference": "J801",
+        "pad": "9",
+        "position_mm": [
+          59.932823,
+          38.3807
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "B25",
+        "position_mm": [
+          63.93934,
+          62.131728
+        ]
+      }
+    ]
+  ],
+  "/A523 system/DSI_D1P": [
+    [
+      {
+        "reference": "J801",
+        "pad": "10",
+        "position_mm": [
+          60.432823,
+          38.3807
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "A25",
+        "position_mm": [
+          63.585786,
+          62.485281
+        ]
+      }
+    ]
+  ],
+  "/A523 system/LCD_RST": [
+    [
+      {
+        "reference": "J801",
+        "pad": "12",
+        "position_mm": [
+          61.432823,
+          38.3807
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "K27",
+        "position_mm": [
+          67.474874,
+          60.010408
+        ]
+      }
+    ]
+  ],
+  "/A523 system/PMU_SDA": [
+    [
+      {
+        "reference": "R502",
+        "pad": "2",
+        "position_mm": [
+          92.51,
+          74.0
+        ]
+      },
+      {
+        "reference": "U502",
+        "pad": "5",
+        "position_mm": [
+          65.615,
+          76.2
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U501",
+        "pad": "51",
+        "position_mm": [
+          99.0,
+          65.885
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "AH7",
+        "position_mm": [
+          66.767767,
+          46.575379
+        ]
+      }
+    ]
+  ],
+  "/A523 system/Peripheral IO/SD {slash} console {slash} GPIO/SD0_CLK_SOC": [
+    [
+      {
+        "reference": "R203",
+        "pad": "1",
+        "position_mm": [
+          57.09,
+          61.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "B12",
+        "position_mm": [
+          59.343146,
+          57.535534
+        ]
+      }
+    ]
+  ],
+  "/A523 system/Peripheral IO/USB PHY/USB0_REXT": [
+    [
+      {
+        "reference": "R209",
+        "pad": "1",
+        "position_mm": [
+          55.99,
+          65.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "E18",
+        "position_mm": [
+          62.525126,
+          58.596194
+        ]
+      }
+    ]
+  ],
+  "/A523 system/Peripheral IO/USB PHY/USB1_REXT": [
+    [
+      {
+        "reference": "R210",
+        "pad": "1",
+        "position_mm": [
+          59.99,
+          66.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "D18",
+        "position_mm": [
+          62.171573,
+          58.949747
+        ]
+      }
+    ]
+  ],
+  "/A523 system/Peripheral IO/Wi-Fi {slash} Bluetooth/DDR_ID0": [
+    [
+      {
+        "reference": "R206",
+        "pad": "2",
+        "position_mm": [
+          58.51,
+          66.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R204",
+        "pad": "1",
+        "position_mm": [
+          51.99,
+          64.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "A5",
+        "position_mm": [
+          56.514719,
+          55.414214
+        ]
+      }
+    ]
+  ],
+  "/A523 system/Peripheral IO/Wi-Fi {slash} Bluetooth/DDR_ID1": [
+    [
+      {
+        "reference": "R207",
+        "pad": "2",
+        "position_mm": [
+          55.51,
+          63.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R205",
+        "pad": "1",
+        "position_mm": [
+          49.49,
+          61.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "B5",
+        "position_mm": [
+          56.868272,
+          55.06066
+        ]
+      }
+    ]
+  ],
+  "/A523 system/Product peripherals/Wi-Fi {slash} Bluetooth/RF_ANT": [
+    [
+      {
+        "reference": "C701",
+        "pad": "1",
+        "position_mm": [
+          83.102823,
+          38.8307
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U701",
+        "pad": "2",
+        "position_mm": [
+          43.4,
+          55.775
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R703",
+        "pad": "1",
+        "position_mm": [
+          83.162823,
+          39.8207
+        ]
+      }
+    ]
+  ],
+  "/A523 system/SD0_CLK": [
+    [
+      {
+        "reference": "R203",
+        "pad": "2",
+        "position_mm": [
+          58.11,
+          61.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "J105",
+        "pad": "5",
+        "position_mm": [
+          103.4,
+          78.05
+        ]
+      }
+    ]
+  ],
+  "/A523 system/SD0_D1": [
+    [
+      {
+        "reference": "J105",
+        "pad": "8",
+        "position_mm": [
+          103.4,
+          74.75
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "C13",
+        "position_mm": [
+          60.050253,
+          57.535534
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R105",
+        "pad": "2",
+        "position_mm": [
+          98.51,
+          75.5
+        ]
+      }
+    ]
+  ],
+  "/A523 system/SD0_D3": [
+    [
+      {
+        "reference": "R107",
+        "pad": "2",
+        "position_mm": [
+          98.51,
+          81.35
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "J105",
+        "pad": "2",
+        "position_mm": [
+          103.4,
+          81.35
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "C11",
+        "position_mm": [
+          59.343146,
+          56.828427
+        ]
+      }
+    ]
+  ],
+  "/A523 system/SD0_DET": [
+    [
+      {
+        "reference": "R108",
+        "pad": "2",
+        "position_mm": [
+          96.51,
+          74.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "J105",
+        "pad": "9",
+        "position_mm": [
+          103.4,
+          73.8
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "C12",
+        "position_mm": [
+          59.696699,
+          57.181981
+        ]
+      }
+    ]
+  ],
+  "/A523 system/SD1_CLK": [
+    [
+      {
+        "reference": "U701",
+        "pad": "17",
+        "position_mm": [
+          52.775,
+          50.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R208",
+        "pad": "2",
+        "position_mm": [
+          56.49,
+          48.2
+        ]
+      }
+    ]
+  ],
+  "/A523 system/SD1_CMD": [
+    [
+      {
+        "reference": "R710",
+        "pad": "2",
+        "position_mm": [
+          48.51,
+          42.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U701",
+        "pad": "16",
+        "position_mm": [
+          52.775,
+          50.9
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "R2",
+        "position_mm": [
+          60.403806,
+          49.403806
+        ]
+      }
+    ]
+  ],
+  "/A523 system/SD1_D0": [
+    [
+      {
+        "reference": "U701",
+        "pad": "18",
+        "position_mm": [
+          52.775,
+          49.1
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R711",
+        "pad": "2",
+        "position_mm": [
+          51.01,
+          42.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "P3",
+        "position_mm": [
+          60.403806,
+          50.110913
+        ]
+      }
+    ]
+  ],
+  "/A523 system/SD1_D1": [
+    [
+      {
+        "reference": "R712",
+        "pad": "2",
+        "position_mm": [
+          51.51,
+          41.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U701",
+        "pad": "19",
+        "position_mm": [
+          52.775,
+          48.2
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "P2",
+        "position_mm": [
+          60.050253,
+          49.757359
+        ]
+      }
+    ]
+  ],
+  "/A523 system/SD1_D2": [
+    [
+      {
+        "reference": "U701",
+        "pad": "14",
+        "position_mm": [
+          52.775,
+          52.7
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R713",
+        "pad": "2",
+        "position_mm": [
+          55.51,
+          44.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "T3",
+        "position_mm": [
+          61.110913,
+          49.403806
+        ]
+      }
+    ]
+  ],
+  "/A523 system/SD1_D3": [
+    [
+      {
+        "reference": "U701",
+        "pad": "15",
+        "position_mm": [
+          52.775,
+          51.8
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R714",
+        "pad": "2",
+        "position_mm": [
+          53.51,
+          42.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "T2",
+        "position_mm": [
+          60.757359,
+          49.050253
+        ]
+      }
+    ]
+  ],
+  "/A523 system/SoC support/Analog {slash} straps/DDR_ADC": [
+    [
+      {
+        "reference": "R213",
+        "pad": "2",
+        "position_mm": [
+          76.51,
+          46.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R214",
+        "pad": "1",
+        "position_mm": [
+          70.49,
+          40.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "W3",
+        "position_mm": [
+          62.171573,
+          48.343146
+        ]
+      }
+    ]
+  ],
+  "/A523 system/SoC support/Analog {slash} straps/VCM_ADC": [
+    [
+      {
+        "reference": "C276",
+        "pad": "1",
+        "position_mm": [
+          57.02,
+          42.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "U6",
+        "position_mm": [
+          62.525126,
+          50.110913
+        ]
+      }
+    ]
+  ],
+  "/A523 system/SoC support/Clocks {slash} reset {slash} boot/DXIN": [
+    [
+      {
+        "reference": "C250",
+        "pad": "1",
+        "position_mm": [
+          68.52,
+          40.5
+        ]
+      },
+      {
+        "reference": "Y201",
+        "pad": "1",
+        "position_mm": [
+          68.9,
+          42.15
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "AH13",
+        "position_mm": [
+          68.889087,
+          48.696699
+        ]
+      }
+    ]
+  ],
+  "/A523 system/SoC support/Clocks {slash} reset {slash} boot/DXOUT": [
+    [
+      {
+        "reference": "R201",
+        "pad": "2",
+        "position_mm": [
+          72.01,
+          40.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "AJ13",
+        "position_mm": [
+          69.242641,
+          48.343146
+        ]
+      }
+    ]
+  ],
+  "/A523 system/SoC support/Clocks {slash} reset {slash} boot/X32KIN": [
+    [
+      {
+        "reference": "R202",
+        "pad": "1",
+        "position_mm": [
+          56.49,
+          41.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C252",
+        "pad": "1",
+        "position_mm": [
+          66.02,
+          41.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "Y202",
+        "pad": "1",
+        "position_mm": [
+          64.25,
+          41.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "AH12",
+        "position_mm": [
+          68.535534,
+          48.343146
+        ]
+      }
+    ]
+  ],
+  "/A523 system/SoC support/Clocks {slash} reset {slash} boot/X32KOUT": [
+    [
+      {
+        "reference": "R202",
+        "pad": "2",
+        "position_mm": [
+          57.51,
+          41.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "Y202",
+        "pad": "2",
+        "position_mm": [
+          61.75,
+          41.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C253",
+        "pad": "1",
+        "position_mm": [
+          59.02,
+          41.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "AH11",
+        "position_mm": [
+          68.181981,
+          47.989592
+        ]
+      }
+    ]
+  ],
+  "/A523 system/UART0_TX": [
+    [
+      {
+        "reference": "U402",
+        "pad": "3",
+        "position_mm": [
+          49.525,
+          85.905
+        ]
+      },
+      {
+        "reference": "J102",
+        "pad": "1",
+        "position_mm": [
+          41.5,
+          83.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "L24",
+        "position_mm": [
+          66.767767,
+          58.596194
+        ]
+      }
+    ]
+  ],
+  "/A523 system/USB0_DM": [
+    [
+      {
+        "reference": "U101",
+        "pad": "6",
+        "position_mm": [
+          43.6375,
+          63.45
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "B18",
+        "position_mm": [
+          61.464466,
+          59.656854
+        ]
+      }
+    ]
+  ],
+  "/A523 system/USB0_DP": [
+    [
+      {
+        "reference": "U101",
+        "pad": "4",
+        "position_mm": [
+          43.6375,
+          61.55
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "A18",
+        "position_mm": [
+          61.110913,
+          60.010408
+        ]
+      }
+    ]
+  ],
+  "/A523 system/USB0_VBUS_DET": [
+    [
+      {
+        "reference": "R124",
+        "pad": "1",
+        "position_mm": [
+          34.49,
+          66.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R123",
+        "pad": "2",
+        "position_mm": [
+          41.51,
+          57.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "L26",
+        "position_mm": [
+          67.474874,
+          59.303301
+        ]
+      }
+    ]
+  ],
+  "/A523 system/VCC_DRAM_FB": [
+    [
+      {
+        "reference": "NT301",
+        "pad": "2",
+        "position_mm": [
+          92.0,
+          49.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U501",
+        "pad": "29",
+        "position_mm": [
+          103.885,
+          61.4
+        ]
+      }
+    ]
+  ],
+  "/A523 system/VDD_CPUB_FB": [
+    [
+      {
+        "reference": "U502",
+        "pad": "1",
+        "position_mm": [
+          65.615,
+          77.8
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U502",
+        "pad": "16",
+        "position_mm": [
+          67.8,
+          78.385
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "M19",
+        "position_mm": [
+          65.353553,
+          56.474874
+        ]
+      }
+    ]
+  ],
+  "/A523 system/VDD_CPUL_FB": [
+    [
+      {
+        "reference": "U501",
+        "pad": "12",
+        "position_mm": [
+          98.115,
+          61.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "V16",
+        "position_mm": [
+          66.414214,
+          53.292893
+        ]
+      }
+    ]
+  ],
+  "/A523 system/VDD_DNR_FB": [
+    [
+      {
+        "reference": "U502",
+        "pad": "4",
+        "position_mm": [
+          65.615,
+          76.6
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "W10",
+        "position_mm": [
+          64.646447,
+          50.818019
+        ]
+      }
+    ]
+  ],
+  "/A523 system/VDD_SYS_FB": [
+    [
+      {
+        "reference": "U501",
+        "pad": "34",
+        "position_mm": [
+          103.885,
+          63.4
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "L15",
+        "position_mm": [
+          63.585786,
+          55.414214
+        ]
+      }
+    ]
+  ],
+  "/CHGLED_N": [
+    [
+      {
+        "reference": "U501",
+        "pad": "38",
+        "position_mm": [
+          103.885,
+          65.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "D902",
+        "pad": "1",
+        "position_mm": [
+          108.2125,
+          43.0
+        ]
+      }
+    ]
+  ],
+  "/HUB_CONSOLE_DM": [
+    [
+      {
+        "reference": "U402",
+        "pad": "6",
+        "position_mm": [
+          49.525,
+          82.095
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U3",
+        "pad": "8",
+        "position_mm": [
+          71.6275,
+          102.0575
+        ]
+      }
+    ]
+  ],
+  "/HUB_CONSOLE_DP": [
+    [
+      {
+        "reference": "U402",
+        "pad": "5",
+        "position_mm": [
+          49.525,
+          83.365
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U3",
+        "pad": "9",
+        "position_mm": [
+          71.1275,
+          102.0575
+        ]
+      }
+    ]
+  ],
+  "/PMIC_USB_DM": [
+    [
+      {
+        "reference": "R904",
+        "pad": "2",
+        "position_mm": [
+          107.51,
+          47.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U501",
+        "pad": "2",
+        "position_mm": [
+          98.115,
+          65.0
+        ]
+      }
+    ]
+  ],
+  "/PMIC_USB_DP": [
+    [
+      {
+        "reference": "U501",
+        "pad": "3",
+        "position_mm": [
+          98.115,
+          64.6
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R903",
+        "pad": "2",
+        "position_mm": [
+          110.01,
+          45.5
+        ]
+      }
+    ]
+  ],
+  "/Power & USB/CC1": [
+    [
+      {
+        "reference": "J8",
+        "pad": "A5",
+        "position_mm": [
+          111.865,
+          48.51
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R901",
+        "pad": "1",
+        "position_mm": [
+          108.99,
+          47.0
+        ]
+      }
+    ]
+  ],
+  "/Power & USB/CC2": [
+    [
+      {
+        "reference": "J8",
+        "pad": "B5",
+        "position_mm": [
+          111.865,
+          51.51
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R902",
+        "pad": "1",
+        "position_mm": [
+          111.49,
+          57.5
+        ]
+      }
+    ]
+  ],
+  "/Power & USB/SENSE_DM": [
+    [
+      {
+        "reference": "J8",
+        "pad": "A7",
+        "position_mm": [
+          111.865,
+          50.01
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "J8",
+        "pad": "B7",
+        "position_mm": [
+          111.865,
+          49.01
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R904",
+        "pad": "1",
+        "position_mm": [
+          106.49,
+          47.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U12",
+        "pad": "1",
+        "position_mm": [
+          109.275,
+          48.85
+        ]
+      }
+    ]
+  ],
+  "/Power & USB/SENSE_DP": [
+    [
+      {
+        "reference": "J8",
+        "pad": "A6",
+        "position_mm": [
+          111.865,
+          49.51
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "J8",
+        "pad": "B6",
+        "position_mm": [
+          111.865,
+          50.51
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R903",
+        "pad": "1",
+        "position_mm": [
+          108.99,
+          45.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U12",
+        "pad": "3",
+        "position_mm": [
+          109.275,
+          50.75
+        ]
+      }
+    ]
+  ],
+  "/USB.D+": [
+    [
+      {
+        "reference": "U11",
+        "pad": "7",
+        "position_mm": [
+          102.225,
+          105.7
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U12",
+        "pad": "4",
+        "position_mm": [
+          107.0,
+          50.75
+        ]
+      }
+    ]
+  ],
+  "/USB.D-": [
+    [
+      {
+        "reference": "U11",
+        "pad": "6",
+        "position_mm": [
+          102.225,
+          105.3
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U12",
+        "pad": "6",
+        "position_mm": [
+          107.0,
+          48.85
+        ]
+      }
+    ]
+  ],
+  "/USB_DET": [
+    [
+      {
+        "reference": "U1",
+        "pad": "2",
+        "position_mm": [
+          78.5375,
+          112.45
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R905",
+        "pad": "2",
+        "position_mm": [
+          112.51,
+          43.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R906",
+        "pad": "1",
+        "position_mm": [
+          114.99,
+          43.5
+        ]
+      }
+    ]
+  ],
+  "/USB_HOST_DM": [
+    [
+      {
+        "reference": "U3",
+        "pad": "30",
+        "position_mm": [
+          76.065,
+          98.12
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "E20",
+        "position_mm": [
+          63.232233,
+          59.303301
+        ]
+      }
+    ]
+  ],
+  "/USB_HOST_DP": [
+    [
+      {
+        "reference": "U3",
+        "pad": "31",
+        "position_mm": [
+          76.065,
+          98.62
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "D20",
+        "position_mm": [
+          62.87868,
+          59.656854
+        ]
+      }
+    ]
+  ],
+  "BLDO4_UNUSED": [
+    [
+      {
+        "reference": "U501",
+        "pad": "22",
+        "position_mm": [
+          101.8,
+          60.115
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C530",
+        "pad": "1",
+        "position_mm": [
+          97.52,
+          54.0
+        ]
+      }
+    ]
+  ],
+  "GND": [
+    [
+      {
+        "reference": "C206",
+        "pad": "2",
+        "position_mm": [
+          55.98,
+          60.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C317",
+        "pad": "2",
+        "position_mm": [
+          81.48,
+          55.0
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "A1",
+        "position_mm": [
+          55.100505,
+          54.0
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "A2",
+        "position_mm": [
+          55.454058,
+          54.353553
+        ]
+      },
+      {
+        "reference": "J102",
+        "pad": "3",
+        "position_mm": [
+          41.5,
+          77.92
+        ]
+      },
+      {
+        "reference": "J5",
+        "pad": "5",
+        "position_mm": [
+          38.95,
+          104.7
+        ]
+      },
+      {
+        "reference": "J5",
+        "pad": "5",
+        "position_mm": [
+          38.95,
+          91.9
+        ]
+      },
+      {
+        "reference": "J103",
+        "pad": "4",
+        "position_mm": [
+          49.12,
+          33.0
+        ]
+      },
+      {
+        "reference": "J701",
+        "pad": "2",
+        "position_mm": [
+          37.05,
+          44.02
+        ]
+      },
+      {
+        "reference": "J701",
+        "pad": "2",
+        "position_mm": [
+          31.97,
+          44.02
+        ]
+      },
+      {
+        "reference": "J701",
+        "pad": "2",
+        "position_mm": [
+          37.05,
+          49.1
+        ]
+      },
+      {
+        "reference": "J701",
+        "pad": "2",
+        "position_mm": [
+          31.97,
+          49.1
+        ]
+      },
+      {
+        "reference": "J4",
+        "pad": "5",
+        "position_mm": [
+          111.05,
+          91.9
+        ]
+      },
+      {
+        "reference": "J4",
+        "pad": "5",
+        "position_mm": [
+          111.05,
+          104.7
+        ]
+      },
+      {
+        "reference": "J101",
+        "pad": "SH",
+        "position_mm": [
+          33.9825,
+          64.4
+        ]
+      },
+      {
+        "reference": "J101",
+        "pad": "SH",
+        "position_mm": [
+          38.1625,
+          64.4
+        ]
+      },
+      {
+        "reference": "J101",
+        "pad": "SH",
+        "position_mm": [
+          33.9825,
+          55.76
+        ]
+      },
+      {
+        "reference": "J101",
+        "pad": "SH",
+        "position_mm": [
+          38.1625,
+          55.76
+        ]
+      },
+      {
+        "reference": "TH901",
+        "pad": "2",
+        "position_mm": [
+          57.6,
+          177.0
+        ]
+      },
+      {
+        "reference": "J8",
+        "pad": "SH",
+        "position_mm": [
+          116.96,
+          45.44
+        ]
+      },
+      {
+        "reference": "J8",
+        "pad": "SH",
+        "position_mm": [
+          112.78,
+          45.44
+        ]
+      },
+      {
+        "reference": "J8",
+        "pad": "SH",
+        "position_mm": [
+          116.96,
+          54.08
+        ]
+      },
+      {
+        "reference": "J8",
+        "pad": "SH",
+        "position_mm": [
+          112.78,
+          54.08
+        ]
+      },
+      {
+        "reference": "U901",
+        "pad": "11",
+        "position_mm": [
+          101.55,
+          35.635
+        ]
+      },
+      {
+        "reference": "U901",
+        "pad": "11",
+        "position_mm": [
+          102.0,
+          35.0
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "G6",
+        "position_mm": [
+          58.989592,
+          53.646447
+        ]
+      },
+      {
+        "reference": "R121",
+        "pad": "2",
+        "position_mm": [
+          41.51,
+          65.5
+        ]
+      },
+      {
+        "reference": "R209",
+        "pad": "2",
+        "position_mm": [
+          57.01,
+          65.0
+        ]
+      },
+      {
+        "reference": "U501",
+        "pad": "53",
+        "position_mm": [
+          101.0,
+          63.0
+        ]
+      },
+      {
+        "reference": "C252",
+        "pad": "2",
+        "position_mm": [
+          66.98,
+          41.0
+        ]
+      },
+      {
+        "reference": "U101",
+        "pad": "2",
+        "position_mm": [
+          41.3625,
+          62.5
+        ]
+      },
+      {
+        "reference": "R33",
+        "pad": "1",
+        "position_mm": [
+          36.6,
+          89.2
+        ]
+      },
+      {
+        "reference": "R122",
+        "pad": "2",
+        "position_mm": [
+          41.51,
+          58.5
+        ]
+      },
+      {
+        "reference": "U12",
+        "pad": "2",
+        "position_mm": [
+          109.275,
+          49.8
+        ]
+      },
+      {
+        "reference": "R7",
+        "pad": "2",
+        "position_mm": [
+          76.3,
+          91.61
+        ]
+      },
+      {
+        "reference": "R716",
+        "pad": "2",
+        "position_mm": [
+          50.51,
+          60.0
+        ]
+      },
+      {
+        "reference": "U901",
+        "pad": "11",
+        "position_mm": [
+          102.45,
+          34.365
+        ]
+      },
+      {
+        "reference": "U901",
+        "pad": "11",
+        "position_mm": [
+          102.45,
+          35.635
+        ]
+      },
+      {
+        "reference": "R8",
+        "pad": "2",
+        "position_mm": [
+          78.5,
+          101.2
+        ]
+      },
+      {
+        "reference": "R906",
+        "pad": "2",
+        "position_mm": [
+          116.01,
+          43.5
+        ]
+      },
+      {
+        "reference": "C280",
+        "pad": "2",
+        "position_mm": [
+          67.98,
+          43.5
+        ]
+      },
+      {
+        "reference": "R124",
+        "pad": "2",
+        "position_mm": [
+          35.51,
+          66.5
+        ]
+      },
+      {
+        "reference": "U901",
+        "pad": "11",
+        "position_mm": [
+          101.55,
+          34.365
+        ]
+      },
+      {
+        "reference": "C16",
+        "pad": "2",
+        "position_mm": [
+          73.2,
+          104.88
+        ]
+      },
+      {
+        "reference": "U1",
+        "pad": "49",
+        "position_mm": [
+          75.1,
+          114.7
+        ]
+      },
+      {
+        "reference": "Y201",
+        "pad": "2",
+        "position_mm": [
+          71.1,
+          42.15
+        ]
+      },
+      {
+        "reference": "R204",
+        "pad": "2",
+        "position_mm": [
+          53.01,
+          64.0
+        ]
+      },
+      {
+        "reference": "J3",
+        "pad": "5",
+        "position_mm": [
+          65.93,
+          109.26
+        ]
+      },
+      {
+        "reference": "R13",
+        "pad": "2",
+        "position_mm": [
+          78.8,
+          93.78
+        ]
+      },
+      {
+        "reference": "R205",
+        "pad": "2",
+        "position_mm": [
+          50.51,
+          61.5
+        ]
+      },
+      {
+        "reference": "R802",
+        "pad": "2",
+        "position_mm": [
+          77.51,
+          37.0
+        ]
+      },
+      {
+        "reference": "C250",
+        "pad": "2",
+        "position_mm": [
+          69.48,
+          40.5
+        ]
+      },
+      {
+        "reference": "U502",
+        "pad": "21",
+        "position_mm": [
+          67.0,
+          77.0
+        ]
+      },
+      {
+        "reference": "U3",
+        "pad": "11",
+        "position_mm": [
+          70.19,
+          100.62
+        ]
+      },
+      {
+        "reference": "C7",
+        "pad": "2",
+        "position_mm": [
+          70.35,
+          110.9
+        ]
+      },
+      {
+        "reference": "C267",
+        "pad": "2",
+        "position_mm": [
+          64.196447,
+          49.117359
+        ]
+      },
+      {
+        "reference": "R718",
+        "pad": "2",
+        "position_mm": [
+          47.51,
+          60.0
+        ]
+      },
+      {
+        "reference": "R921",
+        "pad": "2",
+        "position_mm": [
+          93.01,
+          86.0
+        ]
+      },
+      {
+        "reference": "R717",
+        "pad": "2",
+        "position_mm": [
+          41.51,
+          42.5
+        ]
+      },
+      {
+        "reference": "U6",
+        "pad": "2",
+        "position_mm": [
+          102.0625,
+          98.4
+        ]
+      },
+      {
+        "reference": "C14",
+        "pad": "2",
+        "position_mm": [
+          77.2,
+          96.12
+        ]
+      },
+      {
+        "reference": "U801",
+        "pad": "5",
+        "position_mm": [
+          77.1375,
+          34.0
+        ]
+      },
+      {
+        "reference": "R212",
+        "pad": "2",
+        "position_mm": [
+          54.01,
+          41.0
+        ]
+      },
+      {
+        "reference": "R22",
+        "pad": "2",
+        "position_mm": [
+          39.18,
+          114.9
+        ]
+      },
+      {
+        "reference": "C8",
+        "pad": "2",
+        "position_mm": [
+          79.7,
+          110.2
+        ]
+      },
+      {
+        "reference": "C44",
+        "pad": "2",
+        "position_mm": [
+          50.0,
+          112.0
+        ]
+      },
+      {
+        "reference": "C243",
+        "pad": "2",
+        "position_mm": [
+          60.48,
+          42.0
+        ]
+      },
+      {
+        "reference": "R23",
+        "pad": "2",
+        "position_mm": [
+          48.8,
+          115.08
+        ]
+      },
+      {
+        "reference": "U7",
+        "pad": "2",
+        "position_mm": [
+          93.8625,
+          90.0
+        ]
+      },
+      {
+        "reference": "R210",
+        "pad": "2",
+        "position_mm": [
+          61.01,
+          66.5
+        ]
+      },
+      {
+        "reference": "C30",
+        "pad": "1",
+        "position_mm": [
+          77.3,
+          89.58
+        ]
+      },
+      {
+        "reference": "C305",
+        "pad": "2",
+        "position_mm": [
+          85.98,
+          44.5
+        ]
+      },
+      {
+        "reference": "C15",
+        "pad": "2",
+        "position_mm": [
+          68.99,
+          100.84
+        ]
+      },
+      {
+        "reference": "C27",
+        "pad": "2",
+        "position_mm": [
+          67.81,
+          99.1
+        ]
+      },
+      {
+        "reference": "C11",
+        "pad": "2",
+        "position_mm": [
+          80.81,
+          111.7625
+        ]
+      },
+      {
+        "reference": "U3",
+        "pad": "37",
+        "position_mm": [
+          73.1275,
+          99.12
+        ]
+      },
+      {
+        "reference": "U901",
+        "pad": "11",
+        "position_mm": [
+          102.25,
+          36.55
+        ]
+      },
+      {
+        "reference": "U901",
+        "pad": "11",
+        "position_mm": [
+          102.25,
+          36.63
+        ]
+      },
+      {
+        "reference": "C913",
+        "pad": "2",
+        "position_mm": [
+          95.55,
+          31.2
+        ]
+      },
+      {
+        "reference": "U901",
+        "pad": "11",
+        "position_mm": [
+          101.75,
+          33.37
+        ]
+      },
+      {
+        "reference": "U901",
+        "pad": "11",
+        "position_mm": [
+          101.75,
+          33.45
+        ]
+      },
+      {
+        "reference": "U901",
+        "pad": "11",
+        "position_mm": [
+          101.75,
+          36.55
+        ]
+      },
+      {
+        "reference": "U901",
+        "pad": "11",
+        "position_mm": [
+          101.75,
+          36.63
+        ]
+      },
+      {
+        "reference": "U901",
+        "pad": "11",
+        "position_mm": [
+          102.25,
+          33.37
+        ]
+      },
+      {
+        "reference": "C914",
+        "pad": "2",
+        "position_mm": [
+          95.55,
+          33.5
+        ]
+      },
+      {
+        "reference": "U901",
+        "pad": "11",
+        "position_mm": [
+          102.25,
+          33.45
+        ]
+      },
+      {
+        "reference": "C912",
+        "pad": "2",
+        "position_mm": [
+          95.55,
+          35.8
+        ]
+      },
+      {
+        "reference": "C910",
+        "pad": "2",
+        "position_mm": [
+          106.0,
+          39.45
+        ]
+      },
+      {
+        "reference": "R911",
+        "pad": "2",
+        "position_mm": [
+          106.51,
+          35.0
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "A14",
+        "position_mm": [
+          59.696699,
+          58.596194
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "A29",
+        "position_mm": [
+          65.0,
+          63.899495
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AA3",
+        "position_mm": [
+          62.87868,
+          47.636039
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AA6",
+        "position_mm": [
+          63.93934,
+          48.696699
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AA7",
+        "position_mm": [
+          64.292893,
+          49.050253
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AA11",
+        "position_mm": [
+          65.707107,
+          50.464466
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AA17",
+        "position_mm": [
+          67.828427,
+          52.585786
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AA18",
+        "position_mm": [
+          68.181981,
+          52.93934
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AA19",
+        "position_mm": [
+          68.535534,
+          53.292893
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AA20",
+        "position_mm": [
+          68.889087,
+          53.646447
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AA25",
+        "position_mm": [
+          70.656854,
+          55.414214
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AA28",
+        "position_mm": [
+          71.717514,
+          56.474874
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AC13",
+        "position_mm": [
+          67.12132,
+          50.464466
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AC21",
+        "position_mm": [
+          69.949747,
+          53.292893
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AC24",
+        "position_mm": [
+          71.010408,
+          54.353553
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AD7",
+        "position_mm": [
+          65.353553,
+          47.989592
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AD23",
+        "position_mm": [
+          71.010408,
+          53.646447
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AE13",
+        "position_mm": [
+          67.828427,
+          49.757359
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AE15",
+        "position_mm": [
+          68.535534,
+          50.464466
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AE17",
+        "position_mm": [
+          69.242641,
+          51.171573
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AE19",
+        "position_mm": [
+          69.949747,
+          51.87868
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AF11",
+        "position_mm": [
+          67.474874,
+          48.696699
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AF13",
+        "position_mm": [
+          68.181981,
+          49.403806
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AG5",
+        "position_mm": [
+          65.707107,
+          46.221825
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AG7",
+        "position_mm": [
+          66.414214,
+          46.928932
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AG12",
+        "position_mm": [
+          68.181981,
+          48.696699
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AG13",
+        "position_mm": [
+          68.535534,
+          49.050253
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AG14",
+        "position_mm": [
+          68.889087,
+          49.403806
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AH3",
+        "position_mm": [
+          65.353553,
+          45.161165
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AH10",
+        "position_mm": [
+          67.828427,
+          47.636039
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AH16",
+        "position_mm": [
+          69.949747,
+          49.757359
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AH22",
+        "position_mm": [
+          72.071068,
+          51.87868
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AH25",
+        "position_mm": [
+          73.131728,
+          52.93934
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AJ1",
+        "position_mm": [
+          65.0,
+          44.100505
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AJ6",
+        "position_mm": [
+          66.767767,
+          45.868272
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AJ11",
+        "position_mm": [
+          68.535534,
+          47.636039
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "R3",
+        "position_mm": [
+          60.757359,
+          49.757359
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "R6",
+        "position_mm": [
+          61.818019,
+          50.818019
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "R7",
+        "position_mm": [
+          62.171573,
+          51.171573
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "R15",
+        "position_mm": [
+          65.0,
+          54.0
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "R16",
+        "position_mm": [
+          65.353553,
+          54.353553
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "R23",
+        "position_mm": [
+          67.828427,
+          56.828427
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "R26",
+        "position_mm": [
+          68.889087,
+          57.889087
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "T9",
+        "position_mm": [
+          63.232233,
+          51.525126
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "T10",
+        "position_mm": [
+          63.585786,
+          51.87868
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "T12",
+        "position_mm": [
+          64.292893,
+          52.585786
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "T13",
+        "position_mm": [
+          64.646447,
+          52.93934
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "T19",
+        "position_mm": [
+          66.767767,
+          55.06066
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "U7",
+        "position_mm": [
+          62.87868,
+          50.464466
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "U12",
+        "position_mm": [
+          64.646447,
+          52.232233
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "U15",
+        "position_mm": [
+          65.707107,
+          53.292893
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "U19",
+        "position_mm": [
+          67.12132,
+          54.707107
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "U20",
+        "position_mm": [
+          67.474874,
+          55.06066
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "U26",
+        "position_mm": [
+          69.596194,
+          57.181981
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "U28",
+        "position_mm": [
+          70.303301,
+          57.889087
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "V12",
+        "position_mm": [
+          65.0,
+          51.87868
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "V13",
+        "position_mm": [
+          65.353553,
+          52.232233
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "V15",
+        "position_mm": [
+          66.06066,
+          52.93934
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "V18",
+        "position_mm": [
+          67.12132,
+          54.0
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "V19",
+        "position_mm": [
+          67.474874,
+          54.353553
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "W1",
+        "position_mm": [
+          61.464466,
+          47.636039
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "W8",
+        "position_mm": [
+          63.93934,
+          50.110913
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "W9",
+        "position_mm": [
+          64.292893,
+          50.464466
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "W12",
+        "position_mm": [
+          65.353553,
+          51.525126
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "W14",
+        "position_mm": [
+          66.06066,
+          52.232233
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "W25",
+        "position_mm": [
+          69.949747,
+          56.12132
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AJ24",
+        "position_mm": [
+          73.131728,
+          52.232233
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "B14",
+        "position_mm": [
+          60.050253,
+          58.242641
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "B29",
+        "position_mm": [
+          65.353553,
+          63.545942
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "C3",
+        "position_mm": [
+          56.514719,
+          54.0
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "C6",
+        "position_mm": [
+          57.575379,
+          55.06066
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "C8",
+        "position_mm": [
+          58.282486,
+          55.767767
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "C10",
+        "position_mm": [
+          58.989592,
+          56.474874
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "C14",
+        "position_mm": [
+          60.403806,
+          57.889087
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "C16",
+        "position_mm": [
+          61.110913,
+          58.596194
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "C18",
+        "position_mm": [
+          61.818019,
+          59.303301
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "C20",
+        "position_mm": [
+          62.525126,
+          60.010408
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "C22",
+        "position_mm": [
+          63.232233,
+          60.717514
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "C24",
+        "position_mm": [
+          63.93934,
+          61.424621
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "C25",
+        "position_mm": [
+          64.292893,
+          61.778175
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "C26",
+        "position_mm": [
+          64.646447,
+          62.131728
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "C27",
+        "position_mm": [
+          65.0,
+          62.485281
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "D12",
+        "position_mm": [
+          60.050253,
+          56.828427
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "D14",
+        "position_mm": [
+          60.757359,
+          57.535534
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "E3",
+        "position_mm": [
+          57.221825,
+          53.292893
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "E24",
+        "position_mm": [
+          64.646447,
+          60.717514
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "E27",
+        "position_mm": [
+          65.707107,
+          61.778175
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "F16",
+        "position_mm": [
+          62.171573,
+          57.535534
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "F18",
+        "position_mm": [
+          62.87868,
+          58.242641
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "F20",
+        "position_mm": [
+          63.585786,
+          58.949747
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "F22",
+        "position_mm": [
+          64.292893,
+          59.656854
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "G3",
+        "position_mm": [
+          57.928932,
+          52.585786
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "G7",
+        "position_mm": [
+          59.343146,
+          54.0
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "G23",
+        "position_mm": [
+          65.0,
+          59.656854
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "G24",
+        "position_mm": [
+          65.353553,
+          60.010408
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "G27",
+        "position_mm": [
+          66.414214,
+          61.071068
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "H9",
+        "position_mm": [
+          60.403806,
+          54.353553
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "H11",
+        "position_mm": [
+          61.110913,
+          55.06066
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "H13",
+        "position_mm": [
+          61.818019,
+          55.767767
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "H16",
+        "position_mm": [
+          62.87868,
+          56.828427
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "H19",
+        "position_mm": [
+          63.93934,
+          57.889087
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "J3",
+        "position_mm": [
+          58.636039,
+          51.87868
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "J10",
+        "position_mm": [
+          61.110913,
+          54.353553
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "J13",
+        "position_mm": [
+          62.171573,
+          55.414214
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "J16",
+        "position_mm": [
+          63.232233,
+          56.474874
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "J18",
+        "position_mm": [
+          63.93934,
+          57.181981
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "J19",
+        "position_mm": [
+          64.292893,
+          57.535534
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "J22",
+        "position_mm": [
+          65.353553,
+          58.596194
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "J26",
+        "position_mm": [
+          66.767767,
+          60.010408
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "K9",
+        "position_mm": [
+          61.110913,
+          53.646447
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "K12",
+        "position_mm": [
+          62.171573,
+          54.707107
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "K15",
+        "position_mm": [
+          63.232233,
+          55.767767
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "K16",
+        "position_mm": [
+          63.585786,
+          56.12132
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "K18",
+        "position_mm": [
+          64.292893,
+          56.828427
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "L3",
+        "position_mm": [
+          59.343146,
+          51.171573
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "L6",
+        "position_mm": [
+          60.403806,
+          52.232233
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "L7",
+        "position_mm": [
+          60.757359,
+          52.585786
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "L9",
+        "position_mm": [
+          61.464466,
+          53.292893
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "L13",
+        "position_mm": [
+          62.87868,
+          54.707107
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "L16",
+        "position_mm": [
+          63.93934,
+          55.767767
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "L21",
+        "position_mm": [
+          65.707107,
+          57.535534
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "L23",
+        "position_mm": [
+          66.414214,
+          58.242641
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "M9",
+        "position_mm": [
+          61.818019,
+          52.93934
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "M10",
+        "position_mm": [
+          62.171573,
+          53.292893
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "M16",
+        "position_mm": [
+          64.292893,
+          55.414214
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "M21",
+        "position_mm": [
+          66.06066,
+          57.181981
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "N3",
+        "position_mm": [
+          60.050253,
+          50.464466
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "N7",
+        "position_mm": [
+          61.464466,
+          51.87868
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "N12",
+        "position_mm": [
+          63.232233,
+          53.646447
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "N13",
+        "position_mm": [
+          63.585786,
+          54.0
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "N15",
+        "position_mm": [
+          64.292893,
+          54.707107
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "N21",
+        "position_mm": [
+          66.414214,
+          56.828427
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "P11",
+        "position_mm": [
+          63.232233,
+          52.93934
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "P13",
+        "position_mm": [
+          63.93934,
+          53.646447
+        ]
+      },
+      {
+        "reference": "C265",
+        "pad": "2",
+        "position_mm": [
+          59.306699,
+          53.13934
+        ]
+      },
+      {
+        "reference": "C270",
+        "pad": "2",
+        "position_mm": [
+          59.736613,
+          54.186361
+        ]
+      },
+      {
+        "reference": "J801",
+        "pad": "8",
+        "position_mm": [
+          59.432823,
+          38.3807
+        ]
+      },
+      {
+        "reference": "C304",
+        "pad": "2",
+        "position_mm": [
+          79.48,
+          49.0
+        ]
+      },
+      {
+        "reference": "U402",
+        "pad": "1",
+        "position_mm": [
+          49.525,
+          88.445
+        ]
+      },
+      {
+        "reference": "U501",
+        "pad": "8",
+        "position_mm": [
+          98.115,
+          62.6
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "C1",
+        "position_mm": [
+          81.238008,
+          58.273542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "C5",
+        "position_mm": [
+          84.438008,
+          58.273542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "D2",
+        "position_mm": [
+          82.038008,
+          57.623542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "D4",
+        "position_mm": [
+          83.638008,
+          57.623542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "E5",
+        "position_mm": [
+          84.438008,
+          56.973542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "E8",
+        "position_mm": [
+          86.838008,
+          56.973542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "G1",
+        "position_mm": [
+          81.238008,
+          55.673542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "G3",
+        "position_mm": [
+          82.838008,
+          55.673542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "G5",
+        "position_mm": [
+          84.438008,
+          55.673542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "G8",
+        "position_mm": [
+          86.838008,
+          55.673542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "G10",
+        "position_mm": [
+          88.438008,
+          55.673542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "G12",
+        "position_mm": [
+          90.038008,
+          55.673542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "J1",
+        "position_mm": [
+          81.238008,
+          54.373542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "J3",
+        "position_mm": [
+          82.838008,
+          54.373542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "J10",
+        "position_mm": [
+          88.438008,
+          54.373542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "J12",
+        "position_mm": [
+          90.038008,
+          54.373542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "K2",
+        "position_mm": [
+          82.038008,
+          53.723542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "K4",
+        "position_mm": [
+          83.638008,
+          53.723542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "K9",
+        "position_mm": [
+          87.638008,
+          53.723542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "K11",
+        "position_mm": [
+          89.238008,
+          53.723542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "N9",
+        "position_mm": [
+          87.638008,
+          51.773542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "N11",
+        "position_mm": [
+          89.238008,
+          51.773542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "P10",
+        "position_mm": [
+          88.438008,
+          51.123542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "P12",
+        "position_mm": [
+          90.038008,
+          51.123542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "T8",
+        "position_mm": [
+          86.838008,
+          49.823542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "T10",
+        "position_mm": [
+          88.438008,
+          49.823542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "T12",
+        "position_mm": [
+          90.038008,
+          49.823542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "V8",
+        "position_mm": [
+          86.838008,
+          48.523542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "W9",
+        "position_mm": [
+          87.638008,
+          47.873542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "Y8",
+        "position_mm": [
+          86.838008,
+          47.223542
+        ]
+      },
+      {
+        "reference": "C309",
+        "pad": "2",
+        "position_mm": [
+          83.48,
+          52.5
+        ]
+      },
+      {
+        "reference": "Y1",
+        "pad": "2",
+        "position_mm": [
+          82.89,
+          98.3
+        ]
+      },
+      {
+        "reference": "C12",
+        "pad": "2",
+        "position_mm": [
+          73.09,
+          93.84
+        ]
+      },
+      {
+        "reference": "J801",
+        "pad": "11",
+        "position_mm": [
+          60.932823,
+          38.3807
+        ]
+      },
+      {
+        "reference": "C545",
+        "pad": "2",
+        "position_mm": [
+          56.525,
+          77.0
+        ]
+      },
+      {
+        "reference": "C543",
+        "pad": "2",
+        "position_mm": [
+          64.5,
+          88.275
+        ]
+      },
+      {
+        "reference": "C552",
+        "pad": "2",
+        "position_mm": [
+          67.4,
+          73.32
+        ]
+      },
+      {
+        "reference": "C549",
+        "pad": "2",
+        "position_mm": [
+          70.48,
+          78.0
+        ]
+      },
+      {
+        "reference": "C550",
+        "pad": "2",
+        "position_mm": [
+          70.48,
+          76.6
+        ]
+      },
+      {
+        "reference": "C551",
+        "pad": "2",
+        "position_mm": [
+          66.2,
+          73.32
+        ]
+      },
+      {
+        "reference": "C540",
+        "pad": "2",
+        "position_mm": [
+          70.18,
+          79.55
+        ]
+      },
+      {
+        "reference": "U402",
+        "pad": "15",
+        "position_mm": [
+          54.475,
+          87.175
+        ]
+      },
+      {
+        "reference": "JP5",
+        "pad": "1",
+        "position_mm": [
+          71.9,
+          89.2425
+        ]
+      },
+      {
+        "reference": "C544",
+        "pad": "2",
+        "position_mm": [
+          69.5,
+          88.275
+        ]
+      },
+      {
+        "reference": "U502",
+        "pad": "9",
+        "position_mm": [
+          67.4,
+          75.615
+        ]
+      },
+      {
+        "reference": "C542",
+        "pad": "2",
+        "position_mm": [
+          64.45,
+          78.68
+        ]
+      },
+      {
+        "reference": "C541",
+        "pad": "2",
+        "position_mm": [
+          63.32,
+          79.9
+        ]
+      },
+      {
+        "reference": "J801",
+        "pad": "5",
+        "position_mm": [
+          57.932823,
+          38.3807
+        ]
+      },
+      {
+        "reference": "C232",
+        "pad": "2",
+        "position_mm": [
+          64.447107,
+          54.25
+        ]
+      },
+      {
+        "reference": "C701",
+        "pad": "2",
+        "position_mm": [
+          84.062823,
+          38.8307
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "A10",
+        "position_mm": [
+          88.438008,
+          59.573542
+        ]
+      },
+      {
+        "reference": "C521",
+        "pad": "2",
+        "position_mm": [
+          103.48,
+          52.5
+        ]
+      },
+      {
+        "reference": "D8",
+        "pad": "1",
+        "position_mm": [
+          77.8,
+          90.9125
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "P1",
+        "position_mm": [
+          81.238008,
+          51.123542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "P3",
+        "position_mm": [
+          82.838008,
+          51.123542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "T1",
+        "position_mm": [
+          81.238008,
+          49.823542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "T3",
+        "position_mm": [
+          82.838008,
+          49.823542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "T5",
+        "position_mm": [
+          84.438008,
+          49.823542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "V1",
+        "position_mm": [
+          81.238008,
+          48.523542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "W2",
+        "position_mm": [
+          82.038008,
+          47.873542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "W4",
+        "position_mm": [
+          83.638008,
+          47.873542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "Y1",
+        "position_mm": [
+          81.238008,
+          47.223542
+        ]
+      },
+      {
+        "reference": "BT1",
+        "pad": "2",
+        "position_mm": [
+          114.665,
+          163.7
+        ]
+      },
+      {
+        "reference": "C315",
+        "pad": "2",
+        "position_mm": [
+          94.48,
+          51.0
+        ]
+      },
+      {
+        "reference": "C318",
+        "pad": "2",
+        "position_mm": [
+          78.98,
+          55.5
+        ]
+      },
+      {
+        "reference": "U701",
+        "pad": "1",
+        "position_mm": [
+          42.5,
+          55.775
+        ]
+      },
+      {
+        "reference": "C514",
+        "pad": "2",
+        "position_mm": [
+          87.525,
+          65.0
+        ]
+      },
+      {
+        "reference": "C13",
+        "pad": "2",
+        "position_mm": [
+          78.47,
+          102.2
+        ]
+      },
+      {
+        "reference": "U11",
+        "pad": "3",
+        "position_mm": [
+          101.1625,
+          104.6375
+        ]
+      },
+      {
+        "reference": "C254",
+        "pad": "2",
+        "position_mm": [
+          67.96132,
+          57.785534
+        ]
+      },
+      {
+        "reference": "C231",
+        "pad": "2",
+        "position_mm": [
+          68.457107,
+          53.29
+        ]
+      },
+      {
+        "reference": "SW101",
+        "pad": "2",
+        "position_mm": [
+          47.15,
+          69.1
+        ]
+      },
+      {
+        "reference": "C314",
+        "pad": "2",
+        "position_mm": [
+          80.98,
+          52.5
+        ]
+      },
+      {
+        "reference": "C234",
+        "pad": "2",
+        "position_mm": [
+          67.482792,
+          55.784315
+        ]
+      },
+      {
+        "reference": "PWR_BUTTON1",
+        "pad": "S1",
+        "position_mm": [
+          119.296571,
+          63.884611
+        ]
+      },
+      {
+        "reference": "C528",
+        "pad": "2",
+        "position_mm": [
+          100.98,
+          52.5
+        ]
+      },
+      {
+        "reference": "C31",
+        "pad": "1",
+        "position_mm": [
+          74.7,
+          93.72
+        ]
+      },
+      {
+        "reference": "C226",
+        "pad": "2",
+        "position_mm": [
+          63.893899,
+          55.763208
+        ]
+      },
+      {
+        "reference": "C271",
+        "pad": "2",
+        "position_mm": [
+          63.232233,
+          56.445534
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "V5",
+        "position_mm": [
+          84.438008,
+          48.523542
+        ]
+      },
+      {
+        "reference": "C525",
+        "pad": "2",
+        "position_mm": [
+          96.48,
+          60.0
+        ]
+      },
+      {
+        "reference": "C501",
+        "pad": "2",
+        "position_mm": [
+          93.025,
+          68.0
+        ]
+      },
+      {
+        "reference": "C510",
+        "pad": "2",
+        "position_mm": [
+          93.98,
+          61.0
+        ]
+      },
+      {
+        "reference": "C511",
+        "pad": "2",
+        "position_mm": [
+          95.72,
+          62.0
+        ]
+      },
+      {
+        "reference": "C508",
+        "pad": "2",
+        "position_mm": [
+          96.6,
+          65.28
+        ]
+      },
+      {
+        "reference": "C533",
+        "pad": "2",
+        "position_mm": [
+          98.98,
+          55.5
+        ]
+      },
+      {
+        "reference": "C523",
+        "pad": "2",
+        "position_mm": [
+          92.98,
+          57.0
+        ]
+      },
+      {
+        "reference": "C529",
+        "pad": "2",
+        "position_mm": [
+          96.48,
+          55.5
+        ]
+      },
+      {
+        "reference": "C532",
+        "pad": "2",
+        "position_mm": [
+          100.98,
+          54.0
+        ]
+      },
+      {
+        "reference": "C530",
+        "pad": "2",
+        "position_mm": [
+          98.48,
+          54.0
+        ]
+      },
+      {
+        "reference": "C526",
+        "pad": "2",
+        "position_mm": [
+          95.98,
+          54.0
+        ]
+      },
+      {
+        "reference": "C524",
+        "pad": "2",
+        "position_mm": [
+          97.98,
+          57.0
+        ]
+      },
+      {
+        "reference": "C520",
+        "pad": "2",
+        "position_mm": [
+          95.48,
+          57.0
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AC27",
+        "position_mm": [
+          72.071068,
+          55.414214
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AC29",
+        "position_mm": [
+          72.778175,
+          56.12132
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AD28",
+        "position_mm": [
+          72.778175,
+          55.414214
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AF28",
+        "position_mm": [
+          73.485281,
+          54.707107
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AJ29",
+        "position_mm": [
+          74.899495,
+          54.0
+        ]
+      },
+      {
+        "reference": "C201",
+        "pad": "2",
+        "position_mm": [
+          64.358198,
+          52.739771
+        ]
+      },
+      {
+        "reference": "C241",
+        "pad": "2",
+        "position_mm": [
+          62.935786,
+          51.77802
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "V12",
+        "position_mm": [
+          90.038008,
+          48.523542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "W11",
+        "position_mm": [
+          89.238008,
+          47.873542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "Y12",
+        "position_mm": [
+          90.038008,
+          47.223542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "C8",
+        "position_mm": [
+          86.838008,
+          58.273542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "D9",
+        "position_mm": [
+          87.638008,
+          57.623542
+        ]
+      },
+      {
+        "reference": "U15",
+        "pad": "2",
+        "position_mm": [
+          47.09,
+          115.075
+        ]
+      },
+      {
+        "reference": "U701",
+        "pad": "33",
+        "position_mm": [
+          42.5,
+          44.225
+        ]
+      },
+      {
+        "reference": "J105",
+        "pad": "SH",
+        "position_mm": [
+          103.4,
+          84.0
+        ]
+      },
+      {
+        "reference": "C702",
+        "pad": "2",
+        "position_mm": [
+          84.082823,
+          41.8307
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "C12",
+        "position_mm": [
+          90.038008,
+          58.273542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "D11",
+        "position_mm": [
+          89.238008,
+          57.623542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "E12",
+        "position_mm": [
+          90.038008,
+          56.973542
+        ]
+      },
+      {
+        "reference": "PWR_BUTTON1",
+        "pad": "S2",
+        "position_mm": [
+          119.296571,
+          68.834611
+        ]
+      },
+      {
+        "reference": "C316",
+        "pad": "2",
+        "position_mm": [
+          94.48,
+          54.0
+        ]
+      },
+      {
+        "reference": "C33",
+        "pad": "2",
+        "position_mm": [
+          102.46,
+          107.6
+        ]
+      },
+      {
+        "reference": "U1",
+        "pad": "8",
+        "position_mm": [
+          78.5375,
+          115.450001
+        ]
+      },
+      {
+        "reference": "U701",
+        "pad": "3",
+        "position_mm": [
+          44.3,
+          55.775
+        ]
+      },
+      {
+        "reference": "C311",
+        "pad": "2",
+        "position_mm": [
+          92.48,
+          47.0
+        ]
+      },
+      {
+        "reference": "C902",
+        "pad": "2",
+        "position_mm": [
+          115.98,
+          56.0
+        ]
+      },
+      {
+        "reference": "U4",
+        "pad": "6",
+        "position_mm": [
+          61.725,
+          95.435
+        ]
+      },
+      {
+        "reference": "U701",
+        "pad": "31",
+        "position_mm": [
+          44.3,
+          44.225
+        ]
+      },
+      {
+        "reference": "C10",
+        "pad": "2",
+        "position_mm": [
+          70.52,
+          119.0
+        ]
+      },
+      {
+        "reference": "C801",
+        "pad": "2",
+        "position_mm": [
+          73.98,
+          31.5
+        ]
+      },
+      {
+        "reference": "C302",
+        "pad": "2",
+        "position_mm": [
+          83.48,
+          44.5
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "AB5",
+        "position_mm": [
+          84.438008,
+          45.923542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "Y5",
+        "position_mm": [
+          84.438008,
+          47.223542
+        ]
+      },
+      {
+        "reference": "C901",
+        "pad": "2",
+        "position_mm": [
+          109.98,
+          52.5
+        ]
+      },
+      {
+        "reference": "C260",
+        "pad": "2",
+        "position_mm": [
+          59.98,
+          62.0
+        ]
+      },
+      {
+        "reference": "C29",
+        "pad": "1",
+        "position_mm": [
+          85.27,
+          97.9
+        ]
+      },
+      {
+        "reference": "C306",
+        "pad": "2",
+        "position_mm": [
+          81.98,
+          59.0
+        ]
+      },
+      {
+        "reference": "R214",
+        "pad": "2",
+        "position_mm": [
+          71.51,
+          40.0
+        ]
+      },
+      {
+        "reference": "C515",
+        "pad": "2",
+        "position_mm": [
+          115.775,
+          63.0
+        ]
+      },
+      {
+        "reference": "C516",
+        "pad": "2",
+        "position_mm": [
+          115.575,
+          59.5
+        ]
+      },
+      {
+        "reference": "C531",
+        "pad": "2",
+        "position_mm": [
+          105.98,
+          53.5
+        ]
+      },
+      {
+        "reference": "C513",
+        "pad": "2",
+        "position_mm": [
+          106.18,
+          62.7
+        ]
+      },
+      {
+        "reference": "C522",
+        "pad": "2",
+        "position_mm": [
+          103.48,
+          54.0
+        ]
+      },
+      {
+        "reference": "J8",
+        "pad": "A12",
+        "position_mm": [
+          111.865,
+          53.01
+        ]
+      },
+      {
+        "reference": "J8",
+        "pad": "B1",
+        "position_mm": [
+          111.865,
+          53.01
+        ]
+      },
+      {
+        "reference": "C283",
+        "pad": "2",
+        "position_mm": [
+          62.494329,
+          48.529507
+        ]
+      },
+      {
+        "reference": "C273",
+        "pad": "2",
+        "position_mm": [
+          62.141281,
+          47.186681
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "A3",
+        "position_mm": [
+          82.838008,
+          59.573542
+        ]
+      },
+      {
+        "reference": "C32",
+        "pad": "2",
+        "position_mm": [
+          42.4,
+          115.765
+        ]
+      },
+      {
+        "reference": "C264",
+        "pad": "2",
+        "position_mm": [
+          64.074644,
+          57.250178
+        ]
+      },
+      {
+        "reference": "C263",
+        "pad": "2",
+        "position_mm": [
+          64.617107,
+          58.24264
+        ]
+      },
+      {
+        "reference": "J8",
+        "pad": "A1",
+        "position_mm": [
+          111.865,
+          46.51
+        ]
+      },
+      {
+        "reference": "J8",
+        "pad": "B12",
+        "position_mm": [
+          111.865,
+          46.51
+        ]
+      },
+      {
+        "reference": "U5",
+        "pad": "2",
+        "position_mm": [
+          48.1375,
+          98.2
+        ]
+      },
+      {
+        "reference": "J105",
+        "pad": "6",
+        "position_mm": [
+          103.4,
+          76.95
+        ]
+      },
+      {
+        "reference": "J101",
+        "pad": "A12",
+        "position_mm": [
+          38.7375,
+          56.88
+        ]
+      },
+      {
+        "reference": "J101",
+        "pad": "B1",
+        "position_mm": [
+          38.7375,
+          56.88
+        ]
+      },
+      {
+        "reference": "C277",
+        "pad": "2",
+        "position_mm": [
+          61.918679,
+          45.711165
+        ]
+      },
+      {
+        "reference": "C308",
+        "pad": "2",
+        "position_mm": [
+          81.98,
+          46.5
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "N2",
+        "position_mm": [
+          82.038008,
+          51.773542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "N4",
+        "position_mm": [
+          83.638008,
+          51.773542
+        ]
+      },
+      {
+        "reference": "C313",
+        "pad": "2",
+        "position_mm": [
+          94.48,
+          52.5
+        ]
+      },
+      {
+        "reference": "SW101",
+        "pad": "2",
+        "position_mm": [
+          40.85,
+          69.1
+        ]
+      },
+      {
+        "reference": "C274",
+        "pad": "2",
+        "position_mm": [
+          63.8568,
+          45.0671
+        ]
+      },
+      {
+        "reference": "C23",
+        "pad": "2",
+        "position_mm": [
+          78.47,
+          100.2
+        ]
+      },
+      {
+        "reference": "C802",
+        "pad": "2",
+        "position_mm": [
+          72.775,
+          34.0
+        ]
+      },
+      {
+        "reference": "U701",
+        "pad": "36",
+        "position_mm": [
+          41.225,
+          47.3
+        ]
+      },
+      {
+        "reference": "U11",
+        "pad": "8",
+        "position_mm": [
+          101.9625,
+          106.3625
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "AB8",
+        "position_mm": [
+          86.838008,
+          45.923542
+        ]
+      },
+      {
+        "reference": "J801",
+        "pad": "MP",
+        "position_mm": [
+          67.332823,
+          35.1307
+        ]
+      },
+      {
+        "reference": "Y1",
+        "pad": "4",
+        "position_mm": [
+          80.59,
+          100.2
+        ]
+      },
+      {
+        "reference": "C401",
+        "pad": "2",
+        "position_mm": [
+          47.48,
+          84.5
+        ]
+      },
+      {
+        "reference": "C703",
+        "pad": "2",
+        "position_mm": [
+          50.275,
+          58.5
+        ]
+      },
+      {
+        "reference": "C121",
+        "pad": "2",
+        "position_mm": [
+          41.48,
+          60.0
+        ]
+      },
+      {
+        "reference": "J801",
+        "pad": "2",
+        "position_mm": [
+          56.432823,
+          38.3807
+        ]
+      },
+      {
+        "reference": "J801",
+        "pad": "MP",
+        "position_mm": [
+          54.032823,
+          35.1307
+        ]
+      },
+      {
+        "reference": "U1",
+        "pad": "23",
+        "position_mm": [
+          72.85,
+          118.1375
+        ]
+      },
+      {
+        "reference": "C307",
+        "pad": "2",
+        "position_mm": [
+          79.48,
+          57.0
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "E1",
+        "position_mm": [
+          81.238008,
+          56.973542
+        ]
+      },
+      {
+        "reference": "C922",
+        "pad": "2",
+        "position_mm": [
+          104.975,
+          90.0
+        ]
+      },
+      {
+        "reference": "C920",
+        "pad": "2",
+        "position_mm": [
+          94.725,
+          87.0
+        ]
+      },
+      {
+        "reference": "D901",
+        "pad": "2",
+        "position_mm": [
+          99.52,
+          93.6
+        ]
+      },
+      {
+        "reference": "C923",
+        "pad": "2",
+        "position_mm": [
+          104.68,
+          92.0
+        ]
+      },
+      {
+        "reference": "C705",
+        "pad": "2",
+        "position_mm": [
+          55.48,
+          45.5
+        ]
+      },
+      {
+        "reference": "C269",
+        "pad": "2",
+        "position_mm": [
+          60.700253,
+          53.006446
+        ]
+      },
+      {
+        "reference": "C266",
+        "pad": "2",
+        "position_mm": [
+          61.495263,
+          52.045872
+        ]
+      },
+      {
+        "reference": "C209",
+        "pad": "2",
+        "position_mm": [
+          61.81504,
+          52.936361
+        ]
+      },
+      {
+        "reference": "J4",
+        "pad": "4",
+        "position_mm": [
+          107.35,
+          101.8
+        ]
+      },
+      {
+        "reference": "PWR_BUTTON1",
+        "pad": "2",
+        "position_mm": [
+          117.544543,
+          66.359611
+        ]
+      },
+      {
+        "reference": "C259",
+        "pad": "2",
+        "position_mm": [
+          69.48,
+          45.0
+        ]
+      },
+      {
+        "reference": "D6",
+        "pad": "1",
+        "position_mm": [
+          72.5,
+          107.3
+        ]
+      },
+      {
+        "reference": "C704",
+        "pad": "2",
+        "position_mm": [
+          52.98,
+          58.0
+        ]
+      },
+      {
+        "reference": "C502",
+        "pad": "2",
+        "position_mm": [
+          96.225,
+          68.7
+        ]
+      },
+      {
+        "reference": "J105",
+        "pad": "SH",
+        "position_mm": [
+          118.05,
+          72.85
+        ]
+      },
+      {
+        "reference": "C103",
+        "pad": "2",
+        "position_mm": [
+          101.275,
+          79.0
+        ]
+      },
+      {
+        "reference": "C258",
+        "pad": "2",
+        "position_mm": [
+          73.98,
+          46.0
+        ]
+      },
+      {
+        "reference": "C312",
+        "pad": "2",
+        "position_mm": [
+          92.48,
+          56.0
+        ]
+      },
+      {
+        "reference": "C310",
+        "pad": "2",
+        "position_mm": [
+          86.775,
+          53.0
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "AB10",
+        "position_mm": [
+          88.438008,
+          45.923542
+        ]
+      },
+      {
+        "reference": "U1",
+        "pad": "35",
+        "position_mm": [
+          71.6625,
+          112.45
+        ]
+      },
+      {
+        "reference": "Y201",
+        "pad": "4",
+        "position_mm": [
+          68.9,
+          43.85
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "AB3",
+        "position_mm": [
+          82.838008,
+          45.923542
+        ]
+      },
+      {
+        "reference": "U701",
+        "pad": "20",
+        "position_mm": [
+          52.775,
+          47.3
+        ]
+      },
+      {
+        "reference": "C28",
+        "pad": "1",
+        "position_mm": [
+          85.27,
+          100.7
+        ]
+      },
+      {
+        "reference": "J101",
+        "pad": "A1",
+        "position_mm": [
+          38.7375,
+          63.28
+        ]
+      },
+      {
+        "reference": "J101",
+        "pad": "B12",
+        "position_mm": [
+          38.7375,
+          63.28
+        ]
+      },
+      {
+        "reference": "J105",
+        "pad": "SH",
+        "position_mm": [
+          118.5,
+          86.35
+        ]
+      },
+      {
+        "reference": "C251",
+        "pad": "2",
+        "position_mm": [
+          73.98,
+          41.5
+        ]
+      },
+      {
+        "reference": "C9",
+        "pad": "2",
+        "position_mm": [
+          81.26,
+          115.9
+        ]
+      },
+      {
+        "reference": "J5",
+        "pad": "4",
+        "position_mm": [
+          42.65,
+          94.8
+        ]
+      },
+      {
+        "reference": "C102",
+        "pad": "2",
+        "position_mm": [
+          101.48,
+          80.5
+        ]
+      },
+      {
+        "reference": "U1",
+        "pad": "47",
+        "position_mm": [
+          77.35,
+          111.2625
+        ]
+      },
+      {
+        "reference": "C202",
+        "pad": "2",
+        "position_mm": [
+          65.770746,
+          51.037223
+        ]
+      },
+      {
+        "reference": "C245",
+        "pad": "2",
+        "position_mm": [
+          64.427243,
+          50.754381
+        ]
+      },
+      {
+        "reference": "C255",
+        "pad": "2",
+        "position_mm": [
+          66.132462,
+          49.972004
+        ]
+      },
+      {
+        "reference": "C204",
+        "pad": "2",
+        "position_mm": [
+          61.818019,
+          55.543553
+        ]
+      },
+      {
+        "reference": "J801",
+        "pad": "1",
+        "position_mm": [
+          55.932823,
+          38.3807
+        ]
+      },
+      {
+        "reference": "C303",
+        "pad": "2",
+        "position_mm": [
+          90.98,
+          59.5
+        ]
+      },
+      {
+        "reference": "C220",
+        "pad": "2",
+        "position_mm": [
+          65.565685,
+          55.373452
+        ]
+      },
+      {
+        "reference": "C233",
+        "pad": "2",
+        "position_mm": [
+          67.482792,
+          53.684315
+        ]
+      },
+      {
+        "reference": "C242",
+        "pad": "2",
+        "position_mm": [
+          61.196304,
+          50.436182
+        ]
+      },
+      {
+        "reference": "C261",
+        "pad": "2",
+        "position_mm": [
+          65.067107,
+          59.04264
+        ]
+      },
+      {
+        "reference": "C535",
+        "pad": "2",
+        "position_mm": [
+          105.48,
+          59.5
+        ]
+      },
+      {
+        "reference": "R301",
+        "pad": "2",
+        "position_mm": [
+          95.01,
+          55.5
+        ]
+      },
+      {
+        "reference": "C512",
+        "pad": "2",
+        "position_mm": [
+          105.28,
+          61.6
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C223",
+        "pad": "2",
+        "position_mm": [
+          67.48,
+          65.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C225",
+        "pad": "2",
+        "position_mm": [
+          74.48,
+          61.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C208",
+        "pad": "2",
+        "position_mm": [
+          57.48,
+          55.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C284",
+        "pad": "2",
+        "position_mm": [
+          76.48,
+          51.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C244",
+        "pad": "2",
+        "position_mm": [
+          68.48,
+          48.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C282",
+        "pad": "2",
+        "position_mm": [
+          60.98,
+          45.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C278",
+        "pad": "2",
+        "position_mm": [
+          71.48,
+          41.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C268",
+        "pad": "2",
+        "position_mm": [
+          68.82,
+          40.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C279",
+        "pad": "2",
+        "position_mm": [
+          66.48,
+          40.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C504",
+        "pad": "2",
+        "position_mm": [
+          106.275,
+          65.8
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C203",
+        "pad": "2",
+        "position_mm": [
+          70.98,
+          64.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C235",
+        "pad": "2",
+        "position_mm": [
+          76.48,
+          55.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C222",
+        "pad": "2",
+        "position_mm": [
+          69.98,
+          58.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C221",
+        "pad": "2",
+        "position_mm": [
+          68.98,
+          61.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C240",
+        "pad": "2",
+        "position_mm": [
+          63.48,
+          43.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C210",
+        "pad": "2",
+        "position_mm": [
+          59.98,
+          58.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C230",
+        "pad": "2",
+        "position_mm": [
+          73.98,
+          59.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C256",
+        "pad": "2",
+        "position_mm": [
+          68.98,
+          42.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C281",
+        "pad": "2",
+        "position_mm": [
+          55.48,
+          49.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C272",
+        "pad": "2",
+        "position_mm": [
+          70.32,
+          62.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C257",
+        "pad": "2",
+        "position_mm": [
+          72.32,
+          47.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C207",
+        "pad": "2",
+        "position_mm": [
+          55.98,
+          62.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C301",
+        "pad": "2",
+        "position_mm": [
+          78.48,
+          52.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C211",
+        "pad": "2",
+        "position_mm": [
+          53.48,
+          61.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C262",
+        "pad": "2",
+        "position_mm": [
+          55.98,
+          59.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C212",
+        "pad": "2",
+        "position_mm": [
+          61.48,
+          63.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C275",
+        "pad": "2",
+        "position_mm": [
+          60.48,
+          43.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C205",
+        "pad": "2",
+        "position_mm": [
+          58.48,
+          48.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C224",
+        "pad": "2",
+        "position_mm": [
+          68.48,
+          66.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C276",
+        "pad": "2",
+        "position_mm": [
+          57.98,
+          42.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C506",
+        "pad": "2",
+        "position_mm": [
+          107.78,
+          67.7
+        ]
+      },
+      {
+        "reference": "C507",
+        "pad": "2",
+        "position_mm": [
+          109.78,
+          68.6
+        ]
+      },
+      {
+        "reference": "C503",
+        "pad": "2",
+        "position_mm": [
+          105.275,
+          71.0
+        ]
+      },
+      {
+        "reference": "C517",
+        "pad": "2",
+        "position_mm": [
+          115.48,
+          65.3
+        ]
+      },
+      {
+        "reference": "J105",
+        "pad": "10",
+        "position_mm": [
+          113.9,
+          72.85
+        ]
+      },
+      {
+        "reference": "J105",
+        "pad": "SH",
+        "position_mm": [
+          107.7,
+          72.85
+        ]
+      },
+      {
+        "reference": "C509",
+        "pad": "2",
+        "position_mm": [
+          112.98,
+          70.0
+        ]
+      },
+      {
+        "reference": "C505",
+        "pad": "2",
+        "position_mm": [
+          105.275,
+          69.3
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C527",
+        "pad": "2",
+        "position_mm": [
+          100.48,
+          57.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C911",
+        "pad": "2",
+        "position_mm": [
+          103.98,
+          31.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C534",
+        "pad": "2",
+        "position_mm": [
+          103.48,
+          57.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C253",
+        "pad": "2",
+        "position_mm": [
+          59.98,
+          41.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "AJ18",
+        "position_mm": [
+          71.010408,
+          50.110913
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AJ20",
+        "position_mm": [
+          71.717514,
+          50.818019
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "AJ27",
+        "position_mm": [
+          74.192388,
+          53.292893
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "W29",
+        "position_mm": [
+          71.363961,
+          57.535534
+        ]
+      }
+    ]
+  ],
+  "Net-(C251-Pad1)": [
+    [
+      {
+        "reference": "R201",
+        "pad": "1",
+        "position_mm": [
+          70.99,
+          40.0
+        ]
+      },
+      {
+        "reference": "C251",
+        "pad": "1",
+        "position_mm": [
+          73.02,
+          41.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "Y201",
+        "pad": "3",
+        "position_mm": [
+          71.1,
+          43.85
+        ]
+      }
+    ]
+  ],
+  "Net-(J101-D+-PadA6)": [
+    [
+      {
+        "reference": "U101",
+        "pad": "3",
+        "position_mm": [
+          41.3625,
+          61.55
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "J101",
+        "pad": "A6",
+        "position_mm": [
+          38.7375,
+          60.33
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "J101",
+        "pad": "B6",
+        "position_mm": [
+          38.7375,
+          59.33
+        ]
+      }
+    ]
+  ],
+  "Net-(J101-D--PadA7)": [
+    [
+      {
+        "reference": "U101",
+        "pad": "1",
+        "position_mm": [
+          41.3625,
+          63.45
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "J101",
+        "pad": "A7",
+        "position_mm": [
+          38.7375,
+          59.83
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "J101",
+        "pad": "B7",
+        "position_mm": [
+          38.7375,
+          60.83
+        ]
+      }
+    ]
+  ],
+  "Net-(J701-In)": [
+    [
+      {
+        "reference": "R703",
+        "pad": "2",
+        "position_mm": [
+          83.162823,
+          40.8407
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C702",
+        "pad": "1",
+        "position_mm": [
+          83.122823,
+          41.8307
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "J701",
+        "pad": "1",
+        "position_mm": [
+          34.51,
+          46.56
+        ]
+      }
+    ]
+  ],
+  "Net-(U501A-VREF)": [
+    [
+      {
+        "reference": "U501",
+        "pad": "7",
+        "position_mm": [
+          98.115,
+          63.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C508",
+        "pad": "1",
+        "position_mm": [
+          96.6,
+          64.32
+        ]
+      }
+    ]
+  ],
+  "VBAT": [
+    [
+      {
+        "reference": "C506",
+        "pad": "1",
+        "position_mm": [
+          106.82,
+          67.7
+        ]
+      },
+      {
+        "reference": "C507",
+        "pad": "1",
+        "position_mm": [
+          108.82,
+          68.6
+        ]
+      },
+      {
+        "reference": "U501",
+        "pad": "41",
+        "position_mm": [
+          103.0,
+          65.885
+        ]
+      },
+      {
+        "reference": "U501",
+        "pad": "42",
+        "position_mm": [
+          102.6,
+          65.885
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "F1",
+        "pad": "1",
+        "position_mm": [
+          39.8625,
+          177.2
+        ]
+      }
+    ]
+  ],
+  "VCC_1V8": [
+    [
+      {
+        "reference": "C254",
+        "pad": "1",
+        "position_mm": [
+          67.32132,
+          57.785534
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "N23",
+        "position_mm": [
+          67.12132,
+          57.535534
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C282",
+        "pad": "1",
+        "position_mm": [
+          60.02,
+          45.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C281",
+        "pad": "1",
+        "position_mm": [
+          54.52,
+          49.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C269",
+        "pad": "1",
+        "position_mm": [
+          60.700253,
+          53.646446
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "J7",
+        "position_mm": [
+          60.050253,
+          53.292893
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "H10",
+        "position_mm": [
+          60.757359,
+          54.707107
+        ]
+      },
+      {
+        "reference": "C270",
+        "pad": "1",
+        "position_mm": [
+          60.189161,
+          54.638909
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C264",
+        "pad": "1",
+        "position_mm": [
+          64.714644,
+          57.250178
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "K21",
+        "position_mm": [
+          65.353553,
+          57.889087
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C531",
+        "pad": "1",
+        "position_mm": [
+          105.02,
+          53.5
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AG3",
+        "position_mm": [
+          65.0,
+          45.514719
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U501",
+        "pad": "23",
+        "position_mm": [
+          102.2,
+          60.115
+        ]
+      }
+    ]
+  ],
+  "VCC_3V3": [
+    [
+      {
+        "reference": "R207",
+        "pad": "1",
+        "position_mm": [
+          54.49,
+          63.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C204",
+        "pad": "1",
+        "position_mm": [
+          61.818019,
+          54.903553
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "J12",
+        "position_mm": [
+          61.818019,
+          55.06066
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C283",
+        "pad": "1",
+        "position_mm": [
+          62.946877,
+          48.982055
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AA5",
+        "position_mm": [
+          63.585786,
+          48.343146
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R206",
+        "pad": "1",
+        "position_mm": [
+          57.49,
+          66.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C203",
+        "pad": "1",
+        "position_mm": [
+          70.02,
+          64.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C263",
+        "pad": "1",
+        "position_mm": [
+          65.257107,
+          58.24264
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "N22",
+        "position_mm": [
+          66.767767,
+          57.181981
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "J23",
+        "position_mm": [
+          65.707107,
+          58.949747
+        ]
+      },
+      {
+        "reference": "C261",
+        "pad": "1",
+        "position_mm": [
+          65.707107,
+          59.04264
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C262",
+        "pad": "1",
+        "position_mm": [
+          55.02,
+          59.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U501",
+        "pad": "26",
+        "position_mm": [
+          103.4,
+          60.115
+        ]
+      },
+      {
+        "reference": "C533",
+        "pad": "1",
+        "position_mm": [
+          98.02,
+          55.5
+        ]
+      },
+      {
+        "reference": "U901",
+        "pad": "9",
+        "position_mm": [
+          103.76,
+          35.5
+        ]
+      },
+      {
+        "reference": "U901",
+        "pad": "9",
+        "position_mm": [
+          103.475,
+          35.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R108",
+        "pad": "1",
+        "position_mm": [
+          95.49,
+          74.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "J103",
+        "pad": "1",
+        "position_mm": [
+          41.5,
+          33.0
+        ]
+      },
+      {
+        "reference": "R126",
+        "pad": "1",
+        "position_mm": [
+          34.49,
+          54.0
+        ]
+      },
+      {
+        "reference": "R125",
+        "pad": "1",
+        "position_mm": [
+          36.99,
+          54.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R107",
+        "pad": "1",
+        "position_mm": [
+          97.49,
+          81.35
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C103",
+        "pad": "1",
+        "position_mm": [
+          99.725,
+          79.0
+        ]
+      },
+      {
+        "reference": "J105",
+        "pad": "4",
+        "position_mm": [
+          103.4,
+          79.15
+        ]
+      },
+      {
+        "reference": "C102",
+        "pad": "1",
+        "position_mm": [
+          100.52,
+          80.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R106",
+        "pad": "1",
+        "position_mm": [
+          99.49,
+          82.45
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R103",
+        "pad": "1",
+        "position_mm": [
+          97.49,
+          80.25
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R105",
+        "pad": "1",
+        "position_mm": [
+          97.49,
+          75.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R104",
+        "pad": "1",
+        "position_mm": [
+          99.49,
+          75.85
+        ]
+      }
+    ]
+  ],
+  "VCC_AVCC": [
+    [
+      {
+        "reference": "C309",
+        "pad": "1",
+        "position_mm": [
+          82.52,
+          52.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C280",
+        "pad": "1",
+        "position_mm": [
+          67.02,
+          43.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C284",
+        "pad": "1",
+        "position_mm": [
+          75.52,
+          51.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R213",
+        "pad": "1",
+        "position_mm": [
+          75.49,
+          46.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C256",
+        "pad": "1",
+        "position_mm": [
+          68.02,
+          42.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C257",
+        "pad": "1",
+        "position_mm": [
+          71.68,
+          47.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R211",
+        "pad": "1",
+        "position_mm": [
+          57.99,
+          40.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U501",
+        "pad": "17",
+        "position_mm": [
+          99.8,
+          60.115
+        ]
+      },
+      {
+        "reference": "C526",
+        "pad": "1",
+        "position_mm": [
+          95.02,
+          54.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "AA12",
+        "position_mm": [
+          66.06066,
+          50.818019
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AA21",
+        "position_mm": [
+          69.242641,
+          54.0
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AB13",
+        "position_mm": [
+          66.767767,
+          50.818019
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "W6",
+        "position_mm": [
+          63.232233,
+          49.403806
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "W7",
+        "position_mm": [
+          63.585786,
+          49.757359
+        ]
+      }
+    ]
+  ],
+  "VCC_PE": [
+    [
+      {
+        "reference": "C265",
+        "pad": "1",
+        "position_mm": [
+          59.946699,
+          53.13934
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "J6",
+        "position_mm": [
+          59.696699,
+          52.93934
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U501",
+        "pad": "14",
+        "position_mm": [
+          98.6,
+          60.115
+        ]
+      },
+      {
+        "reference": "C524",
+        "pad": "1",
+        "position_mm": [
+          97.02,
+          57.0
+        ]
+      }
+    ]
+  ],
+  "VCC_PG": [
+    [
+      {
+        "reference": "R710",
+        "pad": "1",
+        "position_mm": [
+          47.49,
+          42.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R712",
+        "pad": "1",
+        "position_mm": [
+          50.49,
+          41.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R715",
+        "pad": "1",
+        "position_mm": [
+          47.99,
+          41.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U701",
+        "pad": "22",
+        "position_mm": [
+          52.775,
+          45.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C705",
+        "pad": "1",
+        "position_mm": [
+          54.52,
+          45.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R714",
+        "pad": "1",
+        "position_mm": [
+          52.49,
+          42.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R711",
+        "pad": "1",
+        "position_mm": [
+          49.99,
+          42.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "R713",
+        "pad": "1",
+        "position_mm": [
+          54.49,
+          44.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C266",
+        "pad": "1",
+        "position_mm": [
+          61.042715,
+          51.593324
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "N6",
+        "position_mm": [
+          61.110913,
+          51.525126
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U501",
+        "pad": "18",
+        "position_mm": [
+          100.2,
+          60.115
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C527",
+        "pad": "1",
+        "position_mm": [
+          99.52,
+          57.0
+        ]
+      }
+    ]
+  ],
+  "VCC_PL": [
+    [
+      {
+        "reference": "C271",
+        "pad": "1",
+        "position_mm": [
+          63.232233,
+          57.085534
+        ]
+      },
+      {
+        "reference": "C525",
+        "pad": "1",
+        "position_mm": [
+          95.52,
+          60.0
+        ]
+      },
+      {
+        "reference": "R501",
+        "pad": "1",
+        "position_mm": [
+          91.49,
+          72.5
+        ]
+      },
+      {
+        "reference": "R502",
+        "pad": "1",
+        "position_mm": [
+          91.49,
+          74.0
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "H18",
+        "position_mm": [
+          63.585786,
+          57.535534
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "H17",
+        "position_mm": [
+          63.232233,
+          57.181981
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C267",
+        "pad": "1",
+        "position_mm": [
+          64.196447,
+          49.757359
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AA9",
+        "position_mm": [
+          65.0,
+          49.757359
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U501",
+        "pad": "16",
+        "position_mm": [
+          99.4,
+          60.115
+        ]
+      }
+    ]
+  ],
+  "VCC_RTC": [
+    [
+      {
+        "reference": "C255",
+        "pad": "1",
+        "position_mm": [
+          65.492462,
+          49.972004
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "AA10",
+        "position_mm": [
+          65.353553,
+          50.110913
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C509",
+        "pad": "1",
+        "position_mm": [
+          112.02,
+          70.0
+        ]
+      },
+      {
+        "reference": "R503",
+        "pad": "1",
+        "position_mm": [
+          110.49,
+          67.0
+        ]
+      },
+      {
+        "reference": "U501",
+        "pad": "35",
+        "position_mm": [
+          103.885,
+          63.8
+        ]
+      },
+      {
+        "reference": "R504",
+        "pad": "1",
+        "position_mm": [
+          94.99,
+          71.2
+        ]
+      }
+    ]
+  ],
+  "VDD18_LPDDR": [
+    [
+      {
+        "reference": "C317",
+        "pad": "1",
+        "position_mm": [
+          80.52,
+          55.0
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "F1",
+        "position_mm": [
+          81.238008,
+          56.323542
+        ]
+      },
+      {
+        "reference": "C318",
+        "pad": "1",
+        "position_mm": [
+          78.02,
+          55.5
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "F12",
+        "position_mm": [
+          90.038008,
+          56.323542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "U12",
+        "position_mm": [
+          90.038008,
+          49.173542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "T9",
+        "position_mm": [
+          87.638008,
+          49.823542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "T4",
+        "position_mm": [
+          83.638008,
+          49.823542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "U1",
+        "position_mm": [
+          81.238008,
+          49.173542
+        ]
+      },
+      {
+        "reference": "U301",
+        "pad": "G9",
+        "position_mm": [
+          87.638008,
+          55.673542
+        ]
+      },
+      {
+        "reference": "C528",
+        "pad": "1",
+        "position_mm": [
+          100.02,
+          52.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C268",
+        "pad": "1",
+        "position_mm": [
+          68.18,
+          40.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U501",
+        "pad": "19",
+        "position_mm": [
+          100.6,
+          60.115
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U301",
+        "pad": "G4",
+        "position_mm": [
+          83.638008,
+          55.673542
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U502",
+        "pad": "14",
+        "position_mm": [
+          68.385,
+          77.4
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "AC7",
+        "position_mm": [
+          65.0,
+          48.343146
+        ]
+      }
+    ]
+  ],
+  "VDD_CPUB": [
+    [
+      {
+        "reference": "C223",
+        "pad": "1",
+        "position_mm": [
+          66.52,
+          65.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C225",
+        "pad": "1",
+        "position_mm": [
+          73.52,
+          61.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C226",
+        "pad": "1",
+        "position_mm": [
+          64.346447,
+          55.31066
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "N16",
+        "position_mm": [
+          64.646447,
+          55.06066
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "P16",
+        "position_mm": [
+          65.0,
+          54.707107
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "N18",
+        "position_mm": [
+          65.353553,
+          55.767767
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "P15",
+        "position_mm": [
+          64.646447,
+          54.353553
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "N19",
+        "position_mm": [
+          65.707107,
+          56.12132
+        ]
+      },
+      {
+        "reference": "C220",
+        "pad": "1",
+        "position_mm": [
+          65.565685,
+          56.333452
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "P19",
+        "position_mm": [
+          66.06066,
+          55.767767
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "P18",
+        "position_mm": [
+          65.707107,
+          55.414214
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C222",
+        "pad": "1",
+        "position_mm": [
+          69.02,
+          58.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C221",
+        "pad": "1",
+        "position_mm": [
+          68.02,
+          61.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C224",
+        "pad": "1",
+        "position_mm": [
+          67.52,
+          66.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "L505",
+        "pad": "2",
+        "position_mm": [
+          69.5,
+          84.685
+        ]
+      },
+      {
+        "reference": "C543",
+        "pad": "1",
+        "position_mm": [
+          64.5,
+          86.725
+        ]
+      },
+      {
+        "reference": "L506",
+        "pad": "2",
+        "position_mm": [
+          64.5,
+          84.685
+        ]
+      },
+      {
+        "reference": "C544",
+        "pad": "1",
+        "position_mm": [
+          69.5,
+          86.725
+        ]
+      }
+    ]
+  ],
+  "VDD_CPUL": [
+    [
+      {
+        "reference": "C231",
+        "pad": "1",
+        "position_mm": [
+          68.457107,
+          54.25
+        ]
+      },
+      {
+        "reference": "C232",
+        "pad": "1",
+        "position_mm": [
+          65.407107,
+          54.25
+        ]
+      },
+      {
+        "reference": "C233",
+        "pad": "1",
+        "position_mm": [
+          66.522792,
+          53.684315
+        ]
+      },
+      {
+        "reference": "C234",
+        "pad": "1",
+        "position_mm": [
+          66.522792,
+          55.784315
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "T16",
+        "position_mm": [
+          65.707107,
+          54.0
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "U16",
+        "position_mm": [
+          66.06066,
+          53.646447
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "U18",
+        "position_mm": [
+          66.767767,
+          54.353553
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "T18",
+        "position_mm": [
+          66.414214,
+          54.707107
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C235",
+        "pad": "1",
+        "position_mm": [
+          75.52,
+          55.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C230",
+        "pad": "1",
+        "position_mm": [
+          73.02,
+          59.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "L501",
+        "pad": "2",
+        "position_mm": [
+          91.215,
+          64.5
+        ]
+      },
+      {
+        "reference": "C514",
+        "pad": "1",
+        "position_mm": [
+          89.075,
+          65.0
+        ]
+      }
+    ]
+  ],
+  "VDD_CPUS": [
+    [
+      {
+        "reference": "C202",
+        "pad": "1",
+        "position_mm": [
+          65.318198,
+          51.489771
+        ]
+      },
+      {
+        "reference": "C201",
+        "pad": "1",
+        "position_mm": [
+          65.318198,
+          52.739771
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "Y12",
+        "position_mm": [
+          65.707107,
+          51.171573
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C272",
+        "pad": "1",
+        "position_mm": [
+          69.68,
+          62.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C535",
+        "pad": "1",
+        "position_mm": [
+          104.52,
+          59.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U501",
+        "pad": "28",
+        "position_mm": [
+          103.885,
+          61.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U201",
+        "pad": "H15",
+        "position_mm": [
+          62.525126,
+          56.474874
+        ]
+      }
+    ]
+  ],
+  "VDD_DNR": [
+    [
+      {
+        "reference": "C243",
+        "pad": "1",
+        "position_mm": [
+          59.52,
+          42.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C241",
+        "pad": "1",
+        "position_mm": [
+          62.935786,
+          50.81802
+        ]
+      },
+      {
+        "reference": "C242",
+        "pad": "1",
+        "position_mm": [
+          61.875126,
+          49.75736
+        ]
+      },
+      {
+        "reference": "C245",
+        "pad": "1",
+        "position_mm": [
+          63.974695,
+          51.206929
+        ]
+      },
+      {
+        "reference": "C240",
+        "pad": "1",
+        "position_mm": [
+          62.52,
+          43.0
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "U9",
+        "position_mm": [
+          63.585786,
+          51.171573
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "U10",
+        "position_mm": [
+          63.93934,
+          51.525126
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "V9",
+        "position_mm": [
+          63.93934,
+          50.818019
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "V10",
+        "position_mm": [
+          64.292893,
+          51.171573
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C244",
+        "pad": "1",
+        "position_mm": [
+          67.52,
+          48.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "L507",
+        "pad": "2",
+        "position_mm": [
+          60.315,
+          77.0
+        ]
+      },
+      {
+        "reference": "C545",
+        "pad": "1",
+        "position_mm": [
+          58.075,
+          77.0
+        ]
+      }
+    ]
+  ],
+  "VDD_SYS": [
+    [
+      {
+        "reference": "C206",
+        "pad": "1",
+        "position_mm": [
+          55.02,
+          60.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C208",
+        "pad": "1",
+        "position_mm": [
+          56.52,
+          55.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C210",
+        "pad": "1",
+        "position_mm": [
+          59.02,
+          58.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C207",
+        "pad": "1",
+        "position_mm": [
+          55.02,
+          62.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C211",
+        "pad": "1",
+        "position_mm": [
+          52.52,
+          61.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C212",
+        "pad": "1",
+        "position_mm": [
+          60.52,
+          63.5
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C205",
+        "pad": "1",
+        "position_mm": [
+          57.52,
+          48.0
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C209",
+        "pad": "1",
+        "position_mm": [
+          62.267588,
+          53.388909
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "L10",
+        "position_mm": [
+          61.818019,
+          53.646447
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "M12",
+        "position_mm": [
+          62.87868,
+          54.0
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "N10",
+        "position_mm": [
+          62.525126,
+          52.93934
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "M14",
+        "position_mm": [
+          63.585786,
+          54.707107
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "N8",
+        "position_mm": [
+          61.818019,
+          52.232233
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "P9",
+        "position_mm": [
+          62.525126,
+          52.232233
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "L18",
+        "position_mm": [
+          64.646447,
+          56.474874
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "L19",
+        "position_mm": [
+          65.0,
+          56.828427
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "K10",
+        "position_mm": [
+          61.464466,
+          54.0
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "P10",
+        "position_mm": [
+          62.87868,
+          52.585786
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "M15",
+        "position_mm": [
+          63.93934,
+          55.06066
+        ]
+      },
+      {
+        "reference": "U201",
+        "pad": "K19",
+        "position_mm": [
+          64.646447,
+          57.181981
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C517",
+        "pad": "1",
+        "position_mm": [
+          114.52,
+          65.3
+        ]
+      },
+      {
+        "reference": "C515",
+        "pad": "1",
+        "position_mm": [
+          114.225,
+          63.0
+        ]
+      },
+      {
+        "reference": "L502",
+        "pad": "2",
+        "position_mm": [
+          110.885,
+          64.0
+        ]
+      }
+    ]
+  ],
+  "VSYS": [
+    [
+      {
+        "reference": "C504",
+        "pad": "1",
+        "position_mm": [
+          104.725,
+          65.8
+        ]
+      },
+      {
+        "reference": "L901",
+        "pad": "1",
+        "position_mm": [
+          95.815,
+          39.5
+        ]
+      },
+      {
+        "reference": "C512",
+        "pad": "1",
+        "position_mm": [
+          104.32,
+          61.6
+        ]
+      },
+      {
+        "reference": "C910",
+        "pad": "1",
+        "position_mm": [
+          106.0,
+          37.55
+        ]
+      },
+      {
+        "reference": "C511",
+        "pad": "1",
+        "position_mm": [
+          96.68,
+          62.0
+        ]
+      },
+      {
+        "reference": "C503",
+        "pad": "1",
+        "position_mm": [
+          103.725,
+          71.0
+        ]
+      },
+      {
+        "reference": "L504",
+        "pad": "2",
+        "position_mm": [
+          100.885,
+          72.0
+        ]
+      },
+      {
+        "reference": "C505",
+        "pad": "1",
+        "position_mm": [
+          103.725,
+          69.3
+        ]
+      },
+      {
+        "reference": "R907",
+        "pad": "1",
+        "position_mm": [
+          112.49,
+          56.0
+        ]
+      },
+      {
+        "reference": "U901",
+        "pad": "10",
+        "position_mm": [
+          103.475,
+          36.0
+        ]
+      },
+      {
+        "reference": "U901",
+        "pad": "10",
+        "position_mm": [
+          103.76,
+          36.0
+        ]
+      },
+      {
+        "reference": "U501",
+        "pad": "20",
+        "position_mm": [
+          101.0,
+          60.115
+        ]
+      },
+      {
+        "reference": "C520",
+        "pad": "1",
+        "position_mm": [
+          94.52,
+          57.0
+        ]
+      },
+      {
+        "reference": "C522",
+        "pad": "1",
+        "position_mm": [
+          102.52,
+          54.0
+        ]
+      },
+      {
+        "reference": "U501",
+        "pad": "9",
+        "position_mm": [
+          98.115,
+          62.2
+        ]
+      },
+      {
+        "reference": "U501",
+        "pad": "44",
+        "position_mm": [
+          101.8,
+          65.885
+        ]
+      },
+      {
+        "reference": "C521",
+        "pad": "1",
+        "position_mm": [
+          102.52,
+          52.5
+        ]
+      },
+      {
+        "reference": "U501",
+        "pad": "43",
+        "position_mm": [
+          102.2,
+          65.885
+        ]
+      },
+      {
+        "reference": "C540",
+        "pad": "1",
+        "position_mm": [
+          69.22,
+          79.55
+        ]
+      },
+      {
+        "reference": "C541",
+        "pad": "1",
+        "position_mm": [
+          64.28,
+          79.9
+        ]
+      },
+      {
+        "reference": "C542",
+        "pad": "1",
+        "position_mm": [
+          64.45,
+          77.72
+        ]
+      },
+      {
+        "reference": "U502",
+        "pad": "17",
+        "position_mm": [
+          67.4,
+          78.385
+        ]
+      },
+      {
+        "reference": "U502",
+        "pad": "20",
+        "position_mm": [
+          66.2,
+          78.385
+        ]
+      },
+      {
+        "reference": "U502",
+        "pad": "2",
+        "position_mm": [
+          65.615,
+          77.4
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "C513",
+        "pad": "1",
+        "position_mm": [
+          105.22,
+          62.7
+        ]
+      },
+      {
+        "reference": "U501",
+        "pad": "31",
+        "position_mm": [
+          103.885,
+          62.2
+        ]
+      },
+      {
+        "reference": "U501",
+        "pad": "32",
+        "position_mm": [
+          103.885,
+          62.6
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U501",
+        "pad": "15",
+        "position_mm": [
+          99.0,
+          60.115
+        ]
+      }
+    ],
+    [
+      {
+        "reference": "U501",
+        "pad": "25",
+        "position_mm": [
+          103.0,
+          60.115
+        ]
+      }
+    ]
+  ]
+}
