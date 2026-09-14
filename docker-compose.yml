@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  hardware-build:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        BUILDKIT_INLINE_CACHE: 1
+    image: blackpants:latest
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    environment:
+      - PYTHONUNBUFFERED=1
+    tty: true
+    stdin_open: true
