@@ -5556,7 +5556,7 @@
 		)
 		(uuid "475a1c9f-63b2-489e-b81c-6ab21732dbf8")
 	)
-	(label "BT_WAKE"
+	(label "BT_HOST_WAKE"
 		(at 267.97 114.3 180)
 		(effects
 			(font

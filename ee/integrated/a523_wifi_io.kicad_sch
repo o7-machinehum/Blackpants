@@ -10569,120 +10569,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "A523Power:VCC_PG"
-			(power global)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "VCC_PG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC_PG_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 0 2.54) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_PG_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "VCC_PG"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -10970,6 +10856,142 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11370,6 +11392,16 @@
 		)
 		(uuid "2ccf9b09-e0f9-4b70-83da-cbbcbe4aca34")
 	)
+	(wire
+		(pts
+			(xy 48.26 72.39) (xy 48.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce9d795-b7de-4778-900e-38a0d5f0ce35")
+	)
 	(bus
 		(pts
 			(xy 24.13 66.04) (xy 26.67 66.04)
@@ -11462,7 +11494,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 43.18) (xy 182.88 44.45)
+			(xy 33.02 87.63) (xy 33.02 88.9)
 		)
 		(stroke
 			(width 0)
@@ -11562,7 +11594,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 38.1) (xy 182.88 35.56)
+			(xy 33.02 82.55) (xy 33.02 80.01)
 		)
 		(stroke
 			(width 0)
@@ -12200,82 +12232,9 @@
 		)
 	)
 	(symbol
-		(lib_id "A523Power:VCC_PG")
-		(at 48.26 76.2 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "36fddf59-c485-541c-b382-9dc994b94c6f")
-		(property "Reference" "#PWR0108701807"
-			(at 48.26 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "VCC_PG"
-			(at 41.415 76.2 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "070fcb92-0275-4575-9f5a-84d875139f42")
-		)
-		(instances
-			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/7b29c749-8ab5-43b5-aee9-52b112811e58"
-					(reference "#PWR0108701807")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 182.88 40.64 0)
+		(at 33.02 85.09 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12285,7 +12244,7 @@
 		(dnp no)
 		(uuid "4ea1c331-618b-5e56-950b-feb80e6fd63d")
 		(property "Reference" "C266"
-			(at 186.69 39.37 0)
+			(at 29.21 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12296,7 +12255,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 186.69 41.91 0)
+			(at 29.21 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12307,7 +12266,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 186.69 41.91 0)
+			(at 29.21 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12319,7 +12278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 41.91 0)
+			(at 29.21 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12331,7 +12290,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 186.69 41.91 0)
+			(at 29.21 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12343,7 +12302,7 @@
 			)
 		)
 		(property "ki_keywords" "capacitor cap"
-			(at 186.69 41.91 0)
+			(at 29.21 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12355,7 +12314,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 186.69 41.91 0)
+			(at 29.21 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12367,7 +12326,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 186.69 41.91 0)
+			(at 29.21 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12379,7 +12338,7 @@
 			)
 		)
 		(property "Dielectric" "X5R/X7R"
-			(at 186.69 41.91 0)
+			(at 29.21 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12407,7 +12366,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 44.45 0)
+		(at 33.02 88.9 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12417,7 +12377,7 @@
 		(dnp no)
 		(uuid "5030aec1-598e-5cad-80f2-051b694f2475")
 		(property "Reference" "#PWR0869997685"
-			(at 182.88 44.45 0)
+			(at 33.02 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12428,7 +12388,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 48.26 0)
+			(at 33.02 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12439,7 +12399,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 44.45 0)
+			(at 33.02 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12449,7 +12409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 44.45 0)
+			(at 33.02 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12459,7 +12419,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 44.45 0)
+			(at 33.02 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12475,6 +12435,83 @@
 			(project "blackpants"
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/7b29c749-8ab5-43b5-aee9-52b112811e58"
 					(reference "#PWR0869997685")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 48.26 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66b7a5c9-59ad-4b49-aa44-b76abae6ffc4")
+		(property "Reference" "#PWR021"
+			(at 48.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 48.26 68.8881 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a050b41-9e2b-4970-8140-b2f935a06d0d")
+		)
+		(instances
+			(project "blackpants"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/7b29c749-8ab5-43b5-aee9-52b112811e58"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12846,80 +12883,6 @@
 		)
 	)
 	(symbol
-		(lib_id "A523Power:VCC_PG")
-		(at 182.88 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a317b1fc-015d-5bb4-9bfe-d0ecfceb5f97")
-		(property "Reference" "#PWR0465010071"
-			(at 182.88 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "VCC_PG"
-			(at 182.88 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a0ecd8f9-85dc-4fa5-ba98-e91afe53e300")
-		)
-		(instances
-			(project "blackpants"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/7b29c749-8ab5-43b5-aee9-52b112811e58"
-					(reference "#PWR0465010071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "A523Power:VCC_3V3")
 		(at 165.1 62.23 0)
 		(unit 1)
@@ -12988,6 +12951,83 @@
 			(project "blackpants"
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/7b29c749-8ab5-43b5-aee9-52b112811e58"
 					(reference "#PWR0292319158")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 33.02 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dffe25a2-3d05-4a9b-8169-c74da9ad61c2")
+		(property "Reference" "#PWR020"
+			(at 33.02 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 33.02 76.5081 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b6d815f-aaec-4369-b59d-21ad1488fbd7")
+		)
+		(instances
+			(project "blackpants"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/7b29c749-8ab5-43b5-aee9-52b112811e58"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)

@@ -2022,6 +2022,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 41.91) (xy 46.99 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a74bac0-4ec1-4d69-9aac-e961a6faba56")
+	)
+	(wire
+		(pts
 			(xy 35.56 139.7) (xy 35.56 140.97)
 		)
 		(stroke
@@ -2202,13 +2212,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 45.72) (xy 45.72 45.72)
+			(xy 46.99 45.72) (xy 71.12 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1cf3402-7249-59ab-a78b-abdb49d39644")
+		(uuid "d08f48f1-aa08-4c18-8757-b88645754a0e")
 	)
 	(wire
 		(pts
@@ -5762,7 +5772,7 @@
 	)
 	(symbol
 		(lib_id "A523Power:VSYS")
-		(at 45.72 45.72 0)
+		(at 46.99 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5772,7 +5782,7 @@
 		(dnp no)
 		(uuid "f9f2cea9-b887-5170-be4e-9dd97a6fff83")
 		(property "Reference" "#PWR0624090499"
-			(at 45.72 45.72 0)
+			(at 46.99 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5783,7 +5793,7 @@
 			)
 		)
 		(property "Value" "VSYS"
-			(at 45.72 41.91 0)
+			(at 46.99 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5793,7 +5803,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 45.72 0)
+			(at 46.99 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5803,7 +5813,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 45.72 0)
+			(at 46.99 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5813,7 +5823,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 45.72 0)
+			(at 46.99 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

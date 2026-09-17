@@ -1948,6 +1948,16 @@
 		)
 		(uuid "8afbede0-d869-5f12-b93d-831592a97939")
 	)
+	(wire
+		(pts
+			(xy 139.7 82.55) (xy 139.7 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9538d3aa-9677-4f16-86e3-791170dd0e85")
+	)
 	(bus
 		(pts
 			(xy 29.21 119.38) (xy 29.21 124.46)
@@ -5349,7 +5359,7 @@
 	)
 	(symbol
 		(lib_id "A523Power:VDD_DNR")
-		(at 139.7 86.36 0)
+		(at 139.7 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5359,7 +5369,7 @@
 		(dnp no)
 		(uuid "ed728ee2-fc6a-52d1-997f-7cd77ee52ca3")
 		(property "Reference" "#PWR0789626019"
-			(at 139.7 86.36 0)
+			(at 139.7 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5370,7 +5380,7 @@
 			)
 		)
 		(property "Value" "VDD_DNR"
-			(at 139.7 82.55 0)
+			(at 139.7 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5380,7 +5390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 86.36 0)
+			(at 139.7 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5390,7 +5400,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 86.36 0)
+			(at 139.7 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5400,7 +5410,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 86.36 0)
+			(at 139.7 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
