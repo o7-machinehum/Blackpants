@@ -2564,16 +2564,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 99.06) (xy 76.2 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58924aaa-21e7-5bb4-85e1-d5330cfd1e6b")
-	)
-	(wire
-		(pts
 			(xy 200.66 129.54) (xy 205.74 129.54)
 		)
 		(stroke
@@ -3398,17 +3388,6 @@
 			(justify right)
 		)
 		(uuid "9a952959-1b2e-5dde-b78f-0e509a2a274d")
-	)
-	(hierarchical_label "CLK32K"
-		(shape bidirectional)
-		(at 76.2 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a2e20ca8-247f-5c0e-b7c3-7a104166ce0b")
 	)
 	(hierarchical_label "BT_WAKE"
 		(shape bidirectional)

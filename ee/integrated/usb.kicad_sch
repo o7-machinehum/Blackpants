@@ -5542,17 +5542,6 @@
 		)
 		(uuid "eaca07fe-79d9-42ea-a01f-b9740b0cfe07")
 	)
-	(hierarchical_label "HUB_CONSOLE_DP"
-		(shape bidirectional)
-		(at 157.48 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3255f924-d0f5-5aa6-bbab-ab06241bf486")
-	)
 	(hierarchical_label "USB_HOST{USB}"
 		(shape bidirectional)
 		(at 54.61 104.14 180)
@@ -5596,17 +5585,6 @@
 			(justify left)
 		)
 		(uuid "de70a62b-6b96-5e07-8cd8-7e74973e5dbd")
-	)
-	(hierarchical_label "HUB_CONSOLE_DM"
-		(shape bidirectional)
-		(at 157.48 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f85bc42e-7056-55d5-b1c3-68a7b5cc1aae")
 	)
 	(hierarchical_label "HS_IND"
 		(shape output)
