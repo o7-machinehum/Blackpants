@@ -3230,6 +3230,26 @@
 		)
 		(uuid "b823f480-d5d9-4662-aa5b-f320b82a13a7")
 	)
+	(label "PMU.SDA"
+		(at 86.36 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8f27e48-6978-4556-95bf-7be7245ceec5")
+	)
+	(label "PMU.SCL"
+		(at 43.18 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de58c264-3924-4b88-bcbc-88d4be71fd7c")
+	)
 	(hierarchical_label "CHGLED_N"
 		(shape bidirectional)
 		(at 119.38 88.9 0)
@@ -3240,28 +3260,6 @@
 			(justify left)
 		)
 		(uuid "0e3d05dc-4e75-5890-a34b-f75d35c775ea")
-	)
-	(hierarchical_label "PMU_SDA"
-		(shape bidirectional)
-		(at 86.36 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "151b0541-2d77-55d7-89a1-0acfbe6048dd")
-	)
-	(hierarchical_label "PMU_SCL"
-		(shape bidirectional)
-		(at 43.18 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1e397fec-2f67-5700-8bee-ac761141ff04")
 	)
 	(hierarchical_label "PMIC_USB_DP"
 		(shape bidirectional)

@@ -3131,6 +3131,15 @@
 		(uuid "150c418e-de9a-4313-9c9b-a3a6e570e407")
 	)
 	(bus_entry
+		(at 123.19 129.54)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163a9cb5-df36-4303-a6ab-86e3f67d22f6")
+	)
+	(bus_entry
 		(at 59.944 44.958)
 		(size 2.54 2.54)
 		(stroke
@@ -3219,6 +3228,15 @@
 			(type default)
 		)
 		(uuid "9ecd6a8c-0f8c-4ebb-a6c2-48fe3482d5c1")
+	)
+	(bus_entry
+		(at 123.19 127)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e8d166-950d-4904-a502-c714e1536351")
 	)
 	(bus_entry
 		(at 59.944 83.058)
@@ -3526,7 +3544,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 147.32) (xy 113.03 144.78)
+			(xy 113.03 170.18) (xy 113.03 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3546,7 +3564,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 111.76) (xy 113.03 124.46)
+			(xy 113.03 144.78) (xy 113.03 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3563,6 +3581,16 @@
 			(type default)
 		)
 		(uuid "25c5603c-9904-4330-bbb5-e9fe74e53f11")
+	)
+	(wire
+		(pts
+			(xy 123.19 127) (xy 134.62 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27f78d3e-7850-4665-9dea-04048b9de008")
 	)
 	(wire
 		(pts
@@ -3686,16 +3714,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 111.76) (xy 113.03 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34e68fa8-4df9-48cc-9c50-778088b6dd6f")
-	)
-	(wire
-		(pts
 			(xy 33.02 114.3) (xy 33.02 116.84)
 		)
 		(stroke
@@ -3763,16 +3781,6 @@
 			(type default)
 		)
 		(uuid "5392eeec-0962-4c8a-8257-6e6a9dc09f8c")
-	)
-	(wire
-		(pts
-			(xy 134.62 127) (xy 130.81 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "539b81c2-4f86-487e-b83b-315bf9a1d91d")
 	)
 	(wire
 		(pts
@@ -3923,6 +3931,16 @@
 			(type default)
 		)
 		(uuid "7c739832-2025-477b-a081-2ee4374c7732")
+	)
+	(wire
+		(pts
+			(xy 130.81 111.76) (xy 134.62 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d21d5d9-4735-4e6a-a083-5684e5582f48")
 	)
 	(wire
 		(pts
@@ -4144,6 +4162,16 @@
 		)
 		(uuid "9ed36d3e-4abf-4fd8-8a40-f3fd1cdda867")
 	)
+	(bus
+		(pts
+			(xy 120.65 119.38) (xy 120.65 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a01749c2-a2d0-48cf-bade-e5b23e45c845")
+	)
 	(wire
 		(pts
 			(xy 50.8 166.37) (xy 50.8 168.91)
@@ -4183,6 +4211,16 @@
 			(type default)
 		)
 		(uuid "a379df93-e709-4a63-9a2e-ac6e390b7522")
+	)
+	(bus
+		(pts
+			(xy 116.84 119.38) (xy 120.65 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a49b40f3-912d-46c9-b995-e007b0cbfe3c")
 	)
 	(wire
 		(pts
@@ -4386,7 +4424,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 132.08) (xy 113.03 137.16)
+			(xy 113.03 154.94) (xy 113.03 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4413,16 +4451,6 @@
 			(type default)
 		)
 		(uuid "ceebca9a-5480-46ee-bbea-4e4aeb746864")
-	)
-	(wire
-		(pts
-			(xy 134.62 129.54) (xy 130.81 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf39f1c4-02b8-4056-b149-62f4c1f85c9b")
 	)
 	(wire
 		(pts
@@ -4493,6 +4521,16 @@
 			(type default)
 		)
 		(uuid "d6774cbe-8097-43bf-af53-59e7016e2bf1")
+	)
+	(wire
+		(pts
+			(xy 123.19 129.54) (xy 134.62 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7381adc-8a64-439a-90bd-cf8ade02f188")
 	)
 	(wire
 		(pts
@@ -4674,6 +4712,16 @@
 		)
 		(uuid "f61920c7-db89-4a6f-86da-d1ac4b4e907f")
 	)
+	(bus
+		(pts
+			(xy 120.65 124.46) (xy 120.65 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f99b1875-ca58-47f9-9b4d-fb84a734c86b")
+	)
 	(wire
 		(pts
 			(xy 185.42 104.14) (xy 189.23 106.68)
@@ -4783,6 +4831,16 @@
 			(justify right bottom)
 		)
 		(uuid "230d1df9-643d-4630-95ad-e0d9975a6fcf")
+	)
+	(label "LED"
+		(at 113.03 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "23aab516-8faf-4b14-b90a-f5acfebb9496")
 	)
 	(label "USB_DET"
 		(at 130.81 91.44 180)
@@ -5034,6 +5092,16 @@
 		)
 		(uuid "95393c6b-b980-4f05-8c89-2e454fdc6b3b")
 	)
+	(label "LED"
+		(at 130.81 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "98615244-915d-484d-a28f-d50083e186c6")
+	)
 	(label "COL_1"
 		(at 130.81 104.14 180)
 		(effects
@@ -5274,6 +5342,17 @@
 			(justify left)
 		)
 		(uuid "667eaa8a-7b1b-4f4f-83c2-dcee89222992")
+	)
+	(hierarchical_label "I2C{SCL SDA}"
+		(shape bidirectional)
+		(at 116.84 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7fa25be5-ec82-422e-abfb-18007674b3ae")
 	)
 	(hierarchical_label "USB3.D-"
 		(shape bidirectional)
@@ -6157,7 +6236,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 147.32 0)
+		(at 113.03 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6168,7 +6247,7 @@
 		(fields_autoplaced yes)
 		(uuid "4be8c41e-af55-410b-8f20-a800d11a7ec4")
 		(property "Reference" "#PWR018"
-			(at 113.03 153.67 0)
+			(at 113.03 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6179,7 +6258,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 152.4 0)
+			(at 113.03 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6190,7 +6269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 147.32 0)
+			(at 113.03 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6201,7 +6280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 147.32 0)
+			(at 113.03 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6212,7 +6291,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 147.32 0)
+			(at 113.03 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6236,7 +6315,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 113.03 128.27 0)
+		(at 113.03 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6247,7 +6326,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c8f2188-2028-489f-a6cb-0cf9a4b23817")
 		(property "Reference" "R2"
-			(at 115.57 126.9999 0)
+			(at 115.57 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6258,7 +6337,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 115.57 129.5399 0)
+			(at 115.57 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6269,7 +6348,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 111.252 128.27 90)
+			(at 111.252 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6280,7 +6359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 128.27 0)
+			(at 113.03 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6291,7 +6370,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 113.03 128.27 0)
+			(at 113.03 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6302,7 +6381,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 113.03 128.27 0)
+			(at 113.03 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6313,7 +6392,7 @@
 			)
 		)
 		(property "MPN" "0402WGF1001TCE"
-			(at 113.03 128.27 0)
+			(at 113.03 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7133,7 +7212,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 113.03 140.97 90)
+		(at 113.03 163.83 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7144,7 +7223,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1aba60e-4ea9-4af8-a8d7-a7d0450c926f")
 		(property "Reference" "D6"
-			(at 116.84 141.2874 90)
+			(at 116.84 164.1474 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7155,7 +7234,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 116.84 143.8274 90)
+			(at 116.84 166.6874 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7166,7 +7245,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 113.03 140.97 0)
+			(at 113.03 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7177,7 +7256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 140.97 0)
+			(at 113.03 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7188,7 +7267,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 113.03 140.97 0)
+			(at 113.03 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7199,7 +7278,7 @@
 			)
 		)
 		(property "MPN" "KT-0603R"
-			(at 113.03 140.97 90)
+			(at 113.03 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

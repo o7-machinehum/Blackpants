@@ -3467,6 +3467,12 @@
 		(uuid "d0ea01d0-dd01-43f7-9e39-5740153d49e1")
 	)
 	(junction
+		(at 146.05 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3ef0d83-e86a-4ceb-b615-5589ba2b2ddc")
+	)
+	(junction
 		(at 64.77 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3584,6 +3590,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 143.51) (xy 146.05 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03259d39-5bb7-47ec-a60b-402710b9c3a5")
+	)
+	(wire
+		(pts
 			(xy 87.63 153.67) (xy 86.36 153.67)
 		)
 		(stroke
@@ -3611,6 +3627,16 @@
 			(type default)
 		)
 		(uuid "064b0e1c-0220-45f8-9761-47eace9835b3")
+	)
+	(wire
+		(pts
+			(xy 146.05 140.97) (xy 148.59 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b10ed2-220e-4dee-a83c-46264ba2b5ad")
 	)
 	(wire
 		(pts
@@ -4091,16 +4117,6 @@
 			(type default)
 		)
 		(uuid "514abe21-ca0c-4b56-a9ba-b8a149e185a2")
-	)
-	(wire
-		(pts
-			(xy 143.51 143.51) (xy 157.48 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5222cdb2-9da0-5c3f-861a-e7285fe20a87")
 	)
 	(wire
 		(pts
@@ -5134,6 +5150,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 139.7) (xy 148.59 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd76531b-38b0-4a82-9aa3-558e736bf69e")
+	)
+	(wire
+		(pts
 			(xy 71.12 63.5) (xy 71.12 66.04)
 		)
 		(stroke
@@ -5274,6 +5300,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 143.51) (xy 146.05 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ff1a1e-0d3b-489e-8993-7321c8283437")
+	)
+	(wire
+		(pts
 			(xy 58.42 144.78) (xy 58.42 147.32)
 		)
 		(stroke
@@ -5284,7 +5320,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 140.97) (xy 157.48 140.97)
+			(xy 143.51 140.97) (xy 146.05 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6454,6 +6490,82 @@
 			(project "blackpants"
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/773f8af3-a641-4fcc-9414-9cf290a67b77"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 148.59 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "370e7d57-7b4c-4b38-839d-8c3cbbeaaacb")
+		(property "Reference" "#PWR047"
+			(at 148.59 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 152.146 137.668 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3af70adf-9a23-4a1a-95d6-d7aea025e8d1")
+		)
+		(instances
+			(project "blackpants"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/773f8af3-a641-4fcc-9414-9cf290a67b77"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)

@@ -4026,24 +4026,6 @@
 		)
 		(uuid "1c8135b4-69eb-4cf3-b68a-ec42aeb126c6")
 	)
-	(bus_entry
-		(at 350.52 109.22)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47930af7-9bba-4e7e-b799-d36de2f9c27d")
-	)
-	(bus_entry
-		(at 350.52 111.76)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bed4dda-1dcf-40fc-a9b9-95b3697f6886")
-	)
 	(wire
 		(pts
 			(xy 226.06 35.56) (xy 226.06 25.4)
@@ -4254,16 +4236,6 @@
 		)
 		(uuid "246e69cd-cd40-4013-9456-a8d33ad8402e")
 	)
-	(bus
-		(pts
-			(xy 353.06 101.6) (xy 353.06 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2865350d-8dbf-40b8-9a06-11fd1374efca")
-	)
 	(wire
 		(pts
 			(xy 340.36 213.36) (xy 332.74 213.36)
@@ -4346,6 +4318,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 195.58) (xy 218.44 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "340e9aed-5290-43ad-afcf-e844cccb8e1e")
+	)
+	(wire
+		(pts
 			(xy 133.35 105.41) (xy 179.07 105.41)
 		)
 		(stroke
@@ -4356,7 +4338,7 @@
 	)
 	(bus
 		(pts
-			(xy 332.74 99.06) (xy 361.95 99.06)
+			(xy 332.74 74.93) (xy 361.95 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4504,6 +4486,16 @@
 		)
 		(uuid "4d74e347-478c-42a6-b28f-2925bb2eea43")
 	)
+	(bus
+		(pts
+			(xy 320.04 68.58) (xy 361.95 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb1a930-b600-46c7-b8e1-b9dda1fa4674")
+	)
 	(wire
 		(pts
 			(xy 232.41 43.18) (xy 245.11 43.18)
@@ -4566,7 +4558,7 @@
 	)
 	(bus
 		(pts
-			(xy 332.74 99.06) (xy 332.74 167.64)
+			(xy 332.74 74.93) (xy 332.74 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4576,7 +4568,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 215.9) (xy 147.32 215.9)
+			(xy 139.7 224.79) (xy 194.31 224.79)
 		)
 		(stroke
 			(width 0)
@@ -4616,17 +4608,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 111.76) (xy 346.71 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bf6f03a-ef25-4490-b667-7bd1a8a67f56")
-	)
-	(wire
-		(pts
-			(xy 139.7 220.98) (xy 147.32 220.98)
+			(xy 139.7 215.9) (xy 147.32 215.9)
 		)
 		(stroke
 			(width 0)
@@ -4656,16 +4638,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 243.84) (xy 358.14 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "608041bc-cfba-4e33-8f92-2d3c10e2a186")
-	)
-	(wire
-		(pts
 			(xy 240.03 19.05) (xy 245.11 19.05)
 		)
 		(stroke
@@ -4686,17 +4658,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 191.77) (xy 248.92 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6494ba67-f615-42db-87db-5765fc323ba7")
-	)
-	(wire
-		(pts
-			(xy 242.57 186.69) (xy 248.92 186.69)
+			(xy 242.57 186.69) (xy 250.19 186.69)
 		)
 		(stroke
 			(width 0)
@@ -4856,6 +4818,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 193.04) (xy 218.44 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ca72886-d96d-42b9-8a92-d9ab5457f33b")
+	)
+	(wire
+		(pts
 			(xy 182.88 50.8) (xy 182.88 52.07)
 		)
 		(stroke
@@ -4934,16 +4906,6 @@
 		)
 		(uuid "983437b7-d199-4d39-8f16-52311782efd5")
 	)
-	(bus
-		(pts
-			(xy 353.06 106.68) (xy 353.06 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c385ca1-964b-48e0-8524-cfa16dca357a")
-	)
 	(wire
 		(pts
 			(xy 156.21 22.86) (xy 156.21 20.32)
@@ -4953,6 +4915,16 @@
 			(type default)
 		)
 		(uuid "9d9e80ef-78ab-47fb-abdb-23223dd45d17")
+	)
+	(wire
+		(pts
+			(xy 194.31 195.58) (xy 194.31 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc7e69b-ca95-439f-ae82-8e2112c4608f")
 	)
 	(wire
 		(pts
@@ -4966,23 +4938,13 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 73.66) (xy 361.95 73.66)
+			(xy 320.04 60.96) (xy 361.95 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a1ead6ac-1307-48a0-a422-790e033a95b5")
-	)
-	(bus
-		(pts
-			(xy 361.95 101.6) (xy 353.06 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2482ebe-36da-42bd-8346-08a319e682a1")
 	)
 	(wire
 		(pts
@@ -5023,16 +4985,6 @@
 			(type default)
 		)
 		(uuid "a79af776-2d6a-4f0e-8045-ea9367a02488")
-	)
-	(wire
-		(pts
-			(xy 350.52 109.22) (xy 346.71 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a83a7cd6-b38e-4429-8917-addf6dcfcbc1")
 	)
 	(wire
 		(pts
@@ -5136,6 +5088,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 222.25) (xy 191.77 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfdcb5e2-c6fd-4869-91bf-f1ac98411a0b")
+	)
+	(wire
+		(pts
 			(xy 182.88 40.64) (xy 182.88 43.18)
 		)
 		(stroke
@@ -5186,7 +5148,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 243.84) (xy 332.74 243.84)
+			(xy 250.19 199.39) (xy 250.19 200.66)
 		)
 		(stroke
 			(width 0)
@@ -5256,6 +5218,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 186.69) (xy 250.19 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dadd1ebb-0eef-4522-9f45-09700a105bbc")
+	)
+	(wire
+		(pts
 			(xy 320.04 210.82) (xy 320.04 208.28)
 		)
 		(stroke
@@ -5276,7 +5248,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 76.2) (xy 361.95 76.2)
+			(xy 320.04 63.5) (xy 361.95 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5326,16 +5298,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 189.23) (xy 248.92 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea52bfe7-8a07-44e1-9947-afc0d8a8212e")
-	)
-	(wire
-		(pts
 			(xy 44.45 254) (xy 44.45 255.27)
 		)
 		(stroke
@@ -5346,7 +5308,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 218.44) (xy 147.32 218.44)
+			(xy 139.7 222.25) (xy 191.77 222.25)
 		)
 		(stroke
 			(width 0)
@@ -5494,16 +5456,6 @@
 		)
 		(uuid "018850d1-dac1-4025-8fdb-d60df1006941")
 	)
-	(label "AP_NMI"
-		(at 147.32 218.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "13eb1bd3-adbc-40a9-9e6a-2252f8e57c8b")
-	)
 	(label "PWRON"
 		(at 147.32 210.82 0)
 		(effects
@@ -5535,7 +5487,7 @@
 		(uuid "2443f057-a8f3-568f-abf6-88c68f91f826")
 	)
 	(label "USB3.D+"
-		(at 350.52 73.66 0)
+		(at 350.52 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5553,16 +5505,6 @@
 			(justify left bottom)
 		)
 		(uuid "2dd24e41-1fd8-5cab-821f-7d6c13684b0b")
-	)
-	(label "I2C.SCL"
-		(at 346.71 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "35f9950f-7eba-471b-a46c-b093475ca071")
 	)
 	(label "AP_RESET_N"
 		(at 147.32 154.94 0)
@@ -5625,12 +5567,12 @@
 		(uuid "4794dfd9-1002-4ec5-8099-6c1d7e12336f")
 	)
 	(label "AP_NMI"
-		(at 248.92 189.23 0)
+		(at 212.09 193.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right bottom)
 		)
 		(uuid "5235750e-4c31-46e2-9cad-91c098c678f6")
 	)
@@ -5665,7 +5607,7 @@
 		(uuid "60f12833-3371-46eb-9e0e-bc64907ea208")
 	)
 	(label "USB3.D-"
-		(at 350.52 76.2 0)
+		(at 350.52 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5685,12 +5627,12 @@
 		(uuid "680e4b6d-4aa8-435a-a7d5-9dcd851fc8a6")
 	)
 	(label "FEL_N"
-		(at 248.92 186.69 0)
+		(at 250.19 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "6fffd80e-97d7-4472-96a1-de66adda75b8")
 	)
@@ -5735,12 +5677,12 @@
 		(uuid "7b41da02-e792-4e0e-b001-fc9a14893552")
 	)
 	(label "AP_RESET_N"
-		(at 248.92 191.77 0)
+		(at 212.09 195.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right bottom)
 		)
 		(uuid "7db10a87-a580-40bf-8a2e-b7376a65f2ef")
 	)
@@ -5763,16 +5705,6 @@
 			(justify right bottom)
 		)
 		(uuid "859e4044-5093-4970-a715-6677ed1875dd")
-	)
-	(label "I2C.SDA"
-		(at 346.71 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "97570941-8508-49ca-b900-cf9a1d1cf2af")
 	)
 	(label "LCD_PWM"
 		(at 134.62 105.41 0)
@@ -5824,16 +5756,6 @@
 		)
 		(uuid "b52b66fb-48db-44fb-be77-55d22bf05f7c")
 	)
-	(label "AP_RESET_N"
-		(at 147.32 215.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c64669fa-f04e-473f-b648-a40dad6c2af4")
-	)
 	(label "PMIC_CC1"
 		(at 147.32 205.74 0)
 		(effects
@@ -5875,7 +5797,7 @@
 		(uuid "d7c01af0-81ee-5a19-ac65-9fb11616d4f9")
 	)
 	(label "CHGLED_N"
-		(at 147.32 220.98 0)
+		(at 147.32 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5883,16 +5805,6 @@
 			(justify left)
 		)
 		(uuid "d9546269-f2b4-4119-9031-594630601aea")
-	)
-	(label "FEL_N"
-		(at 358.14 243.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "de6a8d9d-0a5b-45be-9579-8b74795f0dcc")
 	)
 	(label "PMIC_CC1"
 		(at 245.11 19.05 0)
@@ -10241,8 +10153,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 332.74 243.84 0)
-		(mirror y)
+		(at 250.19 200.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10252,7 +10163,7 @@
 		(dnp no)
 		(uuid "b49fecf8-a47e-4197-8817-55f5e2fe53c4")
 		(property "Reference" "#PWR0104011872"
-			(at 332.74 243.84 0)
+			(at 250.19 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10263,7 +10174,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 332.74 247.65 0)
+			(at 250.19 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10274,7 +10185,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 332.74 243.84 0)
+			(at 250.19 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10284,7 +10195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 332.74 243.84 0)
+			(at 250.19 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10294,7 +10205,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 332.74 243.84 0)
+			(at 250.19 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11578,8 +11489,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 342.9 243.84 0)
-		(mirror y)
+		(at 250.19 194.31 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11589,7 +11499,7 @@
 		(dnp no)
 		(uuid "ee858e25-356d-4cda-a46a-69c11c8b7786")
 		(property "Reference" "SW101"
-			(at 342.9 233.68 0)
+			(at 256.54 193.294 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11598,8 +11508,8 @@
 				)
 			)
 		)
-		(property "Value" "FEL / recovery"
-			(at 342.9 236.22 0)
+		(property "Value" "FEL"
+			(at 256.54 194.818 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11609,7 +11519,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
-			(at 342.9 236.22 0)
+			(at 257.81 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11620,7 +11530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.9 236.22 0)
+			(at 257.81 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11631,7 +11541,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 342.9 236.22 0)
+			(at 257.81 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11642,7 +11552,7 @@
 			)
 		)
 		(property "ki_keywords" "switch normally-open pushbutton push-button"
-			(at 342.9 236.22 0)
+			(at 257.81 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12252,7 +12162,7 @@
 			)
 		)
 		(pin "USB.D+" bidirectional
-			(at 320.04 73.66 0)
+			(at 320.04 60.96 0)
 			(uuid "91ea69dc-1018-49e3-973a-54ddd587cc24")
 			(effects
 				(font
@@ -12262,7 +12172,7 @@
 			)
 		)
 		(pin "USB.D-" bidirectional
-			(at 320.04 76.2 0)
+			(at 320.04 63.5 0)
 			(uuid "5581d3d4-33c9-4756-a2ae-f49abf8a949b")
 			(effects
 				(font
@@ -12289,6 +12199,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "I2C{SCL SDA}" bidirectional
+			(at 320.04 68.58 0)
+			(uuid "9e5cb0e3-ce40-498f-ad34-34345ea30ad9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -12580,7 +12500,7 @@
 	)
 	(sheet
 		(at 109.22 193.04)
-		(size 30.48 33.02)
+		(size 30.48 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -12594,7 +12514,7 @@
 		)
 		(uuid "74aefb6b-22f7-464a-acfc-0eeb94202d4d")
 		(property "Sheetname" "AXP717 Charger"
-			(at 124.968 224.282 0)
+			(at 124.968 233.426 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12677,7 +12597,7 @@
 			)
 		)
 		(pin "AP_RESET_N" bidirectional
-			(at 139.7 215.9 0)
+			(at 139.7 224.79 0)
 			(uuid "543151d7-315a-4f92-a62a-603b384c3fa1")
 			(effects
 				(font
@@ -12687,7 +12607,7 @@
 			)
 		)
 		(pin "AP_NMI" bidirectional
-			(at 139.7 218.44 0)
+			(at 139.7 222.25 0)
 			(uuid "2d9bec5c-6075-4f69-859d-4193e7a0f8ba")
 			(effects
 				(font
@@ -12697,7 +12617,7 @@
 			)
 		)
 		(pin "CHGLED_N" bidirectional
-			(at 139.7 220.98 0)
+			(at 139.7 215.9 0)
 			(uuid "472ddc64-cfcb-4261-8412-cb42b7096391")
 			(effects
 				(font
@@ -12725,8 +12645,8 @@
 		)
 	)
 	(sheet
-		(at 361.95 69.85)
-		(size 27.94 36.83)
+		(at 361.95 57.785)
+		(size 27.94 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -12741,7 +12661,7 @@
 		)
 		(uuid "773f8af3-a641-4fcc-9414-9cf290a67b77")
 		(property "Sheetname" "USB Hub"
-			(at 361.95 69.1384 0)
+			(at 361.95 57.0734 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12752,7 +12672,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 361.95 104.7246 0)
+			(at 361.95 78.6896 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12763,7 +12683,7 @@
 			)
 		)
 		(pin "I2C{SCL SDA}" bidirectional
-			(at 361.95 101.6 180)
+			(at 361.95 68.58 180)
 			(uuid "29416643-6ad7-4a61-9119-340fceabab16")
 			(effects
 				(font
@@ -12783,7 +12703,7 @@
 			)
 		)
 		(pin "HUB_MCU_DM" bidirectional
-			(at 361.95 76.2 180)
+			(at 361.95 63.5 180)
 			(uuid "7fec568a-1c04-5d8c-b4cb-78d4379bc9d4")
 			(effects
 				(font
@@ -12793,7 +12713,7 @@
 			)
 		)
 		(pin "HUB_MCU_DP" bidirectional
-			(at 361.95 73.66 180)
+			(at 361.95 60.96 180)
 			(uuid "1f8910b3-7f41-5ce0-91fc-7cf9cecd7d0c")
 			(effects
 				(font
@@ -12803,7 +12723,7 @@
 			)
 		)
 		(pin "USB_HOST{USB}" bidirectional
-			(at 361.95 99.06 180)
+			(at 361.95 74.93 180)
 			(uuid "1527336b-4e4f-4680-acd8-7a4da8fb3f26")
 			(effects
 				(font
@@ -13102,23 +13022,23 @@
 			)
 		)
 		(pin "AP_NMI" bidirectional
-			(at 242.57 189.23 0)
+			(at 218.44 193.04 180)
 			(uuid "989a5f7a-1042-4cd1-a1d0-893d50755125")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "AP_RESET_N" bidirectional
-			(at 242.57 191.77 0)
+			(at 218.44 195.58 180)
 			(uuid "6a89b92e-1e0b-4695-9cb7-ec9e176be650")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
